@@ -2,6 +2,9 @@ import { useRef } from "react";
 import logo from "../assets/logoMDS.svg"
 import menu from "../assets/menu.svg"
 import close from "../assets/close.svg"
+import plus from "../assets/plus.svg"
+import mobile from "../assets/mobile.svg"
+import loupe from "../assets/loupe.svg"
 
 function Navbar() {
 	const navRef = useRef();
@@ -15,11 +18,14 @@ function Navbar() {
 	return (
 		<header>
 			<h3> <img src={logo} alt="" /> </h3>
+            <div className="rightMenu">
+            <img src={mobile} alt="" />
+            <img src={loupe} alt="" />
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">Nos formations <img src={plus} alt="" /> </a>
+				<a href="/#">Orientation <img src={plus} alt="" /> </a>
+				<a href="/">Articles <img src={plus} alt="" /> </a>
+				<a href="/test">Chez MDS <img src={plus} alt="" /> </a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
@@ -31,6 +37,7 @@ function Navbar() {
 				onClick={showNavbar}>
 				<img src={menu} alt="" />
 			</button>
+            </div>
 		</header>
 	);
 }

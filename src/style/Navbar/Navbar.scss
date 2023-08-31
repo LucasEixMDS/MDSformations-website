@@ -17,11 +17,18 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	padding: 0 2rem;
+	padding: 0 1rem;
 	background-color: $mainColor;
 	color: $textColor;
     position: relative;
     z-index: 999;
+    margin-bottom: 50px;
+
+    .rightMenu{
+        display: flex;
+        justify-content: space-around;
+        width: 44%;
+    }
 
 	.nav-btn {
 		padding: 5px;
@@ -67,10 +74,12 @@ header {
 			left: 0;
 			height: 100%;
 			width: 100%;
+            padding-top: 80px;
+            padding-left: 15px;
 			display: flex;
 			flex-direction: column;
-			align-items: center;
-			justify-content: center;
+			align-items: normal;
+			justify-content: normal;
 			gap: 1.5rem;
 			background-color: $mainColor;
 			transition: 1s;
@@ -87,7 +96,35 @@ header {
 
 			a {
 				font-size: 1.5rem;
+                    display: flex;
+                    align-items: center;
+
+                img{
+                    color: #000000;
+                    padding-left: 5px;
+                    padding-top: 2px;
+                }
 			}
 		}
 	}
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Masquer le sous-menu */
+    nav > nav {
+        display: none;
+    }
+
+    /* Montrer le sous-menu si `isSubMenuVisible` est vrai */
+    .submenu-visible > nav {
+        display: block;
+    }
+}
+
+/* Pour les appareils avec une largeur supérieure à 768px */
+@media only screen and (min-width: 1024px) {
+    /* Toujours montrer le menu principal */
+    nav > a {
+        display: block;
+    }
 }
