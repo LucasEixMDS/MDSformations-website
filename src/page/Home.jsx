@@ -1,6 +1,6 @@
 
 import { useRef, useState, useEffect } from 'react';
-import Navbar from '../components/Navbar';
+
 function SliderComponent() {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
@@ -63,7 +63,6 @@ function SliderComponent() {
 
     return (
         <div>
-        <Navbar />
         <div className="slider-wrap">
             <div className="slider-outer">
                 <div className="slider-inner" ref={sliderRef}>

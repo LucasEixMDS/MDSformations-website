@@ -1,10 +1,10 @@
 import { useRef } from "react";
-import logo from "../assets/logoMDS.svg"
-import menu from "../assets/menu.svg"
-import close from "../assets/close.svg"
-import plus from "../assets/plus.svg"
-import mobile from "../assets/mobile.svg"
-import loupe from "../assets/loupe.svg"
+import logo from "../../assets/logoMDS.svg"
+import menu from "../../assets/menu.svg"
+import close from "../../assets/close.svg"
+import plus from "../../assets/plus.svg"
+import mobile from "../../assets/mobile.svg"
+import loupe from "../../assets/loupe.svg"
 
 function Navbar() {
 	const navRef = useRef();
