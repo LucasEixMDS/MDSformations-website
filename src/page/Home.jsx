@@ -70,7 +70,7 @@ function SliderComponent() {
                     <button>En savoir +</button>
                 </div>
                 <div className="item">
-                    <h3>Plateforme en ligne gratuite</h3>
+                    <h3>Plateforme en ligne gratuitee</h3>
                     <p>pour compléter vos connaissances à votre rythme</p>
                     <button>En savoir +</button>
                 </div>
