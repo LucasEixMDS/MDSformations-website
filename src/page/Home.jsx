@@ -1,5 +1,6 @@
 
 import { useRef, useState, useEffect } from 'react';
+import Navbar from '../components/Navbar';
 function SliderComponent() {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
@@ -61,6 +62,8 @@ function SliderComponent() {
 
 
     return (
+        <div>
+        <Navbar />
         <div className="slider-wrap">
             <div className="slider-outer">
                 <div className="slider-inner" ref={sliderRef}>
@@ -80,7 +83,7 @@ function SliderComponent() {
                     <button>En savoir +</button>
                 </div>
                 <div className="item">
-                    <h3>Diplôme d'État Reconnu</h3>
+                    <h3>Diplôme d État Reconnu</h3>
                     <p>Garantissant la valeur et la crédibilité de votre formation</p>
                     <button>En savoir +</button>
                 </div>
@@ -99,6 +102,7 @@ function SliderComponent() {
         <div className="progress-bar-outer">
                 <div className="prog-bar-inner" ref={progressBarRef}></div>
             </div>
+        </div>
         </div>
     );
 }
