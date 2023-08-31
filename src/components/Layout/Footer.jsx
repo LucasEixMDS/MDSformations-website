@@ -1,6 +1,6 @@
 import {  Nav } from 'react-bootstrap';
-import logo from "../../assets/logoMDS.svg"
-import mobile from "../../assets/mobile.svg"
+import logo from "../../assets/logoMDSblanc.svg"
+import mobile from "../../assets/mobileBlanc.svg"
 import qualiopi from "../../assets/qualiopiLogo.png"
 
 
@@ -34,6 +34,8 @@ const Footer = () => {
             <Nav.Link href="/" >33 blanche lande, 44521 Oudon</Nav.Link>
             <Nav.Link href="/" >Plateforme Elearning prothésie</Nav.Link>
             <Nav.Link href="/" >Plateforme de cours en ligne</Nav.Link>
+            </div>
+            <div className="footer_entreprise">
             <img src={qualiopi} alt="" />
             <p>Tous droits réservés © 2023</p>
             <p>Organisme de formation MDS formations</p>
@@ -41,10 +43,13 @@ const Footer = () => {
             <p>SIRET 87855247000022</p>
             <p>NDA 52440882344</p>
             <p>APE 8559A</p>
-            <p>Création et réalisation</p>
+            <div className="creation">
+            <p >Création et réalisation</p>
             <p>Développement web : Lucas EIXARCH</p>
             <p>Web design et UX design : Duane CROIZET</p>
             </div>
+            </div>
+            
         </div>
     );
 };
