@@ -1,0 +1,100 @@
+.homePage{ 
+.home{
+.slider-formation {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    cursor: grab;
+    padding-left: 0;
+
+    .slider-formation-outer { 
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+
+        .slider-formation-inner {
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            width: 540px;
+            height: 100%;
+            
+            .items {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 159px;
+                height: 247px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 21px;
+                margin: 5px;
+                padding: 5px;
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+
+                h2{
+                    color: var(--Gris, #4F4F4F);
+                    font-weight: 600;
+                    margin-left: 8px;
+                    width: 85%;
+                    font-size: 20px;
+                }
+
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 2px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: rgb(77, 66, 66);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    .progress-bar-formation-outer {
+        position: absolute;
+        top: 265px;
+        width: 100%;
+        height: 10px; // Ajustez la hauteur comme vous le souhaitez
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    
+    .prog-bar-formation-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%; // la largeur sera mise à jour dynamiquement
+        height: 100%;
+        border-radius: 100px;
+        background-color: var(--Vert, #64B768);
+    }
+    
+    }
+}
+}
+}

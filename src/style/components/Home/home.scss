@@ -1,0 +1,20 @@
+.homePage{
+    background: var(--Blanc-1, #F2F2F2);
+    .home{
+        padding-left: 20px;
+        
+        h3{
+            margin-top: 45px;
+            color: var(--Gris-fonc, #333);
+            font-size: 22px;
+            font-weight: 400;
+            width: 80%;
+
+            span{
+                color: var(--Violet, #7874C7); 
+                font-weight: 700;
+            }
+        }
+    }
+}
+
