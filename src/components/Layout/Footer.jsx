@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="footer_legal">
             <Nav.Link href="/" >CGV</Nav.Link>
             <Nav.Link href="/" >Mentions légales</Nav.Link>
-            <Nav.Link href="/" >Conditions d'inscription</Nav.Link>
+            <Nav.Link href="/" >Conditions d inscription</Nav.Link>
             <Nav.Link href="/" >Cookies</Nav.Link>
             <Nav.Link href="/" >Annulation et remboursement</Nav.Link>
             <Nav.Link href="/" >Hébergement</Nav.Link>

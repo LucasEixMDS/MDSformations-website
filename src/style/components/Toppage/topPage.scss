@@ -1,0 +1,157 @@
+.container {
+    background-image: url('https://s3-alpha-sig.figma.com/img/be50/7e1a/8979ccc846aa192ff9c85064b363fd1e?Expires=1694390400&Signature=Br0kAlVEMkbmmpvqqWpREt5Zswnp1bVpDuN1h~bfFKac1hDZ7YZH4WXbKnIt~YrWxDgRC6gbSm4peuh02iqZbFeOTd5shPw1TruqeB5iEmrro5-DEcbafyxysBqjn524mEDKvG4GX1oKOEmeRrcIPX3ZH83Yqtfa93KvMhrD3~PrJ70Q5N8V2MMDbfKQTJ2xJApA~kHW~~Pq7k1H2j~EWRRMe~GssiUA8qg97En9QhLtd1GM9SQkYr1I7MKHVBeTB5bPeexu8hWpm2sfv0fUdDS~VTZ8tj3YLSE0T41wwwKWBpvZA9Ba-K9Z7gcSt~42qQY8-lGY6YUVatDUfwhTjA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 675px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    .container_titre{
+        width: 80%;
+        h1{
+            color: white;
+            font-size: 40px;
+            margin-left: 15px;
+            
+        }
+
+        h2{
+            color: white;
+            font-size: 19px;
+            margin-left: 15px;
+            font-weight: 100;
+        }
+    }
+
+       
+
+        .container_modal{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+
+            .container_modal_left{
+                margin-bottom: -140px;
+                border-radius: 21px;
+                background: var(--Blanc-pur, #FFF);
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                width: 159px;
+                height: 247px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 10px;
+
+                h2{
+                    color: var(--Gris, #4F4F4F);
+                    font-weight: 600;
+                    margin-left: 8px;
+                    width: 85%;
+                    font-size: 20px;
+                }
+
+                .button{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 2px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: var(--Violet, #7874C7);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+
+                .reflect{
+                    width: 49px;
+                    height: 49px;
+                    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 15px;
+                    margin-left: 8px;
+
+                    img{
+                        object-fit: cover;
+                       width: 80%;
+                       height: 80%;
+                    }
+                }
+            }
+
+            .container_modal_right{
+                margin-bottom: -140px;
+                border-radius: 21px;
+                background: var(--Blanc-pur, #FFF);
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                width: 159px;
+                height: 247px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 10px;
+
+                h2{
+                    color: var(--Gris, #4F4F4F);
+                    font-weight: 600;
+                    margin-left: 8px;
+                        width: 85%;
+                        font-size: 20px;
+                }
+    
+                .button{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 2px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: var(--Violet, #7874C7);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                 }
+
+                 .fete{
+                    width: 49px;
+                    height: 49px;
+                    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 15px;
+                    margin-left: 8px;
+
+                    img{
+                        object-fit: cover;
+                       width: 80%;
+                       height: 80%;
+                    }
+                 }
+
+           
+        }
+
+    }
+}
