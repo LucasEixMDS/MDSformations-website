@@ -1,5 +1,5 @@
 
-import "./homeHeader.scss";
+import "./HomeStyle/homeHeader.scss";
 
 const HomeHeader = () => {
     return (
