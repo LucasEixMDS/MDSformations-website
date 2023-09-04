@@ -13,6 +13,10 @@ $secondaryColor: #db2b39;
 $textColor: #000000;
 
 header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -20,9 +24,11 @@ header {
 	padding: 0 1rem;
 	background-color: $mainColor;
 	color: $textColor;
-    position: relative;
     z-index: 999;
 
+
+
+	
     .rightMenu{
         display: flex;
         justify-content: space-around;
@@ -54,8 +60,10 @@ header {
 			text-decoration: none;
 
 			&:hover {
-				color: $secondaryColor;
+				color: $textColor;
 			}
+
+			
 		}
 	}
 }
@@ -102,7 +110,11 @@ header {
                     color: #000000;
                     padding-left: 5px;
                     padding-top: 2px;
+					
                 }
+				.svgplus{
+					width: 30px;
+				}
 			}
 		}
 	}

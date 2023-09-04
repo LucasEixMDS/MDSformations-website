@@ -28,8 +28,11 @@ function Navbar() {
         "ongles": ["prothesie ongulaire en centre", "prothesie ongulaire en ligne"],
         "visages": ["maquillage permanent", "extension de cils"],
         "corps": ["reflexologie", "masseur professionnel", "massage du monde"],
-        "tertiaire": ["SST", "FPA", "FO"]
+        "tertiaire": ["SST", "FPA", "FO"],
+		"Accompagnement" : [ "Nos formations certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
     };
+
+
 
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
@@ -72,7 +75,7 @@ function Navbar() {
                         key={menuName} 
                         onClick={(e) => handleMenuClick(menuName, e)}>
                             {menuName} 
-                            {hasSubMenus(menuName) && <img src={plus} alt="plus" />}
+                            {hasSubMenus(menuName) && <img className='svgplus' src={plus} alt="plus" />}
                     </Link>
                 ))}
 
@@ -95,7 +98,7 @@ function Navbar() {
 									{sub}
 								{hasSubMenus(sub) && (currentSubMenuTitle === sub ? 
 									<img src={minus} alt="minus" /> : 
-									<img src={plus} alt="plus" />)}
+									<img className='svgplus' src={plus} alt="plus" />)}
 						</Link>
                         ))}
                     </>
