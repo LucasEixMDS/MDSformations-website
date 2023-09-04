@@ -1,7 +1,7 @@
 import HomeHeader from "./HomeHeader"
 // import CarrousselFormation from "../components/Carroussel/CarrousselFormation"
 // import CarrousselBase from "../components/Carroussel/CarrousselBase"
-import {CarrouselBase, CarrouselFormation} from "components"
+import { CarrouselFormation} from "components"
 
 const Home = () => {
     return (
@@ -9,7 +9,6 @@ const Home = () => {
             <HomeHeader />
             <div className="home">
             <h3>Nous avons forcément une formation <span>faites pour vous</span></h3>
-            <CarrouselBase />
             <CarrouselFormation />
             </div>
 

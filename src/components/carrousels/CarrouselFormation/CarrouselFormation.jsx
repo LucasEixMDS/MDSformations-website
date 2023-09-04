@@ -1,8 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
-import bouche from "assets/bouche.svg";
-import ongle from "assets/ongle.svg";
-import massage from "assets/massage.svg"
 import "./CarrouselFormation.scss";
+import data from "../../../json/CarrouselForm.json";
 
 function CarrouselFormation() {
     const sliderRef = useRef(null);
@@ -69,33 +67,25 @@ function CarrouselFormation() {
         <div className="slider-formation">
                 <div className="slider-formation-outer">
                     <div className="slider-formation-inner" ref={sliderRef}>
-                        <div className="items">
-                            <div className="bouche">
-                                <img src={bouche} alt="" />
+                        {data.map(item => (   
+
+                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }} >
+                            <div className="topContainer">
+                            <div className="icon">
+                                <p>{item.icon}</p>
                             </div>
-                                <h2>Maquillage permanent </h2>
+                            </div>
+                            <div className="midContainer">
+                                <h2>{item.text}</h2>
+                                </div>
+                                <div className="bottomContainer">
                             <div className="buttons">
-                                <button>En savoir +</button>
+                                <button style={{ color: item.buttonColor }}>En savoir +</button>
+                            </div>
                             </div>
                         </div>
-                        <div className="items">
-                            <div className="ongle">
-                                <img src={ongle} alt="" />
-                            </div>
-                                <h2>Prothésie ongulaire </h2>
-                            <div className="buttons">
-                                <button>En savoir +</button>
-                            </div>
-                        </div>
-                        <div className="items">
-                            <div className="massage">
-                                <img src={massage} alt="" />
-                            </div>
-                                <h2>Praticien en massage </h2>
-                            <div className="buttons">
-                                <button>En savoir +</button>
-                            </div>
-                        </div>
+                       
+                            ))}
                 </div>
             </div>
             <div className="progress-bar-formation-outer">
