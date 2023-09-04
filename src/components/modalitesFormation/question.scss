@@ -1,0 +1,67 @@
+.question_webinaire{
+    background-image: url("https://s3-alpha-sig.figma.com/img/0827/2eea/f7e703b36fd3c937070a96c3b3af8d81?Expires=1694995200&Signature=elUC1V~QfLCBkh~wa30C2eVDiezJ~WeK66SDhR1TLR2hMTZiluMmhU1jj9kmM1oGMk-w3ZjKSjHylSVQ5JlOQwZDcRp5xfUqR3dR56WZlvnQSP9XTxzftlUTozFlhl3JGVJjdVQIPKyrg6maoOKF-uIMlG3G5nqtmhRhBWfh7a3-pCDaPcf~w5iUhOoooaTEK4S~WZ7pv3iRiOD15NFRNOuyzBiERtVDSlbE4Z0qTLmiWNYOs8HLvTFvgCTqE~Wl0m1xMezSrRRfFsuLVTbtpC2T7Qz81zwYXP4bX-wipMrs-7NZb9OQhyFAo5rLrLRATIpRFnQEeFkyzAKVINQlWQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-size: cover; 
+
+    background-position: 18%;
+    transform: scaleX(-1);
+    width: 100%;
+    height: 401px;
+    margin-top: 30px;
+
+     .question_webinaire_div{
+        background: transparent;
+        transform: scaleX(-1);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        padding: 20px;
+
+        .modal_icon{
+            width: 39px;
+            height: 39px;;
+            background: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                font-size: 35px;
+            }
+        }
+
+        h3{
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            width: 70%;
+            margin-top: 15px;
+        }
+
+        .button_webinaire{
+            border: none;
+            border-radius: 100px;
+            background: var(--Violet, #7874C7);
+            color: white;
+            margin-top: 40px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button_savoir{
+            border: none;
+            border-radius: 100px;
+            background:  #ffffff;
+            color: rgb(0, 0, 0);
+            margin-top: 20px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+}
