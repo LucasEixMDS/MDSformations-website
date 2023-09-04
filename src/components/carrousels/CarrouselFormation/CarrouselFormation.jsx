@@ -1,9 +1,10 @@
 import { useRef, useState, useEffect } from 'react';
-import bouche from "../../assets/bouche.svg";
-import ongle from "../../assets/ongle.svg";
-import massage from "../../assets/massage.svg"
+import bouche from "assets/bouche.svg";
+import ongle from "assets/ongle.svg";
+import massage from "assets/massage.svg"
+import "./CarrouselFormation.scss";
 
-function SliderComponent() {
+function CarrouselFormation() {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
@@ -105,10 +106,4 @@ function SliderComponent() {
     );
 }
 
-const Home = () => {
-    return (
-        <SliderComponent />
-    );
-};
-
-export default Home;
+export default CarrouselFormation;

@@ -1,14 +1,14 @@
-import reflect from "../../assets/reflect.svg"
-import fete from "../../assets/fete.png"
+import reflect from "assets/reflect.svg"
+import fete from "assets/fete.png"
 
-const topPage = () => {
+const HomeHeader = () => {
     return (
         <div >
             <div className="container">
                 <div className="container_titre">
                     <h1>Formez-vous</h1> 
                     <h2>au métier du bien-être, de la beauté et de l'ethétique</h2>
-                    </div>
+                </div>
                 <div className="container_modal">
                     <div className="container_modal_left">
                         <div className="reflect">
@@ -34,4 +34,4 @@ const topPage = () => {
     );
 };
 
-export default topPage;
+export default HomeHeader;

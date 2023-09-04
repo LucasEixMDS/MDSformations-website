@@ -1,7 +1,8 @@
 
 import { useRef, useState, useEffect } from 'react';
+import "./CarrouselBase.scss";
 
-function SliderComponent() {
+function CarrouselBase() {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
@@ -106,10 +107,4 @@ function SliderComponent() {
     );
 }
 
-const Home = () => {
-    return (
-        <SliderComponent />
-    );
-};
-
-export default Home;
+export default CarrouselBase;
