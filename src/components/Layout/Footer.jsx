@@ -2,6 +2,8 @@ import {  Nav } from 'react-bootstrap';
 import logo from "../../assets/logoMDSblanc.svg"
 import mobile from "../../assets/mobileBlanc.svg"
 import qualiopi from "../../assets/qualiopiLogo.png"
+import "./Footer.scss";
+
 
 
 const Footer = () => {

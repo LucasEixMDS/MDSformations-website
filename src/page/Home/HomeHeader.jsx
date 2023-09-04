@@ -1,5 +1,5 @@
-import reflect from "assets/reflect.svg"
-import fete from "assets/fete.png"
+
+import "./homeHeader.scss";
 
 const HomeHeader = () => {
     return (
@@ -12,7 +12,7 @@ const HomeHeader = () => {
                 <div className="container_modal">
                     <div className="container_modal_left">
                         <div className="reflect">
-                            <img src={reflect} alt="" />
+                            <p>🤔</p>
                         </div>
                             <h2>Quelles formations est faites pour moi ? </h2>
                         <div className="button">
@@ -21,7 +21,7 @@ const HomeHeader = () => {
                     </div>
                     <div className="container_modal_right">
                         <div className="fete">
-                            <img src={fete} alt="" />
+                            <p>🥳</p>
                         </div>
                             <h2>Je prend mon avenir en mains !</h2>
                         <div className="button">

@@ -5,6 +5,7 @@ import close from "../../assets/close.svg"
 import plus from "../../assets/plus.svg"
 import mobile from "../../assets/mobile.svg"
 import loupe from "../../assets/loupe.svg"
+import "./Navbar.scss"
 
 function Navbar() {
 	const navRef = useRef();
