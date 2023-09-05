@@ -1,11 +1,16 @@
 import { useRef, useState, useEffect } from 'react';
 import "./CarrouselFormation.scss";
-import data from "../../../json/CarrouselForm.json";
+import rawData from "../../../json/CarrouselForm.json";
+import PropTypes from 'prop-types';
 
-function CarrouselFormation() {
+function CarrouselFormation({ filterValues = [] }) {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
+
+    const itemsToDisplay = filterValues.length > 0 
+    ? rawData.filter(item => item.idElement.some(id => filterValues.includes(id)))
+    : rawData;
 
     useEffect(() => {
         const slider = sliderRef.current;
@@ -59,41 +64,40 @@ function CarrouselFormation() {
             slider.removeEventListener('mousemove', handleMouseMove);
             slider.removeEventListener('wheel', handleWheel);
         };
-    }, [sliderGrabbed]); // Les gestionnaires d'événements seront remis en place si `sliderGrabbed` change
-
+    }, [sliderGrabbed]);
 
     return (
-        
         <div className="slider-formation">
-                <div className="slider-formation-outer">
-                    <div className="slider-formation-inner" ref={sliderRef}>
-                        {data.map(item => (   
-
-                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }} >
-                                <div className="topContainer">
-                                    <div className="icon">
-                                        <p>{item.icon}</p>
-                                    </div>
+            <div className="slider-formation-outer">
+                <div className="slider-formation-inner" ref={sliderRef}>
+                    {itemsToDisplay.map(item => (
+                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }}>
+                            <div className="topContainer">
+                                <div className="icon">
+                                    <p>{item.icon}</p>
                                 </div>
-                                <div className="midContainer">
-                                    <h2>{item.text}</h2>
+                            </div>
+                            <div className="midContainer">
+                                <h2>{item.text}</h2>
+                            </div>
+                            <div className="bottomContainer">
+                                <div className="buttons">
+                                    <button style={{ color: item.buttonColor }}>En savoir +</button>
                                 </div>
-                                <div className="bottomContainer">
-                                    <div className="buttons">
-                                        <button style={{ color: item.buttonColor }}>En savoir +</button>
-                                    </div>
-                                </div>
+                            </div>
                         </div>
-                       
-                            ))}
+                    ))}
                 </div>
             </div>
             <div className="progress-bar-formation-outer">
-                    <div className="prog-bar-formation-inner" ref={progressBarRef}></div>
-                </div>
+                <div className="prog-bar-formation-inner" ref={progressBarRef}></div>
             </div>
-        
+        </div>
     );
 }
+
+CarrouselFormation.propTypes = {
+    filterValues: PropTypes.arrayOf(PropTypes.string)
+};
 
 export default CarrouselFormation;
