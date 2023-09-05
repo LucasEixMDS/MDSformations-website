@@ -11,19 +11,27 @@ const HomeHeader = () => {
                 </div>
                 <div className="container_modal">
                     <div className="container_modal_left">
-                        <div className="reflect">
-                            <p>🤔</p>
+                        <div className="container_modal_left_top">
+                            <div className="reflect">
+                                <p>🤔</p>
+                            </div>
                         </div>
-                            <h2>Quelles formations est faites pour moi ? </h2>
+                            <div className="container_modal_left_mid">
+                                <h2>Quelles formations est faites pour moi ? </h2>
+                            </div>
                         <div className="button">
                             <button>Faire le test</button>
                         </div>
                     </div>
                     <div className="container_modal_right">
-                        <div className="fete">
-                            <p>🥳</p>
+                        <div className="container_modal_right_top">
+                            <div className="fete">
+                                <p>🥳</p>
+                            </div>
                         </div>
+                        <div className="container_modal_right_mid">
                             <h2>Je prend mon avenir en mains !</h2>
+                        </div>
                         <div className="button">
                             <button>S'inscrire</button>
                         </div>

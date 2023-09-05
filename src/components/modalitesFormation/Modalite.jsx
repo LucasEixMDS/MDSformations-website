@@ -8,30 +8,32 @@ const Modalite = () => {
                 <div className="container_modalite_left">
                     <div className="container_left_modal">
                         <div className="icon_container">
-                    <div className="icon">
-                        <p>🏫</p>
-                    </div>
-                    </div>
-                    <div className="h3_container">
-                        <h3>Nos formations en ligne</h3>
+                            <div className="icon">
+                                <p>🏫</p>
+                            </div>
                         </div>
-                        <button>Découvrir</button>
-                    
+                        <div className="h3_container">
+                            <h3>Nos formations en ligne</h3>
+                        </div>
+                        <div className="modalite_container_button_left">
+                            <button>Découvrir</button>
+                        </div>
                     </div>
                     <p>Vous disposez gratuitement à votre entrée en formation d’un accès illimité pendant 6 mois à notre plateforme de formation en ligne.</p>
                 </div>
                 <div className="container_modalite_right">
                     <div className="container_right_modal">
-                    <div className="icon_container">
-                    <div className="icon">
-                        <p>🏠</p>
-                        </div>
+                        <div className="icon_container">
+                            <div className="icon">
+                                <p>🏠</p>
+                            </div>
                         </div>
                         <div className="h3_container">
-                        <h3>Nos formations en présentiel</h3>
+                            <h3>Nos formations en présentiel</h3>
                         </div>
-                        <button>Découvrir</button>
-                    
+                        <div className="modalite_container_button_right">
+                            <button>Découvrir</button>
+                        </div>
                     </div>
                     <p>Vous habitez loin notre centre ? Vous souhaitez suivre une formation à votre rythme ? Optez pour la formation 100 % en ligne.</p>
                 </div>

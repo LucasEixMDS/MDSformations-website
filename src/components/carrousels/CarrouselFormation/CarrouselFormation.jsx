@@ -70,19 +70,19 @@ function CarrouselFormation() {
                         {data.map(item => (   
 
                         <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }} >
-                            <div className="topContainer">
-                            <div className="icon">
-                                <p>{item.icon}</p>
-                            </div>
-                            </div>
-                            <div className="midContainer">
-                                <h2>{item.text}</h2>
+                                <div className="topContainer">
+                                    <div className="icon">
+                                        <p>{item.icon}</p>
+                                    </div>
+                                </div>
+                                <div className="midContainer">
+                                    <h2>{item.text}</h2>
                                 </div>
                                 <div className="bottomContainer">
-                            <div className="buttons">
-                                <button style={{ color: item.buttonColor }}>En savoir +</button>
-                            </div>
-                            </div>
+                                    <div className="buttons">
+                                        <button style={{ color: item.buttonColor }}>En savoir +</button>
+                                    </div>
+                                </div>
                         </div>
                        
                             ))}
