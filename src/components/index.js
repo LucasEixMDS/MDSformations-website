@@ -1,1 +1,1 @@
-export { CarrouselBase, CarrouselFormation } from "./carrousels";
+export { CarrouselFormation } from "./carrousels";

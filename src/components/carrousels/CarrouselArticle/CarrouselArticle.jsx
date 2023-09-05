@@ -1,11 +1,16 @@
-
+import './CarrouselArticle.scss';
 import { useRef, useState, useEffect } from 'react';
-import "./CarrouselBase.scss";
+import rawData from "../../../json/CarrouselActu.json";
+import PropTypes from 'prop-types';
 
-function CarrouselBase() {
+function CarrouselFormation({ filterValues = [] }) {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
+
+    const itemsToDisplay = filterValues.length > 0 
+    ? rawData.filter(item => item.idElement.some(id => filterValues.includes(id)))
+    : rawData;
 
     useEffect(() => {
         const slider = sliderRef.current;
@@ -59,52 +64,39 @@ function CarrouselBase() {
             slider.removeEventListener('mousemove', handleMouseMove);
             slider.removeEventListener('wheel', handleWheel);
         };
-    }, [sliderGrabbed]); // Les gestionnaires d'événements seront remis en place si `sliderGrabbed` change
-
+    }, [sliderGrabbed]);
 
     return (
-        <div>
-        <div className="slider-wrap">
-            <div className="slider-outer">
-                <div className="slider-inner" ref={sliderRef}>
-                <div className="item">
-                    <h3>Financement jusqu’à 100%</h3>
-                    <p>Différentes solutions de financement possible...</p>
-                    <button>En savoir +</button>
-                </div>
-                <div className="item">
-                    <h3>Plateforme en ligne gratuitee</h3>
-                    <p>pour compléter vos connaissances à votre rythme</p>
-                    <button>En savoir +</button>
-                </div>
-                <div className="item">
-                    <h3>Dormez sur place</h3>
-                    <p>Une expérience de formation tout-en-un, sans soucis logistiques</p>
-                    <button>En savoir +</button>
-                </div>
-                <div className="item">
-                    <h3>Diplôme d État Reconnu</h3>
-                    <p>Garantissant la valeur et la crédibilité de votre formation</p>
-                    <button>En savoir +</button>
-                </div>
-                <div className="item">
-                    <h3>Une équipe dédiée et diplômée</h3>
-                    <p>nos formateurs sont diplômés et expert de leurs domaine</p>
-                    <button>En savoir +</button>
-                </div>
-                <div className="item">
-                    <h3>Pratique dès le premier jour</h3>
-                    <p>Expérience immersive et enrichissante</p>
-                    <button>En savoir +</button>
+        <div className="slider-formation">
+            <div className="slider-formation-outer">
+                <div className="slider-formation-inner" ref={sliderRef}>
+                    {itemsToDisplay.map(item => (
+                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }}>
+                            <div className="topContainer">
+                                <div className="icon">
+                                    <h2>{item.text}</h2>
+                                    <h2 className='date'>{item.date}</h2>
+                                </div>
+                            </div>
+                            
+                            <div className="bottomContainer">
+                                <div className="buttons">
+                                    <button style={{ color: item.buttonColor }}>Lire l'article</button>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-        </div>
-        <div className="progress-bar-outer">
-                <div className="prog-bar-inner" ref={progressBarRef}></div>
+            <div className="progress-bar-formation-outer">
+                <div className="prog-bar-formation-inner" ref={progressBarRef}></div>
             </div>
-        </div>
         </div>
     );
 }
 
-export default CarrouselBase;
+CarrouselFormation.propTypes = {
+    filterValues: PropTypes.arrayOf(PropTypes.string)
+};
+
+export default CarrouselFormation;

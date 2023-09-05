@@ -1,0 +1,77 @@
+.homePage{
+    background: var(--Blanc-1, #F2F2F2);
+    .home{
+        padding-left: 20px;
+
+        h3{
+            margin-top: 45px;
+            color: var(--Gris-fonc, #333);
+            font-size: 20px;
+            font-weight: 400;
+            width: 90%;
+            margin-bottom: 20px;
+
+            span{
+                color: var(--Violet, #7874C7); 
+                font-weight: 700;
+            }
+        }
+
+        p{
+            color: var(--Gris, #4F4F4F);
+            font-size: 15px;
+            font-weight: 300;
+            width: 80%;
+        }
+
+        .opco{
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .button_webinaire{
+            border: none;
+            border-radius: 100px;
+            background: var(--Violet, #7874C7);
+            color: white;
+            margin-top: 40px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+        }
+        .button_home_financement{ 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        
+        .button_contact{
+            border: none;
+            border-radius: 100px;
+            background: var(--Violet, #7874C7);
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+        }
+
+        .button_savoir{
+            border: none;
+            border-radius: 100px;
+            background: var(--Blanc-pur, #FFF);
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+        }
+    }
+    }
+}
+
