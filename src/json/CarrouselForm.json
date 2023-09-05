@@ -36,7 +36,7 @@
         "idElement" :  ["certification", "formation"],
         "icon" : "🧑‍🏫",
         "photo" : "https://s3-alpha-sig.figma.com/img/e98b/db38/9f3d77d79e99401a89a2ecea5c9bf902?Expires=1694995200&Signature=QU-AGk2TkpoZhX2U3MqCYcKRF2q3o33QNT~g-PCBCFEwUEi5WNuKfkssC4DbHYxjPRj8Rr4hRtrZpvVaFGl9GRTbCEnZiJcY7KWhM7pZ-kXnNnQkxBbWxBAf9wCitFd-K3YnxKbVh982vDZrthTW5c9wmAImJ5zSZoQDOP2N-veAAbjo7gorIDvjYRP1jPSIRPremORZ8B76pvM1s4RH3A~XG~fVMcNLuGpS74m1U4RcktO4PIXqIAw9YGCeToK7CxMrm8VSN0f-gjZJNrfzMC5y0voTq5c1c-rcD-uw18S8EPhtJxulpgsQ-mYwWr8QQVr5QRSDsJ-nrtgWJyYnFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
-        "text" : "Formateur professionnel pour adultes (FPA)",
+        "text" : "Formateur professionnel pour adultes",
         "buttonColor" : "#FFD45C"
     }
     
