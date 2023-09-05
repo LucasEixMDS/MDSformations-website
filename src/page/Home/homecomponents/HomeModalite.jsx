@@ -1,4 +1,4 @@
-import "./modalite.scss";
+import "./homeModalite.scss";
 
 const Modalite = () => {
     return (

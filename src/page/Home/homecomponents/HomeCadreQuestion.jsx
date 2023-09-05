@@ -1,4 +1,4 @@
-import "./question.scss";
+import "./homeCadreQuestion.scss";
 
 const Question = () => {
     return (

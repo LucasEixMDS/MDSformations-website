@@ -1,10 +1,11 @@
-import Modalite from "page/Home/homecomponents/Modalite";
+import Modalite from "page/Home/homecomponents/HomeModalite";
 import HomeHeader from "./HomeHeader"
 import CarrouselActu from "../../components/carrousels/CarrouselArticle/CarrouselArticle.jsx";
 import { CarrouselFormation} from "components"
-import Question from "page/Home/homecomponents/Question";
+import Question from "page/Home/homecomponents/HomeCadreQuestion";
 import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
+import HomeCadreTestformation from "./homecomponents/HomeCadreTestformation";
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             </div>
             <HomeFinancement />
             <HomeTemoin />
+            <HomeCadreTestformation />
         </div>
     );
 };

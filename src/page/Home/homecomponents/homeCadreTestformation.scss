@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'homeMade';
+    src: url('../../../font/Poppins/Schoolbell-Regular.ttf') format("truetype") ;
+
+}
+.homecadre{
+
+    background-position-x: -14% !important;
+    background-position-y: 99% !important;
+    background-size: 143% !important;
+    background: url('https://s3-alpha-sig.figma.com/img/82a6/1054/39980b8f78512991fd2f823cbe09ad41?Expires=1694995200&Signature=aNlCFbsXfFuM-h8BGF7qZaVV7UkhzUsz5Uj-K9rFPG3LdcjfIdMKpuXx2a82-aOgl~849LmVZExMUCiI1G0DLEBRTbdCYt7bKswPPkCRigHRZMTA5Sxb84yFUIB-NYQ4BaWECpqX6MuKDgmFzKKRpiOLHXsR-JBrO6vvzAA7SsnbOT-fJExA6uR7NIB3BceQQ8zuvM20srXQQNd3TlfDFTowpc-dwn-O~TOsR5oDjbHuesRTl06paHcJNUaZSIfDzzDFHjSvyBnfVxT8Of5ygQMBIiTDg0sWzFAutqV77nFPFnhwIPwiEEbqujfZ6EKhGAeN8WEiGS3VfAahcFCT-A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
+    height: 217px;
+    width: 100%;
+    padding: 20px;
+
+    .homecadre_modal{
+        width: 39px;
+        height: 39px;;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            font-size: 35px;
+        }
+    }
+
+    h3{
+        color: white;
+        width: 70%;
+        margin-top: 10px;
+    }
+    .homecadre_button{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        height: 30px;
+        
+    button{
+        border: none;
+        border-radius: 100px;
+        background: var(--Blanc-pur, #FFF);
+        color:#7874C7;
+        display: inline-flex;
+        padding: 2px 16px 2px 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p{
+        color: var(--Blanc-pur, #FFF);
+        font-family:"homeMade" !important;
+        font-size: 18px;
+        margin-left: 15px;
+        font-weight: 200;
+    }
+}
+}
