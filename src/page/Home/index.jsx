@@ -1,8 +1,10 @@
-import Modalite from "components/modalitesFormation/Modalite";
+import Modalite from "page/Home/homecomponents/Modalite";
 import HomeHeader from "./HomeHeader"
 import CarrouselActu from "../../components/carrousels/CarrouselArticle/CarrouselArticle.jsx";
 import { CarrouselFormation} from "components"
-import Question from "components/modalitesFormation/Question";
+import Question from "page/Home/homecomponents/Question";
+import HomeFinancement from "./homecomponents/HomeFinancement";
+import HomeTemoin from "./homecomponents/HomeTemoin";
 
 const Home = () => {
     return (
@@ -25,15 +27,8 @@ const Home = () => {
                 <CarrouselActu />
                 <button className="button_webinaire">Découvrir tous nos articles</button>
             </div>
-            <div className="home">
-                <h3>Financement à <span>100%</span> de vos formations : saisissez l'opportunité dès maintenant !</h3>
-                <p>Formez-vous sans contrainte financière et donnez un nouvel élan à votre carrière. Inscrivez-vous aujourd'hui et bénéficiez du financement intégral de vos formations. Contactez-nous pour commencer votre parcours vers le succès.</p>
-                <p className="opco">CPF, Pôle emploi, alternance, employeurs...</p>
-                <div className="button_home_financement">
-                <button className="button_contact">Nous contacter</button>
-                <button className="button_savoir">En savoir +</button>
-                </div>
-            </div>
+            <HomeFinancement />
+            <HomeTemoin />
         </div>
     );
 };
