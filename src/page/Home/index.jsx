@@ -6,6 +6,7 @@ import Question from "page/Home/homecomponents/HomeCadreQuestion";
 import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
 import HomeCadreTestformation from "./homecomponents/HomeCadreTestformation";
+import HomePointfort from "./homecomponents/HomePointfort";
 
 const Home = () => {
     return (
@@ -31,6 +32,7 @@ const Home = () => {
             <HomeFinancement />
             <HomeTemoin />
             <HomeCadreTestformation />
+            <HomePointfort />
         </div>
     );
 };
