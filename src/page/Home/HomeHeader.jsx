@@ -1,5 +1,6 @@
 
 import "./HomeStyle/homeHeader.scss";
+import { Link } from 'react-router-dom';
 
 const HomeHeader = () => {
     return (
@@ -33,7 +34,9 @@ const HomeHeader = () => {
                             <h2>Je prend mon avenir en mains !</h2>
                         </div>
                         <div className="button">
+                            <Link to="/inscription">
                             <button>S'inscrire</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

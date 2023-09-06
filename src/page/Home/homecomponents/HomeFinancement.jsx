@@ -3,6 +3,7 @@
 const HomeFinancement = () => {
     return (
         <div>
+            <div className="homePage">
             <div className="home">
                 <h3>Financement à <span>100%</span> de vos formations : saisissez l'opportunité dès maintenant !</h3>
                 <p>Formez-vous sans contrainte financière et donnez un nouvel élan à votre carrière. Inscrivez-vous aujourd'hui et bénéficiez du financement intégral de vos formations. Contactez-nous pour commencer votre parcours vers le succès.</p>
@@ -11,6 +12,7 @@ const HomeFinancement = () => {
                 <button className="button_contact">Nous contacter</button>
                 <button className="button_savoir">En savoir +</button>
                 </div>
+            </div>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "components/Layout";
-import Home from "page/Home";
+import Layout from "./Layout";
+import Home from "./page/Home/index.jsx";
+import Inscription from "./page/inscription/Inscription"
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/inscription" element={<Inscription /> } />
           </Route>
       </Routes>
     </BrowserRouter>
