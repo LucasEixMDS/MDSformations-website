@@ -7,6 +7,7 @@ import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
 import HomeCadreTestformation from "./homecomponents/HomeCadreTestformation";
 import HomePointfort from "./homecomponents/HomePointfort";
+import HomeGoogleMap from "./homecomponents/HomeGoogleMap"
 
 const Home = () => {
     return (
@@ -33,6 +34,11 @@ const Home = () => {
             <HomeTemoin />
             <HomeCadreTestformation />
             <HomePointfort />
+            <div className="googlemapdiv">
+                <h3>Former-vous <span>là où vous le souhaitez !</span></h3>
+                <p>Découvrez nos formations disponibles dans plusieurs villes pour répondre à vos besoins.</p>
+            <HomeGoogleMap />
+            </div>
         </div>
     );
 };

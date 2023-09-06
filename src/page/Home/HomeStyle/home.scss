@@ -73,5 +73,46 @@
         }
     }
     }
+
+    .googlemapdiv{
+        background: #f4f4f4;
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h3{
+        color: var(--Gris-fonc, #333);
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        padding: 20px 0px 5px 20px;
+        width: 80%;
+        span{
+            color: var(--Violet, #7874C7);
+            font-weight: 700;
+        }
+    }
+
+    p{
+        color: var(--Gris, #4F4F4F);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+width: 68%;
+    }
+        .map-container{
+            display: flex;
+        width: 354px;
+        height: 405px;
+        justify-content: center;
+        align-items: center;
+        background: var(--Blanc-1, #F2F2F2);
+
+        
+        }
+    }
 }
 
