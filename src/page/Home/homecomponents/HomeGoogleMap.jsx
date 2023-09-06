@@ -15,7 +15,11 @@ const MyMapComponent = () => {
         lng:  -1.2528211409017742,
     }
 
-
+    const handleMapLoad = map => {
+        map.addListener("click", e => {
+            e.preventDefault();
+        });
+    }
 
     return (
         <LoadScript googleMapsApiKey="AIzaSyBc7aXr90kh8XpMlJ7sAY0ZytO7CnskW5k">
@@ -24,6 +28,7 @@ const MyMapComponent = () => {
                     mapContainerStyle={mapStyles}
                     zoom={15}
                     center={defaultCenter}
+                    onLoad={handleMapLoad}
                 >
                     <Marker position={defaultCenter} />
                 </GoogleMap>
