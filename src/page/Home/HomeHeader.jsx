@@ -21,7 +21,9 @@ const HomeHeader = () => {
                                 <h2>Quelles formations est faites pour moi ? </h2>
                             </div>
                         <div className="button">
+                            <Link to="/documentation">
                             <button>Faire le test</button>
+                            </Link>
                         </div>
                     </div>
                     <div className="container_modal_right">
