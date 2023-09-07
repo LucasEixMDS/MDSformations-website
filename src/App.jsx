@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";  // Ajustez le chemin d'accès en conséquence
 import Layout from "./Layout";
 import Home from "./page/Home/index.jsx";
 import Inscription from "./components/inscription/Inscription"
@@ -9,15 +9,9 @@ import FormationPage from "./page/Formation/Formation.jsx";
 
 
 const App = () => {
-
-  const location = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
   return (
     <BrowserRouter>
+       <ScrollToTop />
       <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/articles/:articleTitle" element={<ArticlePage />} />
