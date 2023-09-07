@@ -14,6 +14,7 @@ const Home = () => {
         <div className="homePage">
             <HomeHeader />
             <div className="home">
+            <a href="/certifconnect.pdf" target="_blank">Ouvrir le PDF</a>
             <h3>Nous avons forcément une formation <span>faites pour vous</span></h3>
             <CarrouselFormation filterValues={['certification', 'formation']} />
             <Modalite />
