@@ -17,7 +17,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Expertise pédagogique : </span>
                             formateurs expérimentés et passionnés
                         </div>
@@ -26,7 +26,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Contenus pertinents : </span>
                             formation constamment actualisées
                         </div>
@@ -35,7 +35,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Flexibilité et adaptabilité : </span>
                             formations en ligne et plateforme de cours accessibles 24h/24 et 7j/7
                         </div>
@@ -44,7 +44,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Accompagnement personnalisé : </span>
                             suivi individualisé pour maximiser votre apprentissage
                         </div>
@@ -53,7 +53,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Reconnaissance et diplômes : </span>
                             formations reconnues et des diplômes qualifiants
                         </div>
@@ -62,7 +62,7 @@ const HomePointfort = () => {
                 <li>
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
-                        <div>
+                        <div className='text'>
                             <span>Communauté dynamique : </span>
                             connectez-vous avec des professionnels partageant les mêmes intérêts
                         </div>

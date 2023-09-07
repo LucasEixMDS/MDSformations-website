@@ -4,9 +4,36 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../font/Poppins/Poppins-Regular.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../font/Poppins/Poppins-Light.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../font/Poppins/Poppins-SemiBold.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../font/Poppins/Poppins-Bold.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 
 * {
-    font-family: "poppins" !important;
+    font-family: "poppins" ;
 }
 
 .backPage{

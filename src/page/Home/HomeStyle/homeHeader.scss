@@ -1,5 +1,6 @@
 .container {
     background-image: url('../../../../public/homeimage.png');
+
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center center;
@@ -16,6 +17,7 @@
             color: white;
             font-size: 40px;
             margin-left: 15px;
+            font-family: "poppins-bold";
             
         }
 
@@ -24,6 +26,7 @@
             font-size: 19px;
             margin-left: 15px;
             font-weight: 100;
+            font-family: "poppins-regular";
         }
     }
 

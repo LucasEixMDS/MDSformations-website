@@ -23,6 +23,9 @@
             font-weight: 300;
             width: 80%;
         }
+        .text_financement{
+            font-family: "poppins-light";
+        }
 
         .opco{
             margin-top: 15px;
@@ -57,6 +60,7 @@
             justify-content: center;
             align-items: center;
             width: 45%;
+            font-family: "poppins-semibold";
         }
 
         .button_savoir{
@@ -70,6 +74,7 @@
             justify-content: center;
             align-items: center;
             width: 35%;
+            font-family: "poppins-semibold";
         }
     }
     }
@@ -102,6 +107,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 width: 68%;
+font-family: "poppins-light";
     }
         .map-container{
             display: flex;

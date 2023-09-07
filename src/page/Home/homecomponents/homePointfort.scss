@@ -72,6 +72,7 @@
             li {
                 margin: 10px 0px 10px 0px;
                 color: var(--Gris, #4F4F4F);
+                
               
                 .list-content {
                     display: flex;
@@ -84,9 +85,11 @@
                     
                     div {
                         flex: 1;
+                        font-family: "poppins-light";
                         
                         span {
                             color: var(--Violet, #7874C7);
+                            font-family: "poppins-semibold";
                         }
                     }
                 }
