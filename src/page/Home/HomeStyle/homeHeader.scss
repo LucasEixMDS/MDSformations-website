@@ -65,7 +65,9 @@
                     width: 100%;
                     justify-content: center;
 
-                    
+                    Link{
+                        text-decoration: none;
+                    }
 
                     button{
                         display: inline-flex;
