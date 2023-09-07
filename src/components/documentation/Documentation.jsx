@@ -12,15 +12,15 @@ const Inscription = () => {
         
         <div className="documentation">
             <div className="documentation_text">
-                <h1>Inscription en ligne</h1>
-                <p>Vous êtes prêt(e) à vous lancer ?</p>
+                <h1>Demande de documentation</h1>
+                <p>Vous souhaitez developper votre carrière professionnelle ?</p>
                 <div>
                 <button>02 40 96 32 80</button>
                 </div>
                 <div>
                 <button>camille.melodiedessens@gmail.com</button>
                 </div>
-                <p>Inscrivez-vous en quelques clics :</p>
+                <p>Vous voulez des informations sur une formation :</p>
                 </div>
             <div className="documentation_formulaire">
                 
