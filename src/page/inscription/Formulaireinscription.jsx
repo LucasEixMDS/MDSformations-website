@@ -80,19 +80,20 @@ function MonFormulaire() {
             <input type="email" name="email" placeholder="Adresse mail" value={formData.email} onChange={handleChange} />
             <input type="tel" name="telephone" placeholder="Téléphone" value={formData.telephone} onChange={handleChange} />
             
-            
-
-            <label>
-                <input type="checkbox" name="accepterInformations" checked={formData.accepterInformations} onChange={handleChange} />
-                J'accepte que mes informations soient utilisées.
-            </label>
-
-            <label>
+            <label className="vae">
                 <input type="checkbox" name="vae" checked={formData.vae} onChange={handleChange} />
-                Je souhaite faire une VAE.
+                <span>Je souhaite faire une VAE.</span>
             </label>
 
+            <label className="info">
+                <input type="checkbox" name="accepterInformations" checked={formData.accepterInformations} onChange={handleChange} />
+                <span>En cochant cette case, j’accepte que mes données personnelles soient utilisées et stockées par MDS Formations à des fins de marketing direct.*</span>
+            </label>
+
+            
+        <div >
                 <button type="submit">Je m'inscrit <img src={envoyer} alt="logo envoyer" /> </button>
+                </div>
             </form>
             <p>{message}</p>
         </div>

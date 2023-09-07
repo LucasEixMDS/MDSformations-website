@@ -1,6 +1,39 @@
 .inscription{
-    padding-top: 50px;
+    padding-top: 10px;
     background: var(--Blanc-1, #ffff);
+    
+    .inscription_text{
+        padding: 0 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -20px;
+
+        h1{
+            font-size: 25px;
+            color: var(--Gris, #4F4F4F);
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 15px;
+            color: var(--Gris, #4F4F4F);
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        button{
+            border: none;
+            border-radius: 100px;
+            background: var(--Violet, #7874C7);
+            color: white;
+            display: inline-block;
+            width: auto;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+    }
+
+
    
 
     .inscription_formulaire{
@@ -8,7 +41,9 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        height: 350px;
+        flex-direction: column;
+        padding: 0 20px 20px 20px;
+       
 
         form{
             display: flex;
@@ -57,14 +92,56 @@
 
             input{
                 margin: 10px 0 10px 0 ;
+                border: none;          /* Supprime toutes les bordures */
+                border-bottom: 2px solid #4F4F4F; /* Ajoute une bordure en bas */
+                outline: none; 
             }
 
             label{
                 margin: 10px 0 10px 0 ;
             }
 
+            .vae{
+                
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                span{
+                    margin-left: 10px;
+                    font-weight: 200;
+                    color: #4F4F4F;
+                }
+
+            }
+
+            .info{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                span{
+                    margin-left: 10px;
+                    font-weight: 200;
+                    color: #4F4F4F;
+                    font-size: 12px;
+                }
+            }
+
             button{
                 margin: 10px 0 10px 0 ;
+            }
+
+            button{
+                border: none;
+            border-radius: 100px;
+            background: var(--Violet, #7874C7);
+            color: white;
+            margin-top: 10px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: space-around;
+            align-items: center;
+            width: 40%;
             }
         }
     }
