@@ -37,23 +37,28 @@ function Navbar() {
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     };
+    const closeNavbar = () => {
+        navRef.current.classList.remove("responsive_nav");
+    };
 
     const handleMenuClick = (menuName, e) => {
         if (menus[menuName]) {
             e.preventDefault();
             setActiveMenu(menuName);
             setSubMenu(menus[menuName]);
-            setCurrentSubMenuTitle(null);  // Reset sub-sub-menu title
+            setCurrentSubMenuTitle(null); // Reset sub-sub-menu title
+        } else {
+            closeNavbar(); // Si le menu n'a pas de sous-menu, fermez la navbar
         }
     };
-
+    
     const handleSubMenuClick = (submenuName, e) => {
         if (subMenus[submenuName]) {
             e.preventDefault();
             setCurrentSubMenuTitle(submenuName);
             setSubMenu(subMenus[submenuName]);
         } else {
-            setCurrentSubMenuTitle(null);
+            closeNavbar(); // Si le sous-menu n'a pas de sous-sous-menu, fermez la navbar
         }
     };
 

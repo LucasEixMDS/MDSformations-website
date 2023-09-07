@@ -1,15 +1,16 @@
 [
     {
         "id": "0001",
+        "formationLink" : "reflexologie",
         "header": {
-            "title": "Réflexologue",
-            "subtitle": "Découvrez le chemin vers l'épanouissement : devenez **color:#64B768**métier de réflexologue**",
+            "title": "Réflexologie",
+            "subtitle": "Découvrez le chemin vers l'épanouissement : devenez métier de réflexologue",
             "imagePath": "../assets/image-reflexologue-vert.png",
             "imageAltText": "Révélez votre potentiel en réflexologie",
             "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps? Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ? Alors, ne cherchez plus ! Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être."
         },
         "objectives": {
-            "title": "Après notre formation au **color:#64B768**métier de réflexologue**, vous serez capable de :",
+            "title": "Après notre formation au métier de réflexologue, vous serez capable de :",
             "list": [
                 "Maîtriser les bases de la réflexologie",
                 "Pratiquer des séances professionnelles de réflexologie",
@@ -19,22 +20,22 @@
             ]
         },
         "pricing": {
-            "registrationFee": "**color:#64B768**80 €**",
-            "examFee": "**color:#64B768**120 €**",
-            "paymentOption": "**color:#64B768**sans frais supplémentaires**",
-            "block1": "**color:#64B768**3 100 €**",
-            "block2": "**color:#64B768**2 700 €**",
-            "block3": "**color:#64B768**850 €**",
-            "personalBlock1": "**color:#64B768**2 700 €**",
-            "personalBlock2": "**color:#64B768**2 800 €**",
-            "personalBlock3": "**color:#64B768**650 €**"
+            "registrationFee": "80 €",
+            "examFee": "120 €",
+            "paymentOption": "sans frais supplémentaires",
+            "block1": "3 100 €",
+            "block2": "2 700 €",
+            "block3": "850 €",
+            "personalBlock1": "2 700 €",
+            "personalBlock2": "2 800 €",
+            "personalBlock3": "650 €"
         },
         "program": {
-            "title": "**color:#64B768**Programme** et **color:#64B768**planning** de formation",
+            "title": "Programme et planning de formation",
             "blocks": [
                 {
                     "title": "Théorie (Bloc 1 ) à distance : anatomie, zones réflexes, bilan énergétique et diététique",
-                    "hours": "**color:#64B768**160 heures**",
+                    "hours": "160 heures",
                     "modalities": "126 h autonomie et 34 h de visio",
                     "content": [
                         "Accueillir le client...",
@@ -45,7 +46,7 @@
                 },
                 {
                     "title": "Pratique (Bloc 2 ) en présentiel : réflexologie plantaire, palmaire, faciale et auriculaire",
-                    "hours": "**color:#64B768**154 heures**",
+                    "hours": "154 heures",
                     "modalities": "de pratique",
                     "content": [
                         "Installer le client...",
@@ -58,7 +59,7 @@
                 },
                 {
                     "title": "Théorie (Bloc 3 ) à distance : création gestion d’entreprise et communication visuelle",
-                    "hours": "**color:#64B768**41 heures**",
+                    "hours": "41 heures",
                     "modalities": "28 h autonomie et 13 h de visio",
                     "content": [
                         "Aménager son lieu de travail...",
@@ -68,10 +69,10 @@
                 }
             ]
         },
-        "articleTitle": "Explorez la carrière passionnante de réflexologue et découvrez le succès à travers les **color:#64B768**yeux d'un ancien stagiaire**!",
+        "articleTitle": "Explorez la carrière passionnante de réflexologue et découvrez le succès à travers les yeux d'un ancien stagiaire!",
 
         "jobsAfterTraining": {
-            "title": "**color:#64B768**Métier visés après la formation**",
+            "title": "Métier visés après la formation",
             "list": [
                 "Réflexologue indépendant",
                 "Réflexologue en centre pluridisciplinaire"
@@ -79,7 +80,7 @@
         },
         
         "potentialStructures": {
-            "title": "**color:#64B768**Structures envisageables**",
+            "title": "Structures envisageables",
             "list": [
                 "Salons de massage",
                 "Centres de vacances",
@@ -91,9 +92,108 @@
         },
         
         "certification": {
-            "title": "**color:#64B768**Réflexologue**",
+            "title": "Réflexologue",
+            "rncp": "RNCP 35140",
+            "level": "Niveau 5"
+        }
+    },
+    {
+        "id": "000",
+        "formationLink" : "massage",
+        "header": {
+            "title": "Réflexologie",
+            "subtitle": "Découvrez le chemin vers l'épanouissement : devenez métier de réflexologue",
+            "imagePath": "../assets/image-reflexologue-vert.png",
+            "imageAltText": "Révélez votre potentiel en réflexologie",
+            "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps? Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ? Alors, ne cherchez plus ! Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être."
+        },
+        "objectives": {
+            "title": "Après notre formation au métier de réflexologue, vous serez capable de :",
+            "list": [
+                "Maîtriser les bases de la réflexologie",
+                "Pratiquer des séances professionnelles de réflexologie",
+                "Adapter vos traitements aux besoins individuels",
+                "Utiliser les zones réflexes pour favoriser le bien-être",
+                "Contribuer au mieux-être global de vos clients"
+            ]
+        },
+        "pricing": {
+            "registrationFee": "80 €",
+            "examFee": "120 €",
+            "paymentOption": "sans frais supplémentaires",
+            "block1": "3 100 €",
+            "block2": "2 700 €",
+            "block3": "850 €",
+            "personalBlock1": "2 700 €",
+            "personalBlock2": "2 800 €",
+            "personalBlock3": "650 €"
+        },
+        "program": {
+            "title": "Programme et planning de formation",
+            "blocks": [
+                {
+                    "title": "Théorie (Bloc 1 ) à distance : anatomie, zones réflexes, bilan énergétique et diététique",
+                    "hours": "160 heures",
+                    "modalities": "126 h autonomie et 34 h de visio",
+                    "content": [
+                        "Accueillir le client...",
+                        "Questionner la personne...",
+                        "Mettre en place une charte...",
+                        "Élaborer un protocole de réflexologie..."
+                    ]
+                },
+                {
+                    "title": "Pratique (Bloc 2 ) en présentiel : réflexologie plantaire, palmaire, faciale et auriculaire",
+                    "hours": "154 heures",
+                    "modalities": "de pratique",
+                    "content": [
+                        "Installer le client...",
+                        "Dérouler le protocole...",
+                        "Stimuler les zones réflexes...",
+                        "Adapter les techniques...",
+                        "Sélectionner et appliquer...",
+                        "Contrôler la pression..."
+                    ]
+                },
+                {
+                    "title": "Théorie (Bloc 3 ) à distance : création gestion d’entreprise et communication visuelle",
+                    "hours": "41 heures",
+                    "modalities": "28 h autonomie et 13 h de visio",
+                    "content": [
+                        "Aménager son lieu de travail...",
+                        "Orchestrer la partie administrative...",
+                        "Développer et travailler..."
+                    ]
+                }
+            ]
+        },
+        "articleTitle": "Explorez la carrière passionnante de réflexologue et découvrez le succès à travers les yeux d'un ancien stagiaire!",
+
+        "jobsAfterTraining": {
+            "title": "Métier visés après la formation",
+            "list": [
+                "Réflexologue indépendant",
+                "Réflexologue en centre pluridisciplinaire"
+            ]
+        },
+        
+        "potentialStructures": {
+            "title": "Structures envisageables",
+            "list": [
+                "Salons de massage",
+                "Centres de vacances",
+                "Hôtels",
+                "Bateaux de croisière",
+                "Maisons de retraite",
+                "Réflexologie à domicile"
+            ]
+        },
+        
+        "certification": {
+            "title": "Réflexologue",
             "rncp": "RNCP 35140",
             "level": "Niveau 5"
         }
     }
+
 ]

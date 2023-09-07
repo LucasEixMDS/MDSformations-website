@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import "./CarrouselFormation.scss";
 import rawData from "../../../json/CarrouselForm.json";
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 function CarrouselFormation({ filterValues = [] }) {
     const sliderRef = useRef(null);
@@ -82,7 +83,10 @@ function CarrouselFormation({ filterValues = [] }) {
                             </div>
                             <div className="bottomContainer">
                                 <div className="buttons">
+                                <Link 
+                                to={item.formationLink}>
                                     <button style={{ color: item.buttonColor }}>En savoir +</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
