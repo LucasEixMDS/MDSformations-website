@@ -7,6 +7,7 @@ import "./inscription.scss"
 const Inscription = () => {
     return (
         <div className="inscription">
+            
             <div className="inscription_formulaire">
                 <Formulaireinscription />
             </div>
