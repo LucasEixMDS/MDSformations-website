@@ -84,7 +84,7 @@ function CarrouselFormation({ filterValues = [] }) {
                             <div className="bottomContainer">
                                 <div className="buttons">
                                 <Link 
-                                to={item.formationLink}>
+                               to={`/${item.formationLink}`}>
                                     <button style={{ color: item.buttonColor }}>En savoir +</button>
                                     </Link>
                                 </div>
