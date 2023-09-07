@@ -28,7 +28,7 @@ function MonFormulaire() {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://formspree.io/f/xrgwbwge', {
+            const response = await fetch('https://formspree.io/f/mnqkvlwd', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -99,6 +99,7 @@
 
             label{
                 margin: 10px 0 10px 0 ;
+                
             }
 
             .vae{
@@ -119,6 +120,10 @@
                 display: flex;
                 align-items: center;
                 width: 100%;
+                input{
+                    width: 100%;
+                }
+                
                 span{
                     margin-left: 10px;
                     font-weight: 200;

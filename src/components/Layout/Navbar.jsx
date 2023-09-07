@@ -64,7 +64,9 @@ function Navbar() {
 
     return (
         <header>
+            <Link to="/" >
             <h3> <img src={logo} alt="" /> </h3>
+            </Link>
             <div className="rightMenu">
                 <img src={mobile} alt="" />
                 <img src={loupe} alt="" />
