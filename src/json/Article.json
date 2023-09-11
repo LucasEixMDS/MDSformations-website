@@ -2,10 +2,11 @@
     {
         "id" : "001",
         "articleLink" :  "/articles/comment-se-former-à-la-reflexologie",
-        "titreh1" : "Découvrez le métier de réflexologue",
-        "titreh2" : "Une voie épanouissante",
+        "backgroundImage": "https://s3-alpha-sig.figma.com/img/aaf9/2616/fd19a2f69d2f48c3dbf00a48fd2dd011?Expires=1694995200&Signature=j9ILDT53xnIOkRTF3Iu4NNqc7x3ZAnB8e7-ZGN-lyW-Vwyslxcb3iIjzTKuTCo4fiNdFOjrPjAAM~hAzXNrOhrMXR1kyZV4CetzkASXNnyWDmCktj14YzCzLaRZvgqCVJEHmX1yuNtHyBsSBixf6RlDpSTkO0Bw7hITxS-mQFQaX~gVuYt3CrhLUIh9i952zYfccVBgQGf7eeHhzM6tB2lA~RL5lYdKDCAW1FJMwQrFzFEypxMP~L9jcFGspeyVfvp~XCSVjZlp6~BMtXsD4~UNieE1EsDsD4atGY1-BieB~9ObgmQrqheknBVLMX2m1Id4rCm8mdzyhFmMhHlxWrQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "titreh1" : "Découvrez le métier de réflexologue :",
+        "titreh2" : "Une voie épanouissante dans le domaine du bien-être",
         "formatrice": {
-            "photo" : "../assets/melodiebaloche.png",
+            "photo" : "../../public/melodiebaloche.png",
             "name" : "Mélodie Baloche",
             "date" : "12 juin 2023",
             "text" : "experte du bien-être depuis 10 ans, forme des adultes depuis 4 ans en massage, réflexologie, prothésie ongulaire, maquillage permanent et SST chez MDS Formations."
@@ -33,7 +34,8 @@
     {
         "id" : "002",
         "articleLink" :  "/articles/comment-devenir-masseur",
-        "titreh1" : "Comment devenir masseur'se ?",
+        "backgroundImage" : "https://s3-alpha-sig.figma.com/img/274c/a5d6/f441fe156df8574f5373b8496d9aa4cd?Expires=1694995200&Signature=BhTAwU6t3ry0m29FT1N9ZHTfFgTcbPgIJG4633Cr8Q3FaMLurYxHORoP4ZprWjaH5cCgNnJkj8VBy1kDN7hk5fN78n8AMp3ng0GDSAt118MBhIqGoivTbdmm-51lYOO2PEulW3X-qODz7dz4XrMILabUETsWgsAk~Akq~86ncnHDkSTl40tLfVdlZApkT94qyorXmv6ig6~roh08sFXaDCiQEYDW2K-DSjSA7cOnL7TMT5MgwNj8gQjdOrfpS53DKp1Bme4C0EPzk8BNdIBNXLwTw4qe6ywc8G85n-RksqNZNXDy4B-lzBY01IQIDhyG65~E4OqlrH2Yg9Yu-cEopg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "titreh1" : "Comment devenir masseur(se) ? :",
         "titreh2" : "Une voie épanouissante",
         "formatrice": {
             "photo" : "../assets/melodiebaloche.png",

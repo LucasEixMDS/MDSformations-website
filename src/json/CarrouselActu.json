@@ -25,6 +25,14 @@
         "text" : "Comment financer une formation ?",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "004",
+        "idElement" : ["formation"],
+        "articleLink": "/articles/comment-financer-une-formation",
+        "photo" : "https://s3-alpha-sig.figma.com/img/a15e/247f/d581e00367dcd45d3c1548440f64f7b4?Expires=1694995200&Signature=GotxHseXbGmNlh3IZVPdfWRpg6Xx~hPCFU-63gB5Xr805KO5Kc5PCBZSDBsqVgKSQH3P~AiZVS4jsE0UrNNvcgwlWFgEm85jyTd1j3UKQyP3XEqeO0QHVbfCVCmbkhzk0kj2EplvFcmU5Raw2DbUjrD9FPjEh7WoVjL6QCBN8zqxml7qbLSltHUnbsXezV-~acpWZYtXnbsN0~aJH4iZYX53eBmx8ZneCyyYa0q7XUzWOJJeryZNhpIPz8UZIoHUKAvvfjg8VrgkIVjP~ZwUmNDeSD2GPwk4fk8d6qIras32iCN1j7KF2xPYXR0nV-fYBS7ptkzjzjn9yc3US2MHMw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "text" : "Comment financer une formation ?",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
     }
-    
 ]
