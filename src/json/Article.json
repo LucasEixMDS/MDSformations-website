@@ -6,7 +6,7 @@
         "titreh1" : "Découvrez le métier de réflexologue :",
         "titreh2" : "Une voie épanouissante dans le domaine du bien-être",
         "formatrice": {
-            "photo" : "../../public/melodiebaloche.png",
+            "photo" : "public/melodiebaloche.png",
             "name" : "Mélodie Baloche",
             "date" : "12 juin 2023",
             "text" : "experte du bien-être depuis 10 ans, forme des adultes depuis 4 ans en massage, réflexologie, prothésie ongulaire, maquillage permanent et SST chez MDS Formations."
