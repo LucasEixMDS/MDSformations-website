@@ -71,8 +71,9 @@ function CarrouselFormation({ filterValues = [] }) {
         <div className="slider-formation">
             <div className="slider-formation-outer">
                 <div className="slider-formation-inner" ref={sliderRef}>
-                    {itemsToDisplay.map(item => (
-                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }}>
+                {itemsToDisplay.map(item => (
+                    <Link to={`/${item.formationLink}`} key={item.id}>
+                        <div className="items" style={{ backgroundImage: `url(${item.photo})` }}>
                             <div className="topContainer">
                                 <div className="icon">
                                     <p>{item.icon}</p>
@@ -83,14 +84,12 @@ function CarrouselFormation({ filterValues = [] }) {
                             </div>
                             <div className="bottomContainer">
                                 <div className="buttons">
-                                <Link 
-                               to={`/${item.formationLink}`}>
                                     <button style={{ color: item.buttonColor }}>En savoir +</button>
-                                    </Link>
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    </Link>
+                ))}
                 </div>
             </div>
             <div className="progress-bar-formation-outer">

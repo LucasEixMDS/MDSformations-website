@@ -71,24 +71,24 @@ function CarrouselFormation({ filterValues = [] }) {
         <div className="slider-formation">
             <div className="slider-formation-outer">
                 <div className="slider-formation-inner" ref={sliderRef}>
-                    {itemsToDisplay.map(item => (
-                        <div className="items" key={item.id} style={{ backgroundImage: `url(${item.photo})` }}>
-                            <div className="topContainer">
-                                <div className="icon">
-                                    <h2>{item.text}</h2>
-                                    <h2 className='date'>{item.date}</h2>
-                                </div>
-                            </div>
-                            
-                            <div className="bottomContainer">
-                                <div className="buttons">
-                                <Link to={item.articleLink}> 
-                                <button style={{ color: item.buttonColor }}>Lire l'article</button>
-                            </Link>
-                                </div>
+                {itemsToDisplay.map(item => (
+                <Link to={item.articleLink} key={item.id}>
+                    <div className="items" style={{ backgroundImage: `url(${item.photo})` }}>
+                        <div className="topContainer">
+                            <div className="icon">
+                                <h2>{item.text}</h2>
+                                <h2 className='date'>{item.date}</h2>
                             </div>
                         </div>
-                    ))}
+                        
+                        <div className="bottomContainer">
+                            <div className="buttons">
+                                <button style={{ color: item.buttonColor }}>Lire l'article</button>
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+            ))}
                 </div>
             </div>
             <div className="progress-bar-formation-outer">
