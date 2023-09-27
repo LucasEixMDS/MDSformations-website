@@ -4,7 +4,7 @@
         "idElement" : ["certification", "formation"],
         "formationLink" : "reflexologie",
         "icon" : "🦶",
-        "photo" : "https://s3-alpha-sig.figma.com/img/f8bf/607b/589681c257c3e6a2b772ca6aad6fca57?Expires=1694995200&Signature=B7nOwbixUtj5u8oWUtw1-mUyPjYhPt~VRZpaYO7meZ9wCwYP3plSOjbOT25FoYoXNV094vBakbO2frBZdwJv0UCEP79qoNyCYbqf2KOs2FW0~Obclm7oVP4ZJFZrPaYquLwqtFTMpCyzT5WWPyUEmJPh8c7mBihoOuQNqnWVxX314guNitAtV85Xy1jgQnkRxB4WfHTIV5NbyA0Ka8JQo4JWsJxTHe-Cu3oU8MFhxr0uTlkrTvdReO8aXGmiCxCH1KVUxhnvhtUKL8mzX7vDAjPIeUHe-yHcu~I2Iz5-UE43~5ofoPkY18q2apeBozRL3lZOcveg2BEpwGUzVBhWpw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "photo" : "../public/reflexologue.png",
         "text" : "Cursus reflexologue",
         "buttonColor" : "#65AD7F"
     },
