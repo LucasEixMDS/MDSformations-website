@@ -2,6 +2,7 @@ import HomeFinancement from "page/Home/homecomponents/HomeFinancement";
 import HomeTemoin from "page/Home/homecomponents/HomeTemoin";
 import Formulaireinscription from "./Formulaireinscription"
 import "./inscription.scss"
+import Test from "./test"
 
 
 const Inscription = () => {
@@ -24,6 +25,7 @@ const Inscription = () => {
             </div>
             <HomeFinancement />
             <HomeTemoin />
+            <Test />
         </div>
     );
 };
