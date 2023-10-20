@@ -1,3 +1,4 @@
+@import '../../../style/settings.scss';
 .question_webinaire{
     background-image: url("../../../../public/question.png");
     background-size: cover; 
@@ -44,7 +45,7 @@
         .button_webinaire{
             border: none;
             border-radius: 100px;
-            background: var(--Violet, #7874C7);
+            background: $color-principale ;
             color: white;
             margin-top: 40px;
             display: inline-flex;

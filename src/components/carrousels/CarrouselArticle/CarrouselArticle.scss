@@ -1,4 +1,4 @@
-
+@import '../../../style/settings.scss';
     .home_white{
         background: white;
         margin-top: 30px;
@@ -11,7 +11,7 @@
         .button_webinaire{
             border: none;
             border-radius: 100px;
-            background: var(--Violet, #7874C7);
+            background: $color-principale;
             color: white;
             margin-top: 40px;
             display: inline-flex;
@@ -27,7 +27,7 @@
             width: 80%;
 
             span{
-                color: var(--Violet, #7874C7); 
+                color: $color-principale; 
                 font-weight: 700;
             }
         }
@@ -144,7 +144,7 @@
             width: 0%; // la largeur sera mise à jour dynamiquement
             height: 100%;
             border-radius: 100px;
-            background-color: var(--Violet, #7874C7);
+            background-color: $color-principale;
         }
         
         }

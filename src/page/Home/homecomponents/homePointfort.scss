@@ -1,3 +1,4 @@
+@import '../../../style/settings.scss';
 .homepointfort{
     background: white;
     padding-bottom: 25px;
@@ -11,7 +12,7 @@
     button{
         border: none;
             border-radius: 100px;
-            background: var(--Violet, #7874C7);
+            background: $color-principale;
             color: white;
             display: inline-flex;
             padding: 2px 16px 2px 16px;
@@ -30,7 +31,7 @@
             padding: 20px 0px 5px 20px;
             width: 80%;
             span{
-                color: var(--Violet, #7874C7);
+                color: $color-principale;
                 font-weight: 700;
             }
         }
@@ -88,7 +89,7 @@
                         font-family: "poppins-light";
                         
                         span {
-                            color: var(--Violet, #7874C7);
+                            color: $color-principale;
                             font-family: "poppins-semibold";
                         }
                     }

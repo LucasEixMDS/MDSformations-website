@@ -12,7 +12,7 @@
             margin-bottom: 20px;
 
             span{
-                color: var(--Violet, #7874C7); 
+                color: $color-principale; 
                 font-weight: 700;
             }
         }
@@ -35,7 +35,7 @@
         .button_webinaire{
             border: none;
             border-radius: 100px;
-            background: var(--Violet, #7874C7);
+            background: $color-principale;
             color: white;
             margin-top: 40px;
             display: inline-flex;
@@ -51,7 +51,7 @@
         .button_contact{
             border: none;
             border-radius: 100px;
-            background: var(--Violet, #7874C7);
+            background: $color-principale;
             color: white;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -94,7 +94,7 @@
         padding: 20px 0px 5px 20px;
         width: 80%;
         span{
-            color: var(--Violet, #7874C7);
+            color: $color-principale;
             font-weight: 700;
         }
     }

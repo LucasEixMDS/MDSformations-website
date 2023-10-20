@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: 'poppins-light';
-    src: url('../font/Poppins/Poppins-Light.woff2') format("woff2") ;
+    src: url('../font/Poppins/Poppins-ExtraLight.woff2') format("woff2") ;
     font-weight: normal;
     font-style: normal;
 }
@@ -47,3 +47,27 @@ link{
 a {
     text-decoration: none !important;
 }
+
+$color-1 : #7BC8CB;
+$color-2 : #2A8FBD;
+$color-3 : #3D56A7;
+$color-4 : #64B768;
+$color-5 : #8A88C1;
+$color-6 : #A8BCC0;
+$color-7 : #CF836C;
+$color-8 : #F195A8;
+$color-9 : #E9464F;
+$color-10 : #F28B23;
+$color-11 : #FECA35;
+
+$color-principale : $color-1;
+$color-hygiene : $color-2;
+$color-po : $color-3;
+$color-reflexo : $color-4;
+$color-prothesie : $color-5;
+$color-sst : $color-6;
+$color-massage :$color-7;
+$color-extension : $color-8;
+$color-maquillage : $color-9;
+
+$color-fpa : $color-11;

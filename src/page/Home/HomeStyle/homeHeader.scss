@@ -1,3 +1,5 @@
+@import '../../../style/settings.scss';
+
 .container {
     background-image: url('../../../../public/homeimage.png');
 
@@ -79,7 +81,7 @@
                         align-items: center;
                         gap: 10px;
                         border-radius: 100px;
-                        background: var(--Violet, #7874C7);
+                        background: $color-principale ;
                         border: none;
                         color: white;
                         font-size: 15px;
@@ -144,7 +146,7 @@
                         align-items: center;
                         gap: 10px;
                         border-radius: 100px;
-                        background: var(--Violet, #7874C7);
+                        background: $color-principale ;
                         border: none;
                         color: white;
                         font-size: 15px;
