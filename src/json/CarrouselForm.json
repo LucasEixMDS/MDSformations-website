@@ -4,7 +4,7 @@
         "idElement" : ["certification", "formation"],
         "formationLink" : "reflexologie",
         "icon" : "🦶",
-        "photo" : "../public/reflexologue.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/reflexologue.png",
         "text" : "Cursus reflexologue",
         "buttonColor" : "#65AD7F"
     },
@@ -13,7 +13,7 @@
         "idElement" :  ["certification", "formation"],
         "formationLink" : "masseur-professionnel",
         "icon" : "💆‍♀️",
-        "photo" : "https://s3-alpha-sig.figma.com/img/9804/ac54/2b8f16fa870017adea586d7b26a50c3b?Expires=1694995200&Signature=E46v-sNLO0Sm78rYvG0olaJGtbT84z2IaocFpGcLXrL3D6bQTk3zmir7z4AfYXGIwF0AUK5YG8MFcWRjc~3xVqbFRIJYkjjsVJOi-ehwf6Non0UfWIy56Zi4gskFU6sJcOb8LYGSNRfXiFTGkqPpIFO1r4gJweEVLThmZJUZW8u46omAo88tvYSr8tjT59AmEvmNTAECSR1DHNgUZs6WFtoX20PTV-9z1g7bQ7G-UaYQXDayjCkwgnbeyEbRYL3XLb4y7m0RQwmU0-azVAzRETZ-oseG1ric1~pl~cAMDrOOhXwS~UzYOrtNjW2oxEn-RUXpT5Vv7M1OS7oz9NQRaw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massage.png",
         "text" : "Praticien(ne) en massage",
         "buttonColor" : "#D7724F"
     },
@@ -22,7 +22,7 @@
         "idElement" : ["formation"],
         "formationLink" : "maquillage-permanent",
         "icon" : "👄",
-        "photo" : "https://s3-alpha-sig.figma.com/img/2e34/8604/60534c4499651e7fa6b07c49162f5ea9?Expires=1694995200&Signature=T4n2UWKn2v~~jPANeuEopWq1YDAVmxSZbWM7oL670CYFfFiuRoGGoC3G4LuzIBH71QbSEt4P6x01zXvXlfzTHH54q4BDZ8N7te9lUJBmQ5zrPqDSQJx8eFg6a0-yQ-bjhlpOE3y-lqtjovudsc23TehhzXPv2fPIQ3S0chsnlAxISienak9SBbiLHPHdwWm33ZzN5eKQch8esjR6Bf9-MoEmUV3Tgrpu04A312JMO0G2QrVb8Bk76ryHC7RckHPpOC7upx52dhLgaqTNQ6xwF8IbI8qjYZCXkXIFwuNh0f48GOfPmMlqxGFtqqn6~0or3jWlVPlljk39-P~6nT2v7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/maquillage.png",
         "text" : "Maquillage permanent",
         "buttonColor" : "#E57996"
     },
@@ -40,7 +40,7 @@
         "idElement" :  ["certification", "formation"],
         "formationLink" : "formateur-professionnel-pour-adultes",
         "icon" : "🧑‍🏫",
-        "photo" : "https://s3-alpha-sig.figma.com/img/e98b/db38/9f3d77d79e99401a89a2ecea5c9bf902?Expires=1694995200&Signature=QU-AGk2TkpoZhX2U3MqCYcKRF2q3o33QNT~g-PCBCFEwUEi5WNuKfkssC4DbHYxjPRj8Rr4hRtrZpvVaFGl9GRTbCEnZiJcY7KWhM7pZ-kXnNnQkxBbWxBAf9wCitFd-K3YnxKbVh982vDZrthTW5c9wmAImJ5zSZoQDOP2N-veAAbjo7gorIDvjYRP1jPSIRPremORZ8B76pvM1s4RH3A~XG~fVMcNLuGpS74m1U4RcktO4PIXqIAw9YGCeToK7CxMrm8VSN0f-gjZJNrfzMC5y0voTq5c1c-rcD-uw18S8EPhtJxulpgsQ-mYwWr8QQVr5QRSDsJ-nrtgWJyYnFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/formateur.png",
         "text" : "Formateur professionnel pour adultes",
         "buttonColor" : "#FFD45C"
     }

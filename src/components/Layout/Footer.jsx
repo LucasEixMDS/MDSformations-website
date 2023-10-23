@@ -3,6 +3,10 @@ import logo from "../../assets/logoMDSblanc.svg"
 import mobile from "../../assets/mobileBlanc.svg"
 import qualiopi from "../../assets/qualiopiLogo.png"
 import "./Footer.scss";
+import facebook from '../../assets/facebook.svg'
+import instagram from '../../assets/instagram.svg'
+import linkedin from '../../assets/linkedin.svg'
+import tiktok from '../../assets/toktok.svg'
 
 
 
@@ -11,6 +15,12 @@ const Footer = () => {
         <div className="footer">
             <div className="footer_website">
             <img src={logo} alt="" />
+                <div className="footer_social">
+                    <a href=""><img src={facebook} alt="logo du reseaux social facebook" /></a>
+                    <a href=""><img src={linkedin} alt="logo du reseaux social linkedin" /></a>
+                    <a href=""><img src={instagram} alt="logo du reseaux social instagram" /></a>
+                    <a href=""><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
+                </div>
             <button><img src={mobile} alt="" />Contactez-nous</button>
             <Nav.Link href="/" >Devenir Modèle</Nav.Link>
             <Nav.Link href="/" >Inscription Webinaire</Nav.Link>

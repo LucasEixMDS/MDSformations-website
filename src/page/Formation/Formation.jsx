@@ -1,5 +1,7 @@
 import formationData from "../../json/formation.json";
 import { useParams } from "react-router-dom";
+import "./formation.scss"
+import FormationHeader from './formation_components/formation_header/formation_header';
 
 function FormationPage() {
   const { formationLink } = useParams();  // Récupère le lien de la formation depuis l'URL
@@ -13,18 +15,11 @@ function FormationPage() {
 
   // Utilisez "formation" pour accéder aux détails de la formation
   return (
-    <div className="formation-container">  {/* Utilisez la classe CSS ici */}
-        <h1>{formation.header.title}</h1>
-        <h2>{formation.header.subtitle}</h2>
-        <img src={formation.header.imagePath} alt={formation.header.imageAltText} />
-        <p>{formation.header.description}</p>
-
-        <h3>{formation.objectives.title}</h3>
-        <ul>
-          {formation.objectives.list.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
+    <div>  
+      <FormationHeader />
+      <div className="texte">
+        <p>hello </p>
+      </div>
     </div>
   );
           }
