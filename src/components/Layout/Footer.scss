@@ -1,4 +1,4 @@
-
+@import '../../style/settings.scss';
 
 .footer{
     background:#4F4F4F ;
@@ -9,7 +9,7 @@
     
 
         a{
-            color: white;
+            color:white;
             text-decoration: none;
             margin: 5px;
             font-size: 14px;
@@ -41,7 +41,7 @@
                 width: 70%;
                 border-radius: 21px;
                 border: none;
-                background: #7874C7;
+                background: $color-principale;
                 color: white;
 
                 img{
