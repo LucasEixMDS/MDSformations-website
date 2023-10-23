@@ -3,12 +3,17 @@
         "id": "0001",
         "formationLink" : "reflexologie",
         "colorFormation" : "#64B768",
+        "emoji" : "🦶",
         "header": {
             "title": "Réflexologue",
             "subtitle": "Découvrez le chemin vers l'épanouissement : devenez réflexologue",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/reflexologue.png",
             "imageAltText": "Révélez votre potentiel en réflexologie",
-            "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps? Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ? Alors, ne cherchez plus ! Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être."
+            "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps ? ",
+            "description2" : "Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ? Alors, ne cherchez plus !",
+            "description3" : "Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être.",
+            "description4" : "",
+            "description5" : ""
         },
         "objectives": {
             "title": "Après notre formation au métier de réflexologue, vous serez capable de :",
@@ -101,11 +106,13 @@
     {
         "id": "0002",
         "formationLink": "masseur-professionnel",
+        "colorFormation" : "#CF836C",
+        "emoji" : "🦶",
         "header": {
             "title": "Massage",
             "subtitle": "Embarquez pour une carrière relaxante en devenant masseur professionnel",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/massage.png",
-            "imageAltText": "Développez votre art du toucher avec notre formation en massage",
+            "imageAltText": "Développez votre art du toucher",
             "description": "Vous êtes fasciné par les techniques de relaxation et le pouvoir de guérison du toucher? Souhaitez-vous transformer votre passion en une carrière où vous aiderez les autres à trouver la tranquillité et le bien-être physique? Notre formation en massage est le tremplin idéal pour lancer votre parcours professionnel dans ce domaine thérapeutique."
         },
         "objectives": {
@@ -196,6 +203,8 @@
     {
         "id": "0003",
         "formationLink": "prothesie-ongulaire-en-ligne",
+        "colorFormation" : "#8A88C1",
+        "emoji" : "🦶",
         "header": {
             "title": "Prothésie Ongulaire en ligne",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -291,6 +300,8 @@
     {
         "id": "0004",
         "formationLink": "prothesie-ongulaire-en-centre",
+        "colorFormation" : "#8A88C1",
+        "emoji" : "🦶",
         "header": {
             "title": "Prothésie Ongulaire en centre",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -386,6 +397,8 @@
     {
         "id": "0005",
         "formationLink": "massage-du-monde",
+        "colorFormation" : "#F28B23",
+        "emoji" : "🦶",
         "header": {
             "title": "Massages à la Carte",
             "subtitle": "Personnalisez votre parcours d'apprentissage avec nos modules de massage sur mesure",
@@ -481,6 +494,8 @@
     {
         "id": "0006",
         "formationLink": "maquillage-permanent",
+        "colorFormation" : "#E9464F",
+        "emoji" : "🦶",
         "header": {
             "title": "Maquillage Permanent",
             "subtitle": "Entrez dans l'art du tatouage cosmétique et révolutionnez votre carrière",
@@ -576,6 +591,8 @@
     {
         "id": "0007",
         "formationLink": "extension-de-cils",
+        "colorFormation" : "#F195A8",
+        "emoji" : "🦶",
         "header": {
             "title": "Extension de Cils",
             "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
@@ -672,6 +689,8 @@
     {
         "id": "0008",
         "formationLink": "fpa",
+        "colorFormation" : "#FECA35",
+        "emoji" : "🦶",
         "header": {
             "title": "Formateur pour Adultes",
             "subtitle": "Devenez un pédagogue innovant dans l'univers de la formation d'adultes",
@@ -768,7 +787,9 @@
     },
     {
         "id": "0009",
-        "formationLink": "sst",
+        "formationLink": "fo",
+        "colorFormation" : "#F28B23",
+        "emoji" : "🦶",
         "header": {
             "title": "Formateur Occasionnel",
             "subtitle": "Lancez votre parcours de formateur avec notre programme intensif",
@@ -838,7 +859,9 @@
     },
     {
         "id": "0010",
-        "formationLink": "sauveteur-secouriste-travail",
+        "formationLink": "sst",
+        "colorFormation" : "#A8BCC0",
+        "emoji" : "🦶",
         "header": {
             "title": "Sauveteur Secouriste du Travail (SST)",
             "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",

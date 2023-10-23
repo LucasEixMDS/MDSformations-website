@@ -17,7 +17,7 @@ function FormationHeader() {
         backgroundImage: `url(${formation.header.imagePath})`,};
 
         const colorStyle = {
-            background: '#64B768', // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
+            background: formation.colorFormation, // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
         };
 
     return (
@@ -31,11 +31,11 @@ function FormationHeader() {
                     <div className="formation_header_modal_left">
                         <div className="formation_header_modal_left_top">
                             <div className="reflect">
-                                <p>🤔</p>
+                                <p>{formation.emoji}</p>
                             </div>
                         </div>
                             <div className="formation_header_modal_left_mid">
-                                <h2>Quelles formations est faites pour moi ? </h2>
+                                <h2>{formation.header.imageAltText}</h2>
                             </div>
                         <div className="button">
                             <Link to="/documentation">
