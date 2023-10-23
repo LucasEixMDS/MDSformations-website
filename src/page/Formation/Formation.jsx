@@ -5,6 +5,8 @@ import FormationHeader from './formation_components/formation_header/formation_h
 import Carrousel_inscription from "./formation_components/formation_caroussel/Caroussel_inscription";
 import FormationDescription from "./formation_components/formation_description_metier/FormationDescription"
 import Formation_metier from "./formation_components/formation_description_metier/Formation_metier";
+import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion"
+
 
 function FormationPage() {
   const { formationLink } = useParams();  // Récupère le lien de la formation depuis l'URL
@@ -27,6 +29,7 @@ function FormationPage() {
       <div className="formation_metier">
         <Formation_metier formation={formation} svgColor={formation.colorFormation} /> 
       </div>
+      <HomeCadreQuestion />
     </div>
   );
           }

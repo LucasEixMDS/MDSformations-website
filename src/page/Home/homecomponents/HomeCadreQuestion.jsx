@@ -10,7 +10,7 @@ const Question = () => {
                 <h3>Vous avez des questions ? </h3>
                 <h3>Vous souhaitez découvrir une formation en détails ? </h3>
                 <button className="button_webinaire">Participer au Webinaire</button>
-                <button className="button_savoir">En savoir +</button>
+                
             
             </div>
         </div>
