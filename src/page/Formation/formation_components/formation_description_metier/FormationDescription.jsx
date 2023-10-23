@@ -1,4 +1,4 @@
-import "./formation_description.scss"
+import "./formationDescription.scss"
 import PropTypes from 'prop-types';
 
 function FormationDescription({formation}) {

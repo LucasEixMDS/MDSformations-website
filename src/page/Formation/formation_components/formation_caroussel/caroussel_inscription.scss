@@ -1,6 +1,10 @@
 @import '../../../../style/settings.scss';
+
+
 .formation_description { 
-    margin-bottom: 50px !important;
+    padding-bottom: 50px !important;
+    background-color:#F2F2F2;
+
 .slider-inscription {
     position: relative;
     width: 110%;
@@ -111,7 +115,7 @@
         width: 90%;
         height: 15px; // Ajustez la hauteur comme vous le souhaitez
         border-radius: 10px;
-        background: #F2F2F2;
+        background: #ffffff;
     
     
     .prog-bar-inscription-inner {

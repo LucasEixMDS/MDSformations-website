@@ -1,0 +1,32 @@
+.formation_metier{
+    background: white;
+    padding: 10px;
+
+    h3{
+        font-size: 20px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        
+      
+        li {
+            margin: 10px 0px 10px 0px;
+            color: var(--Gris, #4F4F4F);
+            display: flex;
+            
+            p{
+                padding-left: 10px ;
+                font-size: 15px;
+                font-family: 'poppins-light';
+                width: 80%;
+            
+            }
+        }
+    }
+}
