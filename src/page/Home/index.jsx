@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <Question />
             <div className="home">
-            <h3>obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
             <CarrouselFormation filterValues={['certification']} />
             <button className="button_webinaire">Toutes nos formations certifiantes</button>
             </div>

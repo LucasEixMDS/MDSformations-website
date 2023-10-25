@@ -26,9 +26,11 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "80 €",
             "examFee": "120 €",
             "paymentOption": "sans frais supplémentaires",
+            "financementPerso" : "5400 €",
             "block1": "3 100 €",
             "block2": "2 700 €",
             "block3": "850 €",
@@ -126,6 +128,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "90 €",
             "examFee": "150 €",
             "paymentOption": "sans frais supplémentaires",
@@ -223,6 +226,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "100 €",
             "examFee": "180 €",
             "paymentOption": "sans frais supplémentaires",
@@ -320,6 +324,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "100 €",
             "examFee": "180 €",
             "paymentOption": "sans frais supplémentaires",
@@ -417,6 +422,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "50 €",
             "examFee": "100 €",
             "paymentOption": "selon le nombre de modules choisis",
@@ -514,6 +520,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "150 €",
             "examFee": "200 €",
             "paymentOption": "possibilité de paiement échelonné",
@@ -611,6 +618,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "100 €",
             "examFee": "150 €",
             "paymentOption": "paiements échelonnés disponibles",
@@ -709,6 +717,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "150 €",
             "examFee": "200 €",
             "paymentOption": "options de paiement flexibles",
@@ -808,6 +817,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "50 €",
             "examFee": "100 €",
             "paymentOption": "paiement intégral",
@@ -880,6 +890,7 @@
             ]
         },
         "pricing": {
+            "completForm" : "7 000 €",
             "registrationFee": "30 €",
             "examFee": "0 €",
             "paymentOption": "Paiement unique",

@@ -6,8 +6,9 @@ import Carrousel_inscription from "./formation_components/formation_caroussel/Ca
 import FormationDescription from "./formation_components/formation_description_metier/FormationDescription"
 import Formation_metier from "./formation_components/formation_description_metier/Formation_metier";
 import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion"
-import Caroussel_financement from "./formation_components/formation_caroussel/CarousselPointFort"
+import Caroussel_pointfort from "./formation_components/formation_caroussel/CarousselPointFort"
 import pouceHaut from "../../assets/pouceHaut.svg"
+import Formation_financement from "./formation_components/formation_financement/Formation_financement";
 
 
 function FormationPage() {
@@ -29,11 +30,11 @@ function FormationPage() {
     <div className="page_formation">  
       <FormationHeader formation={formation} />
       <div className="formation_container">
-        <FormationDescription formation={formation}/>
-        <Carrousel_inscription formation={formation}/>
+      <FormationDescription formation={formation}/>
+      <Carrousel_inscription formation={formation}/>
       </div>
       <div className="formation_metier">
-        <Formation_metier formation={formation} svgColor={formation.colorFormation} /> 
+      <Formation_metier formation={formation} svgColor={formation.colorFormation} /> 
       </div>
       <HomeCadreQuestion />
       <div className="formation_container">
@@ -43,8 +44,9 @@ function FormationPage() {
         <img src={pouceHaut} alt="emoji d'un pouce vers le haut avec le point fermé" />
         </div>
         </div>
-      <Caroussel_financement formation={formation}/>
+        <Caroussel_pointfort formation={formation}/>
       </div>
+      <Formation_financement formation={formation} />
     </div>
   );
           }
