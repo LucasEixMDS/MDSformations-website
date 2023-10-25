@@ -6,6 +6,8 @@ import Carrousel_inscription from "./formation_components/formation_caroussel/Ca
 import FormationDescription from "./formation_components/formation_description_metier/FormationDescription"
 import Formation_metier from "./formation_components/formation_description_metier/Formation_metier";
 import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion"
+import Caroussel_financement from "./formation_components/formation_caroussel/CarousselPointFort"
+import pouceHaut from "../../assets/poucehaut.svg"
 
 
 function FormationPage() {
@@ -18,11 +20,15 @@ function FormationPage() {
       return <div>Formation introuvable</div>;
   }
 
+  const colorStyle = {
+    color: formation.colorFormation, // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
+};
+
   // Utilisez "formation" pour accéder aux détails de la formation
   return (
     <div className="page_formation">  
       <FormationHeader formation={formation} />
-      <div className="formation_description">
+      <div className="formation_container">
         <FormationDescription formation={formation}/>
         <Carrousel_inscription formation={formation}/>
       </div>
@@ -30,6 +36,15 @@ function FormationPage() {
         <Formation_metier formation={formation} svgColor={formation.colorFormation} /> 
       </div>
       <HomeCadreQuestion />
+      <div className="formation_container">
+        <div className="formation_pointfort">
+        <h3 style={colorStyle}>Nos points forts</h3>
+        <div className="modal_emoji">
+        <img src={pouceHaut} alt="emoji d'un pouce vers le haut avec le point fermé" />
+        </div>
+        </div>
+      <Caroussel_financement formation={formation}/>
+      </div>
     </div>
   );
           }

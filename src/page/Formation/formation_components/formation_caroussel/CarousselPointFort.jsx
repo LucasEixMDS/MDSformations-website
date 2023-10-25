@@ -1,10 +1,10 @@
 import './caroussel_inscription.scss';
 import { useRef, useState, useEffect } from 'react';
-import rawData from "../../../../json/CarousselInscription.json";
+import rawData from "../../../../json/CarousselPointFort.json";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-function CarrouselInscription({ filterValues = [], formation }) {
+function CarrouselFinancement({ filterValues = [], formation }) {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
@@ -99,9 +99,9 @@ function CarrouselInscription({ filterValues = [], formation }) {
     );
 }
 
-CarrouselInscription.propTypes = {
+CarrouselFinancement.propTypes = {
     filterValues: PropTypes.arrayOf(PropTypes.string),
     formation: PropTypes.object
 };
 
-export default CarrouselInscription;
+export default CarrouselFinancement;

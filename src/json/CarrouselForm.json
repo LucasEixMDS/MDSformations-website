@@ -29,7 +29,16 @@
     {
         "id" : "002",
         "idElement" :["formation"],
-        "formationLink" : "prothesie-ongulaire",
+        "formationLink" : "prothesie-ongulaire-en-ligne",
+        "icon" : "💅",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.png",
+        "text" : "Prothesiste ongulaire 100% en ligne",
+        "buttonColor" : "#B6B4FF"
+    },
+    {
+        "id" : "006",
+        "idElement" :["formation"],
+        "formationLink" : "prothesie-ongulaire-en-centre",
         "icon" : "💅",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.png",
         "text" : "Prothesiste ongulaire",
