@@ -7,7 +7,7 @@ import FormationDescription from "./formation_components/formation_description_m
 import Formation_metier from "./formation_components/formation_description_metier/Formation_metier";
 import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion"
 import Caroussel_financement from "./formation_components/formation_caroussel/CarousselPointFort"
-import pouceHaut from "../../assets/poucehaut.svg"
+import pouceHaut from "../../assets/pouceHaut.svg"
 
 
 function FormationPage() {
