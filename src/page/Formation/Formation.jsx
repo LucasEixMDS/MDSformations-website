@@ -9,7 +9,7 @@ import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion"
 import Caroussel_pointfort from "./formation_components/formation_caroussel/CarousselPointFort"
 import pouceHaut from "../../assets/pouceHaut.svg"
 import Formation_financement from "./formation_components/formation_financement/Formation_financement";
-
+import Formation_cadre from "./formation_components/formation_cadreFinancement/formation_cadreFinancement"
 
 function FormationPage() {
   const { formationLink } = useParams();  // Récupère le lien de la formation depuis l'URL
@@ -47,6 +47,7 @@ function FormationPage() {
         <Caroussel_pointfort formation={formation}/>
       </div>
       <Formation_financement formation={formation} />
+      <Formation_cadre />
     </div>
   );
           }
