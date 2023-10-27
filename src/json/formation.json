@@ -4,6 +4,7 @@
         "formationLink" : "reflexologie",
         "colorFormation" : "#64B768",
         "emoji" : "🦶",
+        "hasPlannings": true,
         "header": {
             "title": "Réflexologue",
             "subtitle": "Découvrez le chemin vers l'épanouissement : devenez réflexologue",
@@ -150,6 +151,7 @@
         "formationLink": "masseur-professionnel",
         "colorFormation" : "#CF836C",
         "emoji" : "🦶",
+        "hasPlannings": true,
         "header": {
             "title": "Massage",
             "subtitle": "Embarquez pour une carrière relaxante en devenant masseur professionnel",
@@ -217,14 +219,44 @@
             ]
         },
 
-        "plannings" : {
-            "dateFirst" : "03 avril 2023 au 22 avril 2024",
-            "dateSecond" : "14 sept. 2023 au 22 nov. 2024",
-            "list" : [
-                "Oudon",
-                "Saintes",
-                "Tours",
-                "Rennes"
+        "plannings": {
+            "dateFirst": "03 avril 2023 au 22 avril 2024",
+            "dateSecond": "14 sept. 2023 au 22 nov. 2024",
+            "list1": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonavril.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintesavril.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/toursavril.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennesavril.pdf"
+                }
+            ],
+            "list2": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonsept.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintessept.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/tourssept.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennessept.pdf"
+                }
             ]
         },
         "articleTitle": "Plongez dans l'univers du massage professionnel et forgez votre succès avec les témoignages de nos anciens élèves !",
@@ -259,6 +291,7 @@
         "formationLink": "prothesie-ongulaire-en-ligne",
         "colorFormation" : "#8A88C1",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Prothésie Ongulaire en ligne",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -357,6 +390,7 @@
         "formationLink": "prothesie-ongulaire-en-centre",
         "colorFormation" : "#8A88C1",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Prothésie Ongulaire en centre",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -455,6 +489,7 @@
         "formationLink": "massage-du-monde",
         "colorFormation" : "#F28B23",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Massages à la Carte",
             "subtitle": "Personnalisez votre parcours d'apprentissage avec nos modules de massage sur mesure",
@@ -553,6 +588,7 @@
         "formationLink": "maquillage-permanent",
         "colorFormation" : "#E9464F",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Maquillage Permanent",
             "subtitle": "Entrez dans l'art du tatouage cosmétique et révolutionnez votre carrière",
@@ -651,6 +687,7 @@
         "formationLink": "extension-de-cils",
         "colorFormation" : "#F195A8",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Extension de Cils",
             "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
@@ -750,6 +787,7 @@
         "formationLink": "fpa",
         "colorFormation" : "#FECA35",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Formateur pour Adultes",
             "subtitle": "Devenez un pédagogue innovant dans l'univers de la formation d'adultes",
@@ -850,6 +888,7 @@
         "formationLink": "fo",
         "colorFormation" : "#F28B23",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Formateur Occasionnel",
             "subtitle": "Lancez votre parcours de formateur avec notre programme intensif",
@@ -923,6 +962,7 @@
         "formationLink": "sst",
         "colorFormation" : "#A8BCC0",
         "emoji" : "🦶",
+        "hasPlannings": false,
         "header": {
             "title": "Sauveteur Secouriste du Travail (SST)",
             "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",

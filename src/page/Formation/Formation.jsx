@@ -27,6 +27,7 @@ function FormationPage() {
   const colorStyle = {
     color: formation.colorFormation, // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
 };
+const showPlannings = formation.hasPlannings;
 
   // Utilisez "formation" pour accéder aux détails de la formation
   return (
@@ -51,7 +52,7 @@ function FormationPage() {
       </div>
       <Formation_financement formation={formation} />
       <Formation_cadre />
-      <Formation_plannings formation={formation} /> 
+      {showPlannings && <Formation_plannings formation={formation} />}
     </div>
   );
           }
