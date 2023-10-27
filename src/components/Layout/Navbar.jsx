@@ -32,13 +32,21 @@ function Navbar() {
 		"Accompagnement" : [ "Nos formations certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
     };
 
-
+    const resetMenuState = () => {
+        setActiveMenu(null);
+        setSubMenu([]);
+        setCurrentSubMenuTitle(null);
+    };
 
     const showNavbar = () => {
+        if (!navRef.current.classList.contains("responsive_nav")) {
+            resetMenuState(); // Réinitialiser les états si la navbar n'est pas ouverte
+        }
         navRef.current.classList.toggle("responsive_nav");
     };
     const closeNavbar = () => {
         navRef.current.classList.remove("responsive_nav");
+        // Nous ne réinitialisons plus l'état ici
     };
 
     const handleMenuClick = (menuName, e) => {
@@ -48,17 +56,24 @@ function Navbar() {
             setSubMenu(menus[menuName]);
             setCurrentSubMenuTitle(null); // Reset sub-sub-menu title
         } else {
-            closeNavbar(); // Si le menu n'a pas de sous-menu, fermez la navbar
+            // Si le menu cliqué n'a pas de sous-menus, fermez la navbar
+            // et réinitialisez l'état du menu à ses valeurs par défaut
+            closeNavbar();
+            resetMenuState();  // Réinitialisation de l'état
         }
     };
-    
+
+    // Cette fonction gère les clics sur les éléments du sous-menu
     const handleSubMenuClick = (submenuName, e) => {
         if (subMenus[submenuName]) {
             e.preventDefault();
             setCurrentSubMenuTitle(submenuName);
             setSubMenu(subMenus[submenuName]);
         } else {
-            closeNavbar(); // Si le sous-menu n'a pas de sous-sous-menu, fermez la navbar
+            // Si le sous-menu cliqué n'a pas de sous-sous-menus, fermez la navbar
+            // et réinitialisez l'état du menu à ses valeurs par défaut
+            closeNavbar();
+            resetMenuState();  // Réinitialisation de l'état
         }
     };
 
