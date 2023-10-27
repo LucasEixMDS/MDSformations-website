@@ -79,14 +79,44 @@
         },
         "articleTitle": "Explorez la carrière passionnante de réflexologue et découvrez le succès à travers les yeux d'un ancien stagiaire!",
 
-        "plannings" : {
-            "dateFirst" : "03 avril 2023 au 22 avril 2024",
-            "dateSecond" : "14 sept. 2023 au 22 nov. 2024",
-            "list" : [
-                "Oudon",
-                "Saintes",
-                "Tours",
-                "Rennes"
+        "plannings": {
+            "dateFirst": "03 avril 2023 au 22 avril 2024",
+            "dateSecond": "14 sept. 2023 au 22 nov. 2024",
+            "list1": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonavril.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintesavril.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/toursavril.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennesavril.pdf"
+                }
+            ],
+            "list2": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonsept.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintessept.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/tourssept.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennessept.pdf"
+                }
             ]
         },
         "jobsAfterTraining": {

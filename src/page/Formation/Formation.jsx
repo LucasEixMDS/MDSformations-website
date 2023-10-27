@@ -10,6 +10,7 @@ import Caroussel_pointfort from "./formation_components/formation_caroussel/Caro
 import pouceHaut from "../../assets/pouceHaut.svg";
 import Formation_financement from "./formation_components/formation_financement/Formation_financement";
 import Formation_cadre from "./formation_components/formation_cadreFinancement/formation_cadreFinancement";
+import Formation_plannings from "./formation_components/formation_plannings/Formation_plannings";
 
 
 
@@ -50,7 +51,7 @@ function FormationPage() {
       </div>
       <Formation_financement formation={formation} />
       <Formation_cadre />
-     
+      <Formation_plannings formation={formation} /> 
     </div>
   );
           }

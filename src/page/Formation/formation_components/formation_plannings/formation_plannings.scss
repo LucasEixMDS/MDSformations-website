@@ -1,0 +1,28 @@
+.plannings-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f2f2f2;
+    padding: 20px;
+
+    p{
+        font-family: "poppins-light";
+        color: #686666;
+        margin-top: 10px;
+    }
+
+    .plannings-list{
+        margin-top: 10px;
+    
+    button{
+        border: none;
+        border-radius: 100px;
+        color:white;
+        display: inline-flex;
+        padding: 2px 16px 2px 16px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+}
