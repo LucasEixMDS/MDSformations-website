@@ -11,6 +11,7 @@ import pouceHaut from "../../assets/pouceHaut.svg";
 import Formation_financement from "./formation_components/formation_financement/Formation_financement";
 import Formation_cadre from "./formation_components/formation_cadreFinancement/formation_cadreFinancement";
 import Formation_plannings from "./formation_components/formation_plannings/Formation_plannings";
+import Components_plateforme from "./formation_components/formation_caroussel/Components_plateforme";
 
 
 
@@ -53,6 +54,7 @@ const showPlannings = formation.hasPlannings;
       <Formation_financement formation={formation} />
       <Formation_cadre />
       {showPlannings && <Formation_plannings formation={formation} />}
+      <Components_plateforme formation={formation}/>
     </div>
   );
           }
