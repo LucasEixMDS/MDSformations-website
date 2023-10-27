@@ -1,7 +1,7 @@
 import {  Nav } from 'react-bootstrap';
 import logo from "../../assets/logoMDSblanc.svg"
 import mobile from "../../assets/mobileBlanc.svg"
-import qualiopi from "../../assets/qualiopiLogo.png"
+import qualiopi from "https://mdsformations-website-u5520.vm.elestio.app/qualiopi.webp"
 import "./Footer.scss";
 import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'

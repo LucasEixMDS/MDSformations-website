@@ -32,6 +32,18 @@ function Navbar() {
 		"Accompagnement" : [ "Nos formations certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
     };
 
+    const slugify = (str) => {
+        return str
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/[^\w\-]+/g, '')
+            .replace(/\-\-+/g, '-')
+            .replace(/^-+/, '')
+            .replace(/-+$/, '');
+    }
+
     const resetMenuState = () => {
         setActiveMenu(null);
         setSubMenu([]);
@@ -85,47 +97,52 @@ function Navbar() {
     return (
         <header>
             <Link to="/" >
-            <h3> <img src={logo} alt="" /> </h3>
+                <h3> <img src={logo} alt="" /> </h3>
             </Link>
             <div className="rightMenu">
                 <img src={mobile} alt="" />
                 <img src={loupe} alt="" />
-				<nav ref={navRef}>
-                {!activeMenu && Object.keys(menus).map((menuName) => (
-                    <Link 
-                        to={`/${menuName.toLowerCase().replace(/ /g, "-")}`} 
-                        key={menuName} 
-                        onClick={(e) => handleMenuClick(menuName, e)}>
-                            {menuName} 
-                            {hasSubMenus(menuName) && <img className='svgplus' src={plus} alt="plus" />}
-                    </Link>
-                ))}
-
-                {activeMenu && (
-                    <>
+                <nav ref={navRef}>
+                    {!activeMenu && Object.keys(menus).map((menuName) => (
                         <Link 
-							to={`/${(currentSubMenuTitle || activeMenu).toLowerCase().replace(/ /g, "-")}`} 
-							onClick={(e) => { e.preventDefault(); setActiveMenu(null); setSubMenu([]); setCurrentSubMenuTitle(null); }}
-							style={{ color: hasSubMenus(currentSubMenuTitle || activeMenu) ? '#7874C7' : 'inherit' }}>
-								{currentSubMenuTitle || activeMenu} 
-								<img src={minus} alt="minus" />
-						</Link>
-                        
-                        {subMenu.map(sub => (
+                            to={`/${slugify(menuName)}`} 
+                            key={menuName} 
+                            onClick={(e) => handleMenuClick(menuName, e)}>
+                                {menuName} 
+                                {hasSubMenus(menuName) && <img className='svgplus' src={plus} alt="plus" />}
+                        </Link>
+                    ))}
+    
+                    {activeMenu && (
+                        <>
                             <Link 
-								to={`/${sub.toLowerCase().replace(/ /g, "-")}`} 
-								key={sub} 
-								onClick={(e) => handleSubMenuClick(sub, e)}
-								style={{ color: hasSubMenus(sub) && currentSubMenuTitle === sub ? '#7874C7' : 'inherit' }}>
-									{sub}
-								{hasSubMenus(sub) && (currentSubMenuTitle === sub ? 
-									<img src={minus} alt="minus" /> : 
-									<img className='svgplus' src={plus} alt="plus" />)}
-						</Link>
-                        ))}
-                    </>
-                )}
-
+                                to={`/${slugify(currentSubMenuTitle || activeMenu)}`} 
+                                onClick={(e) => { 
+                                    e.preventDefault(); 
+                                    setActiveMenu(null); 
+                                    setSubMenu([]); 
+                                    setCurrentSubMenuTitle(null); 
+                                }}
+                                style={{ color: hasSubMenus(currentSubMenuTitle || activeMenu) ? '#7874C7' : 'inherit' }}>
+                                    {currentSubMenuTitle || activeMenu} 
+                                    <img src={minus} alt="minus" />
+                            </Link>
+                            
+                            {subMenu.map(sub => (
+                                <Link 
+                                    to={`/${slugify(sub)}`} 
+                                    key={sub} 
+                                    onClick={(e) => handleSubMenuClick(sub, e)}
+                                    style={{ color: hasSubMenus(sub) && currentSubMenuTitle === sub ? '#7874C7' : 'inherit' }}>
+                                        {sub}
+                                    {hasSubMenus(sub) && (currentSubMenuTitle === sub ? 
+                                        <img src={minus} alt="minus" /> : 
+                                        <img className='svgplus' src={plus} alt="plus" />)}
+                                </Link>
+                            ))}
+                        </>
+                    )}
+    
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                         <img src={close} alt="" />
                     </button>
