@@ -13,6 +13,7 @@ import Formation_cadre from "./formation_components/formation_cadreFinancement/f
 import Formation_plannings from "./formation_components/formation_plannings/Formation_plannings";
 import Components_plateforme from "./formation_components/formation_caroussel/Components_plateforme";
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
+import Formation_metierVise from "./formation_components/formation_metierVise/formation_metierVise"
 
 
 
@@ -57,6 +58,7 @@ const showPlannings = formation.hasPlannings;
       {showPlannings && <Formation_plannings formation={formation} />}
       <Components_plateforme formation={formation}/>
       <HomeCadreTestformation />
+      <Formation_metierVise formation={formation} />
     </div>
   );
           }
