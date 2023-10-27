@@ -1,9 +1,23 @@
+@font-face {
+    font-family: 'homeMade';
+    src: url('../../../font/Poppins/Schoolbell-Regular.ttf') format("truetype") ;
+
+}
 .plannings-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
     background: #f2f2f2;
     padding: 20px;
+
+    h2{
+        span{
+            color: grey !important;
+            font-size: 10px;
+            font-family: "homeMade" !important;
+            padding-left: 10px;
+        }
+    }
 
     p{
         font-family: "poppins-light";

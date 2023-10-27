@@ -220,42 +220,18 @@
         },
 
         "plannings": {
-            "dateFirst": "03 avril 2023 au 22 avril 2024",
-            "dateSecond": "14 sept. 2023 au 22 nov. 2024",
+            "dateFirst": "04 septembre 2023 au 19 janvier 2024",
+            "dateSecond": "04 mars 2024 au 11 juillet 2024",
             "list1": [
                 {
                     "name": "Oudon",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonavril.pdf"
-                },
-                {
-                    "name": "Saintes",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintesavril.pdf"
-                },
-                {
-                    "name": "Tours",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/toursavril.pdf"
-                },
-                {
-                    "name": "Rennes",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennesavril.pdf"
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonseptmassage.pdf"
                 }
             ],
             "list2": [
                 {
                     "name": "Oudon",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonsept.pdf"
-                },
-                {
-                    "name": "Saintes",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintessept.pdf"
-                },
-                {
-                    "name": "Tours",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/tourssept.pdf"
-                },
-                {
-                    "name": "Rennes",
-                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennessept.pdf"
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonmarsmassage.pdf"
                 }
             ]
         },

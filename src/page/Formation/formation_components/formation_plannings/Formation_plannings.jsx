@@ -25,7 +25,7 @@ const Formation_plannings = ({ formation }) => {
 
     return (
         <div className="plannings-container">
-            <h2 style={colorStyle}>Plannings</h2>
+            <h2 style={colorStyle}>Plannings <span>Cliquez sur la ville pour télécharger</span></h2>
             <p>Cursus du <span style={colorStyle}>{plannings.dateFirst}</span></p> {/* affiche la première date */}
             <div className="plannings-list">
                 {/* Ici, je suppose que "list1" est un tableau valide dans votre objet "plannings". */}
