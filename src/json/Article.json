@@ -2,7 +2,7 @@
     {
         "id" : "001",
         "articleLink" :  "/articles/comment-se-former-à-la-reflexologie",
-        "backgroundImage": "https://mdsformations-website-u5520.vm.elestio.app/hommeviolet.png",
+        "backgroundImage": "https://mdsformations-website-u5520.vm.elestio.app/hommeviolet.webp",
         "titreh1" : "Découvrez le métier de réflexologue :",
         "titreh2" : "Une voie épanouissante dans le domaine du bien-être",
         "formatrice": {
@@ -34,7 +34,7 @@
     {
         "id" : "002",
         "articleLink" :  "/articles/comment-devenir-masseur",
-        "backgroundImage" : "https://mdsformations-website-u5520.vm.elestio.app/femmebleu.png",
+        "backgroundImage" : "https://mdsformations-website-u5520.vm.elestio.app/femmebleu.webp",
         "titreh1" : "Comment devenir masseur(se) ? :",
         "titreh2" : "Une voie épanouissante",
         "formatrice": {
@@ -66,7 +66,7 @@
     {
         "id" : "003",
         "articleLink" :  "/articles/comment-financer-une-formation",
-        "backgroundImage" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.png",
+        "backgroundImage" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.webp",
         "titreh1" : "Comment financer une formation ?",
         "titreh2" : "Une voie épanouissante",
         "formatrice": {

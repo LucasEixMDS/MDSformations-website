@@ -13,7 +13,7 @@
         "idElement" :  ["certification", "formation"],
         "formationLink" : "masseur-professionnel",
         "icon" : "💆‍♀️",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massage.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massage.webp",
         "text" : "Praticien(ne) en massage",
         "buttonColor" : "#D7724F"
     },
@@ -22,7 +22,7 @@
         "idElement" : ["formation"],
         "formationLink" : "maquillage-permanent",
         "icon" : "👄",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/maquillage.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/maquillage.webp",
         "text" : "Maquillage permanent",
         "buttonColor" : "#E57996"
     },
@@ -31,7 +31,7 @@
         "idElement" :["formation"],
         "formationLink" : "prothesie-ongulaire-en-ligne",
         "icon" : "💅",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.webp",
         "text" : "Prothesiste ongulaire 100% en ligne",
         "buttonColor" : "#B6B4FF"
     },
@@ -40,7 +40,7 @@
         "idElement" :["formation"],
         "formationLink" : "prothesie-ongulaire-en-centre",
         "icon" : "💅",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.webp",
         "text" : "Prothesiste ongulaire",
         "buttonColor" : "#B6B4FF"
     },
@@ -49,7 +49,7 @@
         "idElement" :  ["certification", "formation"],
         "formationLink" : "formateur-professionnel-pour-adultes",
         "icon" : "🧑‍🏫",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/formateur.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/formateur.webp",
         "text" : "Formateur professionnel pour adultes",
         "buttonColor" : "#FFD45C"
     }

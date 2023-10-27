@@ -2,10 +2,10 @@ import Modalite from "page/Home/homecomponents/HomeModalite";
 import HomeHeader from "./HomeHeader"
 import CarrouselActu from "../../components/carrousels/CarrouselArticle/CarrouselArticle.jsx";
 import { CarrouselFormation} from "components"
-import Question from "page/Home/homecomponents/HomeCadreQuestion";
+import Question from "components/inscription/HomeCadreQuestion";
 import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
-import HomeCadreTestformation from "./homecomponents/HomeCadreTestformation";
+import HomeCadreTestformation from "../../components/inscription/HomeCadreTestformation";
 import HomePointfort from "./homecomponents/HomePointfort";
 import HomeGoogleMap from "./homecomponents/HomeGoogleMap"
 

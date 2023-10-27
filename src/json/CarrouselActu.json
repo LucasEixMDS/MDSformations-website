@@ -3,7 +3,7 @@
         "id" : "001",
         "idElement" : ["formation"],
         "articleLink": "/articles/comment-se-former-à-la-reflexologie",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/hommeviolet.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/hommeviolet.webp",
         "text" : "Comment se former à la réflexologie ?",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"
@@ -12,7 +12,7 @@
         "id" : "002",
         "idElement" : ["formation"],
         "articleLink": "/articles/comment-devenir-masseur",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmebleu.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmebleu.webp",
         "text" : "Comment devenir masseur'se ?",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"
@@ -21,7 +21,7 @@
         "id" : "003",
         "idElement" : ["formation"],
         "articleLink": "/articles/comment-financer-une-formation",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.webp",
         "text" : "Comment financer une formation ?",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"
@@ -30,7 +30,7 @@
         "id" : "004",
         "idElement" : ["formation"],
         "articleLink": "/articles/comment-financer-une-formation",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.webp",
         "text" : "Comment financer une formation ?",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"

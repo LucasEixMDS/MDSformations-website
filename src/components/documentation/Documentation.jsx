@@ -1,6 +1,6 @@
 
 import { CarrouselFormation } from "components/carrousels";
-import HomeCadreQuestion from "../../page/Home/homecomponents/HomeCadreQuestion";
+import HomeCadreQuestion from "../inscription/HomeCadreQuestion";
 import CarrouselArticle from "../carrousels/CarrouselArticle/CarrouselArticle"
 import Formulairedocumentation from "./Formulairedocumentation"
 import "./documentation.scss"

@@ -5,13 +5,14 @@ import FormationHeader from './formation_components/formation_header/formation_h
 import Carrousel_inscription from "./formation_components/formation_caroussel/Caroussel_inscription";
 import FormationDescription from "./formation_components/formation_description_metier/FormationDescription"
 import Formation_metier from "./formation_components/formation_description_metier/Formation_metier";
-import HomeCadreQuestion from "../Home/homecomponents/HomeCadreQuestion";
+import HomeCadreQuestion from "../../components/inscription/HomeCadreQuestion";
 import Caroussel_pointfort from "./formation_components/formation_caroussel/CarousselPointFort"
 import pouceHaut from "../../assets/pouceHaut.svg";
 import Formation_financement from "./formation_components/formation_financement/Formation_financement";
 import Formation_cadre from "./formation_components/formation_cadreFinancement/formation_cadreFinancement";
 import Formation_plannings from "./formation_components/formation_plannings/Formation_plannings";
 import Components_plateforme from "./formation_components/formation_caroussel/Components_plateforme";
+import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
 
 
 
@@ -55,6 +56,7 @@ const showPlannings = formation.hasPlannings;
       <Formation_cadre />
       {showPlannings && <Formation_plannings formation={formation} />}
       <Components_plateforme formation={formation}/>
+      <HomeCadreTestformation />
     </div>
   );
           }
