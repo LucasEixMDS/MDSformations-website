@@ -40,7 +40,10 @@ function Navbar() {
         "extension de cils" : "/extension-de-cils",
         "Réflexologie" : "/reflexologue",
         "masseur professionnel" : "/masseur-professionnel",
-        "massage du monde" : "massage-du-monde",
+        "massage du monde" : "/massage-du-monde",
+        "SST": "/sst",
+        "FPA": "/fpa",
+        "FO": "/fo",
     };
 
     const submenuTags = {
