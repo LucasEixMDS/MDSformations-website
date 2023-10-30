@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+@import "../../style/settings.scss";
+
 
 * {
 	padding: 0;
@@ -60,6 +62,21 @@ header {
 
 			&:hover {
 				color: $textColor;
+			}
+
+			button{
+				display: inline-flex;
+				height: 21px;
+				padding: 2px 16px;
+				justify-content: center;
+				color: white;
+				border: none;
+				border-radius:70px ;
+				align-items: center;
+				gap: 10px;
+				flex-shrink: 0;
+				background-color: #7BC8CB;
+				margin-left: 5px;
 			}
 
 			

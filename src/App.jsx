@@ -6,7 +6,7 @@ import Inscription from "./components/inscription/Inscription"
 import Documentation from "./components/documentation/Documentation"
 import ArticlePage from "./page/Article/Article"
 import FormationPage from "./page/Formation/Formation.jsx";
-
+import Error404 from "page/Error404/Error404";
 
 const App = () => {
   return (
@@ -14,11 +14,12 @@ const App = () => {
        <ScrollToTop />
       <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="/articles/:articleTitle" element={<ArticlePage />} />
+        <Route path="/articles/:articleLink" element={<ArticlePage />} />
         <Route path="/:formationLink" element={<FormationPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
+          <Route  element={<Error404 /> } />
           </Route>
       </Routes>
     </BrowserRouter>

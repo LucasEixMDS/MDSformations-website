@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import logo from "../../assets/logoMDS.svg";
 import menu from "../../assets/menu.svg";
@@ -18,19 +19,44 @@ function Navbar() {
 
 
     const menus = {
-        "Nos formations ": ["ongles", "visages", "corps", "tertiaire"],
-        "Orientation ": ["Quelle formation est faite pour vous ?", "besoin d'être accompagné ?", "Devis & inscription", "Comment s'inscrire en formation ?"],
-        "Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Formation professionnel"],
-        "Chez MDS ": ["Accompagnement", "Notre équipe", "Hébergement", "elearning", "Accessibilités"]
+        "Nos formations ": ["ongles", "visages", "corps", "tertiaire", "👩‍🎓 Les formations diplômantes", "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP","Toutes les formations", "Trouvez votre formations idéal !"],
+        "Orientation ": ["Quelle formation est faite pour vous ?", "besoin d'être accompagné ?", "Devis & inscription", "Comment s'inscrire en formation ?", "Les différents financements", "réorientation professionnelle", "La VAE et la VAP", "Comment utiliser votre CPF ?", "Paiement en plusieurs mensualités" ],
+        "Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Carrière", "Formation professionnel" ],
+        "Chez MDS ": ["Accompagnement", "Notre équipe pédagogique", "Hébergement", "Formation à distance", "Accessibilités & handicap", "Devenir modèle", "Rejoindre MDS"]
     };
 
     const subMenus = {
-        "ongles": ["prothesie ongulaire en centre", "prothesie ongulaire en ligne"],
+        "ongles": ["prothesie ongulaire", "prothesie ongulaire à distance"],
         "visages": ["maquillage permanent", "extension de cils"],
-        "corps": ["reflexologie", "masseur professionnel", "massage du monde"],
+        "corps": ["Réflexologie", "Réflexologie à distance", "masseur professionnel", "massage du monde"],
         "tertiaire": ["SST", "FPA", "FO"],
-		"Accompagnement" : [ "Nos formations certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
+		"Accompagnement" : [ "Nos formation certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
     };
+
+    const finalUrls = {
+        "prothesie ongulaire": "/prothesie-ongulaire-en-centre",
+        "prothesie ongulaire à distance": "/prothesie-ongulaire-en-ligne",
+        "maquillage permanent" : "/maquillage-permanent",
+        "extension de cils" : "/extension-de-cils",
+        "Réflexologie" : "/reflexologue",
+        "masseur professionnel" : "/masseur-professionnel",
+        "massage du monde" : "massage-du-monde",
+    };
+
+    const submenuTags = {
+        "prothesie ongulaire à distance": ["EN LIGNE"],
+        "Trouvez votre formations idéal !": ["INTERACTIF"],
+        "Quelle formation est faite pour vous ?":["INTERACTIF"],
+        "Réflexologie à distance": ["EN LIGNE"],
+        "SST": ["BIENTÖT DISPONIBLE"]
+      };
+    
+      function generateButtonsForSubmenu(submenuName) {
+        const tags = submenuTags[submenuName] || [];
+        return tags.map(tag => (
+          <button className="tagButton" key={tag}>{tag}</button>
+        ));
+      }
 
     const slugify = (str) => {
         return str
@@ -61,6 +87,8 @@ function Navbar() {
         // Nous ne réinitialisons plus l'état ici
     };
 
+    const navigate = useNavigate();
+
     const handleMenuClick = (menuName, e) => {
         if (menus[menuName]) {
             e.preventDefault();
@@ -75,17 +103,21 @@ function Navbar() {
         }
     };
 
-    // Cette fonction gère les clics sur les éléments du sous-menu
     const handleSubMenuClick = (submenuName, e) => {
         if (subMenus[submenuName]) {
             e.preventDefault();
             setCurrentSubMenuTitle(submenuName);
             setSubMenu(subMenus[submenuName]);
         } else {
-            // Si le sous-menu cliqué n'a pas de sous-sous-menus, fermez la navbar
-            // et réinitialisez l'état du menu à ses valeurs par défaut
-            closeNavbar();
-            resetMenuState();  // Réinitialisation de l'état
+            e.preventDefault(); // Ajoutez cette ligne pour empêcher la navigation par défaut.
+            if (finalUrls[submenuName]) {
+                closeNavbar();
+                resetMenuState();
+                navigate(finalUrls[submenuName]);  // Redirection effective
+            } else {
+                closeNavbar();
+                resetMenuState();
+            }
         }
     };
 
@@ -130,11 +162,12 @@ function Navbar() {
                             
                             {subMenu.map(sub => (
                                 <Link 
-                                    to={`/${slugify(sub)}`} 
+                                    to={finalUrls[sub] || `/${slugify(sub)}`} 
                                     key={sub} 
                                     onClick={(e) => handleSubMenuClick(sub, e)}
                                     style={{ color: hasSubMenus(sub) && currentSubMenuTitle === sub ? '#7874C7' : 'inherit' }}>
                                         {sub}
+                                        {generateButtonsForSubmenu(sub)}   {/* <-- Ajouté ici */}
                                     {hasSubMenus(sub) && (currentSubMenuTitle === sub ? 
                                         <img src={minus} alt="minus" /> : 
                                         <img className='svgplus' src={plus} alt="plus" />)}

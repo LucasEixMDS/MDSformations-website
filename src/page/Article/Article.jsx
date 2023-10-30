@@ -5,10 +5,10 @@ import { CarrouselFormation } from 'components';
 import CarrouselArticle from '../../components/carrousels/CarrouselArticle/CarrouselArticle'
 
 function ArticlePage() {
-    const { articleTitle } = useParams();  // Récupère le titre de l'article depuis l'URL
+    const { articleLink } = useParams();  // Récupère le titre de l'article depuis l'URL
 
     // Trouvez l'article correspondant
-    const article = articlesData.find(a => a.articleLink.endsWith(articleTitle));
+    const article = articlesData.find(a => a.articleLink.endsWith(articleLink));
 
     if (!article) {
         return <div>Article non trouvé</div>;
