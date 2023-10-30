@@ -39,6 +39,7 @@ function Navbar() {
         "maquillage permanent" : "/maquillage-permanent",
         "extension de cils" : "/extension-de-cils",
         "Réflexologie" : "/reflexologue",
+        "Réflexologie à distance": "/reflexologue",
         "masseur professionnel" : "/masseur-professionnel",
         "massage du monde" : "/massage-du-monde",
         "SST": "/sst",
