@@ -7,6 +7,7 @@ import Documentation from "./components/documentation/Documentation"
 import ArticlePage from "./page/Article/Article"
 import FormationPage from "./page/Formation/Formation.jsx";
 import Error404 from "page/Error404/Error404";
+import Besoin from "./page/Orientation/Besoin/Besoin"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
+          <Route path="/api" element={<Besoin/>} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>
