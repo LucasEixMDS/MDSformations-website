@@ -148,7 +148,7 @@ function Navbar() {
                 resetMenuState();
             }
         }
-    };
+    }; 
 
 	const hasSubMenus = menuName => {
         return menus[menuName] || subMenus[menuName];

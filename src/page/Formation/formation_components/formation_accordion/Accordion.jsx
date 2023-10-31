@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
@@ -7,6 +7,12 @@ import "./Accordion.scss";
 const Accordion = ({ block, formation }) => {
   const [open, setOpen] = useState(false);
   const contentRef = useRef(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+        contentRef.current.style.height = open ? `${contentRef.current.scrollHeight}px` : '0px';
+    }
+}, [open]);
 
   const toggleAccordion = () => {
     setOpen(open => !open);
@@ -24,14 +30,16 @@ const Accordion = ({ block, formation }) => {
     <div className='accordion'>
       <button className='accordion_header' onClick={toggleAccordion}>
         <div className="accordion-text">
-      <h6>{block.title}</h6>
+      <h6 className='accordion-titre'>{block.title}</h6>
       <div className="details">
-        <h6>{block.hours}</h6>
-        <h6>{block.modalities}</h6>
+        <h6 style={colorStyle} className='accordion-hours'>{block.hours}</h6>
+        <h6 className='accordion-modalities'>{block.modalities}</h6>
       </div>
       </div>
+      <div className="arrow-container">
         <div style={colorStyle} className={`accordion_arrow ${open ? 'accordion_arrow_open' : ''}`}>
           <FontAwesomeIcon icon={faChevronDown} />
+        </div>
         </div>
       </button>
       <div ref={contentRef} className={`accordion_collapse ${open ? 'accordion_collapse_open' : ''}`}>

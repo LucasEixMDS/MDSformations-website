@@ -11,7 +11,7 @@ const AccordionWrapper = ({ formation }) => {
 
   return (
     <div className='programme-container'>
-        <h3 style={colorStyle}>Programme de formation</h3>
+        <h3><span style={colorStyle}>Programme</span> de formation</h3>
       {formation.program.blocks.map((block, index) => (
         <Accordion key={index} block={block} formation={formation}/>
       ))}
@@ -21,6 +21,7 @@ const AccordionWrapper = ({ formation }) => {
 
 AccordionWrapper.propTypes = {
   formation: PropTypes.shape({
+    colorFormation: PropTypes.string.isRequired, // Ajoutez ceci
     program: PropTypes.shape({
       blocks: PropTypes.arrayOf(PropTypes.object).isRequired
     }).isRequired

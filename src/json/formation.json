@@ -44,36 +44,36 @@
             "blocks": [
                 {
                     "title": "Théorie (Bloc 1 ) à distance : anatomie, zones réflexes, bilan énergétique et diététique",
-                    "hours": "160 heures",
+                    "hours": "160 heures →",
                     "modalities": "126 h autonomie et 34 h de visio",
                     "content": [
-                        "Accueillir le client...",
-                        "Questionner la personne...",
-                        "Mettre en place une charte...",
-                        "Élaborer un protocole de réflexologie..."
+                        "Accueillir le client dans son espace de travail pour qu’il se sente pris en charge et mis en confiance.",
+                        "Questionner la personne pour identifier la raison de la séance en prenant en compte le motif des troubles qui se manifestent sous formes émotionnelles et physiques afin de réaliser le bilan réflexologique.",
+                        "Mettre en place une charte pour identifier avant la séance si la personne à d’éventuelles contre-indications empêchant une ou plusieurs approches de réflexologie (palmaire, plantaire, faciale et auriculaire).",
+                        "Élaborer un protocole de réflexologie pour traiter les zones douloureuses en présentant au client le déroulement de la séance."
                     ]
                 },
                 {
                     "title": "Pratique (Bloc 2 ) en présentiel : réflexologie plantaire, palmaire, faciale et auriculaire",
-                    "hours": "154 heures",
+                    "hours": "154 heures ",
                     "modalities": "de pratique",
                     "content": [
-                        "Installer le client...",
-                        "Dérouler le protocole...",
-                        "Stimuler les zones réflexes...",
-                        "Adapter les techniques...",
-                        "Sélectionner et appliquer...",
-                        "Contrôler la pression..."
+                        "Installer le client pour recevoir la séance en respectant les règles d’hygiène et déontologique du métier.",
+                        "Dérouler le protocole de réflexologie afin de répondre au bilan réflexologique, en identifiant les zones sensibles pour répondre à la demande du client.",
+                        "Stimuler les zones réflexes qui sont en correspondance avec les parties du corps afin de soulager les tensions par la mise en œuvre de techniques spécifiques de digito-pressions de la réflexologie.",
+                        "Adapter les techniques de réflexologie spécifiques pour stimuler les parties sensibles du corps en ajustant la pression, le rythme et la durée du geste.",
+                        "Sélectionner et appliquer des produits complémentaires pour renforcer les techniques de digito-pression en apportant un confort et en soulageant les douleurs liées à la manipulation.",
+                        "Contrôler la pression de son geste tout au long de la séance pour le maintien du bien-être de la personne en l’observant et en la questionnant régulièrement."
                     ]
                 },
                 {
                     "title": "Théorie (Bloc 3 ) à distance : création gestion d’entreprise et communication visuelle",
-                    "hours": "41 heures",
+                    "hours": "41 heures →",
                     "modalities": "28 h autonomie et 13 h de visio",
                     "content": [
-                        "Aménager son lieu de travail...",
-                        "Orchestrer la partie administrative...",
-                        "Développer et travailler..."
+                        "Aménager son lieu de travail pour exercer son activité de réflexologue, en développant son approche commerciale et en utilisant des outils de communication adaptés et en veillant à l’évolution de son activité.",
+                        "Orchestrer la partie administrative, financière et légale pour gérer et vérifier le bon déroulement de son activité en veillant au respect des règles de gestion en vigueur et en se faisant accompagner sur les expertises obligatoires.",
+                        "Développer et travailler avec un réseau de professionnels de réflexologie en vue de fidéliser une clientèle en faisant la promotion de son activité."
                     ]
                 }
             ]
