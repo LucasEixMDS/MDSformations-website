@@ -15,7 +15,7 @@ function Navbar() {
     const [activeMenu, setActiveMenu] = useState(null);
     const [subMenu, setSubMenu] = useState([]);
 	const [currentSubMenuTitle, setCurrentSubMenuTitle] = useState(null);
-	
+	const [navigationHistory, setNavigationHistory] = useState([]);
 
 
     const menus = {
@@ -62,14 +62,14 @@ function Navbar() {
         ));
       }
 
-    const slugify = (str) => {
+      const slugify = (str) => {
         return str
             .toLowerCase()
             .normalize('NFD')
             .replace(/[\u0300-\u036f]/g, '')
             .replace(/\s+/g, '-')
-            .replace(/[^\w\-]+/g, '')
-            .replace(/\-\-+/g, '-')
+            .replace(/[^\w-]+/g, '')  // Aucun besoin d'échapper le tiret ici
+            .replace(/--+/g, '-')
             .replace(/^-+/, '')
             .replace(/-+$/, '');
     }
@@ -93,17 +93,41 @@ function Navbar() {
 
     const navigate = useNavigate();
 
-    const handleMenuClick = (menuName, e) => {
+    const handleBackNavigation = (e) => {
+        e.preventDefault();
+        
+        const updatedHistory = [...navigationHistory];
+        updatedHistory.pop(); // Supprime le dernier élément
+        
+        const lastMenu = updatedHistory[updatedHistory.length - 1];
+        
+        if (menus[lastMenu]) {
+           setActiveMenu(lastMenu);
+           setSubMenu(menus[lastMenu]);
+           setCurrentSubMenuTitle(null);
+        } else if (subMenus[lastMenu]) {
+           setActiveMenu(navigationHistory[navigationHistory.length - 2]);
+           setSubMenu(subMenus[lastMenu]);
+           setCurrentSubMenuTitle(lastMenu);
+        } else {
+           setActiveMenu(null);
+           setSubMenu([]);
+           setCurrentSubMenuTitle(null);
+        }
+        
+        setNavigationHistory(updatedHistory);
+     };
+
+     const handleMenuClick = (menuName, e) => {
         if (menus[menuName]) {
             e.preventDefault();
             setActiveMenu(menuName);
             setSubMenu(menus[menuName]);
-            setCurrentSubMenuTitle(null); // Reset sub-sub-menu title
+            setCurrentSubMenuTitle(null);
+            setNavigationHistory(prev => [...prev, menuName]); // Ajoutez ceci
         } else {
-            // Si le menu cliqué n'a pas de sous-menus, fermez la navbar
-            // et réinitialisez l'état du menu à ses valeurs par défaut
             closeNavbar();
-            resetMenuState();  // Réinitialisation de l'état
+            resetMenuState();
         }
     };
 
@@ -112,12 +136,13 @@ function Navbar() {
             e.preventDefault();
             setCurrentSubMenuTitle(submenuName);
             setSubMenu(subMenus[submenuName]);
+            setNavigationHistory(prev => [...prev, submenuName]); // Ajoutez ceci
         } else {
-            e.preventDefault(); // Ajoutez cette ligne pour empêcher la navigation par défaut.
+            e.preventDefault();
             if (finalUrls[submenuName]) {
                 closeNavbar();
                 resetMenuState();
-                navigate(finalUrls[submenuName]);  // Redirection effective
+                navigate(finalUrls[submenuName]);
             } else {
                 closeNavbar();
                 resetMenuState();
@@ -151,17 +176,12 @@ function Navbar() {
     
                     {activeMenu && (
                         <>
-                            <Link 
-                                to={`/${slugify(currentSubMenuTitle || activeMenu)}`} 
-                                onClick={(e) => { 
-                                    e.preventDefault(); 
-                                    setActiveMenu(null); 
-                                    setSubMenu([]); 
-                                    setCurrentSubMenuTitle(null); 
-                                }}
-                                style={{ color: hasSubMenus(currentSubMenuTitle || activeMenu) ? '#7874C7' : 'inherit' }}>
-                                    {currentSubMenuTitle || activeMenu} 
-                                    <img src={minus} alt="minus" />
+                        <Link 
+                            to={`/${slugify(currentSubMenuTitle || activeMenu)}`} 
+                            onClick={handleBackNavigation}
+                            style={{ color: hasSubMenus(currentSubMenuTitle || activeMenu) ? '#7874C7' : 'inherit' }}>
+                                {currentSubMenuTitle || activeMenu} 
+                                <img src={minus} alt="minus" />
                             </Link>
                             
                             {subMenu.map(sub => (

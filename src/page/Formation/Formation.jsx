@@ -14,6 +14,7 @@ import Formation_plannings from "./formation_components/formation_plannings/Form
 import Components_plateforme from "./formation_components/formation_caroussel/Components_plateforme";
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
 import Formation_metierVise from "./formation_components/formation_metierVise/formation_metierVise"
+import AccordionWrapper from "./formation_components/formation_accordion/AccordionWrapper";
 
 
 
@@ -28,7 +29,7 @@ function FormationPage() {
   }
 
   const colorStyle = {
-    color: formation.colorFormation, // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
+    color: formation.colorFormation, 
 };
 const showPlannings = formation.hasPlannings;
 
@@ -55,10 +56,12 @@ const showPlannings = formation.hasPlannings;
       </div>
       <Formation_financement formation={formation} />
       <Formation_cadre />
+      <AccordionWrapper formation={formation} />
       {showPlannings && <Formation_plannings formation={formation} />}
       <Components_plateforme formation={formation}/>
       <HomeCadreTestformation />
       <Formation_metierVise formation={formation} />
+      
     </div>
   );
           }
