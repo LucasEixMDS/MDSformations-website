@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import "./besoin.scss"
 
 const CompetenceFrance = () => {
     const [data, setData] = useState([]);
     const [count, setCount] = useState(0);  // État pour stocker le nombre total de résultats
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [searchTerm, setSearchTerm] = useState('Concepteur'); // Valeur initiale
+    const [searchTerm, setSearchTerm] = useState(''); // Valeur initiale
     const [selectedDate, setSelectedDate] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [selectedItem, setSelectedItem] = useState(null);
+
+
 
     useEffect(() => {
         const fetchData = async () => {
@@ -60,7 +63,7 @@ const CompetenceFrance = () => {
     if (error) return <div>Error: {error.message}</div>;
 
     return (
-        <div>
+        <div className='container-page-api'>
             {/* Champ de recherche et bouton de soumission */}
            
             <form onSubmit={handleSearchSubmit}>
@@ -78,14 +81,15 @@ const CompetenceFrance = () => {
             </form>
 
             {/* Affichage du nombre total de résultats */}
-            <p>Total des résultats : {count}</p>
-
+            <p className='text-result'>Total des résultats : {count}</p>
+            <div className="certif">
             {/* Affichage des données */}
             {data.map(item => (
                 <div 
                     key={item._id.$oid}
                     onClick={() => handleRectangleClick(item)}
-                    style={{border: '1px solid black', margin: '10px', padding: '10px', cursor: 'pointer'}}
+                    className='container-certif'
+                   
                 >
                     <h2>{item.INTITULE}</h2>
                     <p><strong>ID_FICHE:</strong> {item.ID_FICHE}</p>
@@ -104,7 +108,7 @@ const CompetenceFrance = () => {
 
             {/* Modal */}
             {isModalOpen && selectedItem && (
-    <div style={{position: 'fixed', top: '10%', left: '10%', width: '80%', height: '80%', background: 'white', overflowY: 'scroll', zIndex: 1000}}>
+    <div className='container-partenaire'  style={{position: 'fixed', top: '10%', left: '10%', width: '80%', height: '80%', background: 'white', overflowY: 'scroll', zIndex: 1000}}>
         <button onClick={closeModal}>Close</button>
         <h2>{selectedItem.INTITULE}</h2>
         {/* ... autres informations ... */}
@@ -113,7 +117,8 @@ const CompetenceFrance = () => {
             <div>
                 <h3>Partenaires :</h3>
                 {selectedItem.PARTENAIRES.PARTENAIRE.map(partenaire => (
-                    <div style={{
+                    <div
+                    className='container-container-partenaire' style={{
                         border: '1px solid gray',
                         borderRadius: '5px',
                         padding: '10px',
@@ -131,6 +136,7 @@ const CompetenceFrance = () => {
         )}
     </div>
 )}
+        </div>
         </div>
     );
 }
