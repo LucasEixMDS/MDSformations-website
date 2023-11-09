@@ -1,0 +1,113 @@
+.formation-certification{ 
+
+    p{
+        font-size: 15px;
+        font-family: "poppins-light";
+        img{
+            width: 12px;
+            margin-right: 5px;
+        }
+    }
+
+
+.certification {
+    background: white;
+    padding: 20px 20px 30px 20px ;
+
+    h4{
+        font-size: 20px;
+        color: var(--Gris, #4F4F4F);
+    }
+
+    p{
+        margin-top: 10px;
+    }
+
+
+.certification-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    p{
+        font-size: 15px;
+        font-family: "poppins-light";
+        img{
+            width: 12px;
+        }
+    }
+
+    .certification-modal{
+        
+        position: relative;
+        display: flex;
+
+        justify-content: space-around;
+        flex-direction: column;
+        width: 159px;
+        height: 159px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 21px;
+        margin: 5px;
+        padding: 5px 15px 5px 15px;
+        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+        background-position: center left 40%;
+        background-size: cover;
+        object-fit: cover;
+
+        h2{
+            font-size: 17px;
+        }
+        h3{
+            font-size: 15px;
+            margin-top: -10px;
+            color: #4F4F4F;
+        }
+        button{
+            display: inline-flex;
+                       
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+        }
+    }
+}
+}
+
+.apprentissage{
+    background: #f2f2f2;
+    padding: 20px 20px 30px 20px ;
+
+    h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: var(--Gris, #4F4F4F);
+    }
+
+    p{
+        margin-top: 10px;
+    }
+    button{
+        display: inline-flex;
+                   
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 100px;
+                    padding: 0px 10px 0 10px;
+                    border: none;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 600;
+                    margin-top: 15px;
+    }
+
+
+}
+
+}

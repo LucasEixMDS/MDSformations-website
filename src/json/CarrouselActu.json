@@ -29,9 +29,18 @@
     {
         "id" : "004",
         "idElement" : ["formation"],
-        "articleLink": "/articles/comment-financer-une-formation",
+        "articleLink": "/articles/temoignage-camille-reflexologue",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmebleu.webp",
+        "text" : "Témoignage de camile, reflexologue",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "005",
+        "idElement" : ["formation"],
+        "articleLink": "/articles/decouvrez-le-metier-de-reflexologue",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmejaune.webp",
-        "text" : "Comment financer une formation ?",
+        "text" : "Decouvrez le metier de reflexologue",
         "date" : "12 juin 2023",
         "buttonColor" : "#4F4F4F"
     }

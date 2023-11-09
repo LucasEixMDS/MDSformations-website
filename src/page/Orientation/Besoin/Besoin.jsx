@@ -92,15 +92,15 @@ const CompetenceFrance = () => {
                    
                 >
                     <h2>{item.INTITULE}</h2>
-                    <p><strong>ID_FICHE:</strong> {item.ID_FICHE}</p>
-                    <p><strong>NUMERO_FICHE:</strong> {item.NUMERO_FICHE}</p>
-                    <p><strong>DATE_DECISION:</strong> {item.DATE_DECISION}</p>
-                    <p><strong>DUREE_ENREGISTREMENT:</strong> {item.DUREE_ENREGISTREMENT}</p>
-                    <p><strong>DATE_FIN_ENREGISTREMENT:</strong> {item.DATE_FIN_ENREGISTREMENT}</p>
+                    <p>ID_FICHE: {item.ID_FICHE}</p>
+                    <p>NUMERO_FICHE: {item.NUMERO_FICHE}</p>
+                    <p>DATE_DECISION: {item.DATE_DECISION}</p>
+                    <p>DUREE_ENREGISTREMENT: {item.DUREE_ENREGISTREMENT} ans</p>
+                    <p>DATE_FIN_ENREGISTREMENT: {item.DATE_FIN_ENREGISTREMENT}</p>
                     <p>CERTIFICATEUR : {item.CERTIFICATEURS.CERTIFICATEUR.NOM_CERTIFICATEUR}</p>
                     <p>Partenaire existence : {item.EXISTENCE_PARTENAIRES}</p>
                     {item.EXISTENCE_PARTENAIRES === "Oui" && (
-                        <p><strong>Nombre de partenaires :</strong> {item.PARTENAIRES.PARTENAIRE.length}</p>
+                        <p>Nombre de partenaires : {item.PARTENAIRES.PARTENAIRE.length}</p>
                     )}
                 </div>
             ))}
@@ -109,7 +109,7 @@ const CompetenceFrance = () => {
             {/* Modal */}
             {isModalOpen && selectedItem && (
     <div className='container-partenaire'  style={{position: 'fixed', top: '10%', left: '10%', width: '80%', height: '80%', background: 'white', overflowY: 'scroll', zIndex: 1000}}>
-        <button onClick={closeModal}>Close</button>
+        <button onClick={closeModal}>Fermer</button>
         <h2>{selectedItem.INTITULE}</h2>
         {/* ... autres informations ... */}
 
@@ -125,11 +125,11 @@ const CompetenceFrance = () => {
                         margin: '10px 0',
                         backgroundColor: '#f7f7f7'
                     }} key={partenaire.SIRET_PARTENAIRE}>
-                        <p><strong>Nom:</strong> {partenaire.NOM_PARTENAIRE}</p>
-                        <p><strong>Siret:</strong> {partenaire.SIRET_PARTENAIRE}</p>
-                        <p><strong>Habilitation:</strong> {partenaire.HABILITATION_PARTENAIRE}</p>
-                        <p><strong>État d'habilitation:</strong> {partenaire.ETAT_HABILITATION}</p>
-                        <p><strong>Date de dernière modification:</strong> {partenaire.DATE_DERNIERE_MODIFICATION_ETAT}</p>
+                        <p>Nom: {partenaire.NOM_PARTENAIRE}</p>
+                        <p>Siret: {partenaire.SIRET_PARTENAIRE}</p>
+                        <p>Habilitation: {partenaire.HABILITATION_PARTENAIRE}</p>
+                        <p>État d'habilitation: {partenaire.ETAT_HABILITATION}</p>
+                        <p>Date de dernière modification: {partenaire.DATE_DERNIERE_MODIFICATION_ETAT}</p>
                     </div>
                 ))}
             </div>
