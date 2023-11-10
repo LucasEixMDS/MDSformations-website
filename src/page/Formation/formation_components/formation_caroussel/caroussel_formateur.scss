@@ -1,17 +1,17 @@
 @import '../../../../style/settings.scss';
 
 
-.financement{ 
-    
+.carousselFormateur{
 
-.slider-inscription {
+
+.slider-formateur {
     position: relative;
     width: 100%;
     height: 270px;
     cursor: grab;
     margin-top: 25px;
 
-    .slider-inscription-outer { 
+    .slider-formateur-outer { 
         
         position: absolute;
         top: 0;
@@ -27,7 +27,7 @@
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
 
-        .slider-inscription-inner {
+        .slider-formateur-inner {
             position: absolute;
             display: flex;
             justify-content: space-around;
@@ -76,11 +76,37 @@
                         }
                     }
             } 
+
+           
+
+            .bottomContainer{ 
+
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 2px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
          }
         }
     }
 
-    .progress-bar-inscription-outer {
+    .progress-bar-formateur-outer {
         position: absolute;
         top: 222px;
         left: 10px;
@@ -90,7 +116,7 @@
         background: #f4f4f4;
     
     
-    .prog-bar-inscription-inner {
+    .prog-bar-formateur-inner {
         position: absolute;
         top: 0;
         left: 0;
@@ -103,4 +129,3 @@
     }
 }
 }
-

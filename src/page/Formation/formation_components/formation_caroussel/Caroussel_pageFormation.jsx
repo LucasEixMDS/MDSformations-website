@@ -19,7 +19,7 @@ const Caroussel_PageFormation = ({formation}) => {
 };
 
 Caroussel_PageFormation.propTypes = {
-    formation: PropTypes.object.isRequired
+    formation: PropTypes.object.isRequired   
 };
 
 export default Caroussel_PageFormation;
