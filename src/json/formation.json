@@ -469,7 +469,7 @@
         "header": {
             "title": "Massages à la Carte",
             "subtitle": "Personnalisez votre parcours d'apprentissage avec nos modules de massage sur mesure",
-            "imagePath": "../assets/image-massage-variety.png",
+            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/massagemonde.webp",
             "imageAltText": "Diversité des techniques de massage",
             "description": "Cherchez-vous à élargir vos compétences en massage en explorant une variété de techniques ? Notre formation 'Massages à la Carte' est l'option parfaite pour ceux qui souhaitent personnaliser leur apprentissage. Sélectionnez parmi un éventail de modules spécialisés et concevez un parcours qui correspond à vos intérêts et besoins professionnels."
         },
@@ -667,7 +667,7 @@
         "header": {
             "title": "Extension de Cils",
             "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
-            "imagePath": "../assets/image-extension-cils.png",
+            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/extension.webp",
             "imageAltText": "Expert en extension de cils",
             "description": "Notre formation en extension de cils est conçue pour vous transformer en spécialiste des techniques les plus recherchées dans l'industrie de la beauté. Découvrez comment créer un regard captivant avec des extensions de cils à cils, le volume russe, le réhaussement, et la teinture. De la théorie à la pratique, devenez l'expert vers qui tous se tournent."
         },
@@ -868,7 +868,7 @@
         "header": {
             "title": "Formateur Occasionnel",
             "subtitle": "Lancez votre parcours de formateur avec notre programme intensif",
-            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/formateur.webp",
+            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/FO.webp",
             "imageAltText": "Introduction à la formation professionnelle",
             "description": "Prêt à transmettre votre savoir de manière efficace et captivante ? Notre formation express pour formateurs occasionnels est le tremplin idéal pour vous initier aux joies de l'enseignement professionnel. En deux semaines, apprenez à concevoir et animer des sessions de formation impactantes, à évaluer vos participants, et à créer des environnements d'apprentissage stimulants."
         },
@@ -942,7 +942,7 @@
         "header": {
             "title": "Sauveteur Secouriste du Travail (SST)",
             "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",
-            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/formateur.webp",
+            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/SST.webp",
             "imageAltText": "Formation SST",
             "description": "La sécurité n'est jamais un accident. Elle est toujours le résultat d'un engagement, d'efforts et de compétences. Avec notre formation de Sauveteur Secouriste du Travail (SST), apprenez les réflexes nécessaires pour préserver la santé de vos collègues en entreprise. Cette formation vous offre les compétences pratiques pour agir efficacement lors des situations d'urgence."
         },
