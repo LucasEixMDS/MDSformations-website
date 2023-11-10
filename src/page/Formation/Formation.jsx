@@ -17,6 +17,7 @@ import Formation_metierVise from "./formation_components/formation_metierVise/fo
 import AccordionWrapper from "./formation_components/formation_accordion/AccordionWrapper";
 import Formation_certification from "./formation_components/formation_certification/Formation_certification"
 import Formation_modalite from "./formation_components/formation_modalite/Formation_modalite";
+import Caroussel_pageFormation from "./formation_components/formation_caroussel/Caroussel_pageFormation";
 
 
 function FormationPage() {
@@ -64,6 +65,7 @@ const showPlannings = formation.hasPlannings;
       <Formation_metierVise formation={formation} />
       <Formation_modalite formation={formation} /> 
       <Formation_certification formation={formation}/>
+      <Caroussel_pageFormation formation={formation} />
     </div>
   );
           }
