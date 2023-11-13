@@ -554,7 +554,7 @@
         },
     
         "certification": {
-            "title": "Thérapeute en massage",
+            "title": "Masseur professionnelle",
             "rncp": "RNCP 35422",
             "level": "Niveau 5"
         }
@@ -653,7 +653,7 @@
         },
     
         "certification": {
-            "title": "Certification de spécialiste en maquillage permanent",
+            "title": "Maquillage permanent",
             "rncp": "RNCP 35277",
             "level": "Niveau 5"
         }
@@ -753,7 +753,7 @@
         },
     
         "certification": {
-            "title": "Certification en Extension de Cils",
+            "title": "Extension de Cils",
             "rncp": "RNCP 35329",
             "level": "Niveau 5"
         }
@@ -854,7 +854,7 @@
         },
     
         "certification": {
-            "title": "Certification Professionnelle de Formateur",
+            "title": "Professionnelle de Formateur",
             "rncp": "RNCP 35270",
             "level": "Niveau 5"
         }
@@ -1003,7 +1003,7 @@
         },
     
         "certification": {
-            "title": "Certificat de Sauveteur Secouriste du Travail (SST)",
+            "title": "Sauveteur Secouriste du Travail (SST)",
             "rncp": "Non applicable",
             "level": "Non applicable"
         }
