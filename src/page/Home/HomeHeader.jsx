@@ -14,7 +14,7 @@ const HomeHeader = () => {
                     <div className="container_modal_left">
                         <div className="container_modal_left_top">
                             <div className="reflect">
-                                <p>🤔</p>
+                                <p><img src="https://mdsformations-website-u5520.vm.elestio.app/reflechir.svg" alt="icon apple d'une personne qui reflechis" /></p>
                             </div>
                         </div>
                             <div className="container_modal_left_mid">
@@ -29,7 +29,7 @@ const HomeHeader = () => {
                     <div className="container_modal_right">
                         <div className="container_modal_right_top">
                             <div className="fete">
-                                <p>🥳</p>
+                                <p><img src="https://mdsformations-website-u5520.vm.elestio.app/fete.svg" alt="icon apple d'une personne qui fait la fete" /></p>
                             </div>
                         </div>
                         <div className="container_modal_right_mid">

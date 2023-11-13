@@ -76,7 +76,7 @@ function CarrouselFormation({ filterValues = [] }) {
                         <div className="items" style={{ backgroundImage: `url(${item.photo})` }}>
                             <div className="topContainer">
                                 <div className="icon">
-                                    <p>{item.icon}</p>
+                                    <p><img src={item.icon} alt="" /></p>
                                 </div>
                             </div>
                             <div className="midContainer">

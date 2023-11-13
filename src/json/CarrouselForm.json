@@ -3,7 +3,7 @@
         "id" : "004",
         "idElement" : ["certification", "formation"],
         "formationLink" : "reflexologue",
-        "icon" : "🦶",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/pied.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/reflexologue.webp",
         "text" : "Cursus reflexologue",
         "buttonColor" : "#64B768"
@@ -12,7 +12,7 @@
         "id" : "003",
         "idElement" :  ["certification", "formation"],
         "formationLink" : "masseur-professionnel",
-        "icon" : "💆‍♀️",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massage.webp",
         "text" : "Praticien(ne) en massage",
         "buttonColor" : "#CF836C"
@@ -21,7 +21,7 @@
         "id" : "001",
         "idElement" : ["formation"],
         "formationLink" : "maquillage-permanent",
-        "icon" : "👄",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/bouche.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/maquillage.webp",
         "text" : "Maquillage permanent",
         "buttonColor" : "#E9464F"
@@ -30,7 +30,7 @@
         "id" : "002",
         "idElement" :["formation"],
         "formationLink" : "prothesie-ongulaire-en-ligne",
-        "icon" : "💅",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/prothesie.webp",
         "text" : "Prothesiste ongulaire 100% en ligne",
         "buttonColor" : "#8A88C1"
@@ -39,7 +39,7 @@
         "id" : "006",
         "idElement" :["formation"],
         "formationLink" : "prothesie-ongulaire-en-centre",
-        "icon" : "💅",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.webp",
         "text" : "Prothesiste ongulaire",
         "buttonColor" : "#8A88C1"
@@ -48,7 +48,7 @@
         "id" : "005",
         "idElement" :  ["certification", "formation"],
         "formationLink" : "fpa",
-        "icon" : "🧑‍🏫",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/professeur.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/formateur.webp",
         "text" : "Formateur professionnel pour adultes",
         "buttonColor" : "#FECA35"
@@ -57,7 +57,7 @@
         "id" : "007",
         "idElement" :  ["formation"],
         "formationLink" : "massage-du-monde",
-        "icon" : "💆‍♀️",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massagemonde.webp",
         "text" : "Praticien(ne) en massage",
         "buttonColor" : "#D7724F"
@@ -66,7 +66,7 @@
         "id" : "008",
         "idElement" :  ["formation"],
         "formationLink" : "extension-de-cils",
-        "icon" : "💆‍♀️",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/eyes.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/extension.webp",
         "text" : "Extension de cils",
         "buttonColor" : "#F195A8"
@@ -75,7 +75,7 @@
         "id" : "009",
         "idElement" :  ["formation"],
         "formationLink" : "fo",
-        "icon" : "💆‍♀️",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/femmeProfesseur.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/FO.webp",
         "text" : "Formateur ocasionnel",
         "buttonColor" : "#3D56A7"
@@ -84,7 +84,7 @@
         "id" : "010",
         "idElement" :  ["formation"],
         "formationLink" : "sst",
-        "icon" : "💆‍♀️",
+        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/pompier.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/SST.webp",
         "text" : "Sauveteur secouriste du travail",
         "buttonColor" : "#A8BCC0"

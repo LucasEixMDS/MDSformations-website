@@ -9,7 +9,7 @@ const Modalite = () => {
                     <div className="container_left_modal">
                         <div className="icon_container">
                             <div className="icon">
-                                <p>🏫</p>
+                                <p><img src="https://mdsformations-website-u5520.vm.elestio.app/ecole.svg" alt="icon apple d'une ecole" /></p>
                             </div>
                         </div>
                         <div className="h3_container">
@@ -25,7 +25,7 @@ const Modalite = () => {
                     <div className="container_right_modal">
                         <div className="icon_container">
                             <div className="icon">
-                                <p>🏠</p>
+                                <p><img src="https://mdsformations-website-u5520.vm.elestio.app/maison.svg" alt="icon apple d'une maison" /></p>
                             </div>
                         </div>
                         <div className="h3_container">
