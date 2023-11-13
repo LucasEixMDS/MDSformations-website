@@ -20,6 +20,7 @@ import Formation_modalite from "./formation_components/formation_modalite/Format
 import Caroussel_pageFormation from "./formation_components/formation_caroussel/Caroussel_pageFormation";
 import Caroussel_formateur from "./formation_components/formation_caroussel/Caroussel_formateur";
 import Formation_solutionDistance from "./formation_components/formation_solutionDistance/Formation_solutionDistance";
+import Formation_temoin from "./formation_components/formation_temoin/Formation_temoin";
 
 
 function FormationPage() {
@@ -71,9 +72,9 @@ const showPlannings = formation.hasPlannings;
       <div className="carousselFormateur">
       <h4>Rencontrez nos <span style={colorStyle}>formateur(ice)s expérimenté(e)s</span> qui vous guideront dans votre apprentissage</h4>
       <Caroussel_formateur formation={formation} filterValues={['reflexologie']}/>
-      <Formation_solutionDistance formation={formation} />
       </div>
-      
+      <Formation_solutionDistance formation={formation} />
+      <Formation_temoin formation={formation} /> 
     </div>
   );
           }

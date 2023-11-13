@@ -1,5 +1,6 @@
 .solutionDistance{
-    padding: 20px;
+    padding: 0px 10px 0 20px;
+
 
     h3{
         margin-bottom: 10px;
@@ -16,6 +17,8 @@
 
     .container-distance{
         display: flex;
+        margin-top: 25px;
+        padding-bottom: 10px;
 
 
         .container-distance-left{
@@ -24,6 +27,39 @@
 
         .container-distance-right{
             width: 50%;
+            
+
+            p{
+                font-size: 15px;
+
+                img{
+                    width: 10px;
+                    margin-right: 5px;
+                }
+            }
+
+            button{
+                display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            border-radius: 100px;
+                            border: none;
+                            padding: 0 10px 0 10px;
+                            color: #ffffff;
+                            font-size: 15px;
+                            font-weight: 600;
+                            margin-top: 15px;
+            }
         }
+    }
+}
+
+@media (max-width: 360px) { 
+
+    .container-distance{
+        flex-direction: column;
+        align-items: center;
+
     }
 }
