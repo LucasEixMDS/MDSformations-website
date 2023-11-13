@@ -18,9 +18,10 @@ const CompetenceFrance = () => {
         const fetchData = async () => {
             let filterString;
             if (selectedDate && selectedDate.length === 7) { // Format YYYY-MM
-                filterString = `DATE_DECISION[$regex]=.{2}\/${selectedDate.slice(5)}\/${selectedDate.slice(0, 4)}`;
+                filterString = `DATE_DECISION[$regex]=.{2}/${selectedDate.slice(5)}/${selectedDate.slice(0, 4)}`;
             } else {
-                filterString = 'DATE_DECISION[$regex]=.{2}\/05\/2023';
+                filterString = 'DATE_DECISION[$regex]=.{2}/05/2023';
+
             }
 
             try {

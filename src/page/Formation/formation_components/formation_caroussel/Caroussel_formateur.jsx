@@ -2,7 +2,6 @@ import { useRef, useState, useEffect } from 'react';
 import "./caroussel_formateur.scss";
 import rawData from "../../../../json/CarousselFormateur.json";
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 
 function CarrouselFormation({ filterValues = [] }) {
     const sliderRef = useRef(null);
@@ -72,8 +71,9 @@ function CarrouselFormation({ filterValues = [] }) {
             <div className="slider-formateur-outer">
                 <div className="slider-formateur-inner" ref={sliderRef}>
                 {itemsToDisplay.map(item => (
-                    <Link to={`/${item.formationLink}`} key={item.id}>
-                        <div className="items" style={{ backgroundImage: `url(${item.photo})` }}>
+                    <div to={`/${item.formationLink}`} key={item.id}>
+                        <div className="background"  style={{ backgroundImage: `url(${item.photo})` }}>
+                        <div className="items">
     
                             <div className="midContainer">
                                 <h2>{item.title}</h2>
@@ -81,7 +81,8 @@ function CarrouselFormation({ filterValues = [] }) {
                                 
                             </div>
                         </div>
-                    </Link>
+                        </div>
+                    </div>
                 ))}
                 </div>
             </div>

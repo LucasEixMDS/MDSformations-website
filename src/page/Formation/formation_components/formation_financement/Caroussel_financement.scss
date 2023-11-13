@@ -75,7 +75,31 @@
                             font-family: 'poppins-bold';
                         }
                     }
-            } 
+            }
+            
+            .bottomContainer{ 
+    
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 2px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: rgb(255, 255, 255);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
          }
         }
     }
