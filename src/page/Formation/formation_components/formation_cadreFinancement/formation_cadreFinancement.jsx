@@ -5,7 +5,7 @@ const formation_cadreFinancement = () => {
         <div className="financement_cadre" >
             <div className="financement_cadre_modal">
                 <div className="icon">
-                    <p>🤔</p>
+                <p><img src="https://mdsformations-website-u5520.vm.elestio.app/reflechir.svg" alt="icon apple d'une personne qui réflechis" /></p>
                 </div>
             </div>
             <h3>Besoin d’aide pour comprendre les financements ?</h3>
