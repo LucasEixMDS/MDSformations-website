@@ -31,7 +31,7 @@ function FormationHeader() {
                     <div className="formation_header_modal_left">
                         <div className="formation_header_modal_left_top">
                             <div className="reflect">
-                                <p>{formation.emoji}</p>
+                                <p><img src={formation.emoji} alt="Emoji de la formation" /></p>
                             </div>
                         </div>
                             <div className="formation_header_modal_left_mid">
