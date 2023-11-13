@@ -19,9 +19,9 @@ function Navbar() {
 
 
     const menus = {
-        "Nos formations ": ["ongles", "visages", "corps", "tertiaire", "👩‍🎓 Les formations diplômantes", "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP","Toutes les formations", "Trouvez votre formations idéal !"],
-        "Orientation ": ["Quelle formation est faite pour vous ?", "besoin d'être accompagné ?", "Devis & inscription", "Comment s'inscrire en formation ?", "Les différents financements", "réorientation professionnelle", "La VAE et la VAP", "Comment utiliser votre CPF ?", "Paiement en plusieurs mensualités" ],
-        "Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Carrière", "Formation professionnel" ],
+        "Nos formations ": ["ongles", "visages", "corps", "tertiaire","Toutes les formations", "Trouvez votre formations idéal !"],
+        "Orientation ": ["Quelle formation est faite pour vous ?", "besoin d'être accompagné ?", "Devis & inscription", "Financement", "réorientation professionnelle", "La VAE et la VAP"],
+        "Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Carrière", "Formation professionnel", "<strong>Tous nos articles</strong>" ], 
         "Chez MDS ": ["Accompagnement", "Notre équipe pédagogique", "Hébergement", "Formation à distance", "Accessibilités & handicap", "Devenir modèle", "Rejoindre MDS"]
     };
 
@@ -30,8 +30,11 @@ function Navbar() {
         "visages": ["maquillage permanent", "extension de cils"],
         "corps": ["Réflexologie", "Réflexologie à distance", "masseur professionnel", "massage du monde"],
         "tertiaire": ["SST", "FPA", "FO"],
-		"Accompagnement" : [ "Nos formation certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  
-    };
+		"Accompagnement" : [ "Nos formation certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  ,
+        "Toutes les formations" : ["👩‍🎓 Les formations diplômantes", "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP", "Toutes nos formations"],
+        "Devis & inscription" : ["Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités"],
+        "Financement" : ["Les différents financements","Comment utiliser votre CPF ?" ]
+    }; 
 
     const finalUrls = {
         "prothesie ongulaire": "/prothesie-ongulaire-en-centre",
@@ -149,6 +152,8 @@ function Navbar() {
             }
         }
     }; 
+
+    
 
 	const hasSubMenus = menuName => {
         return menus[menuName] || subMenus[menuName];
