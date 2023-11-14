@@ -15,7 +15,7 @@ const Formation_solutionDistance = ({formation}) => {
 
             <div className="container-distance">
                 <div className="container-distance-left">
-                    <video autoPlay loop muted preload>
+                    <video autoPlay loop muted>
                         <source src="https://mdsformations-website-u5520.vm.elestio.app/videoPlateforme.mp4" type="video/mp4" />
                         Votre navigateur ne supporte pas la balise vidéo.
                     </video>
