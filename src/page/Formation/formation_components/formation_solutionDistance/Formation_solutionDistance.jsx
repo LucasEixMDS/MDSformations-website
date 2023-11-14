@@ -15,7 +15,10 @@ const Formation_solutionDistance = ({formation}) => {
 
             <div className="container-distance">
                 <div className="container-distance-left">
-                <img src="https://mdsformations-website-u5520.vm.elestio.app/distance.png" alt="photo d'une site qui permet de faire des formatiosn à distance" />
+                    <video autoPlay loop muted>
+                        <source src="https://mdsformations-website-u5520.vm.elestio.app/videoPlateforme.mp4" type="video/mp4" />
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
                 </div>
                 <div className="container-distance-right">
                     <p><img src="https://mdsformations-website-u5520.vm.elestio.app/internet.svg" alt="icon de internet en globe tréssé" />Liberté d'Apprentissage : Formez-vous selon votre emploi du temps.</p>
