@@ -15,14 +15,14 @@ const HomeHeader = () => {
                         <div className="container_modal_left_top">
                             <div className="reflect">
                                 <p><img src="https://mdsformations-website-u5520.vm.elestio.app/reflechir.svg" alt="icon apple d'une personne qui reflechis" /></p>
-                            </div>
+                            </div> 
                         </div>
                             <div className="container_modal_left_mid">
-                                <h2>Quelles formations est faites pour moi ? </h2>
+                                <h2>Comment m'inscrire ? </h2>
                             </div>
                         <div className="button">
                             <Link to="/documentation">
-                            <button>Faire le test</button>
+                            <button>En savoir +</button>
                             </Link>
                         </div>
                     </div>
