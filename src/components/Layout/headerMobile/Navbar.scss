@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
-@import "../../style/settings.scss";
+@import "../../../style/settings.scss";
 
 
 * {
@@ -154,7 +154,7 @@ header {
 /* Pour les appareils avec une largeur supérieure à 768px */
 @media only screen and (min-width: 1024px) {
     /* Toujours montrer le menu principal */
-    nav > a {
-        display: block;
-    }
+	.headerMobile{
+		display: none;
+	}
 }

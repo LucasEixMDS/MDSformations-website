@@ -1,13 +1,13 @@
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import logo from "../../assets/logoMDS.svg";
-import menu from "../../assets/menu.svg";
-import close from "../../assets/close.svg";
-import plus from "../../assets/plus.svg";
-import mobile from "../../assets/mobile.svg";
-import loupe from "../../assets/loupe.svg";
-import minus from "../../assets/minus.svg";
+import logo from "../../../assets/logoMDS.svg";
+import menu from "../../../assets/menu.svg";
+import close from "../../../assets/close.svg";
+import plus from "../../../assets/plus.svg";
+import mobile from "../../../assets/mobile.svg";
+import loupe from "../../../assets/loupe.svg";
+import minus from "../../../assets/minus.svg";
 import "./Navbar.scss";
 
 function Navbar() {
@@ -161,7 +161,8 @@ function Navbar() {
 
 
     return (
-        <header>
+        <header className='headerMobile'>
+            
             <Link to="/" >
                 <h3> <img src={logo} alt="" /> </h3>
             </Link>
@@ -213,6 +214,7 @@ function Navbar() {
                     <img src={menu} alt="" />
                 </button>
             </div>
+            
         </header>
     );
 }

@@ -105,3 +105,9 @@ $color-maquillage : $color-9;
 
 $color-fpa : $color-11;
 $color-text : $color-12;
+
+@media only screen and (min-width: 1024px) {
+    .backPage{
+        margin-top: 0;
+    }
+} 

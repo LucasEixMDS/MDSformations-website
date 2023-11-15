@@ -200,9 +200,12 @@
 @media screen and (min-width: 1024px){
 
     .container{
+        flex-direction: row;
+        height: 525px;
         background-image: url('https://mdsformations-website-u5520.vm.elestio.app/femmevioletHeader.png');
-        background-position:  right ;
-        align-items: normal;
+        background-position: 1% 85%;
+        background-size: 160%;
+
         .container_titre{ 
             width: 50%;
             h1{
@@ -215,6 +218,12 @@
             color: #333;
         }
     }
+
+
+
+
+
+
     }
     
 }
