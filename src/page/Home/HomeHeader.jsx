@@ -8,6 +8,7 @@ const HomeHeader = () => {
             <div className="container">
                 <div className="container_titre">
                     <h1>Formez-vous</h1> 
+                    <h1 className="titre-home-desktop"><span>Une école à taille</span>humaine avec des valeurs <span>humaine</span></h1>
                     <h2>au métier du bien-être, de la beauté et de l'ethétique</h2>
                 </div>
                 <div className="container_modal">
