@@ -1,28 +1,18 @@
-import { useState } from 'react';
-import Modal from './Modal'; 
-
+import './headerDesktop.scss'
+import Logo from '../../../assets/logoMDS.svg'; // Supposons que nous avons un fichier Logo.js
+import Menu from './Menu'; // Le composant Menu que nous venons de créer
+import SearchIcon from '../../../assets/loupe.svg'; // Supposons que nous avons un fichier SearchIcon.js
+import PhoneIcon from '../../../assets/mobile.svg'; // Supposons que nous avons un fichier PhoneIcon.js
 
 const Header = () => {
-    const [activeModal, setActiveModal] = useState(null);
-
-    const handleModalOpen = (modalName) => {
-        setActiveModal(modalName);
-    };
-
-    return (
-        <header className='headerDesktop'>
-            <div className="logo"></div>
-            <nav>
-                <ul>
-                    <li onClick={() => handleModalOpen('formations')}>Nos Formations</li>
-                    <li onClick={() => handleModalOpen('orientation')}>Orientation</li>
-                    <li onClick={() => handleModalOpen('articles')}>Articles</li>
-                    <li onClick={() => handleModalOpen('chezMDS')}>Chez MDS</li>
-                </ul>
-            </nav>
-            {activeModal && <Modal modalName={activeModal} closeModal={() => setActiveModal(null)} />}
-        </header>
-    );
+  return (
+    <header className='HeaderDesktop'>
+      <img src={Logo} alt="Logo du centre de formation" />
+      <Menu />
+    <img src={SearchIcon} alt="Logo du centre de formation" />
+     <img src={PhoneIcon} alt="Logo du centre de formation" />
+    </header>
+  );
 };
 
 export default Header;

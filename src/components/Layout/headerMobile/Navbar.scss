@@ -151,9 +151,9 @@ header {
     }
 }
 
-/* Pour les appareils avec une largeur supérieure à 768px */
+/* Pour les appareils avec une largeur supérieure à 1024px */
 @media only screen and (min-width: 1024px) {
-    /* Toujours montrer le menu principal */
+    /* Toujours cacher le menu principal */
 	.headerMobile{
 		display: none;
 	}
