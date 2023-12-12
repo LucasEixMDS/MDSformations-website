@@ -201,21 +201,36 @@
 
     .container{
         flex-direction: row;
-        height: 525px;
+        height: 570px;
         background-image: url('https://mdsformations-website-u5520.vm.elestio.app/femmevioletHeader.png');
         background-position: 1% 85%;
         background-size: 160%;
+    
 
         .container_titre{ 
-            width: 50%;
+            width: 40%;
+            margin-left: 10%;
             h1{
                 display: none;
+                font-size: 30px;
+               
             }
         .titre-home-desktop{
             display: block;
         }
         span{
             color: #333;
+        }
+    }
+
+    .container_modal{
+        justify-content: center;
+        margin-left: -20%;
+
+
+        .container_modal_left{
+            margin-bottom: 20px;
+            margin-right: 50px;
         }
     }
 
