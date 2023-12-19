@@ -73,9 +73,31 @@
 @media screen and (min-width: 1024px){
  .question_webinaire{
     background-image: url("https://mdsformations-website-u5520.vm.elestio.app/question(desktop).webp");
-    height: 380px;
-   
+    height: 300px;
+    background-position: 50% 60%;
 
+    .question_webinaire_div{ 
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .modal_icon{
+            position: relative;
+            top: 34px;
+            left: -176px;
+        }
+
+       h3{
+        margin-top: 0;
+       }
+
+       .button_webinaire{
+        margin-top: 5px;
+        height: 37px;
+        width: 320px;
+        font-size: 21px;
+       }
+    }
 
  }
 
