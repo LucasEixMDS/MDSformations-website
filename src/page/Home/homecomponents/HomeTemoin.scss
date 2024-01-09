@@ -180,10 +180,41 @@ h3{
 
             .modal{
                 border-radius: 21px;
-                background: var(--Blanc, #fafafa);
+                background: var(--Blanc, #ffffff);
                 box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
                 margin-right: 20px;
-                height: 350px;
+                height: auto;
+
+                .text-modal{
+                    color: var(--Couleur-Principal, #7BC8CB);
+                    font-family: 'Poppins-light';
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-left: 50px ;
+                }
+
+                .modalText{
+                    display: flex;
+                    justify-content: center;
+                    align-items: first flex-start;
+
+                    img{
+                        padding: 7px;
+                    }
+                    p{
+                        padding: 8px;
+                        width: 70%;
+                        font-size: 14px;
+                        font-family: 'poppins-light';
+                    }
+                  
+                }
+
+                .temoin_modal_stars{
+                    padding-left: 50px;
+                }
             }
 
             
