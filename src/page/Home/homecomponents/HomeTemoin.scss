@@ -11,10 +11,15 @@ h3{
     font-weight: 400;
     margin-bottom: 20px;
     padding: 20px;
+    
     span{
         color: $color-principale;
         font-weight: 700;
     }
+}
+
+.home_temoin_desktop{
+    display: none;
 }
 
 .home_temoin{
@@ -105,6 +110,7 @@ h3{
                     padding: 0;
                     margin-bottom: 0;
                     font-size: 18px;
+                    width: 130px;
                 }
                 h4{
                     font-size: 12px;
@@ -148,5 +154,75 @@ h3{
             }
         }
     }
+
+    .home_temoin_hide{
+        display: none;
+    }
+   
 }
+}
+
+@media screen and (min-width: 1024px){
+    .home_temoin_container{
+        padding: 10px 15% 20px 0px;
+        padding-left: 15%;
+
+        h3{
+            width: 400px;
+        }
+        .home_temoin_desktop{
+            position: relative;
+            width: 55%;
+            top: 350px;
+            left: -0px;
+            margin-top: -350px;
+            display: flex;
+
+            .modal{
+                border-radius: 21px;
+                background: var(--Blanc, #fafafa);
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+                margin-right: 20px;
+                height: 350px;
+            }
+
+            
+        }
+
+        .home_temoin{
+            flex-direction: row-reverse;
+            background-color: #F2F2F2;
+            border-radius: 20px 0 0 20px;
+            position: relative;
+            left: 56.5%;
+            width: 65%;
+            padding: 30px 20px 20px 20px;
+            height: 350px;
+
+            .home_temoin_left{    
+                width: 33%;
+
+                .home_temoin_modal_button{
+                    button{
+                        background-color: #ffff;
+                    }
+                }
+            }
+
+            .home_temoin_right{
+               width: 33%;
+
+               .home_temoin_right_button{
+                button{
+                    background-color: #ffff;
+                }
+               }
+            }
+
+            .home_temoin_hide{
+                display: block;
+                width: 40%;
+            }
+        }
+    }
 }

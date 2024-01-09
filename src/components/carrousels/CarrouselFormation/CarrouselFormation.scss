@@ -141,4 +141,20 @@
     }
 }
 }
+.prog-bar-formation-inner-desktop {
+    display: none;
+}
 
+/* Utilisez une requête média pour ajuster l'affichage sur les écrans larges */
+@media screen and (min-width: 1024px) {
+    .prog-bar-formation-inner {
+        display: none; /* Cache la barre mobile sur les écrans larges */
+    }
+    .prog-bar-formation-inner-desktop {
+        display: block; /* Affiche la barre desktop sur les écrans larges */
+        width: 10%; /* ou votre style pour desktop */
+        background-color: var(--Violet, #7874C7);
+        height: 100%;
+        border-radius: 100px;
+    }
+}

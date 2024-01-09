@@ -8,18 +8,72 @@ function CarrouselFormation({ filterValues = [] }) {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
+    const progressBarDesktopRef = useRef(null);
 
     const itemsToDisplay = filterValues.length > 0 
     ? rawData.filter(item => item.idElement.some(id => filterValues.includes(id)))
     : rawData;
 
+    const isMobile = () => {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    };
+
+    useEffect(() => {
+        if (isMobile()) {
+            return;
+        }
+    
+        const progressBarDesktop = progressBarDesktopRef.current;
+        let isDragging = false;
+    
+        const handleDesktopProgressBarMouseDown = () => {
+            isDragging = true;
+        };
+    
+        const handleDesktopProgressBarMouseMove = (e) => {
+            if (!isDragging) return;
+            const totalWidth = progressBarDesktop.parentElement.offsetWidth;
+            const newX = e.clientX - progressBarDesktop.getBoundingClientRect().left;
+            const newScrollLeft = newX / totalWidth * (sliderRef.current.parentElement.scrollWidth - sliderRef.current.parentElement.clientWidth);
+            sliderRef.current.parentElement.scrollLeft = newScrollLeft;
+        };
+    
+        const handleDesktopProgressBarMouseUp = () => {
+            isDragging = false;
+        };
+    
+        progressBarDesktop.addEventListener('mousedown', handleDesktopProgressBarMouseDown);
+        document.addEventListener('mousemove', handleDesktopProgressBarMouseMove);
+        document.addEventListener('mouseup', handleDesktopProgressBarMouseUp);
+    
+        return () => {
+            progressBarDesktop.removeEventListener('mousedown', handleDesktopProgressBarMouseDown);
+            document.removeEventListener('mousemove', handleDesktopProgressBarMouseMove);
+            document.removeEventListener('mouseup', handleDesktopProgressBarMouseUp);
+        };
+    }, [/* dépendances */]);
+    
+
     useEffect(() => {
         const slider = sliderRef.current;
         const progressBar = progressBarRef.current;
-
+    
         const handleScroll = () => {
-            progressBar.style.width = `${getScrollPercentage()}%`;
+            const scrollPercentage = getScrollPercentage();
+        
+            if (isMobile()) {
+                progressBar.style.width = `${scrollPercentage}%`;
+            } else {
+                // Sur PC, ajustez la largeur de la barre de progression pour refléter la position de défilement
+                progressBar.style.width = `calc(${scrollPercentage}% * 0.9 + 10%)`; // Ajustez cette formule selon vos besoins
+            }
         };
+        
+        function getScrollPercentage() {
+            const scrollLeft = sliderRef.current.parentElement.scrollLeft;
+            const scrollWidth = sliderRef.current.parentElement.scrollWidth - sliderRef.current.parentElement.clientWidth;
+            return (scrollLeft / scrollWidth) * 100;
+        }
 
         const handleMouseDown = () => {
             setSliderGrabbed(true);
@@ -93,8 +147,9 @@ function CarrouselFormation({ filterValues = [] }) {
                 </div>
             </div>
             <div className="progress-bar-formation-outer">
-                <div className="prog-bar-formation-inner" ref={progressBarRef}></div>
-            </div>
+    <div className="prog-bar-formation-inner" ref={progressBarRef}></div> {/* Barre mobile */}
+    <div className="prog-bar-formation-inner-desktop" ref={progressBarDesktopRef}></div> {/* Barre desktop */}
+</div>
         </div>
     );
 }
