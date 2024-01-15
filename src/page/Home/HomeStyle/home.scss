@@ -127,6 +127,10 @@ font-family: "poppins-light";
 
         
         }
+
+        .contactGoogleDekstop{
+            display: none;
+        }
     }
 }
 
@@ -154,5 +158,21 @@ font-family: "poppins-light";
 
 
     }
+        .googlemapdiv{ 
+            align-items: normal;
+            padding: 10px 15% 20px 15%;
+
+            h3{
+                padding-left: 0;
+            }
+
+            .map-container{
+                justify-content: normal ;
+            }
+        
+    .contactGoogleDekstop{
+        display: block;
+    }
+}
 }
 }

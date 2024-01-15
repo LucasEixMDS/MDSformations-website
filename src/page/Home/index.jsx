@@ -37,6 +37,11 @@ const Home = () => {
             <div className="googlemapdiv">
                 <h3>Former-vous <span>là où vous le souhaitez !</span></h3>
                 <p>Découvrez nos formations disponibles dans plusieurs villes pour répondre à vos besoins.</p>
+                <div className="contactGoogleDesktop">
+                    <p><strong>33 Blanche Lande 44521, Oudon</strong></p>
+                    <p><strong>02 40 96 32 80 |</strong> du lundi au vendredi de 10 heures à 17 heures</p>
+                    <p><strong>contact@mdsformations.fr</strong></p>
+                </div>
             <HomeGoogleMap />
             </div>
         </div>
