@@ -37,7 +37,7 @@
     },
     {
         "id" : "006",
-        "idElement" :["formation"],
+        "idElement" : ["certification", "formation"],
         "formationLink" : "prothesie-ongulaire-en-centre",
         "icon" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.webp",
@@ -55,11 +55,11 @@
     },
     {
         "id" : "007",
-        "idElement" :  ["formation"],
+        "idElement" :   ["certification", "formation"],
         "formationLink" : "massage-du-monde",
         "icon" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massagemonde.webp",
-        "text" : "Praticien(ne) en massage",
+        "text" : "Massage du monde",
         "buttonColor" : "#D7724F"
     },
     {

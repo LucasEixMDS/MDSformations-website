@@ -13,6 +13,8 @@ import tiktok from '../../assets/toktok.svg'
 const Footer = () => {
     return (
         <div className="footer">
+            
+
             <div className="footer_website">
                 <img src={logo} alt="" />
                 <div className="footer_social">
@@ -20,19 +22,24 @@ const Footer = () => {
                     <a href=""><img src={linkedin} alt="logo du reseaux social linkedin" /></a>
                     <a href=""><img src={instagram} alt="logo du reseaux social instagram" /></a>
                     <a href=""><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
+                    
                 </div>
-
-                <button><img src={mobile} alt="" />Contactez-nous</button>                    
+                <button><img src={mobile} alt="" />Contactez-nous</button>       
+                </div>
+                <div className="footer_desktop">
+            <div className="footer_lien">
+                <p><strong>Ressources</strong></p>
                 <Nav.Link href="/" >Devenir Modèle</Nav.Link>
                 <Nav.Link href="/" >Inscription Webinaire</Nav.Link>
                 <Nav.Link href="/" >Quizz Formulaire</Nav.Link>
                 <Nav.Link href="/" >Demande de documentation</Nav.Link>
                 <Nav.Link href="/" >Nos articles</Nav.Link>
                 <Nav.Link href="/" >Accessibilité et handicap</Nav.Link>
-                
             </div>
+            
             <div className="footer_bar"></div>
             <div className="footer_legal">
+                <p><strong>Ressources</strong></p>
                 <Nav.Link href="/" >CGV</Nav.Link>
                 <Nav.Link href="/" >Mentions légales</Nav.Link>
                 <Nav.Link href="/" >Conditions d inscription</Nav.Link>
@@ -40,28 +47,32 @@ const Footer = () => {
                 <Nav.Link href="/" >Annulation et remboursement</Nav.Link>
                 <Nav.Link href="/" >Hébergement</Nav.Link>
             </div>
+            </div>
             <div className="footer_bar"></div>
             <div className="footer_info">
+            <p><strong>Contact</strong></p>
                 <Nav.Link href="/" >02 40 96 32 80</Nav.Link>
                 <Nav.Link href="/" >camille.melodiedessens@gmail.com</Nav.Link>
                 <Nav.Link href="/" >33 blanche lande, 44521 Oudon</Nav.Link>
+            <p><strong>Plateforme</strong></p>
                 <Nav.Link href="/" >Plateforme Elearning prothésie</Nav.Link>
                 <Nav.Link href="/" >Plateforme de cours en ligne</Nav.Link>
             </div>
             <div className="footer_entreprise">
                 <img src={qualiopi} alt="" />
-                <p>Tous droits réservés © 2023</p>
+                <p className='desktop'>Tous droits réservés © 2023</p>
                 <p>Organisme de formation MDS formations</p>
                 <p>33 Blanche Lande, 44521 Oudon</p>
                 <p>SIRET 87855247000022</p>
                 <p>NDA 52440882344</p>
                 <p>APE 8559A</p>
                 <div className="creation">
-                <p >Création et réalisation</p>
+                <p className='desktop'>Création et réalisation</p>
                 <p>Développement web : Lucas EIXARCH</p>
                 <p>Web design et UX design : Duane CROIZET</p>
                 </div>
             </div>
+
             
         </div>
     );

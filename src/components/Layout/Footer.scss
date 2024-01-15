@@ -6,6 +6,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+   
+
+    .footer_desktop{
+        width: 100%;
+    }
     
 
         a{
@@ -20,6 +26,30 @@
             height: 1px;
             background: #E0E0E0;
             margin: 10px;
+        }
+
+        .footer_lien{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p{
+                display: none;
+            }
+
+            button {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 25px;
+                width: 85%;
+                border-radius: 21px;
+                border: none;
+                background: $color-principale;
+                color: white;
+                margin-bottom: 10px;}
         }
 
         .footer_website{
@@ -76,6 +106,10 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
+            p{
+                display: none;
+            }
         }
 
         .footer_info{
@@ -84,6 +118,10 @@
             align-items: center;
             flex-direction: column;
             margin-bottom: 30px;
+
+            p{
+                display: none;
+            }
             
         }
 
@@ -114,4 +152,110 @@
             align-items: center;
             }
         }
+}
+@media screen and (min-width: 1024px) {
+        .footer{
+            flex-direction: row;
+            padding: 75px 5% 20px 5%;
+            height: auto;
+            align-items: normal;
+            justify-content: space-around;
+            
+
+            .footer_bar{
+                display: none;
+            }
+
+            .footer_website{
+                align-items: center;
+                
+                justify-content: normal;
+                
+                
+                button{
+                    margin-top: 30px;
+                }
+            }
+
+            .footer_desktop{
+                width: auto;
+                .footer_lien{
+                    align-items: normal;
+
+                    p{
+                        display: block;
+                        color: white;
+                        font-size: 12px;
+                        margin-left: 10px;
+                    }
+                    
+                   a{
+                    font-size: 12px;
+                    margin: 7px 0  0 10px;
+                   }
+                }
+    
+                .footer_legal{
+                    align-items: normal;
+                    
+
+                    p{
+                        display: block;
+                        color: white;
+                        font-size: 12px;
+                        margin-left: 10px;
+                    }
+
+                    a{
+                        font-size: 12px;
+                        margin: 5px 0  0 10px;
+                    }
+                }
+            }
+
+            .footer_info{
+                align-items: normal;
+                justify-content: start;
+
+                a{
+                    font-size: 12px;
+                    margin: 7px 0  0 10px;
+                }
+
+                p{
+                    display: block;
+                    color: white;
+                    font-size: 12px;
+                    margin-left: 10px;
+                }
+            }
+
+            .footer_entreprise{
+                align-items: normal;
+                align-items: flex-end;
+
+                p{
+                    display: block;
+                    color: white;
+                    font-size: 12px;
+                    margin-left: 10px;
+                }
+                .desktop{
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                .creation{
+                    align-items: flex-end;
+
+                    .desktop{
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+
+        }
+
 }
