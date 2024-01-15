@@ -4,14 +4,18 @@
 
 }
 .homecadre{
-    background: url('https://mdsformations-website-u5520.vm.elestio.app/test.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
+    background: url('https://mdsformations-website-u5520.vm.elestio.app/testDesktop.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
     background-repeat: no-repeat;
-    background-position: 10% 50%;
-    background-size: cover ;
-    transform: scaleX(1);
+    background-position: 89% 99%;
+    background-size: 204%;
     height: 256px;
     width: 100%;
     padding: 20px;
+    
+    .homecadreTop{
+        display: flex;
+    flex-direction: column;
+    }
 
     .homecadre_modal{
         width: 39px;
@@ -44,6 +48,10 @@
         display: flex;
         align-items: center;
         height: 30px;
+
+        .button-homecadreDesktop{
+            display: none;
+        }
         
     button{
         border: none;
@@ -66,4 +74,58 @@
 }
 }
 
-@media screen and (min-width: 1024px){}
+@media screen and (min-width: 500px){
+    .homecadre{
+        background-size: 180%;
+    }
+}
+
+@media screen and (min-width: 620px){
+    .homecadre{
+        background-size: 150%;
+    }
+}
+@media screen and (min-width: 730px){
+    .homecadre{
+        background-size: 120%;
+    }
+}
+@media screen and (min-width: 890px){
+    .homecadre{
+        background-size: 100%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .homecadre{
+        background-size: 100%;
+        background-position: 86% 76%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .homecadreTop{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            h3{
+                
+                width: 75%;
+                text-align: center;
+            }
+        }
+
+        .homecadre_button{
+
+            .button-homecadreMobile{
+                display: none;
+            }
+            .button-homecadreDesktop{
+                display: block;
+            }
+        }
+
+    }
+}

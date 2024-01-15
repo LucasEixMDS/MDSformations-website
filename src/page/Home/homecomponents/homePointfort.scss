@@ -70,6 +70,7 @@
     .homepointfort_liste{
         padding: 30px;
         padding-top: 0;
+        width: 100%;
 
         ul {
             list-style-type: none;
@@ -81,7 +82,12 @@
                 margin: 10px 0px 10px 0px;
                 color: var(--Gris, #4F4F4F);
                 
-              
+                .list-contentDesktop{
+
+                    .textDesktop{
+                        display: none;
+                    }
+               
                 .list-content {
                     display: flex;
                     align-items: flex-start; // Ou 'center' pour un alignement vertical
@@ -102,6 +108,70 @@
                     }
                 }
             }
+            }
         }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .homepointfort{ 
+        padding-top: 30px;
+    .homepointfort_titre{
+        padding: 0px 15% 0px 15% !important;
+        flex-direction: row-reverse;
+       justify-content: flex-end;
+
+        h3{
+            width: 50%;
+        }
+
+        .homepointfort_container_modal{
+            width: 4%;
+            padding: 34px;
+        }
+    }
+
+    .homepointfort_button{
+        padding-left: 150px;
+    }
+}
+
+    .homepointfort_liste{
+        padding: 10px 15% 20px 15% !important;
+    }
+
+    .homepointfort_liste ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0; /* Si vous ne voulez pas de padding autour des éléments de la liste */
+        flex-direction: row !important;
+    }
+
+    .homepointfort_liste ul li {
+        flex: 1 1 480px; /* Ajustez la base et la flexibilité selon vos besoins */
+        margin: 10px; /* Ajustez la marge pour l'espacement entre les éléments */
+        width: 78%;
+    }
+
+    .homepointfort_liste .textDesktop {
+        display: block !important;
+    }
+
+    .list-contentDesktop{
+        width: 80%;
+
+        .textDesktop{
+            margin-top: 20px;
+            font-family: 'poppins-light';
+            margin-left: 30px;
+        }
+    }
+
+}
+
+@media screen and (min-width:1025px) and (max-width: 1372px) {
+    .homepointfort_button{
+        padding-left: 17% !important;
+        justify-content: normal !important;
     }
 }

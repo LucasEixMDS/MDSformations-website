@@ -15,6 +15,7 @@ const HomePointfort = () => {
             <div className="homepointfort_liste">
                     <ul>
                 <li>
+                <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
@@ -22,8 +23,13 @@ const HomePointfort = () => {
                             formateurs expérimentés et passionnés
                         </div>
                     </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
+                    </div>
                 </li>
                 <li>
+                <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
@@ -31,8 +37,13 @@ const HomePointfort = () => {
                             formation constamment actualisées
                         </div>
                     </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
+                    </div>
                 </li>
                 <li>
+                <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
@@ -40,8 +51,13 @@ const HomePointfort = () => {
                             formations en ligne et plateforme de cours accessibles 24h/24 et 7j/7
                         </div>
                     </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
+                    </div>
                 </li>
                 <li>
+                <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
@@ -49,8 +65,13 @@ const HomePointfort = () => {
                             suivi individualisé pour maximiser votre apprentissage
                         </div>
                     </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
+                    </div>
                 </li>
                 <li>
+                <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
@@ -58,14 +79,23 @@ const HomePointfort = () => {
                             formations reconnues et des diplômes qualifiants
                         </div>
                     </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
+                    </div>
                 </li>
                 <li>
+                    <div className="list-contentDesktop">
                     <div className="list-content">
                         <img src={coche} alt="rond avec un signe valider" />
                         <div className='text'>
                             <span>Communauté dynamique : </span>
                             connectez-vous avec des professionnels partageant les mêmes intérêts
                         </div>
+                    </div>
+                    <div className="textDesktop">
+                        Chez MDS Formations, vous n'êtes pas seul. Notre communauté dynamique vous permet de vous connecter avec d'autres professionnels partageant les mêmes intérêts. Partagez vos expériences, collaborez et continuez à apprendre ensemble. Rejoignez une communauté engagée dans l'excellence de la formation professionnelle.
+                    </div>
                     </div>
                 </li>
             </ul>
