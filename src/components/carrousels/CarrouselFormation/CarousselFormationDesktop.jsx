@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import "./CarrouselFormation.scss";
+import "./CarousselFormationDesktop.scss";
 import rawData from "../../../json/CarrouselForm.json";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
