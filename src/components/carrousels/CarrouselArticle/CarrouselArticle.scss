@@ -153,5 +153,22 @@
     @media screen and (min-width: 1024px){
         .home_white{
             padding: 10px 15% 20px 15%;
+        
+    
+                .slider-formation{
+                    
+                    .progress-bar-formation-outer{
+                        width: 0;
+                    }
+    
+                    .slider-formation-outer{
+                        .slider-formation-inner{
+                            width: 100%;
+                        }
+                    }
+    
+                    
+                }
+            }
         }
-    }
+    
