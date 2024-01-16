@@ -30,6 +30,7 @@
         height: 270px;
         cursor: grab;
         margin-top: 25px;
+        overflow-x: scroll;
     
         .slider-formation-outer { 
             position: absolute;
@@ -192,9 +193,9 @@
             }
 
             .slider-formation{
-                
+                overflow-x: hidden;
                 .progress-bar-formation-outer{
-                    width: 0;
+                   display: none;
                 }
 
                 .slider-formation-outer{

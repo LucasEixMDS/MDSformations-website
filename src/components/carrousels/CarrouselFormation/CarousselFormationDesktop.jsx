@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import "./CarousselFormationDesktop.scss";
+import "./CarrouselFormation.scss";
 import rawData from "../../../json/CarrouselForm.json";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -68,6 +68,7 @@ function CarrouselFormation({ filterValues = [] }) {
                 progressBar.style.width = `calc(${scrollPercentage}% * 0.9 + 10%)`; // Ajustez cette formule selon vos besoins
             }
         };
+
         
         function getScrollPercentage() {
             const scrollLeft = sliderRef.current.parentElement.scrollLeft;
@@ -88,17 +89,20 @@ function CarrouselFormation({ filterValues = [] }) {
         const handleMouseLeave = () => {
             setSliderGrabbed(false);
         };
-
+        
         const handleMouseMove = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             if (sliderGrabbed) {
                 slider.parentElement.scrollLeft -= e.movementX;
             }
         };
-
+        
         const handleWheel = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             e.preventDefault();
             slider.parentElement.scrollLeft += e.deltaY;
         };
+        
 
 
         slider.parentElement.addEventListener('scroll', handleScroll);
@@ -117,6 +121,7 @@ function CarrouselFormation({ filterValues = [] }) {
             slider.removeEventListener('wheel', handleWheel);
         };
     }, [sliderGrabbed]);
+
 
     return (
         <div className="slider-formation">

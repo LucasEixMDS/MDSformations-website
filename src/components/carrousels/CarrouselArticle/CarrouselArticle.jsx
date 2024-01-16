@@ -36,12 +36,14 @@ function CarrouselFormation({ filterValues = [] }) {
         };
 
         const handleMouseMove = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             if (sliderGrabbed) {
                 slider.parentElement.scrollLeft -= e.movementX;
             }
         };
-
+        
         const handleWheel = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             e.preventDefault();
             slider.parentElement.scrollLeft += e.deltaY;
         };
