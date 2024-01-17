@@ -119,3 +119,28 @@
 
     }
 }
+
+
+@media screen and (min-width: 1024px){
+    .formation_header{
+        justify-content: center;
+        flex-direction: row-reverse;
+        height: 530px;
+       
+
+        .formation_header_titre{
+            width: 23%;
+            margin-top: 0;
+            margin-bottom: -70px;
+        }
+
+        .formation_header_modal{
+            width: auto;
+            margin-left: -35%;
+
+            .formation_header_modal_left{
+                margin-bottom: -70px;
+            }
+        }
+    }
+}
