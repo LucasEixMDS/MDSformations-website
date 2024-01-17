@@ -1,0 +1,105 @@
+.page_formation{
+.fichette{ 
+
+
+.buttonFichette{
+    img{
+        position: fixed;
+        top: 93px;
+        left: 83%;
+        z-index: 999;
+        width: 50px;
+    }
+}
+
+    .modalOverlay{
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        height: 100%;
+        background: white;
+        top: 1px;
+
+
+        .modalContent{
+            .closeButton{
+                position: fixed;
+                top: 53px;
+                left: 83%;
+                z-index: 999;
+                background: none;
+                border: none;
+                
+                img{
+                    width: 40px;
+                }
+            }
+
+
+            .modalFichette{
+                padding: 100px 7% 80px 8%;
+
+                h2{
+                    color: var(--Gris, #4F4F4F);
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: "poppins-semiBold";
+                }
+
+                .containTextFichette{
+                    display: flex;
+                    margin-top: 15px;
+
+                    .textFichette{
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+
+                        p{
+                            font-family: "poppins-light";
+                            color: var(--Gris, #4F4F4F);
+                            font-size: 15px;
+                        }
+
+                        button{
+                            border: none;
+                            border-radius: 100px;
+                            background: var(--Blanc-1, #F2F2F2);
+                            display: inline-flex;
+                            padding: 0px 16px 0px 16px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            color: var(--Gris, #4F4F4F);
+                            width: 120px;
+                            margin: 10px 0 10px 0;
+                        }
+                    }
+                }
+
+                .buttonDoc{
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 0px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px){
+    .buttonFichette{
+        display: none;
+    }
+}

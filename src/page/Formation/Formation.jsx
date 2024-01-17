@@ -21,6 +21,7 @@ import Caroussel_pageFormation from "./formation_components/formation_caroussel/
 import Caroussel_formateur from "./formation_components/formation_caroussel/Caroussel_formateur";
 import Formation_solutionDistance from "./formation_components/formation_solutionDistance/Formation_solutionDistance";
 import Formation_temoin from "./formation_components/formation_temoin/Formation_temoin";
+import Fichette from "./formation_components/formation_fichette/BouttonFichetteMobile";
 
 
 function FormationPage() {
@@ -42,6 +43,7 @@ const showPlannings = formation.hasPlannings;
   return (
     <div className="page_formation">  
       <FormationHeader formation={formation} />
+      <Fichette formation={formation}/>
       <div className="formation_container">
       <FormationDescription formation={formation}/>
       <Carrousel_inscription formation={formation}/>

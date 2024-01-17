@@ -4,8 +4,17 @@
         "formationLink" : "reflexologue",
         "colorFormation" : "#64B768",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/pied.svg",
-        "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeReflexo.pdf",
+        "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmereflexo.pdf",
         "hasPlannings": true,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Réflexologue",
             "subtitle": "Découvrez le chemin vers l'épanouissement : devenez réflexologue",
