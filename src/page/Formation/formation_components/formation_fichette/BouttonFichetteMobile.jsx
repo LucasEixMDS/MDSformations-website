@@ -5,7 +5,7 @@ import Fichette from './Fichette'; // Importez le composant Fichette
 import fermer from "../../../../../public/fermer.svg"
 import PropTypes from 'prop-types'; // Importez PropTypes
 
-const BouttonFichetteMobile = ({formation}) => {
+const BouttonFichetteMobile = ({ formation }) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   // Fonction pour ouvrir la modal
@@ -29,10 +29,10 @@ const BouttonFichetteMobile = ({formation}) => {
       {modalOpen && (
         <div className="modalOverlay">
           {/* Contenu de la modal */}
-          <div className="modalContent">
+          <div className="modalContent" style={{ height: '100%', overflow: 'auto' }}>
             {/* Bouton pour fermer la modal */}
             <button className="closeButton" onClick={closeModal}>
-             <img src={fermer} alt="" />
+              <img src={fermer} alt="" />
             </button>
             {/* Contenu de la modal, vous pouvez utiliser le composant Fichette ici */}
             <Fichette formation={formation} />
@@ -44,7 +44,7 @@ const BouttonFichetteMobile = ({formation}) => {
 };
 
 BouttonFichetteMobile.propTypes = {
-    formation: PropTypes.object.isRequired, // Ajoutez la validation de type pour formation
-  };
+  formation: PropTypes.object.isRequired, // Ajoutez la validation de type pour formation
+};
 
 export default BouttonFichetteMobile;

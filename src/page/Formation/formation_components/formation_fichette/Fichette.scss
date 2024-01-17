@@ -24,20 +24,21 @@
         .modalContent{
             .closeButton{
                 position: fixed;
-                top: 53px;
+                top: 23px;
                 left: 83%;
                 z-index: 999;
                 background: none;
                 border: none;
                 
+                
                 img{
-                    width: 40px;
+                    width: 25px;
                 }
             }
 
 
             .modalFichette{
-                padding: 100px 7% 80px 8%;
+                padding: 20px 7% 80px 8%;
 
                 h2{
                     color: var(--Gris, #4F4F4F);
