@@ -163,6 +163,15 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeTechSpa.pdf",
         "hasPlannings": true,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Massage",
             "subtitle": "Embarquez pour une carrière relaxante en devenant masseur professionnel",
@@ -280,6 +289,15 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeProthesieDistanciel.pdf",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Prothésie Ongulaire en ligne",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -380,6 +398,15 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeProthesiePresentiel.pdf",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Prothésie Ongulaire en centre",
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
@@ -480,6 +507,15 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeTechSpa.pdf",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Massages à la Carte",
             "subtitle": "Personnalisez votre parcours d'apprentissage avec nos modules de massage sur mesure",
@@ -579,6 +615,15 @@
         "colorFormation" : "#E9464F",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/bouche.svg",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Maquillage Permanent",
             "subtitle": "Entrez dans l'art du tatouage cosmétique et révolutionnez votre carrière",
@@ -678,6 +723,15 @@
         "colorFormation" : "#F195A8",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/eyes.svg",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Extension de Cils",
             "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
@@ -779,6 +833,15 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/professeur.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeFPA.pdf",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Formateur pour Adultes",
             "subtitle": "Devenez un pédagogue innovant dans l'univers de la formation d'adultes",
@@ -880,6 +943,15 @@
         "colorFormation" : "#F28B23",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/femmeProfesseur.svg",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Formateur Occasionnel",
             "subtitle": "Lancez votre parcours de formateur avec notre programme intensif",
@@ -954,6 +1026,15 @@
         "colorFormation" : "#A8BCC0",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/pompier.svg",
         "hasPlannings": false,
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
         "header": {
             "title": "Sauveteur Secouriste du Travail (SST)",
             "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",
