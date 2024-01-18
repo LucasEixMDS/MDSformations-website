@@ -25,7 +25,10 @@ const Formation_plannings = ({ formation }) => {
 
     return (
         <div className="plannings-container">
-            <h2 style={colorStyle}>Plannings <span>Cliquez sur la ville pour télécharger</span></h2>
+            <div className="planningsContainer">
+            <h2 style={colorStyle}>Plannings <span>Cliquez sur la ville pour télécharger le planning</span></h2>
+            <div className="planningContainerDesktopContainer">
+            <div className="planningContainerDesktop">
             <p>Cursus du <span style={colorStyle}>{plannings.dateFirst}</span></p> {/* affiche la première date */}
             
             <div className="plannings-list">
@@ -41,6 +44,8 @@ const Formation_plannings = ({ formation }) => {
                     </button>
                 ))}
             </div>
+            </div>
+            <div className="planningContainerDesktop">
             <p>Cursus du <span style={colorStyle}>{plannings.dateSecond}</span></p> {/* affiche la deuxième date */}
 
             <div className="plannings-list">
@@ -55,6 +60,9 @@ const Formation_plannings = ({ formation }) => {
                         {planning.name} {/* Affichez ici la propriété 'name' de l'objet 'planning', pas l'objet entier */}
                     </button>
                 ))}
+            </div>
+            </div>
+            </div>
             </div>
         </div>
     );

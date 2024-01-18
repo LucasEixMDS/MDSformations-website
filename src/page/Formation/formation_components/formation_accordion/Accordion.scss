@@ -144,3 +144,17 @@ color: $color-text;
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+
+  .programme-container{
+    padding: 20px 10% 20px 10%;
+
+    .accordion{
+      .accordion_header{
+        justify-content: space-between;
+        height: 90px;
+      }
+    }
+  }
+}

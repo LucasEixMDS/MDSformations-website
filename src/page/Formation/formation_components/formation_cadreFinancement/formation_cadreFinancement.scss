@@ -2,10 +2,10 @@
 
 @import '../../../../style/settings.scss';
 
-
+.page_formation { 
 .financement_cadre{
-    background-position-y: 99% !important;
-    background-size: 143% !important;
+    background-position-y: 99% ;
+    background-size: 143% ;
     background: url('https://mdsformations-website-u5520.vm.elestio.app/hommerose.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
     height: 217px;
     width: 100%;
@@ -68,11 +68,35 @@
 
 }
 }
+}
 
 @media screen and (min-width: 1024px) {
-
+    .page_formation { 
         .financement_cadre{
             height: 260px;
             background: url('https://mdsformations-website-u5520.vm.elestio.app/hommeroseDesktop.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
+            background-size: 105% ;
+            background-position-y: 72% ;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .financement_cadreModalContainer{
+                display: flex;
+                align-items: center;
+                margin-left: 80px;
+
+                h3{
+                    text-align: center;
+                }
+
+                .financement_cadre_modal{
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+            
         }
+    }
 }

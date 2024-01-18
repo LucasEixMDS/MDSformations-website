@@ -41,3 +41,24 @@
     }
 }
 }
+
+@media screen and (min-width: 1024px) {
+    .plannings-container{
+        
+        padding: 30px 10% 40px 10%;
+
+        .planningsContainer{ 
+        .planningContainerDesktopContainer{ 
+            display: flex;
+        .planningContainerDesktop{
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 20px;
+            margin-right: 20px;
+            padding: 10px;
+        }
+    }
+    }
+    }
+}
