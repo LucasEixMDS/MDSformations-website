@@ -21,19 +21,54 @@
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/reflexologue.webp",
             "imageAltText": "Révélez votre potentiel en réflexologie",
             "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps ? ",
-            "description2" : "Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ? Alors, ne cherchez plus !",
-            "description3" : "Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être.",
-            "description4" : "",
+            "description2" : "Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ?",
+            "description3" : "Alors, ne cherchez plus !",
+            "description4" : "Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être.",
             "description5" : ""
         },
         "objectives": {
             "title": "Après notre formation au ::color:: métier de réflexologue, ::color:: vous serez capable de :",
             "list": [
-                "Maîtriser les bases de la réflexologie",
-                "Pratiquer des séances professionnelles de réflexologie",
-                "Adapter vos traitements aux besoins individuels",
-                "Utiliser les zones réflexes pour favoriser le bien-être",
-                "Contribuer au mieux-être global de vos clients"
+                {
+                    "main": "Maîtriser les bases de la réflexologie",
+                    "subList": [
+                        "Apprenez l'anatomie et la physiologie du corps humain",
+                        "Découvrez les zones réflexes et leur correspondance avec les organes ou les systèmes du corps",
+                        "Apprenez les différentes techniques de stimulation des zones réflexes",
+                        "Soyez conscient des contre-indications à la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Pratiquer des séances professionnelles de réflexologie",
+                    "subList":[
+                        "Soyez formé par des professionnels expérimentés",
+                        "Apprenez à adapter vos traitements aux besoins individuels de vos clients",
+                        "Respectez les normes d'hygiène et de sécurité"
+                    ]
+                },
+                {
+                    "main": "Adapter vos traitements aux besoins individuels",
+                    "subList":[
+                        "Prenez en compte l'âge, l'état de santé et les objectifs de votre client",
+                        "Utilisez une approche holistique pour favoriser le bien-être global de votre client"
+                    ]
+                },
+                {
+                    "main":"Utiliser les zones réflexes pour favoriser le bien-être",
+                    "subList":[
+                        "Soulagez les tensions physiques et émotionnelles",
+                        "Améliorez la circulation sanguine et lymphatique",
+                        "Renforcez le système immunitaire",
+                        "Renforcez la relaxation et le sommeil"
+                    ]
+                },
+                {
+                    "main": "Contribuer au mieux-être global de vos clients",
+                    "subList":[
+                        "Offrez une expérience de bien-être complète et personnalisée",
+                        "Aidez vos clients à atteindre leurs objectifs de santé et de bien-être"
+                    ]
+                } 
             ]
         },
         "pricing": {
@@ -177,16 +212,53 @@
             "subtitle": "Embarquez pour une carrière relaxante en devenant masseur professionnel",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/massage.webp",
             "imageAltText": "Développez votre art du toucher",
-            "description": "Vous êtes fasciné par les techniques de relaxation et le pouvoir de guérison du toucher? Souhaitez-vous transformer votre passion en une carrière où vous aiderez les autres à trouver la tranquillité et le bien-être physique? Notre formation en massage est le tremplin idéal pour lancer votre parcours professionnel dans ce domaine thérapeutique."
+            "description": "Vous êtes fasciné par les techniques de relaxation et le pouvoir de guérison du toucher?",
+            "description2":"Souhaitez-vous transformer votre passion en une carrière où vous aiderez les autres à trouver la tranquillité et le bien-être physique?",
+            "description3":"Notre formation en massage est le tremplin idéal pour lancer votre parcours professionnel dans ce domaine thérapeutique."
         },
         "objectives": {
-            "title": "À l'issue de notre ::color:: formation en massage,::color:: vous serez en mesure de :",
+            "title": "Après notre formation au ::color:: métier de réflexologue, ::color:: vous serez capable de :",
             "list": [
-                "Comprendre les principes fondamentaux du massage",
-                "Réaliser différents types de massages thérapeutiques",
-                "Créer une expérience relaxante personnalisée pour vos clients",
-                "Identifier et appliquer les techniques appropriées en fonction des besoins",
-                "Fournir des conseils professionnels pour la détente et la récupération musculaire"
+                {
+                    "main": "Comprendre les principes fondamentaux du massage",
+                    "subList": [
+                        "Apprenez l'anatomie et la physiologie du corps humain",
+                        "Découvrez les zones réflexes et leur correspondance avec les organes ou les systèmes du corps",
+                        "Apprenez les différentes techniques de stimulation des zones réflexes",
+                        "Soyez conscient des contre-indications à la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Réaliser différents types de massages thérapeutiques",
+                    "subList":[
+                        "Soyez formé par des professionnels expérimentés",
+                        "Apprenez à adapter vos traitements aux besoins individuels de vos clients",
+                        "Respectez les normes d'hygiène et de sécurité"
+                    ]
+                },
+                {
+                    "main": "Créer une expérience relaxante personnalisée pour vos clients",
+                    "subList":[
+                        "Prenez en compte l'âge, l'état de santé et les objectifs de votre client",
+                        "Utilisez une approche holistique pour favoriser le bien-être global de votre client"
+                    ]
+                },
+                {
+                    "main":"Identifier et appliquer les techniques appropriées en fonction des besoins",
+                    "subList":[
+                        "Soulagez les tensions physiques et émotionnelles",
+                        "Améliorez la circulation sanguine et lymphatique",
+                        "Renforcez le système immunitaire",
+                        "Renforcez la relaxation et le sommeil"
+                    ]
+                },
+                {
+                    "main": "Fournir des conseils professionnels pour la détente et la récupération musculaire",
+                    "subList":[
+                        "Offrez une expérience de bien-être complète et personnalisée",
+                        "Aidez vos clients à atteindre leurs objectifs de santé et de bien-être"
+                    ]
+                } 
             ]
         },
         "pricing": {
@@ -306,13 +378,48 @@
             "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées? Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire. Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
         },
         "objectives": {
-            "title": "À la fin de notre ::color:: formation en prothésie ongulaire,::color:: vous pourrez :",
+            "title": "Après notre formation au ::color:: métier de réflexologue, ::color:: vous serez capable de :",
             "list": [
-                "Maîtriser les techniques de manucure et de pédicure",
-                "Appliquer des prothèses ongulaires et des soins de l'ongle",
-                "Utiliser efficacement les outils et produits professionnels",
-                "Créer des designs d'ongles personnalisés et artistiques",
-                "Conseiller vos clients sur les soins à domicile et les produits"
+                {
+                    "main": "Maîtriser les techniques de manucure et de pédicure",
+                    "subList": [
+                        "Apprenez l'anatomie et la physiologie du corps humain",
+                        "Découvrez les zones réflexes et leur correspondance avec les organes ou les systèmes du corps",
+                        "Apprenez les différentes techniques de stimulation des zones réflexes",
+                        "Soyez conscient des contre-indications à la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Appliquer des prothèses ongulaires et des soins de l'ongle",
+                    "subList":[
+                        "Soyez formé par des professionnels expérimentés",
+                        "Apprenez à adapter vos traitements aux besoins individuels de vos clients",
+                        "Respectez les normes d'hygiène et de sécurité"
+                    ]
+                },
+                {
+                    "main": "Utiliser efficacement les outils et produits professionnels",
+                    "subList":[
+                        "Prenez en compte l'âge, l'état de santé et les objectifs de votre client",
+                        "Utilisez une approche holistique pour favoriser le bien-être global de votre client"
+                    ]
+                },
+                {
+                    "main":"Créer des designs d'ongles personnalisés et artistiques",
+                    "subList":[
+                        "Soulagez les tensions physiques et émotionnelles",
+                        "Améliorez la circulation sanguine et lymphatique",
+                        "Renforcez le système immunitaire",
+                        "Renforcez la relaxation et le sommeil"
+                    ]
+                },
+                {
+                    "main": "Conseiller vos clients sur les soins à domicile et les produits",
+                    "subList":[
+                        "Offrez une expérience de bien-être complète et personnalisée",
+                        "Aidez vos clients à atteindre leurs objectifs de santé et de bien-être"
+                    ]
+                } 
             ]
         },
         "pricing": {
@@ -415,13 +522,48 @@
             "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées? Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire. Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
         },
         "objectives": {
-            "title": "À la fin de notre ::color:: formation en prothésie ongulaire,::color:: vous pourrez :",
+            "title": "À la fin de notre ::color:: formation en prothésie ongulaire, ::color:: vous pourrez :",
             "list": [
-                "Maîtriser les techniques de manucure et de pédicure",
-                "Appliquer des prothèses ongulaires et des soins de l'ongle",
-                "Utiliser efficacement les outils et produits professionnels",
-                "Créer des designs d'ongles personnalisés et artistiques",
-                "Conseiller vos clients sur les soins à domicile et les produits"
+                {
+                    "main": "Maîtriser les techniques de manucure et de pédicure",
+                    "subList": [
+                        "Apprendre les techniques de soins des cuticules et de mise en forme des ongles",
+                        "Maîtriser l'application de vernis classique et semi-permanent",
+                        "Pratiquer des soins de pédicure pour traiter et embellir les pieds"
+                    ]
+                },
+                {
+                    "main": "Appliquer des prothèses ongulaires et des soins de l'ongle",
+                    "subList": [
+                        "Techniques de pose d'ongles en gel UV et acrylique",
+                        "Méthodes de façonnage et de structuration des ongles artificiels",
+                        "Conseils pour l'entretien et la durabilité des prothèses ongulaires"
+                    ]
+                },
+                {
+                    "main": "Utiliser efficacement les outils et produits professionnels",
+                    "subList": [
+                        "Formation sur les différents types d'outils et leur usage approprié",
+                        "Connaissance approfondie des produits utilisés en prothésie ongulaire",
+                        "Gestion et maintenance de l'équipement professionnel"
+                    ]
+                },
+                {
+                    "main": "Créer des designs d'ongles personnalisés et artistiques",
+                    "subList": [
+                        "Techniques avancées de nail art, y compris le dessin et l'embellissement",
+                        "Tendances actuelles et techniques de décoration innovantes",
+                        "Utilisation de divers matériaux pour des créations uniques"
+                    ]
+                },
+                {
+                    "main": "Conseiller vos clients sur les soins à domicile et les produits",
+                    "subList": [
+                        "Formation sur les techniques de soins des ongles à domicile",
+                        "Conseils sur le choix et l'utilisation de produits pour les soins des ongles",
+                        "Techniques de communication pour éduquer les clients sur l'entretien des ongles"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -526,11 +668,45 @@
         "objectives": {
             "title": "Après avoir complété notre ::color:: sélection de modules de massage, ::color:: vous serez capable de :",
             "list": [
-                "Maîtriser diverses techniques de massage",
-                "Personnaliser les sessions en fonction des besoins des clients",
-                "Combiner différentes méthodes pour une expérience unique",
-                "Reconnaître les principes de base de plusieurs disciplines de massage",
-                "Promouvoir le bien-être et la relaxation profonde à travers des techniques spécialisées"
+                {
+                    "main": "Maîtriser diverses techniques de massage",
+                    "subList": [
+                        "Apprendre les fondamentaux du massage suédois, shiatsu, et thaï",
+                        "Pratiquer les techniques de massage en profondeur pour les tissus musculaires",
+                        "Découvrir les méthodes de massage pour la relaxation et la réduction du stress"
+                    ]
+                },
+                {
+                    "main": "Personnaliser les sessions en fonction des besoins des clients",
+                    "subList": [
+                        "Évaluer les besoins individuels des clients pour une expérience personnalisée",
+                        "Adapter la pression et les techniques en fonction des préférences des clients",
+                        "Incorporer des éléments de bien-être holistique adaptés à chaque client"
+                    ]
+                },
+                {
+                    "main": "Combiner différentes méthodes pour une expérience unique",
+                    "subList": [
+                        "Intégrer des éléments de différentes traditions de massage pour une approche créative",
+                        "Utiliser des techniques complémentaires, comme l'aromathérapie et la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Reconnaître les principes de base de plusieurs disciplines de massage",
+                    "subList": [
+                        "Comprendre les fondements théoriques des principales techniques de massage",
+                        "Apprendre l'histoire et la philosophie derrière différentes méthodes de massage",
+                        "Identifier les applications thérapeutiques de chaque style de massage"
+                    ]
+                },
+                {
+                    "main": "Promouvoir le bien-être et la relaxation profonde à travers des techniques spécialisées",
+                    "subList": [
+                        "Maîtriser les techniques de massage destinées à la relaxation mentale et physique",
+                        "Développer des compétences en massage pour le soulagement du stress et de l'anxiété",
+                        "Utiliser des approches douces et apaisantes adaptées aux besoins de relaxation"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -634,11 +810,42 @@
         "objectives": {
             "title": "À la fin de notre ::color:: formation en maquillage permanent, ::color:: vous serez capable de :",
             "list": [
-                "Concevoir et appliquer des maquillages permanents",
-                "Choisir les pigments et les techniques appropriés pour chaque client",
-                "Respecter les normes d'hygiène et de sécurité",
-                "Corriger et retirer le maquillage permanent",
-                "Conseiller les clients sur les soins post-procédure"
+                {
+                    "main": "Concevoir et appliquer des maquillages permanents",
+                    "subList": [
+                        "Apprendre les techniques de tatouage cosmétique pour les sourcils, les lèvres et les yeux",
+                        "Pratiquer le dessin et le remplissage pour un rendu naturel et harmonieux"
+                    ]
+                },
+                {
+                    "main": "Choisir les pigments et les techniques appropriés pour chaque client",
+                    "subList": [
+                        "Comprendre la colorimétrie et le choix des pigments en fonction du type de peau",
+                        "Savoir adapter les techniques selon la morphologie et les attentes du client"
+                    ]
+                },
+                {
+                    "main": "Respecter les normes d'hygiène et de sécurité",
+                    "subList": [
+                        "Connaître les protocoles d'hygiène pour la prévention des infections",
+                        "Maîtriser la stérilisation et l'entretien des équipements",
+                        "Comprendre les réglementations en vigueur dans le domaine du maquillage permanent"
+                    ]
+                },
+                {
+                    "main": "Corriger et retirer le maquillage permanent",
+                    "subList": [
+                        "Techniques de correction des imperfections et des erreurs de maquillage permanent",
+                        "Méthodes de détatouage et de retrait du pigment"
+                    ]
+                },
+                {
+                    "main": "Conseiller les clients sur les soins post-procédure",
+                    "subList": [
+                        "Fournir des recommandations pour la guérison et l'entretien après la procédure",
+                        "Savoir communiquer sur les soins à domicile pour préserver la qualité du maquillage permanent"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -742,11 +949,41 @@
         "objectives": {
             "title": "Objectifs de la ::color:: formation en extension de cils ::color::",
             "list": [
-                "Apprendre les différentes techniques d'extension de cils",
-                "Savoir réaliser une pose complète de cils à cils et de volume russe",
-                "Maîtriser les méthodes de réhaussement et de teinture de cils",
-                "Assurer la maintenance et le remplissage des extensions",
-                "Connaître les règles d'hygiène et de sécurité"
+                {
+                    "main": "Apprendre les différentes techniques d'extension de cils",
+                    "subList": [
+                        "Techniques de base pour l'application d'extensions de cils classiques",
+                        "Introduction aux extensions de volume et techniques de cils à cils"
+                    ]
+                },
+                {
+                    "main": "Savoir réaliser une pose complète de cils à cils et de volume russe",
+                    "subList": [
+                        "Maîtriser l'art de la pose cils à cils pour un effet naturel",
+                        "Techniques avancées pour créer du volume russe et des effets dramatiques"
+                    ]
+                },
+                {
+                    "main": "Maîtriser les méthodes de réhaussement et de teinture de cils",
+                    "subList": [
+                        "Apprendre à réaliser un réhaussement de cils pour un regard lifté",
+                        "Savoir utiliser les teintures pour intensifier la couleur et la définition des cils"
+                    ]
+                },
+                {
+                    "main": "Assurer la maintenance et le remplissage des extensions",
+                    "subList": [
+                        "Techniques pour l'entretien régulier et le remplissage des extensions",
+                        "Conseils pour prolonger la durée de vie des extensions de cils"
+                    ]
+                },
+                {
+                    "main": "Connaître les règles d'hygiène et de sécurité",
+                    "subList": [
+                        "Protocoles d'hygiène pour prévenir les infections et garantir la sécurité du client",
+                        "Gestion des réactions allergiques et sensibilités"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -852,11 +1089,43 @@
         "objectives": {
             "title": "Objectifs de la formation pour formateurs d'adultes",
             "list": [
-                "Comprendre les principes de l'andragogie (formation des adultes)",
-                "Concevoir et planifier des séquences pédagogiques adaptées",
-                "Utiliser des technologies éducatives pour l'apprentissage à distance",
-                "Évaluer les besoins de formation et le progrès des apprenants",
-                "Gérer la dynamique et l'hétérogénéité d'un groupe d'adultes"
+                {
+                    "main": "Comprendre les principes de l'andragogie (formation des adultes)",
+                    "subList": [
+                        "Étudier les théories et les modèles de l'apprentissage chez l'adulte",
+                        "Comprendre les motivations et les obstacles à l'apprentissage chez les adultes"
+                    ]
+                },
+                {
+                    "main": "Concevoir et planifier des séquences pédagogiques adaptées",
+                    "subList": [
+                        "Créer des plans de cours structurés et efficaces",
+                        "Développer des méthodologies adaptatives pour différents styles d'apprentissage",
+                        "Intégrer des évaluations formatives et sommatives pour mesurer les progrès"
+                    ]
+                },
+                {
+                    "main": "Utiliser des technologies éducatives pour l'apprentissage à distance",
+                    "subList": [
+                        "Se familiariser avec les outils et plateformes d'enseignement en ligne",
+                        "Concevoir des ressources pédagogiques interactives pour l'enseignement à distance"
+                    ]
+                },
+                {
+                    "main": "Évaluer les besoins de formation et le progrès des apprenants",
+                    "subList": [
+                        "Techniques pour évaluer les besoins individuels et collectifs des apprenants",
+                        "Méthodes pour suivre et documenter le développement des compétences des apprenants"
+                    ]
+                },
+                {
+                    "main": "Gérer la dynamique et l'hétérogénéité d'un groupe d'adultes",
+                    "subList": [
+                        "Stratégies pour gérer les groupes d'apprenants diversifiés",
+                        "Techniques de facilitation pour encourager la participation et l'engagement",
+                        "Gérer les défis comportementaux et les différences d'opinion dans un groupe"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -960,13 +1229,44 @@
             "description": "Prêt à transmettre votre savoir de manière efficace et captivante ? Notre formation express pour formateurs occasionnels est le tremplin idéal pour vous initier aux joies de l'enseignement professionnel. En deux semaines, apprenez à concevoir et animer des sessions de formation impactantes, à évaluer vos participants, et à créer des environnements d'apprentissage stimulants."
         },
         "objectives": {
-            "title": "Ce que vous apprendrez dans notre ::color:: formation de formateur ocassionnelle::color::",
+            "title": "Ce que vous apprendrez dans notre ::color:: formation de formateur occasionnelle::color::",
             "list": [
-                "Structurer une session de formation",
-                "Développer des matériaux pédagogiques engageants",
-                "Gérer la dynamique de groupe",
-                "Évaluer l'efficacité de la formation",
-                "S'adapter aux différents styles d'apprentissage"
+                {
+                    "main": "Structurer une session de formation",
+                    "subList": [
+                        "Élaborer des plans de cours clairs et efficaces",
+                        "Organiser le contenu de la formation pour maximiser l'apprentissage"
+                    ]
+                },
+                {
+                    "main": "Développer des matériaux pédagogiques engageants",
+                    "subList": [
+                        "Concevoir des supports de cours interactifs et visuellement attrayants",
+                        "Utiliser des techniques créatives pour rendre l'apprentissage plus captivant"
+                    ]
+                },
+                {
+                    "main": "Gérer la dynamique de groupe",
+                    "subList": [
+                        "Techniques pour encourager la participation active",
+                        "Gérer les interactions et les discussions en groupe",
+                        "Résoudre les conflits et maintenir un environnement d'apprentissage positif"
+                    ]
+                },
+                {
+                    "main": "Évaluer l'efficacité de la formation",
+                    "subList": [
+                        "Méthodes pour mesurer les résultats d'apprentissage et l'atteinte des objectifs",
+                        "Recueillir et utiliser les retours des participants pour améliorer les sessions futures"
+                    ]
+                },
+                {
+                    "main": "S'adapter aux différents styles d'apprentissage",
+                    "subList": [
+                        "Identifier et répondre aux divers besoins d'apprentissage des participants",
+                        "Intégrer diverses méthodes pédagogiques pour répondre à tous les styles d'apprentissage"
+                    ]
+                }
             ]
         },
         "pricing": {
@@ -1045,11 +1345,41 @@
         "objectives": {
             "title": "Objectifs de la::color:: formation SST::color::",
             "list": [
-                "Acquérir les compétences de base du secourisme",
-                "Savoir réagir face à un accident du travail",
-                "Maîtriser les gestes de premiers secours",
-                "Connaître les procédures d'urgence en entreprise",
-                "Participer activement à la prévention des risques professionnels"
+                {
+                    "main": "Acquérir les compétences de base du secourisme",
+                    "subList": [
+                        "Apprendre les techniques essentielles de réanimation cardio-pulmonaire (RCP)",
+                        "Se familiariser avec l'utilisation d'un défibrillateur externe automatisé (DEA)"
+                    ]
+                },
+                {
+                    "main": "Savoir réagir face à un accident du travail",
+                    "subList": [
+                        "Évaluer rapidement la situation et sécuriser les lieux d'un accident",
+                        "Communiquer efficacement avec les services d'urgence"
+                    ]
+                },
+                {
+                    "main": "Maîtriser les gestes de premiers secours",
+                    "subList": [
+                        "Pratiquer les techniques de premiers secours pour les blessures courantes",
+                        "Savoir intervenir en cas d'urgence médicale (étouffement, hémorragie, brûlure, etc.)"
+                    ]
+                },
+                {
+                    "main": "Connaître les procédures d'urgence en entreprise",
+                    "subList": [
+                        "Identifier les protocoles d'urgence spécifiques à l'entreprise",
+                        "Comprendre le rôle du SST dans le cadre du plan d'urgence"
+                    ]
+                },
+                {
+                    "main": "Participer activement à la prévention des risques professionnels",
+                    "subList": [
+                        "Reconnaître les dangers potentiels sur le lieu de travail",
+                        "Contribuer à la mise en œuvre des mesures préventives"
+                    ]
+                }
             ]
         },
         "pricing": {

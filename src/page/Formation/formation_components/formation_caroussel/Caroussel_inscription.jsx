@@ -8,7 +8,6 @@ function CarrouselInscription({ filterValues = [], formation }) {
     const sliderRef = useRef(null);
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
-    
 
     const itemsToDisplay = filterValues.length > 0 
     ? rawData.filter(item => item.idElement.some(id => filterValues.includes(id)))
@@ -37,12 +36,14 @@ function CarrouselInscription({ filterValues = [], formation }) {
         };
 
         const handleMouseMove = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             if (sliderGrabbed) {
                 slider.parentElement.scrollLeft -= e.movementX;
             }
         };
-
+        
         const handleWheel = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             e.preventDefault();
             slider.parentElement.scrollLeft += e.deltaY;
         };

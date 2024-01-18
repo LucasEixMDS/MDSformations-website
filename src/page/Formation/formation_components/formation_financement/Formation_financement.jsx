@@ -23,48 +23,48 @@ const Formation_financement = ({formation}) => {
                 <div className="financement_prix_top">
                     <div className="financement_dossier">
                         <p>Frais de dossier</p>
-                        <p className="text-color" style={colorStyle}>80 €</p>
+                        <p className="text-color" style={colorStyle}>{formation.pricing.registrationFee}</p>
                     </div>
                     <div className="financement_examen">
                         <p>Frais d'examen</p>
-                        <p className="text-color" style={colorStyle}>120 €</p>
+                        <p className="text-color" style={colorStyle}>{formation.pricing.examFee}</p>
                     </div>
                 </div>
                 <div className="financement_prix_mid">
                     <div className="financement_paiement">
                         <p>Facilité de paiement en plusieurs fois</p>
-                        <p className="text-color" style={colorStyle}>sans frais supplémentaires</p>
+                        <p className="text-color" style={colorStyle}>{formation.pricing.paymentOption}</p>
                     </div>
                 </div>
                 <div className="financement_prix_bottom">
                     <div className="financement_bloc">
                         <div className="financement_cpf">
                             <p>Formation au bloc 1</p>
-                            <p className="text-color" style={colorStyle}>3 100 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.block1}</p>
                         </div>
                         <div className="financement_perso">
                             <p>financement personnel</p>
-                            <p className="text-color" style={colorStyle}>2 700 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.personalBlock1}</p>
                         </div>
                     </div>
                     <div className="financement_bloc">
                         <div className="financement_cpf">
                             <p>Formation au bloc 2</p>
-                            <p className="text-color" style={colorStyle}>3 500 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.block2}</p>
                         </div>
                         <div className="financement_perso">
                             <p>financement personnel</p>
-                            <p className="text-color" style={colorStyle}>2 800 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.personalBlock2}</p>
                         </div>
                     </div>
                     <div className="financement_bloc">
                         <div className="financement_cpf">
                             <p>Formation au bloc 3</p>
-                            <p className="text-color" style={colorStyle}>850 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.block3}</p>
                         </div>
                         <div className="financement_perso">
                             <p>financement personnel</p>
-                            <p className="text-color" style={colorStyle}>650 €</p>
+                            <p className="text-color" style={colorStyle}>{formation.pricing.personalBlock3}</p>
                         </div>
                     </div>
                 </div>

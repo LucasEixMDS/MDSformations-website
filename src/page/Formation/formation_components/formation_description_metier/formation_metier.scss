@@ -17,19 +17,86 @@
         display: flex;
         flex-direction: column;
         margin-top: 20px;
+       
         
       
         li {
             margin: 10px 0px 10px 0px;
             color: var(--Gris, #4F4F4F);
-            display: flex;
             
-            p{
-                padding-left: 10px ;
-                font-size: 15px;
-                font-family: 'poppins-light';
-                width: 80%;
+            width: 90%;
+
+            .containerMobileMetier{
+                display: flex;
+                width: 100%;
+
+                p{
+                    padding-left: 10px ;
+                    font-size: 15px;
+                    font-family: 'poppins-light';
+                    width: 100%;
+                
+                }
+            }
             
+            
+
+            ul{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+
+    .formation_metier{
+        padding: 0 5% 20px 5%;
+
+        h3{
+            padding-top: 20px;
+        }
+
+        ul{
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style-type: none;
+
+            li{
+                margin: 5px 0 5px 0;
+                width: 50%;
+
+                .containerMobileMetier{
+                    width: 100%;
+                }
+                .containerDesktopMetier{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    
+
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 30px;
+                        list-style-type: disc;
+                        margin-top: 5px;
+                        width: 100%;
+                        padding-left: 20px;
+                        
+
+                        li{
+                            margin: 2px 0 2px 0;
+                            list-style-type:  disc;
+                            font-size: 12px;
+                            width: 90%;
+                            
+                        }
+
+                    }
+                }
+                
             }
         }
     }

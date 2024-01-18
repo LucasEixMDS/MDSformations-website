@@ -22,6 +22,7 @@ import Caroussel_formateur from "./formation_components/formation_caroussel/Caro
 import Formation_solutionDistance from "./formation_components/formation_solutionDistance/Formation_solutionDistance";
 import Formation_temoin from "./formation_components/formation_temoin/Formation_temoin";
 import Fichette from "./formation_components/formation_fichette/BouttonFichetteMobile";
+import Formation_financementDesktop from "./formation_components/formation_financement/Formation_financementDesktop";
 
 
 function FormationPage() {
@@ -62,6 +63,7 @@ const showPlannings = formation.hasPlannings;
         <Caroussel_pointfort formation={formation}/>
       </div>
       <Formation_financement formation={formation} />
+      <Formation_financementDesktop formation={formation}/>
       <Formation_cadre />
       <AccordionWrapper formation={formation} />
       {showPlannings && <Formation_plannings formation={formation} />}

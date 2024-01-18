@@ -39,3 +39,9 @@
     visibility: visible;
   }
 
+  .HeaderDesktop{
+    a{
+      z-index: 999;
+      cursor: grab;
+    }
+  }

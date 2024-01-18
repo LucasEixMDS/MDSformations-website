@@ -1,4 +1,4 @@
-import './caroussel_inscription.scss';
+import './carousselPointFort.scss';
 import { useRef, useState, useEffect } from 'react';
 import rawData from "../../../../json/CarousselPointFort.json";
 import PropTypes from 'prop-types';
@@ -37,12 +37,14 @@ function CarrouselFinancement({ filterValues = [], formation }) {
         };
 
         const handleMouseMove = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             if (sliderGrabbed) {
                 slider.parentElement.scrollLeft -= e.movementX;
             }
         };
-
+        
         const handleWheel = (e) => {
+            if (window.innerWidth > 1024) return; // Ne rien faire pour les écrans larges
             e.preventDefault();
             slider.parentElement.scrollLeft += e.deltaY;
         };
@@ -71,7 +73,7 @@ function CarrouselFinancement({ filterValues = [], formation }) {
     return (
         <div className="slider-inscription">
             <div className="slider-inscription-outer">
-                <div className="slider-inscription-inner" ref={sliderRef}>
+                <div className="slider-inscription-inne" ref={sliderRef}>
                 {itemsToDisplay.map(item => (
                 <Link to={item.articleLink} key={item.id}>
                     <div className="items">

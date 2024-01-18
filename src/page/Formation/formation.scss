@@ -9,9 +9,9 @@
 
 
     .formation_container{
-        padding-bottom: 50px !important;
+        padding-bottom: 50px;
         background-color:#F2F2F2;
-        padding: 18px 0 18px 18px ;
+        padding: 18px 0 50px 18px ;
         padding-top: 50px;
 
         .descriptionContainer{
@@ -62,6 +62,14 @@
         }
     }
 }
-@media screen and (min-width: 1024px){
-    
+@media screen and (min-width: 1024px) {
+    .page_formation{
+        .formation_container{
+            padding: 18px 0 10px 18px ;
+
+            .formation_pointfort{
+                padding-top: 40px;
+            }
+        }
+    }
 }
