@@ -25,6 +25,7 @@ import Fichette from "./formation_components/formation_fichette/BouttonFichetteM
 import Formation_financementDesktop from "./formation_components/formation_financement/Formation_financementDesktop";
 
 
+
 function FormationPage() {
   const { formationLink } = useParams();  // Récupère le lien de la formation depuis l'URL
 
