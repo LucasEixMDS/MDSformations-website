@@ -1,0 +1,81 @@
+.modalFichette{
+    padding: 20px 7% 80px 8%;
+    display: none;
+    
+
+
+    .fichetteContainer{ 
+        background: white;
+        border-radius: 20px;
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        position: absolute;
+        top: 170px;
+        left: 65%;
+
+    h2{
+        color: var(--Gris, #4F4F4F);
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "poppins-semiBold";
+    }
+
+    .containTextFichette{
+        display: flex;
+        margin-top: 10px;
+
+        p{
+            font-size: 15px;
+            font-family: "poppins-semiBold";
+        }
+
+        .textFichette{
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+
+            p{
+                font-family: "poppins-light";
+                color: var(--Gris, #4F4F4F);
+                font-size: 12px;
+            }
+
+            button{
+                border: none;
+                border-radius: 100px;
+                background: var(--Blanc-1, #F2F2F2);
+                display: inline-flex;
+                padding: 0px 16px 0px 16px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                color: var(--Gris, #4F4F4F);
+                width: 120px;
+                margin: 10px 0 10px 0;
+            }
+        }
+    }
+
+    .buttonDoc{
+        button{
+            display: inline-flex;
+            padding: 0px 16px 0px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 100px;
+            border: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px){
+    .modalFichette{
+        display: block;
+    }
+}

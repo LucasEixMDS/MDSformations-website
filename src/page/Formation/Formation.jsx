@@ -23,7 +23,7 @@ import Formation_solutionDistance from "./formation_components/formation_solutio
 import Formation_temoin from "./formation_components/formation_temoin/Formation_temoin";
 import Fichette from "./formation_components/formation_fichette/BouttonFichetteMobile";
 import Formation_financementDesktop from "./formation_components/formation_financement/Formation_financementDesktop";
-
+import FichetteDesktop from "./formation_components/formation_fichette/FichetteDesktop";
 
 
 function FormationPage() {
@@ -46,6 +46,7 @@ const showPlannings = formation.hasPlannings;
     <div className="page_formation">  
       <FormationHeader formation={formation} />
       <Fichette formation={formation}/>
+      <FichetteDesktop formation={formation} />
       <div className="formation_container">
       <FormationDescription formation={formation}/>
       <Carrousel_inscription formation={formation}/>
