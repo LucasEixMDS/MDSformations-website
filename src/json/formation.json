@@ -376,7 +376,9 @@
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/prothesie.webp",
             "imageAltText": "Artiste des ongles en action",
-            "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées? Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire. Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
+            "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées?,", 
+            "description2": "Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire. ",
+            "description3": "Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
         },
         "objectives": {
             "title": "Après notre formation au ::color:: métier de réflexologue, ::color:: vous serez capable de :",
@@ -521,7 +523,9 @@
             "subtitle": "Entamez une carrière brillante en tant que spécialiste des ongles",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/femmeviolet.webp",
             "imageAltText": "Artiste des ongles en action",
-            "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées? Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire. Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
+            "description": "Vous êtes fasciné par l'art de la beauté des ongles et souhaitez exprimer votre créativité à travers des manucures élégantes et sophistiquées? ",
+            "description2" : "Transformez votre passion en une carrière réussie avec notre programme complet de formation en prothésie ongulaire." ,
+            "description3" :  "Devenez un expert dans les techniques de soin des ongles, de design d'ongles, et bien plus encore."
         },
         "objectives": {
             "title": "À la fin de notre ::color:: formation en prothésie ongulaire, ::color:: vous pourrez :",
@@ -666,7 +670,9 @@
             "subtitle": "Personnalisez votre parcours d'apprentissage avec nos modules de massage sur mesure",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/massagemonde.webp",
             "imageAltText": "Diversité des techniques de massage",
-            "description": "Cherchez-vous à élargir vos compétences en massage en explorant une variété de techniques ? Notre formation 'Massages à la Carte' est l'option parfaite pour ceux qui souhaitent personnaliser leur apprentissage. Sélectionnez parmi un éventail de modules spécialisés et concevez un parcours qui correspond à vos intérêts et besoins professionnels."
+            "description": "Cherchez-vous à élargir vos compétences en massage en explorant une variété de techniques ?", 
+            "description2": "Notre formation 'Massages à la Carte' est l'option parfaite pour ceux qui souhaitent personnaliser leur apprentissage.", 
+            "description3": "Sélectionnez parmi un éventail de modules spécialisés et concevez un parcours qui correspond à vos intérêts et besoins professionnels."
         },
         "objectives": {
             "title": "Après avoir complété notre ::color:: sélection de modules de massage, ::color:: vous serez capable de :",
@@ -809,7 +815,9 @@
             "subtitle": "Entrez dans l'art du tatouage cosmétique et révolutionnez votre carrière",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/maquillage.webp",
             "imageAltText": "Artiste en maquillage permanent",
-            "description": "Le maquillage permanent transforme les visages et les vies ! Cette formation complète vous prépare à devenir un expert en tatouage cosmétique, capable de réaliser des sourcils, des eye-liners, et des lèvres parfaitement dessinés. Découvrez les techniques, les outils et les concepts de sécurité indispensables pour exceller dans ce domaine en pleine croissance."
+            "description": "Le maquillage permanent transforme les visages et les vies !",
+            "descirption2": "Cette formation complète vous prépare à devenir un expert en tatouage cosmétique, capable de réaliser des sourcils, des eye-liners, et des lèvres parfaitement dessinés.",
+            "description3": "Découvrez les techniques, les outils et les concepts de sécurité indispensables pour exceller dans ce domaine en pleine croissance."
         },
         "objectives": {
             "title": "À la fin de notre ::color:: formation en maquillage permanent, ::color:: vous serez capable de :",
@@ -949,7 +957,9 @@
             "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/extension.webp",
             "imageAltText": "Expert en extension de cils",
-            "description": "Notre formation en extension de cils est conçue pour vous transformer en spécialiste des techniques les plus recherchées dans l'industrie de la beauté. Découvrez comment créer un regard captivant avec des extensions de cils à cils, le volume russe, le réhaussement, et la teinture. De la théorie à la pratique, devenez l'expert vers qui tous se tournent."
+            "description": "Notre formation en extension de cils est conçue pour vous transformer en spécialiste des techniques les plus recherchées dans l'industrie de la beauté.", 
+            "descirption2": "Découvrez comment créer un regard captivant avec des extensions de cils à cils, le volume russe, le réhaussement, et la teinture. De la théorie à la pratique,", 
+            "description3": "Devenez l'expert vers qui tous se tournent."
         },
         "objectives": {
             "title": "Objectifs de la ::color:: formation en extension de cils ::color::",
@@ -1090,7 +1100,10 @@
             "subtitle": "Devenez un pédagogue innovant dans l'univers de la formation d'adultes",
             "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/formateur.webp",
             "imageAltText": "Formateur professionnel pour adultes",
-            "description": "Envie de transmettre vos connaissances et compétences ? Notre formation à distance pour devenir formateur d'adultes vous offre les clés de l'apprentissage efficace, adapté à l'auto-formation. Plongez dans des techniques pédagogiques éprouvées, la planification de cours, l'évaluation des apprenants et l'innovation éducative. Embarquez pour une carrière enrichissante qui change la vie des apprenants adultes."
+            "description": "Envie de transmettre vos connaissances et compétences ?",
+            "descirption2": "Notre formation à distance pour devenir formateur d'adultes vous offre les clés de l'apprentissage efficace, adapté à l'auto-formation." ,
+            "description3": "Plongez dans des techniques pédagogiques éprouvées, la planification de cours, l'évaluation des apprenants et l'innovation éducative.", 
+            "description4": "Embarquez pour une carrière enrichissante qui change la vie des apprenants adultes."
         },
         "objectives": {
             "title": "Objectifs de la formation pour formateurs d'adultes",
