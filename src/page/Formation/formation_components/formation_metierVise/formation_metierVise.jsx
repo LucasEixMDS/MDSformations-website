@@ -14,7 +14,7 @@ const FormationMetierVise = ({ formation }) => {
     return (
         <div className="metierVise-container">
             <h4>Explorez la carrière passionnante de {formation.articleTitle} et découvrez le succès à travers <span style={colorStyle}>les yeux d'un ancien stagiaire !</span></h4>
-            
+            <div className="metierArticleDesktop">
             <div className="metierVise-modal">
                 {article1 && (
                     <Link to={article1.articleLink} key={article1.id}>
@@ -39,7 +39,7 @@ const FormationMetierVise = ({ formation }) => {
                     </Link>
                 )}
             </div>
-            
+            <div className="metierViseDesktop">
             <h5 style={colorStyle}>Métiers visés après la formation</h5>
             <ul>
                 {formation.jobsAfterTraining.list.map((job, index) => (
@@ -53,6 +53,8 @@ const FormationMetierVise = ({ formation }) => {
                     <li key={index}>{structure}</li>
                 ))}
             </ul>
+            </div>
+            </div>
         </div>
     );
 };

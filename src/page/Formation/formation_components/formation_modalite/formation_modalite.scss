@@ -231,3 +231,46 @@
     
     }
 }
+
+@media (min-width: 1024px) {
+    .modalite{
+        padding: 50px 10% 50px 0%;
+        height: 350px;
+
+        h3{
+            padding-left: 10%;
+        }
+
+        .modalite-container{
+            display: flex;
+            flex-wrap:  nowrap;
+            position: relative;
+
+            .container-left{
+                display: flex;
+                justify-content: flex-end;
+                width: 50%;
+
+                .modal-bottom{
+                    margin-right: 30px;
+                }
+                .modal-top{
+                    margin-right: 30px;
+                }
+            }
+
+            .container-right{
+                display: flex;
+                width: 50%;
+
+                .modal-bottom{
+                    margin-right: 30px;
+                }
+                .modal-top{
+                    margin-right: 30px;
+                    height: 295px;
+                }
+            }
+        }
+    }
+}

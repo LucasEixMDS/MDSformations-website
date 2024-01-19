@@ -24,6 +24,7 @@ import Formation_temoin from "./formation_components/formation_temoin/Formation_
 import Fichette from "./formation_components/formation_fichette/BouttonFichetteMobile";
 import Formation_financementDesktop from "./formation_components/formation_financement/Formation_financementDesktop";
 import FichetteDesktop from "./formation_components/formation_fichette/FichetteDesktop";
+import FormationPlateforme from "./formation_components/formation_plateformeDesktop/FormationPlateforme";
 
 
 function FormationPage() {
@@ -70,6 +71,7 @@ const showPlannings = formation.hasPlannings;
       <AccordionWrapper formation={formation} />
       {showPlannings && <Formation_plannings formation={formation} />}
       <Components_plateforme formation={formation}/>
+      <FormationPlateforme formation={formation}/>
       <HomeCadreTestformation />
       <Formation_metierVise formation={formation} />
       <Formation_modalite formation={formation} /> 

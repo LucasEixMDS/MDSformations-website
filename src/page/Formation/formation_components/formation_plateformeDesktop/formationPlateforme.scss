@@ -1,0 +1,56 @@
+.formationPlateformeDesktop{
+    padding: 50px 10% 50px 10%;
+    background-color: white;
+
+    h3{
+        color: #4f4f4f;
+        font-family: "poppins-light";
+    }
+
+    h4{
+        font-size: 17px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+
+    .plateformeList{
+        margin-bottom: 20px;
+        ul{
+            list-style-type: none;
+
+            li{
+                
+                .containerPlateforme{
+                    display: flex;
+                    width: 100%;
+                    margin-top: 25px;
+                    
+                    
+
+                    p{
+                        padding-left: 10px;
+                        width: 100%;
+                        font-size: 14px;
+                        font-family: "poppins-light";
+                    }
+                }
+            }
+        }
+    }
+
+    .plateformeButton{
+        button{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 100px;
+            border: none;
+            padding: 0 10px 0 10px;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+    }
+}
