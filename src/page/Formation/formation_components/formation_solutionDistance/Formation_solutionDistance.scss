@@ -68,3 +68,16 @@
 
     }
 }
+
+@media  screen and (min-width: 1024px){ 
+    .solutionDistance{
+        padding: 25px 10% 15px 10%;
+
+        .container-distance{
+            .container-distance-left{
+                width: 20%;
+            }
+        }
+    }
+    
+}

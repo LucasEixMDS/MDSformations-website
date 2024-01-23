@@ -7,16 +7,20 @@
     
     
 h3{
-    color: #4F4F4F;
+    color: var(--Gris-fonc, #333);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 20px;
     padding: 20px;
-    font-family: "poppins-light";
+    
     span{
         color: $color-principale;
         font-weight: 700;
     }
+}
+
+.formation_temoin_desktop{
+    display: none;
 }
 
 .formation_temoin{
@@ -30,12 +34,6 @@ h3{
         flex-direction: column;
         align-items: center;
         justify-content:flex-start;
-
-        .text{
-            padding: 15px;
-            font-size: 15px;
-            font-family: 'poppins-light';
-        }
 
         .formation_temoin_modal_google{
             display: flex;
@@ -113,6 +111,7 @@ h3{
                     padding: 0;
                     margin-bottom: 0;
                     font-size: 18px;
+                    width: 130px;
                 }
                 h4{
                     font-size: 12px;
@@ -156,5 +155,106 @@ h3{
             }
         }
     }
+
+    .formation_temoin_hide{
+        display: none;
+    }
+   
 }
+}
+
+@media screen and (min-width: 1024px){
+    .formation_temoin_container{
+        padding: 10px 15% 20px 0px;
+        padding-left: 15%;
+
+        h3{
+            width: 400px;
+        }
+        .formation_temoin_desktop{
+            position: relative;
+            width: 55%;
+            top: 350px;
+            left: -0px;
+            margin-top: -350px;
+            display: flex;
+
+            .modal{
+                border-radius: 21px;
+                background: var(--Blanc, #ffffff);
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+                margin-right: 20px;
+                height: auto;
+
+                .text-modal{
+                    color: var(--Couleur-Principal, #7BC8CB);
+                    font-family: 'Poppins-light';
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-left: 50px ;
+                }
+
+                .modalText{
+                    display: flex;
+                    justify-content: center;
+                    align-items: first flex-start;
+
+                    img{
+                        padding: 7px;
+                    }
+                    p{
+                        padding: 8px;
+                        width: 70%;
+                        font-size: 14px;
+                        font-family: 'poppins-light';
+                    }
+                  
+                }
+
+                .temoin_modal_stars{
+                    padding-left: 50px;
+                }
+            }
+
+            
+        }
+
+        .formation_temoin{
+            flex-direction: row-reverse;
+            background-color: #F2F2F2;
+            border-radius: 20px 0 0 20px;
+            position: relative;
+            left: 56.5%;
+            width: 65%;
+            padding: 30px 20px 20px 20px;
+            height: 350px;
+
+            .formation_temoin_left{    
+                width: 33%;
+
+                .formation_temoin_modal_button{
+                    button{
+                        background-color: #ffff;
+                    }
+                }
+            }
+
+            .formation_temoin_right{
+               width: 33%;
+
+               .formation_temoin_right_button{
+                button{
+                    background-color: #ffff;
+                }
+               }
+            }
+
+            .formation_temoin_hide{
+                display: block;
+                width: 40%;
+            }
+        }
+    }
 }
