@@ -7,7 +7,8 @@ import Documentation from "./components/documentation/Documentation"
 import ArticlePage from "./page/Article/Article"
 import FormationPage from "./page/Formation/Formation.jsx";
 import Error404 from "page/Error404/Error404";
-import Besoin from "./page/Orientation/Besoin/Besoin"
+import Besoin from "./page/Orientation/Besoin/Besoin";
+import Hebergement from "./page/ChezMDS/Hebergement/Hebergement";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
           <Route path="/api" element={<Besoin/>} />
+          <Route path="/hebergement" element={<Hebergement />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

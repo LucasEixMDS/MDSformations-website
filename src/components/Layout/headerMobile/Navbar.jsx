@@ -48,6 +48,7 @@ function Navbar() {
         "SST": "/sst",
         "FPA": "/fpa",
         "FO": "/fo",
+        "Hébergement": "/hebergement",
     };
 
     const submenuTags = {
