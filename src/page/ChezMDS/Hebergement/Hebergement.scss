@@ -1,0 +1,86 @@
+@import '../../../style/settings.scss';
+
+.hebergement{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .headerHebergement{
+        height:500px;
+        width: 100%;
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/hebergement.webp");
+        background-size:cover;
+        object-fit: cover;
+        background-position: 50% 60%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        flex-direction: column;
+        padding: 0 10% 60px 10%;
+        color: white;
+
+        h1{
+            font-size: 36px;
+            font-family: "poppins-semiBold";
+            color: #2f2f2f;
+            margin-bottom: -10px;
+        }
+        h2{
+            font-size: 24px;
+            font-family: "poppins-semiBold";
+            color: #2f2f2f;
+        }
+    }
+
+    .hebergementContainer{
+        padding: 40px 5% 40px 10%;
+
+        p{
+            padding-bottom: 15px;
+        }
+
+        button{
+            border: none;
+            border-radius: 100px;
+            background: $color-1 ;
+            color: white ;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        ul{ 
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-left: -15px;
+
+            li{
+                display: flex;
+                width: 100%;
+
+                .listHebergement{
+                    display: flex;
+                    width: 100%;
+
+                    svg{
+                        width: 50px !important; 
+                        margin-top: 5px;
+                        width: 10%;
+                       
+                    }
+                    
+                    p{
+                       margin-left: -5px;
+                        width: 90%;
+                    }
+
+                
+                }
+            }
+        }
+    }
+
+}

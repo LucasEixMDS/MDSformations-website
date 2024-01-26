@@ -39,8 +39,10 @@ const Hebergement = () => {
                                     <path d="M9.96094 19.9219C15.4102 19.9219 19.9219 15.4004 19.9219 9.96094C19.9219 4.51172 15.4004 0 9.95117 0C4.51172 0 0 4.51172 0 9.96094C0 15.4004 4.52148 19.9219 9.96094 19.9219Z" fill="#7BC8CB"/>
                                     <path d="M8.86523 14.7363C8.5332 14.7363 8.25976 14.5996 8.00585 14.2578L5.55468 11.25C5.4082 11.0547 5.32031 10.8398 5.32031 10.6152C5.32031 10.1758 5.6621 9.81445 6.10156 9.81445C6.38476 9.81445 6.5996 9.90234 6.84374 10.2246L8.82616 12.7832L12.996 6.08398C13.1816 5.79102 13.4355 5.63477 13.6894 5.63477C14.1191 5.63477 14.5195 5.92773 14.5195 6.38672C14.5195 6.60156 14.3925 6.82617 14.2753 7.03125L9.68554 14.2578C9.48046 14.5801 9.19726 14.7363 8.86523 14.7363Z" fill="white"/>
                                 </svg>
-                                <p><strong>Espace extérieur : </strong> nous avons également aménagé un patio extérieur, un endroit idéal pour vous détendre après une journée de formation. </p>
-                                <p>Vous pouvez profiter de l'air frais, discuter avec vos collègues, ou simplement vous ressourcer en plein air.</p>
+                                
+                                <p><strong>Espace extérieur : </strong> nous avons également aménagé un patio extérieur, un endroit idéal pour vous détendre après une journée de formation. <br />
+                                Vous pouvez profiter de l'air frais, discuter avec vos collègues, ou simplement vous ressourcer en plein air.</p>
+                                
                              </div>
                         </li>
                     </ul>
