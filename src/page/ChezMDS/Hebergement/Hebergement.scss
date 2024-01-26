@@ -108,6 +108,41 @@
 
     }
 
+    .hebergementEquipement{
+        padding: 40px 10% 60px 10%;
+        background-color: #f2f2f2;
+
+        h3{
+            color: $color-1;
+        }
+
+        .equipementContainer{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+
+
+            .equipementLigne{
+                display: flex;
+                margin: 15px 0 15px 0;
+                width: 100%;
+
+                .equipement{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    p{
+                        width: 80%;
+                        padding-left: 10px;
+                        font-family: "poppins-light";
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 

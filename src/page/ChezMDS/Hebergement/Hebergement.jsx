@@ -62,12 +62,53 @@ const Hebergement = () => {
                 <div className="hebergementEquipement">
                     <h3>Critère et équipement</h3>
                     <div className="equipementContainer">
-                        <div className="equipementLigne">
-                        .
-                        </div>
-                        <div className="equipementLigne">
 
+                        <div className="equipementLigne">
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/douche.svg" alt="" />
+                                <p>Salle d'eau et toilettes privées</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/voiture.svg" alt="" />
+                                <p>Parking gratuit sur place</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/poele.svg" alt="" />
+                                <p>Espace cuisine équipée</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/television.svg" alt="" />
+                                <p>Salle détente avec télévision</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/toilette.svg" alt="" />
+                                <p>Toilette à mobilité réduite</p>
+                            </div>
                         </div>
+
+                        <div className="equipementLigne">
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/wifi.svg" alt="" />
+                                <p>Wifi accessible et gratuite</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/lit.svg" alt="" />
+                                <p>Literie deux place</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/cle.svg" alt="" />
+                                <p>Boite à clés extérieure</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/arbre.svg" alt="" />
+                                <p>Accès extérieur avec patio </p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/essence.svg" alt="" />
+                                <p>Espace voiture électrique</p>
+                            </div> 
+                        </div>
+
                     </div>
                 </div>
         </div>
