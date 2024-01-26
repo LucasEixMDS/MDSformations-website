@@ -46,6 +46,29 @@ const Hebergement = () => {
                              </div>
                         </li>
                     </ul>
+
+                     <div className="hebergementContainerPicture">
+                        <div className="containerPicture">
+                            <img src="https://mdsformations-website-u5520.vm.elestio.app/hebergement1.webp" alt="" />
+                            <img src="https://mdsformations-website-u5520.vm.elestio.app/hebergement2.webp" alt="" />
+                            <img src="https://mdsformations-website-u5520.vm.elestio.app/hebergement3.webp" alt="" />
+                            <img src="https://mdsformations-website-u5520.vm.elestio.app/hebergement4.webp" alt="" />
+                        </div>
+                        <p>En offrant un hébergement sur place, nous visons à simplifier votre expérience de formation. 
+                        Vous n'avez pas à vous soucier des trajets quotidiens depuis les grandes villes voisines. 
+                        Au contraire, vous avez la possibilité de vous immerger pleinement dans votre formation et de profiter de l'ambiance paisible d'Oudon.</p>
+                     </div>
+                </div>
+                <div className="hebergementEquipement">
+                    <h3>Critère et équipement</h3>
+                    <div className="equipementContainer">
+                        <div className="equipementLigne">
+                        .
+                        </div>
+                        <div className="equipementLigne">
+
+                        </div>
+                    </div>
                 </div>
         </div>
     );
