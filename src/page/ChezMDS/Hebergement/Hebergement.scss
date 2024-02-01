@@ -246,5 +246,28 @@
                 }
             }
         }
+
+        .hebergementEquipement{
+            .equipementContainer{
+                flex-direction: row;
+                margin-top: 0;
+                .equipementLigne{
+                    flex-direction: column;
+                    margin-top: 0;
+
+                    .equipement{
+                        margin-top: 25px;
+                    }
+                }
+            }
+
+            .interditContainer{
+                flex-wrap: wrap;
+
+                .equipement{
+                    margin-top: 10px;
+                }
+            }
+        }
     }
 }

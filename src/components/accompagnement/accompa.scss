@@ -6,8 +6,7 @@
     object-fit: cover;
     transform: scaleX(1);
     width: 100%;
-    height: 401px;
-    margin-top: 30px;
+    height: 427px;
 
      .accompaContainer{
         background: transparent;
@@ -40,6 +39,8 @@
             }
         }
 
+        
+
         h3{
             color: white;
             font-size: 20px;
@@ -49,12 +50,21 @@
             font-family: "poppins-semibold";
         }
 
+        h4{
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            width: 70%;
+            margin-top: 15px;
+            font-family: "poppins-semibold";
+        }
+
         .buttonAccompa{
             border: none;
             border-radius: 100px;
             background: $color-principale ;
             color: white;
-            margin-top: 40px;
+            margin-top: 20px;
             display: inline-flex;
             padding: 2px 25px 2px 25px;
             justify-content: center;
@@ -71,7 +81,7 @@
  .accompa{
     background-image: url("https://mdsformations-website-u5520.vm.elestio.app/rdvTelephoneDesktop.webp");
     height: 300px;
-    background-position: 50% 60%;
+    background-position: 50% 75%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,20 +95,41 @@
         .accompaModal{
             display: flex;
             align-items: end;
-            margin-left: -44px;
+            margin-left: -55px;
+
+            .modalIcon{
+                margin-right: 10px;
+            }
+
+            .accompaText{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                h4{
+                    width: 100%;
+                    margin-top: 0;
+                    font-family: 'poppins-light';
+                }
+                h3{
+                    font-family: 'poppins-bold';
+                }
+            }
         }
 
        h3{
         margin-top: 0;
         width: 100%;
         margin-left: 15px;
+        font-family: 'poppins-light';
        }
 
        .buttonAccompa{
         margin-top: 5px;
         height: 37px;
         width: 320px;
-        font-size: 21px;
+        font-size: 20px;
        }
     }
 
