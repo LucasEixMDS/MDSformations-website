@@ -153,6 +153,26 @@ const Hebergement = () => {
 
                 </div>
                 <Accompa />
+
+                <div className="possib">
+                    <h3>D'autres possibilités d'hébergement</h3>
+                    <p>La promotion des entreprises locales revêt une grande importance pour nous. C'est pourquoi nous mettons à votre disposition ci-dessous une liste d'adresses et de contacts d'hébergements à Oudon, ainsi que dans les villes avoisinantes. Notre engagement envers les entreprises de notre région se reflète dans cette initiative visant à soutenir notre communauté locale.</p>
+
+                    <div className="giteContainer">
+                        <div className="gitePhoto">
+
+                        </div>
+                        <div className="giteText">
+                            <h3>Gîte "OhLaVache"</h3>
+                                <p>Champtoceaux, Pays de la Loire, France</p>
+                                <p>2 chambre et 1 couchage</p>
+                                <p className="prix"> 80 € / nuit</p>
+                                <p>Contact < br/>
+                                Marie FILIPPI 06 62 12 90 13</p>
+                            <button>Site web</button>
+                        </div>
+                    </div>
+                </div>
         </div>
     );
 };
