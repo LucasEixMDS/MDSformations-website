@@ -109,11 +109,12 @@
     }
 
     .hebergementEquipement{
-        padding: 40px 10% 60px 10%;
+        padding: 20px 10% 60px 10%;
         background-color: #f2f2f2;
 
         h3{
             color: $color-1;
+            margin: 20px 0 20px 0;
         }
 
         .equipementContainer{
@@ -140,6 +141,83 @@
                     }
                 }
             }
+        }
+
+        .textEquipement{
+            width: 100%;
+            font-family: "poppins-light";
+            font-size: 14px;
+            margin: 15px 0 15px 0;
+        }
+
+        .interditContainer{
+            display: flex;
+            width: 70%;
+
+            .equipement{
+                display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    p{
+                        width: 80%;
+                        padding-left: 10px;
+                        font-family: "poppins-light";
+                        font-size: 14px;
+                    }
+            }
+        }
+
+        .hebergementPrix{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+
+            .prix{
+                color: $color-1;
+                font-family: "poppins-bold";
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .prixChiffre{
+                    p{
+                        font-size:90px ;
+                        font-family: "poppins-bold";
+                    }
+                }
+
+                .prixSymbole{
+                    display: flex;
+                    flex-direction: column;
+                    p{
+                        font-size: 42px;
+                        font-family: "poppins-bold";
+                    }
+
+                    .slash{
+                        font-size: 20px;
+                        margin-bottom: 38px;
+                        margin-top: -15px;
+                        margin-left: 5px;
+                    }
+                }
+                .prixText{
+                    margin-top: 22px;
+                    margin-left: -12px;
+                    p{
+                        font-size: 12px;
+                        font-family: "poppins-light";
+                        margin-top: -8px;
+                    }
+                }
+            }
+            .textEleve{
+                margin-top: -50px;
+                font-family: "poppins-light";
+                font-size: 14px;
+            }
+            
         }
     }
 

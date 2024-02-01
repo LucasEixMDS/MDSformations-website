@@ -1,4 +1,5 @@
 import "./Hebergement.scss";
+import Accompa from "../../../components/accompagnement/Accompa";
 
 const Hebergement = () => {
     return (
@@ -65,52 +66,93 @@ const Hebergement = () => {
 
                         <div className="equipementLigne">
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/douche.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/douche.svg" alt="Logo d'une douche" />
                                 <p>Salle d'eau et toilettes privées</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/voiture.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/voiture.svg" alt="Logo d'une voiture" />
                                 <p>Parking gratuit sur place</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/poele.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/poele.svg" alt="Logo d'une poele" />
                                 <p>Espace cuisine équipée</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/television.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/television.svg" alt="Logo d'une television" />
                                 <p>Salle détente avec télévision</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/toilette.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/toilette.svg" alt="Logo d'un toilette" />
                                 <p>Toilette à mobilité réduite</p>
                             </div>
                         </div>
 
                         <div className="equipementLigne">
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/wifi.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/wifi.svg" alt="Logo d'une wifi" />
                                 <p>Wifi accessible et gratuite</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/lit.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/lit.svg" alt="Logo d'un lit" />
                                 <p>Literie deux place</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/cle.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/cle.svg" alt="Logo d'une clé" />
                                 <p>Boite à clés extérieure</p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/arbre.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/arbre.svg" alt="Logo d'un arbre" />
                                 <p>Accès extérieur avec patio </p>
                             </div>
                             <div className="equipement">
-                                <img src="https://mdsformations-website-u5520.vm.elestio.app/essence.svg" alt="" />
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/essence.svg" alt="Logo d'une pompe à essence" />
                                 <p>Espace voiture électrique</p>
                             </div> 
                         </div>
 
                     </div>
+
+                    <p className="textEquipement">Draps et serviettes de toilette non fournis. Prévoir 2 taies d’oreiller 50x60, 1 draps<br/>
+                         housse 140x190, 1 housse de couette 200x200, serviettes de toilettes.</p>
+                        
+                         <div className="interditContainer">
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/nonFumeur.svg" alt="Logo d'une interdiction de fumer" />
+                                <p>Chambre non fumeur</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/nonFete.svg" alt="Logo d'une interdiction de faire la fête" />
+                                <p>Pas de fête ni de soirée</p>
+                            </div>
+                            <div className="equipement">
+                                <img src="https://mdsformations-website-u5520.vm.elestio.app/nonFete.svg" alt="Logo d'une interdiction d'animaux en forme de patte de chien" />
+                                <p>Les animaux de compagnies ne sont pas acceptés</p>
+                            </div>
+                         </div>
+                    <h3>Tarif et paiement</h3>
+
+                    <p className="textEquipement">Paiements acceptés : chèque ou virement bancaire.<br/> 
+                    Réservation de la chambre à la réception du paiement.</p>
+                        
+                        <div className="hebergementPrix">
+                            <div className="prix">
+                                <div className="prixChiffre">
+                                    <p>35</p>
+                                </div>
+                                <div className="prixSymbole">
+                                    <p className="euro">€</p>
+                                    <p className="slash">/</p>
+                                </div>
+                                <div className="prixText">
+                                    <p>par</p>
+                                    <p>nuit</p>
+                                </div>
+                            </div>
+                            <p className="textEleve">pour tous nos élèves</p>
+                        </div>
+
                 </div>
+                <Accompa />
         </div>
     );
 };

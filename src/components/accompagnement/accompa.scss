@@ -1,6 +1,6 @@
 @import '../../style/settings.scss';
-.question_webinaire{
-    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/question.webp");
+.accompa{
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/rdvTelephoneMobile.webp");
     background-position: center left ;
      background-size:cover;
     object-fit: cover;
@@ -9,7 +9,7 @@
     height: 401px;
     margin-top: 30px;
 
-     .question_webinaire_div{
+     .accompaContainer{
         background: transparent;
         transform: scaleX(1);
         display: flex;
@@ -18,7 +18,7 @@
         justify-content: flex-start;
         padding: 20px;
 
-        .modal_icon{
+        .modalIcon{
             width: 59px;
             height: 59px;;
             background: white;
@@ -49,7 +49,7 @@
             font-family: "poppins-semibold";
         }
 
-        .button_webinaire{
+        .buttonAccompa{
             border: none;
             border-radius: 100px;
             background: $color-principale ;
@@ -68,8 +68,8 @@
 }
 
 @media screen and (min-width: 1024px){
- .question_webinaire{
-    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/question(desktop).webp");
+ .accompa{
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/rdvTelephoneDesktop.webp");
     height: 300px;
     background-position: 50% 60%;
     display: flex;
@@ -77,12 +77,12 @@
     justify-content: center;
     
 
-    .question_webinaire_div{ 
+    .accompaContainer{ 
         align-items: center;
         justify-content: center;
         text-align: center;
 
-        .question_webinaire_modal{
+        .accompaModal{
             display: flex;
             align-items: end;
             margin-left: -44px;
@@ -94,7 +94,7 @@
         margin-left: 15px;
        }
 
-       .button_webinaire{
+       .buttonAccompa{
         margin-top: 5px;
         height: 37px;
         width: 320px;
