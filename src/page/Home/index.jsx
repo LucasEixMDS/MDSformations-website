@@ -8,7 +8,6 @@ import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
 import HomeCadreTestformation from "../../components/inscription/HomeCadreTestformation";
 import HomePointfort from "./homecomponents/HomePointfort";
-import HomeGoogleMap from "./homecomponents/HomeGoogleMap"
 
 const Home = () => {
     return (
@@ -42,7 +41,6 @@ const Home = () => {
                     <p><strong>02 40 96 32 80 |</strong> du lundi au vendredi de 10 heures à 17 heures</p>
                     <p><strong>contact@mdsformations.fr</strong></p>
                 </div>
-            <HomeGoogleMap />
             </div>
         </div>
     );
