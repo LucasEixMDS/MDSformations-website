@@ -221,6 +221,31 @@
         }
     }
 
+    .possib{
+        background: #f2f2f2;
+        padding: 20px 10% 60px 10%;
+
+        h3{
+            color: $color-1;
+            margin: 20px 0 20px 0;
+        }
+        p{
+            font-size: 14px;
+            color: var(--Gris, #4F4F4F);
+            font-family: 'poppins-light';
+        }
+
+        .giteContainer{
+            display: flex;
+            margin-top: 20px;
+
+            
+        }
+    }
+    .cadreQuestion{
+        margin-top: -30px;
+    }
+
 }
 
 
@@ -267,6 +292,16 @@
                 .equipement{
                     margin-top: 10px;
                 }
+            }
+        }
+
+        .home2{
+            padding-bottom: 20px;
+            .slider-formation{
+                height: 287px;
+            }
+            .button_webinaire{
+                margin-top: 14px;
             }
         }
     }

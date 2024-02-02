@@ -1,5 +1,7 @@
 import "./Hebergement.scss";
 import Accompa from "../../../components/accompagnement/Accompa";
+import HomeCadreQuestion from '../../../components/inscription/HomeCadreQuestion';
+import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 
 const Hebergement = () => {
     return (
@@ -160,19 +162,28 @@ const Hebergement = () => {
 
                     <div className="giteContainer">
                         <div className="gitePhoto">
-
+                        <img src="https://mdsformations-website-u5520.vm.elestio.app/gite.png" alt="image d'une chambre d'un gîte" />
                         </div>
                         <div className="giteText">
                             <h3>Gîte "OhLaVache"</h3>
-                                <p>Champtoceaux, Pays de la Loire, France</p>
+                                <p><strong>Champtoceaux, Pays de la Loire, France</strong></p>
                                 <p>2 chambre et 1 couchage</p>
-                                <p className="prix"> 80 € / nuit</p>
+                                <p><strong>80 € / nuit</strong></p>
                                 <p>Contact < br/>
                                 Marie FILIPPI 06 62 12 90 13</p>
                             <button>Site web</button>
                         </div>
                     </div>
                 </div>
+                <div className="cadreQuestion">
+                <HomeCadreQuestion />
+                </div>
+                <div className="home2">
+            <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <CarousselFormationDesktop filterValues={['certification']} />
+            <button className="button_webinaire">Toutes nos formations certifiantes</button>
+            </div>
+               
         </div>
     );
 };
