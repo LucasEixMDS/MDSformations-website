@@ -9,6 +9,7 @@ import FormationPage from "./page/Formation/Formation.jsx";
 import Error404 from "page/Error404/Error404";
 import Besoin from "./page/Orientation/Besoin/Besoin";
 import Hebergement from "./page/ChezMDS/Hebergement/Hebergement";
+import Modele from "page/ChezMDS/Modele/Modele";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/documentation" element={<Documentation /> } />
           <Route path="/api" element={<Besoin/>} />
           <Route path="/hebergement" element={<Hebergement />} />
+          <Route path="/devenir-modele" element={<Modele />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>
