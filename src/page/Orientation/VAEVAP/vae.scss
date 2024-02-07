@@ -4,7 +4,7 @@
 .vaeHeader{
     height:500px;
     width: 100%;
-    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/modele.webp");
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/vaevap.webp");
     background-size:cover;
     object-fit: cover;
     background-position: 50% 60%;
@@ -26,5 +26,52 @@
         font-family: "poppins-light";
         color: #ffffff;
     }
+}
+
+    .vaePage{
+        padding: 40px 10% 40px 10%;
+
+        p{
+            padding-bottom: 15px;
+            font-family: "poppins-light";
+            font-size: 13px;
+        }
+
+        h3{
+            font-family: "poppins-light";
+            margin: 20px 0 20px 0;
+
+            span{
+                color: $color-1;
+                font-family: "poppins";
+            }
+        }
+
+        button{
+            border: none;
+        border-radius: 100px;
+        background: $color-1;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-flex;
+        padding: 2px 16px 2px 16px;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        }
+    }
+}
+@media screen and (max-width:1024px){
+    .vae{ 
+.home2{
+    padding-bottom: 20px;
+    .slider-formation{
+        height: 287px;
+    }
+    .button_webinaire{
+        margin-top: 14px;
+    }
+}
 }
 }
