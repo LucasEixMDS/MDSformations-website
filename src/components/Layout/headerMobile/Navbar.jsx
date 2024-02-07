@@ -49,7 +49,8 @@ function Navbar() {
         "FPA": "/fpa",
         "FO": "/fo",
         "Hébergement": "/hebergement",
-        "Devenir modèle": "/devenir-modele"
+        "Devenir modèle": "/devenir-modele",
+        "La VAE et la VAP": "/vae-vap"
     };
 
     const submenuTags = {
