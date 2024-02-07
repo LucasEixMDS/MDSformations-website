@@ -1,3 +1,5 @@
+@import '../../../style/settings.scss';
+
 .modele{
     width: 100%;
     padding: 0;
@@ -6,7 +8,7 @@
     .modeleHeader{
         height:500px;
         width: 100%;
-        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/hebergement.webp");
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/modele.webp");
         background-size:cover;
         object-fit: cover;
         background-position: 50% 60%;
@@ -25,8 +27,233 @@
         }
         h2{
             font-size: 24px;
-            font-family: "poppins-semiBold";
+            font-family: "poppins-light";
             color: #ffffff;
         }
+    }
+
+    .modeleTarifs{
+        padding: 40px 10% 40px 10%;
+
+        p{
+            padding-bottom: 15px;
+            font-family: "poppins-light";
+            font-size: 14px;
+        }
+
+        h3{
+            font-family: "poppins-light";
+
+            span{
+                color: $color-1;
+                font-family: "poppins";
+            }
+        }
+    }
+
+    ul{
+        margin-left: 25px;
+        margin-bottom: 10px;
+        li{
+            font-size: 14px;
+        }
+    }
+
+    .modeleInscript{
+        display: flex;
+        background: #f2f2f2;
+        padding: 40px 10% 40px 10%;
+
+        .modeleInscriptLeft{
+            margin-right: 10px;
+            width: 60%;
+
+            p{
+                padding-bottom: 15px;
+                font-family: "poppins-light";
+                font-size: 14px;
+            }
+    
+            h3{
+                font-family: "poppins-light";
+                margin-bottom: 20px;
+                margin-top: 10px;
+    
+                span{
+                    color: $color-1;
+                    font-family: "poppins";
+                }
+            }
+            button{
+                border: none;
+            border-radius: 100px;
+            background: $color-1;
+            color: white;
+            margin-top: 10px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: space-around;
+            align-items: center;
+            width: auto;
+            }
+        }
+
+        .modeleInscriptRight{
+            width: 40%;
+            .modeleFormulaire{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                padding: 30px 50px 30px 50px;
+                background: white;
+                border-radius: 30px;
+               
+        
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    .select-container {
+                        position: relative;
+                        display: inline-block;
+                     }
+                     
+                     .select-container::after {
+                        content: '\25BC'; /* Ceci est une flèche vers le bas */
+                        position: absolute;
+                        top: 58%;
+                        right: 27px; /* Positionnez la flèche à 10px du bord droit */
+                        transform: translateY(-50%); /* Centrez la flèche verticalement */
+                        pointer-events: none; /* Assurez-vous qu'elle ne bloque pas le clic sur le select */
+                     }
+                     
+                     select {
+                        width: 100%;
+                        appearance: none; /* Enlevez l'apparence par défaut du select */
+                        -moz-appearance: none; /* Enlevez l'apparence par défaut sur Firefox */
+                        -webkit-appearance: none; /* Enlevez l'apparence par défaut sur Chrome, Safari */
+                        background: transparent; /* Rendez l'arrière-plan transparent */
+                        padding-right: 30px; /* Laissez de l'espace pour la flèche */
+                     }
+        
+                    select{
+                        margin: 10px 0 10px 0 ;
+                        background: var(--Blanc-1, #F2F2F2);
+                        border: none;
+                    border-radius: 100px;
+                    height: 35px ;
+                    color: rgb(0, 0, 0);
+                    margin-top: 20px;
+                    display: inline-flex;
+                    padding: 2px 16px 2px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+        
+                    .material-icons{
+                        margin-right: 15px;
+                    }
+                    }
+        
+                    input{
+                        margin: 10px 0 10px 0 ;
+                        border: none;          /* Supprime toutes les bordures */
+                        border-bottom: 2px solid #4F4F4F; /* Ajoute une bordure en bas */
+                        outline: none; 
+                    }
+        
+                    label{
+                        margin: 10px 0 10px 0 ;
+                        
+                    }
+        
+                    .vae{
+                        
+                        display: none;
+                        align-items: center;
+                        width: 100%;
+        
+                        span{
+                            margin-left: 10px;
+                            font-weight: 200;
+                            color: #4F4F4F;
+                        }
+        
+                    }
+        
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                       
+                        
+                        span{
+                            margin-left: 10px;
+                            font-weight: 200;
+                            color: #4F4F4F;
+                            font-size: 12px;
+                        }
+                    }
+        
+                    button{
+                        margin: 10px 0 10px 0 ;
+                    }
+        
+                    button{
+                        border: none;
+                    border-radius: 100px;
+                    background: $color-1;
+                    color: white;
+                    margin-top: 10px;
+                    display: inline-flex;
+                    padding: 2px 16px 2px 16px;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:1024px){
+    .modele{
+        .modeleInscript{
+            flex-direction: column;
+
+            .modeleInscriptLeft{
+                width: 100%;
+            }
+            .modeleInscriptRight{
+                width: 100%;
+                margin-top: 25px;
+
+                .modeleFormulaire{
+                    padding: 10px 15px 10px 15px;
+
+                    form{
+                        select{
+                            font-size: 12px;
+                        }
+
+                        button{
+                            width: 140px;
+                        }
+                    }
+                }
+            }
+        }
+    
+    
+.home2{
+    padding-bottom: 20px;
+    .slider-formation{
+        height: 287px;
+    }
+    .button_webinaire{
+        margin-top: 14px;
+    }
+}
     }
 }

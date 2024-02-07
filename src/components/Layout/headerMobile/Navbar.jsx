@@ -49,6 +49,7 @@ function Navbar() {
         "FPA": "/fpa",
         "FO": "/fo",
         "Hébergement": "/hebergement",
+        "Devenir modèle": "/devenir-modele"
     };
 
     const submenuTags = {
