@@ -50,7 +50,9 @@ function Navbar() {
         "FO": "/fo",
         "Hébergement": "/hebergement",
         "Devenir modèle": "/devenir-modele",
-        "La VAE et la VAP": "/vae-vap"
+        "La VAE et la VAP": "/vae-vap",
+        "Rejoindre MDS": "/rejoindre-MDS",
+        "Toutes nos formations": "/toutes-nos-formations"
     };
 
     const submenuTags = {

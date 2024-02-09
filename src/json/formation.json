@@ -6,6 +6,7 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/pied.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmereflexo.pdf",
         "hasPlannings": true,
+        "certifiant": "Certifiant",
         "fichette":{
             "time1": "355 heures 30 jour de distanciel",
             "time2": "12 mois 55 jour de présenciel",
@@ -203,6 +204,7 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeTechSpa.pdf",
         "hasPlannings": true,
+        "certifiant": "Certifiant",
         "fichette":{
             "time1": "355 heures 30 jour de distanciel",
             "time2": "12 mois 55 jour de présenciel",
@@ -372,6 +374,7 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeProthesieDistanciel.pdf",
         "hasPlannings": false,
+        "certifiant": "Certifiant",
         "fichette":{
             "time1": "355 heures 30 jour de distanciel",
             "time2": "12 mois 55 jour de présenciel",
@@ -524,6 +527,7 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/ongle.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeProthesiePresentiel.pdf",
         "hasPlannings": false,
+        "certifiant": "Certifiant",
         "fichette":{
             "time1": "355 heures 30 jour de distanciel",
             "time2": "12 mois 55 jour de présenciel",
@@ -676,6 +680,7 @@
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeTechSpa.pdf",
         "hasPlannings": false,
+        "certifiant": "Certifiant",
         "fichette":{
             "time1": "355 heures 30 jour de distanciel",
             "time2": "12 mois 55 jour de présenciel",

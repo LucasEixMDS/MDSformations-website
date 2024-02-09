@@ -11,6 +11,8 @@ import Besoin from "./page/Orientation/Besoin/Besoin";
 import Hebergement from "./page/ChezMDS/Hebergement/Hebergement";
 import Modele from "page/ChezMDS/Modele/Modele";
 import Vae from "page/Orientation/VAEVAP/Vae";
+import RejoindreMDS from "page/ChezMDS/RejoindreMDS/RejoindreMDS";
+import TouteNosFormations from "page/Liste formations/Toutes_formations/TouteNosFormations";
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
           <Route path="/hebergement" element={<Hebergement />} />
           <Route path="/devenir-modele" element={<Modele />} />
           <Route path="/vae-vap" element={<Vae />} />
+          <Route path="/rejoindre-MDS" element={<RejoindreMDS />} />
+          <Route path="/toutes-nos-formations" element={<TouteNosFormations />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>
