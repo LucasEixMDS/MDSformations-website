@@ -8,7 +8,7 @@
     .headerNosFormations{
         height:500px;
         width: 100%;
-        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/hebergement.webp");
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/toutesNosFormations.webp");
         background-size:cover;
         object-fit: cover;
         background-position: 50% 60%;
@@ -22,13 +22,31 @@
         h1{
             font-size: 36px;
             font-family: "poppins-semiBold";
-            color: #2f2f2f;
+            color: #ffffff;
             margin-bottom: -10px;
         }
         h2{
-            font-size: 24px;
-            font-family: "poppins-semiBold";
-            color: #2f2f2f;
+            font-size: 20px;
+            width: 45%;
+            font-family: "poppins-light";
+            color: #ffffff;
         }
     }
+    .containerNosFormations{ 
+        padding: 40px 5% 40px 10%;
+    .texteNosFormations{
+        p{
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .listeNosFormations{
+        h3{
+            color: var(--Gris, #4F4F4F);
+            font-size: 21px;
+        }
+    }
+}
 }
