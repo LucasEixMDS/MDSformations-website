@@ -6,8 +6,8 @@ const FormationVae = () => {
     return (
         <div className="formationVae">
             <div className="headerFormationVae">
-                <h1>Toutes nos formations</h1>
-                <h2>Votre porte d'accès à l'excellence en bien-être et esthétique</h2>
+                <h1>Les formations VAE et VAP</h1>
+                <h2>Valorisez votre expérience avec nos formations en VAE et VAP</h2>
             </div>
             <div className="containerFormationVae">
             <div className="formationVaeText">
