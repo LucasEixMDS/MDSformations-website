@@ -16,7 +16,7 @@ const FormationVae = () => {
             </div>
             <h3>Les formations en VAE et VAP </h3>
             <FormationModal filterCriteria="vae" />
-            <button>Comprendre la VAE/VAP</button>
+            <button className="button">Comprendre la VAE/VAP</button>
             </div>
             <HomeCadreQuestion />
             
