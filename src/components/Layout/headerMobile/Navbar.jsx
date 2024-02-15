@@ -52,7 +52,8 @@ function Navbar() {
         "Devenir modèle": "/devenir-modele",
         "La VAE et la VAP": "/vae-vap",
         "Rejoindre MDS": "/rejoindre-MDS",
-        "Toutes nos formations": "/toutes-nos-formations"
+        "Toutes nos formations": "/toutes-nos-formations",
+        "🧑‍💼 Les VAE et VAP":"/formations-vae-vap"
     };
 
     const submenuTags = {
