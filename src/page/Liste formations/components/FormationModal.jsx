@@ -1,6 +1,7 @@
 import formationsData from '../../../json/CarrouselForm.json';
 import "./formationModal.scss";
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 // Fonction pour mélanger les formations
 const shuffleFormations = (formations) => {
@@ -21,7 +22,7 @@ const FormationLong = ({ filterCriteria }) => {
     return (
         <div className='formationLong'>
             {filteredFormations.map(formation => (
-                <a href={formation.formationURL} target="_blank" rel="noopener noreferrer" key={formation.id}>
+               <Link to={formation.formationURL} target="_blank" rel="noopener noreferrer" key={formation.id}>
                     <div className="nosFormationsModal" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${formation.photo})` }}>
                         <div className="formationTextBottom">
                             <h3>{formation.name}</h3>
@@ -41,7 +42,7 @@ const FormationLong = ({ filterCriteria }) => {
                                 </svg>
                             </div>
                     </div>
-                </a>
+                </Link>
             ))}
         </div>
     );
