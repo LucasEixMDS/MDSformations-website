@@ -1,0 +1,29 @@
+.differentFinancement{
+
+    .headerDifferentFinancement{
+        height:500px;
+    width: 100%;
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/vaevap.webp");
+    background-size:cover;
+    object-fit: cover;
+    background-position: 50% 60%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 0 10% 60px 10%;
+    color: white;
+
+    h1{
+        font-size: 36px;
+        font-family: "poppins-semiBold";
+        color: #ffffff;
+        margin-bottom: -10px;
+    }
+    h2{
+        font-size: 24px;
+        font-family: "poppins-light";
+        color: #ffffff;
+    }
+    }
+}

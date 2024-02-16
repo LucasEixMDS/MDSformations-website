@@ -53,7 +53,8 @@ function Navbar() {
         "La VAE et la VAP": "/vae-vap",
         "Rejoindre MDS": "/rejoindre-MDS",
         "Toutes nos formations": "/toutes-nos-formations",
-        "🧑‍💼 Les VAE et VAP":"/formations-vae-vap"
+        "🧑‍💼 Les VAE et VAP":"/formations-vae-vap",
+        "Les différents financements": "/different-financement"
     };
 
     const submenuTags = {

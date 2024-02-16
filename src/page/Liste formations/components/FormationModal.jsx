@@ -22,7 +22,7 @@ const FormationLong = ({ filterCriteria }) => {
     return (
         <div className='formationLong'>
             {filteredFormations.map(formation => (
-               <Link to={formation.formationURL} key={formation.id}>
+               <Link to={formation.formationURL}   key={formation.id}>
                     <div className="nosFormationsModal" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${formation.photo})` }}>
                         <div className="formationTextBottom">
                             <h3>{formation.name}</h3>
