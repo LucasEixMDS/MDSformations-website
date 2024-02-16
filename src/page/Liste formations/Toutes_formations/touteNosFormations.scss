@@ -33,7 +33,7 @@
         }
     }
     .containerNosFormations{ 
-        padding: 40px 5% 40px 10%;
+        padding: 40px 2% 40px 10%;
     .texteNosFormations{
         p{
             font-size: 14px;
@@ -47,6 +47,51 @@
             color: var(--Gris, #4F4F4F);
             font-size: 21px;
         }
+
+        .formationLigne{
+            display: flex;
+
+            .formationLigneText{
+                width: 40%;
+                padding-top: 50px;
+                margin-left: 5%;
+
+                p{
+                    font-size: 14px;
+                    color: var(--Gris, #4F4F4F);
+                }
+                button{
+                    margin-top: 20px;
+                    border: none;
+                    border-radius: 100px;
+                    background: $color-1;
+                     display: inline-flex;
+                    padding: 2px 16px 2px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: white;
+                }
+            }
+        }
     }
 }
+}
+
+@media screen and (max-width: 1024px){ 
+    
+    .toutesNosFormations{
+        .containerNosFormations{
+            .listeNosFormations{
+                .formationLigne{
+                    flex-direction: column;
+
+                    .formationLigneText{
+                        margin-bottom: 20px;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
 }
