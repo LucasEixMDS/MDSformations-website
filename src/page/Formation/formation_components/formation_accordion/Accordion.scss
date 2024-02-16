@@ -38,7 +38,7 @@ color: $color-text;
       box-shadow: -10px 11px 30px 0px rgba(148.99999999999997, 154.99999999999997, 165.99999999999997, 0.1);
       display: flex;
       align-items: center;
-      
+      justify-content: space-between;
 
       .accordion-text{ 
         h6 {

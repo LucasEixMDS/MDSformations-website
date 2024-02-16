@@ -8,12 +8,12 @@
 
     .modalite-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         margin-top: 20px;
 
         .container-left{
-            width: 50%;
+            width: 180px;
 
             .modal-top{
                 position: relative;
@@ -117,7 +117,7 @@
         }
 
         .container-right{
-            width: 50%;
+            width: 180px;
             
 
             .modal-top{
