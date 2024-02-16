@@ -54,7 +54,8 @@ function Navbar() {
         "Rejoindre MDS": "/rejoindre-MDS",
         "Toutes nos formations": "/toutes-nos-formations",
         "🧑‍💼 Les VAE et VAP":"/formations-vae-vap",
-        "Les différents financements": "/different-financement"
+        "Les différents financements": "/different-financement",
+        "🧑‍💻 Les formations en ligne": "/formations-distanciel"
     };
 
     const submenuTags = {

@@ -1,0 +1,109 @@
+@import '../../../style/settings.scss';
+
+.toutesFormationsDistanciel{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .headerFormationsDistanciel{
+        height:500px;
+        width: 100%;
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/toutesFormationsDistanciel.webp");
+        background-size:cover;
+        object-fit: cover;
+        background-position: 50% 60%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        flex-direction: column;
+        padding: 0 10% 60px 10%;
+        color: white;
+
+        h1{
+            font-size: 36px;
+            font-family: "poppins-semiBold";
+            color: #ffffff;
+            margin-bottom: -10px;
+        }
+        h2{
+            font-size: 20px;
+            width: 45%;
+            font-family: "poppins-light";
+            color: #ffffff;
+        }
+    }
+    .containerFormationsDistanciel{ 
+        padding: 40px 2% 40px 10%;
+    .texteFormationsDistanciel{
+        p{
+            font-size: 14px;
+            width: 95%;
+            margin-bottom: 20px;
+        }
+        button{
+            margin: 10px 0 10px 0;
+            border: none;
+            border-radius: 100px;
+            background: $color-1;
+             display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: white;
+        }
+    }
+
+    .listeFormationsDistanciel{
+        h3{
+            color: var(--Gris, #4F4F4F);
+            font-size: 21px;
+        }
+
+        .formationLigne{
+            display: flex;
+
+            .formationLigneText{
+                width: 40%;
+                padding-top: 50px;
+                margin-left: 5%;
+
+                p{
+                    font-size: 14px;
+                    color: var(--Gris, #4F4F4F);
+                }
+                button{
+                    margin-top: 20px;
+                    border: none;
+                    border-radius: 100px;
+                    background: $color-1;
+                     display: inline-flex;
+                    padding: 2px 16px 2px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1024px){ 
+    
+    .toutesFormationsDistanciel{
+        .containerFormationsDistanciel{
+            .listeFormationsDistanciel{
+                .formationLigne{
+                    flex-direction: column;
+
+                    .formationLigneText{
+                        margin-bottom: 20px;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

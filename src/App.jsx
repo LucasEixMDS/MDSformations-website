@@ -15,6 +15,7 @@ import RejoindreMDS from "page/ChezMDS/RejoindreMDS/RejoindreMDS";
 import TouteNosFormations from "page/Liste formations/Toutes_formations/TouteNosFormations";
 import FormationVae from "page/Liste formations/Toutes_formations_vae/FormationVae";
 import DifferentFinancement from "page/Orientation/Financement/DifferentFinancement";
+import ToutesFormationsDistanciel from "page/Liste formations/Toutes_formations_distanciel/ToutesFormationsDistanciel";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/rejoindre-MDS" element={<RejoindreMDS />} />
           <Route path="/toutes-nos-formations" element={<TouteNosFormations />} />
           <Route path="/formations-vae-vap" element={<FormationVae />} />
+          <Route path="/formations-distanciel" element={<ToutesFormationsDistanciel />} />
           <Route path="/different-financement" element={<DifferentFinancement />} />
           <Route  element={<Error404 /> } />
           </Route>
