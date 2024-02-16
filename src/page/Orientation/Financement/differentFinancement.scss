@@ -1,9 +1,11 @@
+@import '../../../style/settings.scss';
+
 .differentFinancement{
 
     .headerDifferentFinancement{
         height:500px;
     width: 100%;
-    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/vaevap.webp");
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/differentFinancement.webp");
     background-size:cover;
     object-fit: cover;
     background-position: 50% 60%;
@@ -25,5 +27,63 @@
         font-family: "poppins-light";
         color: #ffffff;
     }
+    }
+
+    .containerDifferentFinancement{
+        padding: 40px 10% 10px 10%;
+
+        .textDiffFinance{
+            padding-bottom: 15px;
+            font-family: "poppins-light";
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .puceDiffFinance{
+            display: flex;
+
+            .puce{
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-left: 10px;
+
+                p{
+                    padding-bottom: 15px;
+                    font-family: "poppins-light";
+                    font-size: 14px;
+                }
+        
+                h3{
+                    font-family: "poppins-semiBold";
+                    margin: -3px 0 20px 0;
+                    color: var(--Gris, #4F4F4F);
+                    font-size: 16px;
+                }
+
+                button{
+                    border: none;
+                    border-radius: 100px;
+                    background: $color-1;
+                    color: white;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    display: inline-flex;
+                    padding: 2px 16px 2px 16px;
+                    margin-bottom: 40px;
+                    margin-top: 20px;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: auto;
+                }
+            }
+        }
     }
 }

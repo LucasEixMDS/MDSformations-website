@@ -21,7 +21,7 @@ const DifferentFinancement = () => {
             </div>
 
             <div className="containerDifferentFinancement">
-                <p>La formation professionnelle est un investissement essentiel pour votre avenir, mais nous comprenons que la question du financement peut être un facteur déterminant. C'est pourquoi nous mettons à votre disposition une variété d'options de financement pour rendre votre parcours de formation aussi accessible que possible.</p>
+                <p className="textDiffFinance">La formation professionnelle est un investissement essentiel pour votre avenir, mais nous comprenons que la question du financement peut être un facteur déterminant. C'est pourquoi nous mettons à votre disposition une variété d'options de financement pour rendre votre parcours de formation aussi accessible que possible.</p>
 
                 <div className="puceDiffFinance">
                     <div className="puce">
