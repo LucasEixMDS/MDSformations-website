@@ -7,9 +7,9 @@ import Documentation from "./components/documentation/Documentation"
 import ArticlePage from "./page/Article/Article"
 import FormationPage from "./page/Formation/Formation.jsx";
 import Error404 from "page/Error404/Error404";
-import Besoin from "./page/Orientation/Besoin/Besoin";
+import API from "./page/Orientation/BesoinAPI/Besoin";
 import Hebergement from "./page/ChezMDS/Hebergement/Hebergement";
-import Modele from "page/ChezMDS/Modele/Modele";
+import DevenirModele from "page/ChezMDS/Modele/Modele";
 import Vae from "page/Orientation/VAEVAP/Vae";
 import RejoindreMDS from "page/ChezMDS/RejoindreMDS/RejoindreMDS";
 import TouteNosFormations from "page/Liste formations/Toutes_formations/TouteNosFormations";
@@ -27,9 +27,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
-          <Route path="/api" element={<Besoin/>} />
+          <Route path="/api" element={<API/>} />
           <Route path="/hebergement" element={<Hebergement />} />
-          <Route path="/devenir-modele" element={<Modele />} />
+          <Route path="/devenir-modele" element={<DevenirModele />} />
           <Route path="/vae-vap" element={<Vae />} />
           <Route path="/rejoindre-MDS" element={<RejoindreMDS />} />
           <Route path="/toutes-nos-formations" element={<TouteNosFormations />} />
