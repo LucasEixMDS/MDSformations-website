@@ -4,9 +4,9 @@
 
 .page_formation { 
 .financement_cadre{
-    background-position-y: 99% ;
-    background-size: 143% ;
-    background: url('https://mdsformations-website-u5520.vm.elestio.app/hommerose.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
+    background-position-y: 64% !important;
+    background-size: 143% !important;
+    background: url('https://mdsformations-website-u5520.vm.elestio.app/hommerose.webp');
     height: 217px;
     width: 100%;
     padding: 20px;
@@ -74,9 +74,9 @@
     .page_formation { 
         .financement_cadre{
             height: 260px;
-            background: url('https://mdsformations-website-u5520.vm.elestio.app/hommeroseDesktop.webp'), lightgray -6.917px -220.732px / 159.857% 203.972% no-repeat;
-            background-size: 105% ;
-            background-position-y: 72% ;
+            background: url('https://mdsformations-website-u5520.vm.elestio.app/hommeroseDesktop.webp');
+            background-size: 105% !important;
+            background-position-y: 72% !important;
             display: flex;
             flex-direction: column;
             align-items: center;
