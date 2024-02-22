@@ -67,8 +67,8 @@ const Fichette = ({ formation }) => {
                         <button>En savoir+</button>
                     </div>
             </div>
-        <div className="buttonDoc">
-        <button style={colorBack}>Demander la documentation</button>
+            <div className="buttonDoc">
+        <button style={colorBack}>Demander la documentation <img src="../../../../public/flecheFichette.svg" alt="fleche vers le haut" /></button>
         </div>
     </div>
   );

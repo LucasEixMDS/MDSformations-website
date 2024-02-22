@@ -10,36 +10,32 @@ const Accordion = ({ block, formation }) => {
 
   useEffect(() => {
     if (contentRef.current) {
-        contentRef.current.style.height = open ? `${contentRef.current.scrollHeight}px` : '0px';
+      contentRef.current.style.height = open ? `${contentRef.current.scrollHeight}px` : '0px';
     }
-}, [open]);
+  }, [open]);
 
   const toggleAccordion = () => {
-    setOpen(open => !open);
-
- 
-    
-    if (contentRef.current) contentRef.current.style.height = open ? '0px' : `${contentRef.current.firstChild.scrollHeight}px`;
+    setOpen(!open);
   }
 
   const colorStyle = {
-    color: formation.colorFormation, // Pas besoin des parenthèses ou des backticks ici, juste la chaîne de caractères représentant le code hexadécimal de la couleur
-};
+    color: formation.colorFormation,
+  };
 
   return (
     <div className='accordion'>
-      <button className='accordion_header' onClick={toggleAccordion}>
+      <button className={`accordion_header ${open ? 'accordion_header_open' : ''}`} onClick={toggleAccordion}>
         <div className="accordion-text">
-      <h6 className='accordion-titre'>{block.title}</h6>
-      <div className="details">
-        <h6 style={colorStyle} className='accordion-hours'>{block.hours}</h6>
-        <h6 className='accordion-modalities'>{block.modalities}</h6>
-      </div>
-      </div>
-      <div className="arrow-container">
-        <div style={colorStyle} className={`accordion_arrow ${open ? 'accordion_arrow_open' : ''}`}>
-          <FontAwesomeIcon icon={faChevronDown} />
+          <h6 className='accordion-titre'>{block.title}</h6>
+          <div className="details">
+            <h6 style={colorStyle} className='accordion-hours'>{block.hours}</h6>
+            <h6 className='accordion-modalities'>{block.modalities}</h6>
+          </div>
         </div>
+        <div className="arrow-container">
+          <div style={colorStyle} className={`accordion_arrow ${open ? 'accordion_arrow_open' : ''}`}>
+            <FontAwesomeIcon icon={faChevronDown} />
+          </div>
         </div>
       </button>
       <div ref={contentRef} className={`accordion_collapse ${open ? 'accordion_collapse_open' : ''}`}>
@@ -56,8 +52,8 @@ const Accordion = ({ block, formation }) => {
 }
 
 Accordion.propTypes = {
-    block: PropTypes.object.isRequired,
-    formation: PropTypes.object.isRequired
+  block: PropTypes.object.isRequired,
+  formation: PropTypes.object.isRequired
 }
 
 export default Accordion;
