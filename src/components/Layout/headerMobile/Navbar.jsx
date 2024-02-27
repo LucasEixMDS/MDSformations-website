@@ -55,8 +55,10 @@ function Navbar() {
         "Toutes nos formations": "/toutes-nos-formations",
         "🧑‍💼 Les VAE et VAP":"/formations-vae-vap",
         "Les différents financements": "/different-financement",
-        "🧑‍💻 Les formations en ligne": "/formations-distanciel"
+        "🧑‍💻 Les formations en ligne": "/formations-distanciel",
+        "Notre équipe pédagogique": "/notre-equipe-pedagogique"
     };
+
 
     const submenuTags = {
         "prothesie ongulaire à distance": ["EN LIGNE"],

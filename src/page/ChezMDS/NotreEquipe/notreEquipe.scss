@@ -1,0 +1,294 @@
+@import '../../../style/settings.scss';
+
+.NotreEquipe{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+
+    .equipeHeader{
+        height:500px;
+        width: 100%;
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/notreEquipe.webp");
+        background-size:cover;
+        object-fit: cover;
+        background-position: 50% 60%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        flex-direction: column;
+        padding: 0 10% 60px 10%;
+        color: white;
+
+        h1{
+            font-size: 36px;
+            font-family: "poppins-semiBold";
+            color: #ffffff;
+            margin-bottom: -10px;
+        }
+        h2{
+            font-size: 24px;
+            font-family: "poppins-light";
+            color: #ffffff;
+        }
+    }
+
+    .notreEquipeContainer{
+        padding: 40px 10% 40px 10%;
+
+        .equipeContent{
+            padding: 10px 0 10px 0;
+            p{
+                color: var(--Gris, #4F4F4F);
+                font-family: "Poppins-light";
+                font-size: 14px;
+            }
+
+            button{
+                border: none;
+                border-radius: 100px;
+                background: $color-1;
+                color: white;
+                margin-top: 10px;
+                display: inline-flex;
+                padding: 2px 16px 2px 16px;
+                justify-content: space-around;
+                align-items: center;
+                width: auto;
+            }
+        }
+
+        .equipe{
+            h3{
+                font-size: 21px;
+                font-family: "poppins-light";
+                margin-top: 15px;
+
+                span{
+                    color: $color-1;
+                }
+            }
+
+            button{
+                border: none;
+                border-radius: 100px;
+                background: $color-1;
+                color: white;
+                margin-top: 10px;
+                display: inline-flex;
+                padding: 2px 16px 2px 16px;
+                justify-content: space-around;
+                align-items: center;
+                width: auto;
+            }
+
+            .equipeContainer{
+                display: flex;
+                flex-direction: column;
+
+                .equipeSubContainer{ 
+                    display: flex;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+
+                .equipeDiv{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 50%;
+
+                    .equipeImage{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                
+                    .equipeText{
+                        font-size: 14px;
+                        color: #4F4F4F;
+                        h4{
+                            color: $color-1;
+                        }
+
+                        .petit{
+                            font-size: 12px;
+
+                        }
+                    }
+                
+                }
+            }
+
+                .equipeDiv2{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 50%;
+
+                    .equipeImage{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                
+                    .equipeText{
+                        font-size: 14px;
+                        color: #4F4F4F;
+                        h4{
+                            color: $color-1;
+                        }
+
+                        .petit{
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .equipes{
+            h3{
+                font-size: 21px;
+                font-family: "poppins-light";
+                margin-top: 30px;
+
+                span{
+                    color: $color-1;
+                }
+            }
+
+            button{
+                border: none;
+                border-radius: 100px;
+                background: $color-1;
+                color: white;
+                margin-top: 10px;
+                display: inline-flex;
+                padding: 2px 16px 2px 16px;
+                justify-content: space-around;
+                align-items: center;
+                width: auto;
+            }
+
+            .equipeContainer{
+                display: flex;
+                flex-direction: column;
+
+                .equipeSubContainer{ 
+                    display: flex;
+                    margin-top: 30px;
+                    margin-bottom: 10px;
+
+                .equipeDiv{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 50%;
+
+                    .equipeImage{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                
+                    .equipeText{
+                        font-size: 14px;
+                        color: #4F4F4F;
+                        h4{
+                            color: $color-1;
+                        }
+
+                        .petit{
+                            font-size: 12px;
+
+                        }
+                    }
+                
+                }
+            }
+
+                .equipeDiv2{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+                    width: 50%;
+
+                    .equipeImage{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                
+                    .equipeText{
+                        font-size: 14px;
+                        color: #4F4F4F;
+                        h4{
+                            color: $color-1;
+                        }
+
+                        .petit{
+                            font-size: 12px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    .NotreEquipe{
+
+        .home2{
+            padding-bottom: 20px;
+            .slider-formation{
+                height: 287px;
+            }
+            .button_webinaire{
+                margin-top: 14px;
+            }
+        }
+        .notreEquipeContainer{
+            .equipe{
+                .equipeContainer{
+                    .equipeSubContainer{
+                        flex-direction: column;
+                        .equipeDiv{
+                            width: 100%;
+                            
+                        }
+                        .equipeDiv2{
+                            flex-direction: row-reverse;
+                            width: 100%;
+                            
+                            .equipeText{
+                                text-align: end;
+                            }
+                        }
+                    }
+                }
+            }
+            .equipes{
+                .equipeContainer{
+                    .equipeSubContainer{
+                        flex-direction: column;
+                        .equipeDiv{
+                            width: 100%;
+                            
+                        }
+                        .equipeDiv2{
+                            flex-direction: row-reverse;
+                            width: 100%;
+                            
+                            .equipeText{
+                                text-align: end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
