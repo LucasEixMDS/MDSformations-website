@@ -1,21 +1,22 @@
 import "./notreEquipe.scss";
 import HomeCadreQuestion from "../../../components/inscription/HomeCadreQuestion";
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
+import { Link } from 'react-router-dom';
 
 const NotreEquipe = () => {
     return (
         <div className="NotreEquipe">
             
             <div className="equipeHeader">
-                <h1>Devenez modèle dans nos formations</h1>
-                <h2>Un échange gagant-gagant</h2>
+                <h1>Notre équipe pédagogique</h1>
+                <h2>Des experts à votre service</h2>
             </div>
 
         <div className="notreEquipeContainer">
 
             <div className="equipeContent">
                 <p>Chez MDS Formations, nous croyons que la qualité de l'enseignement est la clé de la réussite de nos étudiants. C'est pourquoi notre équipe pédagogique est composée d'experts chevronnés dans les domaines du bien-être et de l'esthétique. Chacun d'entre eux apporte un ensemble unique de compétences et d'expériences pour offrir une formation de haute qualité.</p>
-                <button>Nous contacter</button>
+                <Link to="/Insccription"><button>Nous contacter</button></Link>
             </div>
 
 
@@ -180,7 +181,7 @@ const NotreEquipe = () => {
         <div className="home2">
             <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
             <CarousselFormationDesktop filterValues={['certification']} />
-            <button className="button_webinaire">Toutes nos formations certifiantes</button>
+           <Link to="/toutes-nos-formations"><button className="button_webinaire">Toutes nos formations certifiantes</button></Link>
             </div>
 
 

@@ -1,4 +1,5 @@
 import "./accompa.scss";
+import { Link } from 'react-router-dom';
 
 const Accompa = () => {
     return (
@@ -14,7 +15,7 @@ const Accompa = () => {
                     </div>
                 </div>
                 <h3>Posez-nous vos questions ! </h3>
-                <button className="buttonAccompa">Prendre rdv par téléphone</button>
+                <Link to="/Inscription" ><button className="buttonAccompa">Prendre rdv par téléphone</button></Link>
             </div>
         </div>
     );

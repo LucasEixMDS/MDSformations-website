@@ -1,6 +1,7 @@
 import Accompa from "components/accompagnement/Accompa";
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import "./vae.scss";
+import { Link } from 'react-router-dom';
 
 const Vae = () => {
     return (
@@ -11,7 +12,7 @@ const Vae = () => {
             </div>
             <div className="vaePage">
             <p>Chez MDS Formations, nous comprenons que l'apprentissage ne suit pas toujours un chemin traditionnel. C'est pourquoi nous vous proposons deux opportunités précieuses pour mettre en valeur votre expérience et vos compétences dans le domaine du bien-être et de l'esthétique : la Validation des Acquis de l'Expérience (VAE) et la Validation des Acquis Professionnels (VAP).</p>
-            <button>Toutes nos formations en VAE et VAP</button>
+            <Link to="/formations-vae-vap"><button>Toutes nos formations en VAE et VAP</button></Link>
             <h3><span>La VAE :</span> reconnaissez votre expertise</h3>
             <p>La VAE est un processus qui vous permet de faire reconnaître vos compétences acquises par l'expérience. Si vous travaillez depuis plusieurs années dans le secteur du bien-être et de l'esthétique, que vous avez accumulé des connaissances et des compétences, mais que vous n'avez pas de diplôme pour les valider, la VAE est votre opportunité.</p>
             <p>Nous vous guidons tout au long du processus de VAE, de la constitution de votre dossier de validation à la préparation de l'entretien avec le jury. Une fois que votre expérience est reconnue, vous obtenez un diplôme officiel qui atteste de vos compétences.</p>
