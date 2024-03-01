@@ -9,7 +9,7 @@ const MenuItem = ({ title, children }) => {
     setIsSubMenuOpen(!isSubMenuOpen);
   };
 
-  // Gestionnaire pour fermer le SubMenu si l'utilisateur clique en dehors
+
   const handleCloseSubMenu = (event) => {
     if (!event.target.closest('.submenu-container')) {
       setIsSubMenuOpen(false);
@@ -23,7 +23,7 @@ const MenuItem = ({ title, children }) => {
       document.removeEventListener('click', handleCloseSubMenu);
     }
 
-    // Nettoyage de l'écouteur d'événements
+
     return () => {
       document.removeEventListener('click', handleCloseSubMenu);
     };

@@ -1,8 +1,8 @@
 import './headerDesktop.scss'
-import Logo from '../../../assets/logoMDS.svg'; // Supposons que nous avons un fichier Logo.js
-import Menu from './Menu'; // Le composant Menu que nous venons de créer
-import SearchIcon from '../../../assets/loupe.svg'; // Supposons que nous avons un fichier SearchIcon.js
-import PhoneIcon from '../../../assets/mobile.svg'; // Supposons que nous avons un fichier PhoneIcon.js
+import Logo from '../../../assets/logoMDS.svg'; 
+import Menu from './Menu'; 
+import SearchIcon from '../../../assets/loupe.svg'; 
+import PhoneIcon from '../../../assets/mobile.svg'; 
 import { Link } from 'react-router-dom';
 
 

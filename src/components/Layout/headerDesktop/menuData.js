@@ -1,4 +1,3 @@
-// menuData.js
 const data = {
   "Nos formations": {
     imageUrl: "../../../../public/question.webp",
@@ -87,7 +86,6 @@ const data = {
       },
     ],
   },
-  // Ajoutez autant de sections que nécessaire...
 };
 
 export const getMenuData = (title) => {

@@ -1,6 +1,5 @@
-// SubMenu.js
-// SubMenu.jsx
-import { getMenuData } from './menuData'; // Assurez-vous que le chemin est correct
+
+import { getMenuData } from './menuData'; 
 import PropTypes from "prop-types";
 
 const SubMenu = ({ title }) => {
