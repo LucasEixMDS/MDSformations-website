@@ -4,6 +4,7 @@ import ecole from "../../../../../public/ecole.svg";
 import correction from "../../../../../public/correction.svg";
 import siege from "../../../../../public/siege.svg";
 import avocate from "../../../../../public/avocate.svg";
+import { Link } from "react-router-dom";
 
 const Formation_modalite = ({formation}) => {
 
@@ -29,7 +30,7 @@ const Formation_modalite = ({formation}) => {
                         </div>
                         <h4>Accessibilité</h4>
                         <p>Des formations conçues pour accueillir tous les apprenants, quelles que soient leurs capacités.</p>
-                        <button>En savoir +</button>
+                        <Link to="/handicap"><button>En savoir +</button></Link>
                     </div>
                 </div>
                 <div className="container-right">
@@ -50,7 +51,7 @@ const Formation_modalite = ({formation}) => {
                         </div>
                         <h4>VAE & VAP</h4>
                         <p>Reconnaissance de vos compétences existantes et obtenez la certification que vous méritez.</p>
-                        <button>En savoir +</button>
+                        <Link to="/vae-vap"><button>En savoir +</button></Link>
                     </div> 
                 </div>
         </div>

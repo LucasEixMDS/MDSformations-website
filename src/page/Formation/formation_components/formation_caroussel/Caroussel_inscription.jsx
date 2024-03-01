@@ -85,7 +85,7 @@ function CarrouselInscription({ filterValues = [], formation }) {
                         
                         <div className="bottomContainer">
                             <div className="buttons">
-                                <button style={{ background: formation.colorFormation}}>En savoir +</button>
+                                <Link to="/Inscription"><button style={{ background: formation.colorFormation}}>En savoir +</button></Link>
                             </div>
                         </div>
                     </div>

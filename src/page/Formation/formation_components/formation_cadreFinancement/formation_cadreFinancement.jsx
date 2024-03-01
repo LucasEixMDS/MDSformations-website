@@ -1,4 +1,5 @@
 import './formation_cadreFinancement.scss';
+import { Link } from 'react-router-dom';
 
 const formation_cadreFinancement = () => {
     return (
@@ -12,8 +13,8 @@ const formation_cadreFinancement = () => {
             <h3>Besoin d’aide pour comprendre les financements ?</h3>
             </div>
             <div className="financement_cadre_button">
-            <button>nous contacter</button>
-            <button className='buttonSavoir'>En savoir +</button>
+            <Link to="/Inscription"><button>nous contacter</button></Link>
+            <Link to="/different-financement"><button className='buttonSavoir'>En savoir +</button></Link>
             </div>
         </div>
     );

@@ -6,6 +6,7 @@ import trophy from "../../../../../public/trophy.svg";
 import sacoche from "../../../../../public/sacoche.svg";
 import couvert from "../../../../../public/couvert.svg";
 import maison from "../../../../../public/maison.svg";
+import { Link } from "react-router-dom";
 
 
 const Formation_certification = ({ formation }) => {
@@ -24,7 +25,7 @@ const Formation_certification = ({ formation }) => {
                     <h2 style={colorStyle}>{formation.certification.title}</h2>
                     <h3>{formation.certification.rncp}</h3>
                     <h3>{formation.certification.level}</h3>
-                    <button style={ {backgroundColor: formation.colorFormation}}>En savoir +</button>
+                    <Link to="/Inscription"><button style={ {backgroundColor: formation.colorFormation}}>En savoir +</button></Link>
                 </div>
                 </div>
             </div>
@@ -37,7 +38,7 @@ const Formation_certification = ({ formation }) => {
             <p><img src={couvert} alt="icon apple de couvert" />Tout à Portée de Main : Profitez de services complets pour vous permettre de vous concentrer sur votre apprentissage.</p>
             <p><img src={sacoche} alt="icon apple d'une sacoche" />Atmosphère d'Apprentissage : Bénéficiez d'une ambiance propice à la concentration et à l'épanouissement.</p>
             <p>Focalisez-vous sur votre développement, nous prenons soin de votre séjour. Cliquez pour en savoir plus sur nos offres d'hébergement et vivez une expérience de formation sans soucis !</p>
-            <button style={ {backgroundColor: formation.colorFormation}}>Découvrir nos hébergements</button>
+            <Link to="/hebergement"><button style={ {backgroundColor: formation.colorFormation}}>Découvrir nos hébergements</button></Link>
         </div>
         </div>
     );

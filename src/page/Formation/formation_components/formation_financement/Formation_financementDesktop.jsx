@@ -1,5 +1,6 @@
 import "./formation_financementDesktop.scss";
 import PropTypes from 'prop-types';
+import { Link } from "react-router-dom";
 
 const Formation_financementDesktop = ({formation}) => {
 
@@ -40,7 +41,7 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <button style={backgroundStyle}>En savoir +</button>
+                                <Link to="/Inscription"><button style={backgroundStyle}>En savoir +</button></Link>
                             </div>
                     </div>
                     <div className="financementItems">
@@ -50,7 +51,7 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <button style={backgroundStyle}>En savoir +</button>
+                                <Link to="/Inscription"><button style={backgroundStyle}>En savoir +</button></Link>
                             </div>
                     </div>
                     <div className="financementItems">
@@ -60,7 +61,7 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <button style={backgroundStyle}>S'inscrire</button>
+                                <Link to="/Inscription"><button style={backgroundStyle}>S'inscrire</button></Link>
                             </div>
                     </div>
                 </div>
