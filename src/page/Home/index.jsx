@@ -8,6 +8,7 @@ import HomeFinancement from "./homecomponents/HomeFinancement";
 import HomeTemoin from "./homecomponents/HomeTemoin";
 import HomeCadreTestformation from "../../components/inscription/HomeCadreTestformation";
 import HomePointfort from "./homecomponents/HomePointfort";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -16,13 +17,14 @@ const Home = () => {
             <div className="home">
             <h3>Nous avons forcément une formation <span>faites pour vous</span></h3>
             <CarrouselFormation  filterValues={['certification', 'formation']} />
+            <Link to={"/toutes-nos-formations"}><button >Nos formations</button></Link>
             <Modalite />
             </div>
             <Question />
             <div className="home2">
             <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
             <CarousselFormationDesktop filterValues={['certification']} />
-            <button className="button_webinaire">Toutes nos formations certifiantes</button>
+            <Link to={"/toutes-nos-formations"}><button className="button_webinaire">Toutes nos formations certifiantes</button> </Link> 
             </div>
             <div className="home_white">
                 <h3>Les dernières <span>actualités</span></h3>

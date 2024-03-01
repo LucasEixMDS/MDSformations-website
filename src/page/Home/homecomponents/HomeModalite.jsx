@@ -1,9 +1,10 @@
  import "./homeModalite.scss";
+ import { Link } from "react-router-dom";
 
 const Modalite = () => {
     return (
         <div className="modalite_Formation">
-            <h3>Des formations <span>adaptées à vos besoins</span></h3>
+           <h3 className="titreh3">Des formations <span>adaptées à vos besoins</span></h3>
             <p className="modalite-desktop">Lorsque vous vous inscrivez à l'une de nos formations, nous vous offrons un avantage inestimable : un accès complet et gratuit à notre plateforme de formation en ligne pendant une période de 6 mois. Notre plateforme de formation constitue un centre de ressources essentiel pour vous aider à exceller dans votre parcours de formation</p>
             <div className="container_modalite">
                 <div className="container_modalite_left">
@@ -17,7 +18,7 @@ const Modalite = () => {
                             <h3>Nos formations en ligne</h3>
                         </div>
                         <div className="modalite_container_button_left">
-                            <button>Découvrir</button>
+                        <Link to={"/formations-distanciel"} ><button>Découvrir</button></Link>
                         </div>
                     </div>
                     <div className="modalite-desktop-texte">
@@ -38,7 +39,7 @@ const Modalite = () => {
                             <h3>Nos formations en présentiel</h3>
                         </div>
                         <div className="modalite_container_button_right">
-                            <button>Découvrir</button>
+                        <Link to={"/toutes-nos-formations"} ><button>Découvrir</button></Link>
                         </div>
                     </div>
                     <div className="modalite_desktop_puce">

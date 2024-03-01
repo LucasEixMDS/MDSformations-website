@@ -1,4 +1,5 @@
 import './homeCadreTestformation.scss';
+import { Link } from 'react-router-dom';
 
 const HomeCadreTestformation = () => {
     return (
@@ -12,8 +13,8 @@ const HomeCadreTestformation = () => {
             <h3>Quelle formation est faites pour moi ?</h3>
             </div>
             <div className="homecadre_button">
-            <button className='button-homecadreMobile'>Faire le test</button>
-            <button className='button-homecadreDesktop'>Participer aux webinaires</button>
+            <button className='button-homecadreMobile'>Participer aux webinaires</button>
+            <Link to="https://forms.gle/9cC2eGyxh8XY51Sw5" ><button className='button-homecadreDesktop'>Participer aux webinaires</button></Link>
             <p>c'est < br /> gratuit</p>
             </div>
         </div>

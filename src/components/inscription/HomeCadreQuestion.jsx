@@ -1,4 +1,5 @@
 import "./homeCadreQuestion.scss";
+import { Link } from 'react-router-dom';
 
 const Question = () => {
     return (
@@ -11,7 +12,7 @@ const Question = () => {
                     <h3>Vous avez des questions ? </h3>
                 </div>
                 <h3>Vous souhaitez découvrir une formation en détails ? </h3>
-                <button className="button_webinaire">Participer au Webinaire</button>
+                <Link to="https://forms.gle/9cC2eGyxh8XY51Sw5" > <button className="button_webinaire">Participer au Webinaire</button></Link>
             </div>
         </div>
     );

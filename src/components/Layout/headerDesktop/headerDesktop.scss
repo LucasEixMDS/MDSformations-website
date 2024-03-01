@@ -7,6 +7,19 @@
 
 .HeaderDesktop{
   display: none;
+  nav{
+    
+    .submenu-container{
+      
+      button{
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        background: none;
+      }
+      
+    }
+  }
 }
 
 

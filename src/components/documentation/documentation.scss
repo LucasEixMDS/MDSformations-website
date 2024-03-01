@@ -185,9 +185,23 @@
             padding: 2px 16px 2px 16px;
             justify-content: space-around;
             align-items: center;
+
+            img{
+                margin-left: 5px;
+            }
         
             }
         }
     }
 }
 
+@media screen and (min-width:1025px){
+    .documentation{
+        margin-top: 100px;
+
+
+        .documentation_formulaire{
+            align-items: normal;
+        }
+    }
+}

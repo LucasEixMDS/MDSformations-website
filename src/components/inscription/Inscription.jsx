@@ -11,12 +11,13 @@ const Inscription = () => {
                 <h1>Inscription en ligne</h1>
                 <p>Vous êtes prêt(e) à vous lancer ?</p>
                 <div>
+                    <p>Contactez nous directement par téléphone ou mail</p>
                 <button>02 40 96 32 80</button>
                 </div>
                 <div>
                 <button>camille.melodiedessens@gmail.com</button>
                 </div>
-                <p>Inscrivez-vous en quelques clics :</p>
+                <p>Sinon, nous vous contacterons dans les plus brefs délais pour votre inscription :</p>
                 </div>
             <div className="inscription_formulaire">
                 

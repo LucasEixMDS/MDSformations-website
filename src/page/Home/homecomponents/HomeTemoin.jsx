@@ -4,6 +4,7 @@ import stars from '../../../assets/stars.svg';
 import lolita from '../../../assets/lolita.png';
 import avis1 from '../../../../public/googleAvis1.svg';
 import avis2 from '../../../../public/googleAvis2.svg'
+import { Link } from 'react-router-dom';
 
 const HomeTemoin = () => {
     return (
@@ -57,7 +58,7 @@ const HomeTemoin = () => {
                     <p className='google_text'>sur 192 avis google</p>
                 </div>
                 <div className="home_temoin_modal_button">
-                    <button>Voir tous les avis</button>
+                    <Link to="https://g.page/r/CTsMowlEAEWLEAI/review"><button>Voir tous les avis</button></Link>
                 </div>
             </div>
             <div className="home_temoin_right">

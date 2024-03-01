@@ -4,10 +4,11 @@
     padding-bottom: 25px;
 
     .homepointfort_button{ 
-        width: 100%;
+        width: 50%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
+        margin-left: 40px;
 
     button{
         border: none;
@@ -94,7 +95,7 @@
                     
                     img {
                         margin-right: 10px;
-                        padding-top: 2px;
+                        padding-top: 3px;
                     }
                     
                     div {
@@ -173,5 +174,6 @@
     .homepointfort_button{
         padding-left: 17% !important;
         justify-content: normal !important;
+        margin-left: 0 !important;
     }
 }

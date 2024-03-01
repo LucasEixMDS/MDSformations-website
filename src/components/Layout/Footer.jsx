@@ -7,6 +7,7 @@ import facebook from '../../assets/facebook.svg'
 import instagram from '../../assets/instagram.svg'
 import linkedin from '../../assets/linkedin.svg'
 import tiktok from '../../assets/toktok.svg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,39 +25,38 @@ const Footer = () => {
                     <a href=""><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
                     
                 </div>
-                <button><img src={mobile} alt="" />Contactez-nous</button>       
+                 <Link to="/Inscription" ><button><img src={mobile} alt="" />Contactez-nous</button></Link>       
                 </div>
                 <div className="footer_desktop">
             <div className="footer_lien">
                 <p><strong>Ressources</strong></p>
-                <Nav.Link href="/" >Devenir Modèle</Nav.Link>
-                <Nav.Link href="/" >Inscription Webinaire</Nav.Link>
-                <Nav.Link href="/" >Quizz Formulaire</Nav.Link>
-                <Nav.Link href="/" >Demande de documentation</Nav.Link>
-                <Nav.Link href="/" >Nos articles</Nav.Link>
-                <Nav.Link href="/" >Accessibilité et handicap</Nav.Link>
+                <Link to="/devenir-modele" >Devenir Modèle</Link>
+                <Link to="https://forms.gle/9cC2eGyxh8XY51Sw5" >Inscription Webinaire</Link>
+                <Link to="/documentation" >Demande de documentation</Link>
+                <Link to="/" >Nos articles</Link>
+                <Link to="/" >Accessibilité et handicap</Link>
             </div>
             
             <div className="footer_bar"></div>
             <div className="footer_legal">
                 <p><strong>Ressources</strong></p>
-                <Nav.Link href="/" >CGV</Nav.Link>
-                <Nav.Link href="/" >Mentions légales</Nav.Link>
-                <Nav.Link href="/" >Conditions d inscription</Nav.Link>
-                <Nav.Link href="/" >Cookies</Nav.Link>
-                <Nav.Link href="/" >Annulation et remboursement</Nav.Link>
-                <Nav.Link href="/" >Hébergement</Nav.Link>
+                <Link to="/" >CGV</Link>
+                <Link to="/" >Mentions légales</Link>
+                <Link to="/" >Conditions d inscription</Link>
+                <Link to="/" >Cookies</Link>
+                <Link to="/" >Annulation et remboursement</Link>
+                <Link to="/hebergement" >Hébergement</Link>
             </div>
             </div>
             <div className="footer_bar"></div>
             <div className="footer_info">
             <p><strong>Contact</strong></p>
-                <Nav.Link href="/" >02 40 96 32 80</Nav.Link>
-                <Nav.Link href="/" >camille.melodiedessens@gmail.com</Nav.Link>
-                <Nav.Link href="/" >33 blanche lande, 44521 Oudon</Nav.Link>
+                <Link to="/" >02 40 96 32 80</Link>
+                <Link to="/" >camille.melodiedessens@gmail.com</Link>
+                <Link to="/" >33 blanche lande, 44521 Oudon</Link>
             <p><strong>Plateforme</strong></p>
-                <Nav.Link href="/" >Plateforme Elearning prothésie</Nav.Link>
-                <Nav.Link href="/" >Plateforme de cours en ligne</Nav.Link>
+                <Link to="/" >Plateforme Elearning prothésie</Link>
+                <Link to="/" >Plateforme de cours en ligne</Link>
             </div>
             <div className="footer_entreprise">
                 <img src={qualiopi} alt="" />
