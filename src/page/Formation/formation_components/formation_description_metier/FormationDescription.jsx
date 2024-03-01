@@ -4,14 +4,16 @@ import PropTypes from 'prop-types';
 
 class FormationDescription extends React.Component {
   handleDownloadClick = () => {
+    const { formation } = this.props;
+  
     // Créez un élément <a> (lien)
     const downloadLink = document.createElement('a');
   
-    // Définissez l'URL du fichier que vous souhaitez télécharger en utilisant formation.programme
-    const fileUrl = this.props.formation.programme; // Utilisation de la propriété formation.programme
+    // Récupérez le lien du programme à partir de `formation.header.lienProgramme`
+    const fileUrl = formation.programme;
   
-    // Définissez le nom du fichier à télécharger
-    const fileName = 'nom-du-fichier.extension'; // Remplacez par le nom du fichier
+    // Extrayez le nom de fichier de l'URL
+    const fileName = this.getFileNameFromUrl(fileUrl);
   
     // Définissez l'attribut "href" avec l'URL du fichier
     downloadLink.href = fileUrl;
@@ -21,6 +23,16 @@ class FormationDescription extends React.Component {
   
     // Simulez un clic sur le lien pour déclencher le téléchargement
     downloadLink.click();
+  };
+  
+  getFileNameFromUrl = (url) => {
+    // Divisez l'URL en segments en utilisant le caractère "/"
+    const segments = url.split('/');
+  
+    // Récupérez le dernier segment qui devrait être le nom du fichier
+    const fileName = segments[segments.length - 1];
+  
+    return fileName;
   };
 
   render() {

@@ -39,7 +39,7 @@ function FormationHeader() {
                             </div>
                         <div className="button">
                             <Link to="/documentation">
-                            <button style={colorStyle}>Faire le test</button>
+                            <button style={colorStyle}>Inscrivez-vous</button>
                             </Link>
                         </div>
                     </div>
