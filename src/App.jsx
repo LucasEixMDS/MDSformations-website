@@ -17,6 +17,7 @@ import FormationVae from "page/Liste formations/Toutes_formations_vae/FormationV
 import DifferentFinancement from "page/Orientation/Financement/DifferentFinancement";
 import ToutesFormationsDistanciel from "page/Liste formations/Toutes_formations_distanciel/ToutesFormationsDistanciel";
 import NotreEquipe from "page/ChezMDS/NotreEquipe/NotreEquipe.jsx";
+import CommentSinscrire from "page/Orientation/CommentSinscrire/CommentSinscrire";
 
 
 const App = () => {
@@ -40,6 +41,8 @@ const App = () => {
           <Route path="/formations-distanciel" element={<ToutesFormationsDistanciel />} />
           <Route path="/different-financement" element={<DifferentFinancement />} />
           <Route path="/notre-equipe-pedagogique" element={<NotreEquipe />} />
+          <Route path="/comment-s'inscrire-en-formation" element={<CommentSinscrire />} />
+          
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

@@ -57,7 +57,8 @@ function Navbar() {
         "Les différents financements": "/different-financement",
         "🧑‍💻 Les formations en ligne": "/formations-distanciel",
         "Notre équipe pédagogique": "/notre-equipe-pedagogique",
-        "Inscription & Devis" : "/Inscription"
+        "Inscription & Devis" : "/Inscription",
+        "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation"
     };
 
 
