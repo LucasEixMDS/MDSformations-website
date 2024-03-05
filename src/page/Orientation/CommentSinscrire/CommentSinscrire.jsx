@@ -28,24 +28,72 @@ const CommentSinscrire = () => {
 
         <p>Une fois que vous avez choisi la formation qui vous convient, plusieurs options s'offrent à vous :</p>
 
-                    <div className="itemsComment">
-                        <div className="topContainer">
-                            <div className="icon">
-                                <h2>Tous savoir sur une formation</h2>
-                                <h3 className='date'>Toutes les informations dont vous avez besoin.</h3>
+            <div className="commentExplain">
+                <div className="commentDiv">
+                        <div className="itemsComment">
+                            <div className="topContainer">
+                                <div className="icon">
+                                    <h2>Tous savoir sur une formation</h2>
+                                    <h3 className='date'>Toutes les informations dont vous avez besoin.</h3>
+                                </div>
+                            </div>
+                            
+                            <div className="bottomContainer">
+                                <div className="buttons">
+                                    <Link to="/toutes-nos-formations"><button>En savoir +</button></Link>
+                                </div>
                             </div>
                         </div>
-                        
-                        <div className="bottomContainer">
-                            <div className="buttons">
-                                <Link to="/Inscription"><button>En savoir +</button></Link>
+
+                        <p><strong>Demande de documentation :</strong> si vous souhaitez en savoir plus sur <strong>le contenu de la formation, 
+                            les horaires, et les tarifs</strong>, vous pouvez remplir notre <strong>formulaire de demande</strong> 
+                            de documentation en ligne. Nous vous enverrons toutes les informations nécessaires.</p>
+                </div>
+                <div className="commentDiv">
+                        <div className="itemsComment">
+                            <div className="topContainer">
+                                <div className="icon">
+                                    <h2>Tous savoir sur une formation</h2>
+                                    <h3 className='date'>Toutes les informations dont vous avez besoin.</h3>
+                                </div>
+                            </div>
+                            
+                            <div className="bottomContainer">
+                                <div className="buttons">
+                                    <Link to="/Inscription"><button>En savoir +</button></Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-        </div>
+
+                        <p><strong>Demande de documentation :</strong> si vous souhaitez en savoir plus sur <strong>le contenu de la formation, 
+                            les horaires, et les tarifs</strong>, vous pouvez remplir notre <strong>formulaire de demande</strong> 
+                            de documentation en ligne. Nous vous enverrons toutes les informations nécessaires.</p>
+                </div>
+                <div className="commentDiv">
+                        <div className="itemsComment">
+                            <div className="topContainer">
+                                <div className="icon">
+                                    <h2>Tous savoir sur une formation</h2>
+                                    <h3 className='date'>Toutes les informations dont vous avez besoin.</h3>
+                                </div>
+                            </div>
+                            
+                            <div className="bottomContainer">
+                                <div className="buttons">
+                                    <Link to="/Inscription"><button>En savoir +</button></Link>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p><strong>Demande de documentation :</strong> si vous souhaitez en savoir plus sur <strong>le contenu de la formation, 
+                            les horaires, et les tarifs</strong>, vous pouvez remplir notre <strong>formulaire de demande</strong> 
+                            de documentation en ligne. Nous vous enverrons toutes les informations nécessaires.</p>
+                </div>
+            </div>
 
 
 
+            </div>
         </div>
     );
 };

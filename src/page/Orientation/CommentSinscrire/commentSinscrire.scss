@@ -73,6 +73,7 @@
             padding-bottom: 15px;
             font-family: "poppins-light";
             font-size: 14px;
+            color: var(--Gris, #4F4F4F);
         }
 
         h3{
@@ -85,6 +86,27 @@
                 color: $color-1;
             }
         }
+
+
+        .commentExplain { 
+            display: flex;
+            flex-wrap: wrap;
+
+
+        .commentDiv{ 
+            display: flex;
+            align-items: center;
+            width: 50%;
+            margin-top: 20px;
+
+            p{
+                font-family: "poppins-light";
+                font-size: 14px;
+                width: 230px;
+                color: var(--Gris, #4F4F4F);
+                
+            }
+
 
         .itemsComment {
             display: flex;
@@ -101,6 +123,7 @@
             background-position: center left 40%;
             background-size: cover;
             object-fit: cover;
+            margin-right: 10px;
 
             .topContainer{ 
                 width: 100%;
@@ -118,10 +141,10 @@
                     }
 
                     .date{
-                        font-size: 12px;
+                        font-size: 14px;
                         font-weight: 400;
                         color: $color-text;
-                        font-family: 'poppins-bold';
+                        font-family: 'poppins-semibBold';
                         padding-top: 20px;
                     }
                 }
@@ -153,5 +176,7 @@
         }
      
     }
+}
+        }
     }
 }
