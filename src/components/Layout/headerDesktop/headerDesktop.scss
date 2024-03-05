@@ -6,7 +6,7 @@
 }
 
 .HeaderDesktop{
-  display: none;
+  
   nav{
     
     .submenu-container{
@@ -24,13 +24,14 @@
 
 
 .sub-menu {
-    display: none; /* Masqué par défaut */
+    display: flex; /* Masqué par défaut */
     position: absolute;
     top: 100%; /* À la suite directe du MenuItem */
     left: 0;
     width: 100%; /* Ou une largeur spécifique si tu préfères */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Un peu d'ombre pour le démarquer */
     z-index: 100; /* S'assurer qu'il passe au-dessus des autres éléments */
+  
   }
   
   .menu-item:hover .sub-menu {
