@@ -1,58 +1,44 @@
-const data = {
+export const data = {
   "Nos formations": {
     imageUrl: "../../../../public/question_square.png",
     items: [
       {
         label: "Ongles",
-        details: ["Prothésie ongulaire", "Prothésie à distance"],
+        details: ["Prothésie ongulaire", "Prothésie ongulaire à distance"],
       },
       {
         label: "Corps",
-        details: [
-          "Réflexologie",
-          "Réflexologie à distance",
-          "Masseur(se) professionnel(le)",
-          "Massages du monde",
-        ],
+        details: ["Réflexologie", "Réflexologie à distance", "Masseur professionnel", "Massage du monde"],
       },
       {
-        label: "Toutes nos formations",
-        details: [
-          "Les formations diplômantes",
-          "Les formations en ligne",
-          "Les VAE et VAP",
-          "Toutes les formations",
-        ],
+        label: "Toutes les formations",
+        details: ["Les formations en ligne", "Les VAE et VAP", "Toutes nos formations"],
       },
     ],
   },
-  Orientation: {
+  "Orientation": {
     imageUrl: "../../../../public/question_square.png",
     items: [
       {
-        label: "Inscription et devis",
-        details: [
-          "Quelle formation est faite pour vous ?",
-          "Besoin d'être accompagné",
-          "Réorientation professionnelle",
-        ],
+        label: "Inscription & Devis",
+        details: ["Inscription & Devis", "Comment s'inscrire en formation ?", "La VAE et la VAP"],
       },
       {
         label: "Financements",
-        details: ["Comment utiliser votre CPF", "Les différents financements"],
+        details: ["Comment utiliser votre CPF ?", "Les différents financements", "Paiement en plusieurs mensualités"],
       },
     ],
   },
-  Accompagnement: {
+  "Accompagnement": {
     imageUrl: "../../../../public/question_square.png",
     items: [
       {
-        label: "Interview",
-        details: ["Bien-être", "Beauté", "Esthétique", "Carrière"],
+        label: "Suivis & accompagnement",
+        details: ["Accompagnement global", "Suivi post-formation"],
       },
       {
-        label: "Tous nos articles",
-        details: ["Comment utiliser votre CPF", "Les différents financements"],
+        label: "Information sur l'école",
+        details: ["Charte qualité",  "La direction pédagogique", "Les valeurs MDS"],
       },
     ],
   },
@@ -60,29 +46,12 @@ const data = {
     imageUrl: "../../../../public/question_square.png",
     items: [
       {
-        label: "Accompagnement",
-        details: [
-          "Accompagnement global",
-          "Suivis post-formation",
-          "Notre équipe pédagogique",
-        ],
-      },
-      { label: "Opportunités", details: ["Devenir modèle", "Rejoindre MDS"] },
-      {
-        label: "Notre institution",
-        details: [
-          "Nos diplômes reconnus",
-          "Notre direction pédagogique",
-          "Les valeurs de MDS",
-        ],
+        label: "MDS FORMATIONS",
+        details: ["Accessibilités & handicap", "Rejoindre MDS"],
       },
       {
-        label: "Accessibilité",
-        details: [
-          "Hébergement",
-          "Formation à distance",
-          "Accessibilité & handicap",
-        ],
+        label: "Info Pratique",
+        details: ["Hébergement", "Formation à distance",  "Devenir modèle"],
       },
     ],
   },

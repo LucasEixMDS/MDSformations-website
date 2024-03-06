@@ -7,11 +7,11 @@ export const menus = {
 };
 
 export const subMenus = {
-  "ongles": ["prothesie ongulaire", "prothesie ongulaire à distance"],
+  "ongles": ["Prothésie ongulaire", "Prothésie ongulaire à distance"],
   "visages": ["maquillage permanent", "extension de cils"],
-  "corps": ["Réflexologie", "Réflexologie à distance", "masseur professionnel", "massage du monde"],
+  "corps": ["Réflexologie", "Réflexologie à distance", "Masseur professionnel", "Massage du monde"],
   "tertiaire": ["SST", "FPA", "FO"],
-  "Toutes les formations" : [/*"👩‍🎓 Les formations diplômantes"*/ "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP", "Toutes nos formations"],
+  "Toutes les formations" : [/*"👩‍🎓 Les formations diplômantes"*/ "Les formations en ligne", "Les VAE et VAP", "Toutes nos formations"],
   /*"Devis & inscription" : ["Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités"],*/
   /*"Financement" : ["Les différents financements","Comment utiliser votre CPF ?" ]*/
 }; 
@@ -31,8 +31,8 @@ export const finalUrls = {
   "Extension de cils" : "/extension-de-cils",
   "Réflexologie" : "/reflexologue",
   "Réflexologie à distance": "/reflexologue",
-  "masseur professionnel" : "/masseur-professionnel",
-  "massage du monde" : "/massage-du-monde",
+  "Masseur professionnel" : "/masseur-professionnel",
+  "Massage du monde" : "/massage-du-monde",
   "SST": "/sst",
   "FPA": "/fpa",
   "FO": "/fo",
@@ -40,10 +40,11 @@ export const finalUrls = {
   "Devenir modèle": "/devenir-modele",
   "La VAE et la VAP": "/vae-vap",
   "Rejoindre MDS": "/rejoindre-MDS",
+  "Toutes les formations": "/toutes-nos-formations",
   "Toutes nos formations": "/toutes-nos-formations",
-  "🧑‍💼 Les VAE et VAP":"/formations-vae-vap",
+  "Les VAE et VAP":"/formations-vae-vap",
   "Les différents financements": "/different-financement",
-  "🧑‍💻 Les formations en ligne": "/formations-distanciel",
+  "Les formations en ligne": "/formations-distanciel",
   "Notre équipe pédagogique": "/notre-equipe-pedagogique",
   "Inscription & Devis" : "/Inscription",
   "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation",
