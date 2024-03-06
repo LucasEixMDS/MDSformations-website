@@ -6,7 +6,7 @@
     margin: 0;
 
     .headerHebergement{
-        height:500px;
+        height:300px;
         width: 100%;
         background-image: url("https://mdsformations-website-u5520.vm.elestio.app/hebergement.webp");
         background-size:cover;
@@ -22,13 +22,13 @@
         h1{
             font-size: 36px;
             font-family: "poppins-semiBold";
-            color: #2f2f2f;
+            color: #ffffff;
             margin-bottom: -10px;
         }
         h2{
             font-size: 24px;
             font-family: "poppins-semiBold";
-            color: #2f2f2f;
+            color: #ffffff;
         }
     }
 
@@ -239,7 +239,21 @@
             display: flex;
             margin-top: 20px;
 
-            
+          
+                .giteText{
+                 
+                    button{
+                            border: none;
+                            border-radius: 100px;
+                            background: $color-1 ;
+                            color: white ;
+                            display: inline-flex;
+                            padding: 2px 16px 2px 16px;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 25px;
+                    }
+                }
         }
     }
     .cadreQuestion{

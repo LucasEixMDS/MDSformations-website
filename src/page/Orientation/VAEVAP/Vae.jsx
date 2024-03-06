@@ -26,7 +26,7 @@ const Vae = () => {
             <div className="home2">
             <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
             <CarousselFormationDesktop filterValues={['certification']} />
-            <button className="button_webinaire">Toutes nos formations certifiantes</button>
+            <Link to="/toutes-nos-formations"><button className="button_webinaire">Toutes nos formations certifiantes</button></Link>
             </div>
         </div>
     );

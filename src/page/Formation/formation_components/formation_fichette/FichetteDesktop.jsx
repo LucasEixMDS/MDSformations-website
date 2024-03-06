@@ -1,5 +1,6 @@
 import "./FichetteDesktop.scss";
 import PropTypes from 'prop-types'; // Importez PropTypes
+import { Link } from "react-router-dom";
 
 const Fichette = ({ formation }) => {
 
@@ -44,28 +45,28 @@ const Fichette = ({ formation }) => {
                 <p style={colorStyle}>Accessibilité</p>
                     <div className="textFichette">
                         <p>Accessible aux personnes en situations de handicap</p>
-                        <button>En savoir+</button>
+                        <Link to="handicap"><button>En savoir+</button></Link>
                     </div>
             </div>
             <div className="containTextFichette">
                 <p style={colorStyle}>Financement</p>
                     <div className="textFichette">
                         <p>{formation.fichette.financement}</p>
-                        <button>En savoir+</button>
+                        <Link to="/different-financement"><button>En savoir+</button></Link>
                     </div>
             </div>
             <div className="containTextFichette">
                 <p style={colorStyle}>{formation.fichette.titreVae}</p>
                     <div className="textFichette">
                         <p>{formation.fichette.vae}</p>
-                        <button>En savoir+</button>
+                        <Link to="/vae-vap"><button>En savoir+</button></Link>
                     </div>
             </div>
             <div className="containTextFichette">
                 <p style={colorStyle}>Hébergement</p>
                     <div className="textFichette">
                         <p>Accessible sur el lieu de formation</p>
-                        <button>En savoir+</button>
+                        <Link to="/hebergement"><button>En savoir+</button></Link>
                     </div>
             </div>
         <div className="buttonDoc">

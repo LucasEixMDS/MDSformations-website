@@ -2,6 +2,8 @@ import "./Hebergement.scss";
 import Accompa from "../../../components/accompagnement/Accompa";
 import HomeCadreQuestion from '../../../components/inscription/HomeCadreQuestion';
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
+import { Link } from "react-router-dom";
+
 
 const Hebergement = () => {
     return (
@@ -15,7 +17,7 @@ const Hebergement = () => {
                 <div className="hebergementContainer">
                     <p>Chez MDS Formations, nous comprenons que la réussite de nos élèves dépend non seulement de la qualité de l'enseignement, mais aussi de leur environnement pendant la formation. C'est pourquoi nous avons mis en place un système d'hébergement pratique et confortable pour vous assurer une expérience de formation sereine.</p>
                     <p>Notre centre de formation est situé dans la charmante ville d'Oudon, un endroit paisible et propice à l'apprentissage. Bien que légèrement excentré des grandes villes comme Nantes et Angers, cette localisation offre l'avantage d'un environnement calme et préservé, idéal pour se concentrer sur l'apprentissage.</p>
-                    <button>Réserver une chambre</button>
+                    <Link to="/Inscription"><button>Réserver une chambre</button></Link>
 
                     <ul>
                         <li>
@@ -171,7 +173,7 @@ const Hebergement = () => {
                                 <p><strong>80 € / nuit</strong></p>
                                 <p>Contact < br/>
                                 Marie FILIPPI 06 62 12 90 13</p>
-                            <button>Site web</button>
+                            <Link to="https://www.google.com/search?q=gite+oh+la+vache+oudon&sourceid=chrome&ie=UTF-8"><button>Site web</button></Link>
                         </div>
                     </div>
                 </div>
@@ -181,7 +183,7 @@ const Hebergement = () => {
                 <div className="home2">
             <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
             <CarousselFormationDesktop filterValues={['certification']} />
-            <button className="button_webinaire">Toutes nos formations certifiantes</button>
+            <Link to="/toutes-nos-formations"><button className="button_webinaire">Toutes nos formations certifiantes</button></Link>
             </div>
                
         </div>
