@@ -58,7 +58,8 @@ function Navbar() {
         "🧑‍💻 Les formations en ligne": "/formations-distanciel",
         "Notre équipe pédagogique": "/notre-equipe-pedagogique",
         "Inscription & Devis" : "/Inscription",
-        "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation"
+        "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation",
+        "Paiement en plusieurs mensualités": "/paiement-mensualites"
     };
 
 
