@@ -209,12 +209,16 @@
 
         .container_titre{ 
             width: 40%;
-            margin-left: 10%;
+            margin-left: 15%;
             h1{
                 display: none;
                 font-size: 30px;
-               
+                margin-left: 0px;
             }
+            h2 {
+                margin-left: 0px;
+            }
+            
         .titre-home-desktop{
             display: block;
         }

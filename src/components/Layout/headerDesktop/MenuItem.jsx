@@ -1,47 +1,19 @@
-import { useEffect, useState} from 'react';
 import PropTypes from 'prop-types';
 import './headerDesktop.scss';
+import { useRef } from 'react';
 
-const MenuItem = ({ title, children }) => {
-  const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
-
-  const handleToggleSubMenu = () => {
-    setIsSubMenuOpen(!isSubMenuOpen);
-  };
-
-
-  const handleCloseSubMenu = (event) => {
-    if (!event.target.closest('.submenu-container')) {
-      setIsSubMenuOpen(false);
-    }
-  };
-
-  useEffect(() => {
-    if (isSubMenuOpen) {
-      document.addEventListener('click', handleCloseSubMenu);
-    } else {
-      document.removeEventListener('click', handleCloseSubMenu);
-    }
-
-
-    return () => {
-      document.removeEventListener('click', handleCloseSubMenu);
-    };
-  }, [isSubMenuOpen]);
-
+const MenuItem = ({ title, onOpen }) => {
+  const ref = useRef(null);
   return (
-    <div className="submenu-container">
-      <button onClick={handleToggleSubMenu}>
-        {title}
-      </button>
-      {isSubMenuOpen && children}
-    </div>
+    <button ref={ref} className="menu-item" onClick={() => onOpen(ref)}>
+      {title}
+    </button>
   );
 };
 
 MenuItem.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.node,
+  onOpen: PropTypes.func.isRequired,
 };
 
 export default MenuItem;

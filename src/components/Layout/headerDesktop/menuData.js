@@ -1,6 +1,6 @@
 const data = {
   "Nos formations": {
-    imageUrl: "../../../../public/question.webp",
+    imageUrl: "../../../../public/question_square.png",
     items: [
       {
         label: "Ongles",
@@ -27,7 +27,7 @@ const data = {
     ],
   },
   Orientation: {
-    imageUrl: "../../../../public/question.webp",
+    imageUrl: "../../../../public/question_square.png",
     items: [
       {
         label: "Inscription et devis",
@@ -43,8 +43,8 @@ const data = {
       },
     ],
   },
-  Articles: {
-    imageUrl: "../../../../public/question.webp",
+  Accompagnement: {
+    imageUrl: "../../../../public/question_square.png",
     items: [
       {
         label: "Interview",
@@ -57,7 +57,7 @@ const data = {
     ],
   },
   "Chez MDS": {
-    imageUrl: "../../../../public/question.webp",
+    imageUrl: "../../../../public/question_square.png",
     items: [
       {
         label: "Accompagnement",

@@ -6,60 +6,43 @@
 }
 
 .HeaderDesktop{
+
+  padding: 0;
+
+  a{
+    z-index: 999;
+    cursor: pointer;
+  }
+
+  .content {
+
+    margin: 0 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   
-  nav{
-    
-    .submenu-container{
+    nav{
+
+      display: flex;
+      gap: 50px;
       
-      button{
+      .menu-item{
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 24px;
         border: none;
         border-radius: 5px;
-        padding: 5px;
+        padding: 20px;
         background: none;
       }
-      
+
+      .phone {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #F2F2F2;
+        padding: 8px;
+      }
     }
   }
 }
-
-
-.sub-menu {
-    display: flex; /* Masqué par défaut */
-    position: absolute;
-    top: 100%; /* À la suite directe du MenuItem */
-    left: 0;
-    width: 100%; /* Ou une largeur spécifique si tu préfères */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Un peu d'ombre pour le démarquer */
-    z-index: 100; /* S'assurer qu'il passe au-dessus des autres éléments */
-  
-  }
-  
-  .menu-item:hover .sub-menu {
-    display: block; /* S'affiche quand le MenuItem est survolé */
-  }
-  
-  .menu-image img {
-    width: 100%;
-    height: auto;
-  }
-
-
-  .sub-menu {
-    display: block; /* Assurez-vous qu'il est visible */
-    position: absolute;
-    background-color: white; /* Ou toute autre couleur visible */
-    border: 1px solid black; /* Pour voir les limites du `SubMenu` */
-    z-index: 1000; /* Pour s'assurer qu'il est au-dessus des autres éléments */
-  }
-  
-  .menu-item:hover .sub-menu {
-    opacity: 1; /* Devient visible quand survolé */
-    visibility: visible;
-  }
-
-  .HeaderDesktop{
-    a{
-      z-index: 999;
-      cursor: grab;
-    }
-  }
