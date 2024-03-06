@@ -563,4 +563,125 @@
         "rncp": "Non applicable",
         "level": "Non applicable"
     }
-}]
+},{
+    "id": "0010",
+    "formationLink": "sst",
+    "colorFormation" : "#A8BCC0",
+    "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/pompier.svg",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Sauveteur Secouriste du Travail (SST)",
+        "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",
+        "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/SST.webp",
+        "imageAltText": "Formation SST",
+        "description": "La sécurité n'est jamais un accident. Elle est toujours le résultat d'un engagement, d'efforts et de compétences. Avec notre formation de Sauveteur Secouriste du Travail (SST), apprenez les réflexes nécessaires pour préserver la santé de vos collègues en entreprise. Cette formation vous offre les compétences pratiques pour agir efficacement lors des situations d'urgence."
+    },
+    "objectives": {
+        "title": "Objectifs de la::color:: formation SST::color::",
+        "list": [
+            {
+                "main": "Acquérir les compétences de base du secourisme",
+                "subList": [
+                    "Apprendre les techniques essentielles de réanimation cardio-pulmonaire (RCP)",
+                    "Se familiariser avec l'utilisation d'un défibrillateur externe automatisé (DEA)"
+                ]
+            },
+            {
+                "main": "Savoir réagir face à un accident du travail",
+                "subList": [
+                    "Évaluer rapidement la situation et sécuriser les lieux d'un accident",
+                    "Communiquer efficacement avec les services d'urgence"
+                ]
+            },
+            {
+                "main": "Maîtriser les gestes de premiers secours",
+                "subList": [
+                    "Pratiquer les techniques de premiers secours pour les blessures courantes",
+                    "Savoir intervenir en cas d'urgence médicale (étouffement, hémorragie, brûlure, etc.)"
+                ]
+            },
+            {
+                "main": "Connaître les procédures d'urgence en entreprise",
+                "subList": [
+                    "Identifier les protocoles d'urgence spécifiques à l'entreprise",
+                    "Comprendre le rôle du SST dans le cadre du plan d'urgence"
+                ]
+            },
+            {
+                "main": "Participer activement à la prévention des risques professionnels",
+                "subList": [
+                    "Reconnaître les dangers potentiels sur le lieu de travail",
+                    "Contribuer à la mise en œuvre des mesures préventives"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "30 €",
+        "examFee": "0 €",
+        "paymentOption": "Paiement unique",
+        "financementPerso" : "5 400 €",
+        "block1": "250 €",
+        "personalBlock1": "200 €"
+    },
+    "program": {
+        "title": "Contenu de la formation",
+        "blocks": [
+            {
+                "title": "Formation intensive (2-3 jours) : Gestes et procédures d'urgence",
+                "hours": "14 heures",
+                "modalities": "Présentiel avec simulations pratiques",
+                "content": [
+                    "Évaluation de la situation d'urgence...",
+                    "Techniques de réanimation et utilisation du défibrillateur...",
+                    "Gestion des accidents spécifiques au milieu de travail...",
+                    "Communication avec les services d'urgence...",
+                    "Prévention des accidents et maladies professionnels..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "sauveteur Secouriste du Travail ",
+
+    "jobsAfterTraining": {
+        "title": "Rôle dans l'entreprise",
+        "list": [
+            "Sauveteur Secouriste du Travail (SST)",
+            "Référent sécurité",
+            "Coordinateur des procédures d'urgence"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Domaines d'intervention",
+        "list": [
+            "Toutes entreprises",
+            "Organismes publics",
+            "Associations",
+            "Collectivités territoriales"
+        ]
+    },
+
+    "certification": {
+        "title": "Sauveteur Secouriste du Travail (SST)",
+        "rncp": "Non applicable",
+        "level": "Non applicable"
+    }
+}
+
+]

@@ -59,7 +59,8 @@ function Navbar() {
         "Notre équipe pédagogique": "/notre-equipe-pedagogique",
         "Inscription & Devis" : "/Inscription",
         "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation",
-        "Paiement en plusieurs mensualités": "/paiement-mensualites"
+        "Paiement en plusieurs mensualités": "/paiement-mensualites",
+        "Comment utiliser votre CPF ?": "/utiliser-son-cpf"
     };
 
 

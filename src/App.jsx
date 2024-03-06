@@ -19,6 +19,7 @@ import ToutesFormationsDistanciel from "page/Liste formations/Toutes_formations_
 import NotreEquipe from "page/ChezMDS/NotreEquipe/NotreEquipe.jsx";
 import CommentSinscrire from "page/Orientation/CommentSinscrire/CommentSinscrire";
 import PaiementMensualites from "page/Orientation/PaiementMensualites/PaiementMensualites";
+import UtiliserCPF from "page/Orientation/UtiliserCPF/UtiliserCPF";
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
           <Route path="/notre-equipe-pedagogique" element={<NotreEquipe />} />
           <Route path="/comment-s'inscrire-en-formation" element={<CommentSinscrire />} />
           <Route path="/paiement-mensualites" element={<PaiementMensualites />} />
+          <Route path="/utiliser-son-cpf" element={<UtiliserCPF />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

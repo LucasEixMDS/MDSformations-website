@@ -54,17 +54,6 @@
         "photo" : "https://mdsformations-website-u5520.vm.elestio.app/massagemonde.webp",
         "text" : "Massage du monde",
         "buttonColor" : "#D7724F"
-    },
-    {
-        "id" : "010",
-        "idElement" :  ["formation", "courte"],
-        "formationLink" : "sst",
-        "formationURL": "https://mdsformations-website-u5520.vm.elestio.app/sst",
-        "name" : "Sauveteur secouriste du travail",
-        "icon" : "https://mdsformations-website-u5520.vm.elestio.app/pompier.svg",
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/SST.webp",
-        "text" : "Sauveteur secouriste du travail",
-        "buttonColor" : "#A8BCC0"
     }
     
 ]
