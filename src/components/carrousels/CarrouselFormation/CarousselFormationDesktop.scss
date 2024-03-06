@@ -16,6 +16,18 @@
         }
     }
 
+    button{
+        border: none;
+        border-radius: 100px;
+        background: $color-principale;
+        color: white;
+        margin-top: 40px;
+        display: inline-flex;
+        padding: 2px 16px 2px 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .button_webinaire{
         border: none;
         border-radius: 100px;

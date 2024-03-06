@@ -1,7 +1,6 @@
 import Modalite from "page/Home/homecomponents/HomeModalite";
 import HomeHeader from "./HomeHeader"
 import CarrouselActu from "../../components/carrousels/CarrouselArticle/CarrouselArticle.jsx";
-import { CarrouselFormation} from "components"
 import CarousselFormationDesktop from "../../components/carrousels/CarrouselFormation/CarousselFormationDesktop"
 import Question from "components/inscription/HomeCadreQuestion";
 import HomeFinancement from "./homecomponents/HomeFinancement";
@@ -14,9 +13,9 @@ const Home = () => {
     return (
         <div className="homePage">
             <HomeHeader />
-            <div className="home">
+            <div className="home2">
             <h3>Nous avons forcément une formation <span>faites pour vous</span></h3>
-            <CarrouselFormation  filterValues={['certification', 'formation']} />
+            <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button >Nos formations</button></Link>
             <Modalite />
             </div>
