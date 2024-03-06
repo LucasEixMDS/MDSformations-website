@@ -28,8 +28,16 @@
     }
     }
 
-    .commentContainer{
-        padding: 40px 10% 20px 10%;
+    .commentFinish{
+        margin-top: 40px;
+    }
+
+    .commentContainer, .commentContainerGrey{
+        padding: 10px 10% 20px 10%;
+
+        .commentFirstText{
+            margin-top: 20px;
+        }
 
         p{
             padding-bottom: 15px;
@@ -39,7 +47,7 @@
 
         h3{
             font-family: "poppins-semiBold";
-            margin: -3px 0 20px 0;
+            margin: -3px 0 0px 0;
             color: var(--Gris, #4F4F4F);
             font-size: 16px;
 
@@ -57,7 +65,7 @@
             margin-bottom: 10px;
             display: inline-flex;
             padding: 2px 16px 2px 16px;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             margin-top: 20px;
             justify-content: space-around;
             align-items: center;
@@ -68,6 +76,27 @@
     .commentContain{
         padding: 40px 10% 30px 10%;
         background: #f2f2f2;
+
+        .commentTextContact{
+            margin-top: 40px;
+            margin-bottom: -20px;
+        }
+
+        .commentButtonContact{
+            border: none;
+            border-radius: 100px;
+            background: $color-1;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            justify-content: space-around;
+            align-items: center;
+            width: auto;
+        }
 
         p{
             padding-bottom: 15px;
@@ -96,8 +125,9 @@
         .commentDiv{ 
             display: flex;
             align-items: center;
-            width: 50%;
+            width: 400px;
             margin-top: 20px;
+            margin-right: 20px;
 
             p{
                 font-family: "poppins-light";
@@ -141,10 +171,10 @@
                     }
 
                     .date{
-                        font-size: 14px;
+                        font-size: 12px;
                         font-weight: 400;
                         color: $color-text;
-                        font-family: 'poppins-semibBold';
+                        font-family: 'poppins';
                         padding-top: 20px;
                     }
                 }

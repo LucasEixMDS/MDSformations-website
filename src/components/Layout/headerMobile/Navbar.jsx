@@ -19,8 +19,8 @@ function Navbar() {
 
 
     const menus = {
-        "Nos formations ": ["ongles", /*"visages"*/, "corps", /*"tertiaire"*/,"Toutes les formations",/* "Trouvez votre formations idéal !"*/],
-        "Orientation ": [/*"Quelle formation est faite pour vous ?"*/, /*"besoin d'être accompagné ?"*/, "Devis & inscription", "Financement", /*"réorientation professionnelle"*/, "La VAE et la VAP"],
+        "Nos formations ": ["ongles", /*"visages"*/ "corps", /*"tertiaire"*/"Toutes les formations"/* "Trouvez votre formations idéal !"*/],
+        "Orientation ": [ /*"Quelle formation est faite pour vous ?"*/ /*"besoin d'être accompagné ?"*/ "Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités", "Les différents financements","Comment utiliser votre CPF ?", /*"réorientation professionnelle"*/ "La VAE et la VAP"],
         /*"Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Carrière", "Formation professionnel", "<strong>Tous nos articles</strong>" ], */
         "Accompagnement" : [ "Nos formation certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  ,
         "Chez MDS ": [ "Notre équipe pédagogique", "Hébergement", "Formation à distance", "Accessibilités & handicap", "Devenir modèle", "Rejoindre MDS"]
@@ -31,9 +31,9 @@ function Navbar() {
         "visages": ["maquillage permanent", "extension de cils"],
         "corps": ["Réflexologie", "Réflexologie à distance", "masseur professionnel", "massage du monde"],
         "tertiaire": ["SST", "FPA", "FO"],
-        "Toutes les formations" : [/*"👩‍🎓 Les formations diplômantes"*/, "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP", "Toutes nos formations"],
-        "Devis & inscription" : ["Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités"],
-        "Financement" : ["Les différents financements","Comment utiliser votre CPF ?" ]
+        "Toutes les formations" : [/*"👩‍🎓 Les formations diplômantes"*/ "🧑‍💻 Les formations en ligne", "🧑‍💼 Les VAE et VAP", "Toutes nos formations"],
+        /*"Devis & inscription" : ["Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités"],*/
+        /*"Financement" : ["Les différents financements","Comment utiliser votre CPF ?" ]*/
     }; 
 
     const finalUrls = {
