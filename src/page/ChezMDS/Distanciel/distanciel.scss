@@ -299,3 +299,40 @@
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+    .distanciel{
+        .distancielContainer{
+            h3{
+                width: 100%;
+            }
+            .distancielContain{
+                flex-direction: column;
+
+                .distancielContainItem{
+                    width: 100%;
+                }
+            }
+
+            .wix{
+                flex-wrap: wrap;
+                width: 100%;
+
+                .wix-lienD{
+                    flex-wrap: wrap;
+                    width: 100%;
+                    .wix-inner{
+                        height: auto;
+                    }
+                }
+                .wix-lienPage{
+                    flex-wrap: wrap;
+                    width: 100%;
+                    .wix-inner{
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
