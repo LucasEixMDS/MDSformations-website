@@ -22,7 +22,7 @@ const HomeHeader = () => {
                                 <h2>Comment m'inscrire ? </h2>
                             </div>
                         <div className="button">
-                            <Link to="/documentation">
+                            <Link to="/comment-s'inscrire-en-formation">
                             <button>En savoir +</button>
                             </Link>
                         </div>

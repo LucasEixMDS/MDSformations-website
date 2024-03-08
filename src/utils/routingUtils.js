@@ -50,7 +50,8 @@ export const menus = {
     "Comment s'inscrire en formation ?": "/comment-s'inscrire-en-formation",
     "Paiement en plusieurs mensualités": "/paiement-mensualites",
     "Comment utiliser votre CPF ?": "/utiliser-son-cpf",
-    "Accessibilités & handicap": "/handicap"
+    "Accessibilités & handicap": "/handicap",
+    "Formation à distance": "/distanciel"
   };
   
   export const sanitize = (str) => {
