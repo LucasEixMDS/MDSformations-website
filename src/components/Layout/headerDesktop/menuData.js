@@ -47,7 +47,7 @@ export const data = {
     items: [
       {
         label: "MDS FORMATIONS",
-        details: ["Accessibilités & handicap", "Rejoindre MDS"],
+        details: ["Accessibilités & handicap", "Rejoindre MDS","Notre équipe pédagogique"],
       },
       {
         label: "Info Pratique",
