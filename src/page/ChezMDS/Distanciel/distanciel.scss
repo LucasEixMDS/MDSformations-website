@@ -1,0 +1,301 @@
+@import '../../../style/settings.scss';
+
+.distanciel{
+
+    .distancielHeader{
+        height:500px;
+        width: 100%;
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/distanciel.webp");
+        background-size:cover;
+        object-fit: cover;
+        background-position: 50% 60%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        flex-direction: column;
+        padding: 0 10% 60px 10%;
+        color: white;
+    
+        h1{
+            font-size: 36px;
+            font-family: "poppins-semiBold";
+            color: #ffffff;
+            margin-bottom: -10px;
+        }
+        h2{
+            font-size: 24px;
+            font-family: "poppins-light";
+            color: #ffffff;
+        }
+    }
+
+
+    .distancielContainer{ 
+        padding: 40px 10% 40px 10%;
+        p{
+            color: var(--Gris, #4F4F4F);
+            font-family: "Poppins-light";
+            font-size: 14px;
+            margin-top: 0px;
+        }
+
+        h3{
+            color: var(--Gris, #4F4F4F);
+            font-family: "Poppins-semiBold";
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 40px;
+            width: 60%;
+
+            span{
+                color: $color-1;
+            }
+        }
+        
+        button{
+            border: none;
+            border-radius: 100px;
+            background: $color-1;
+            color: white;
+            margin: 20px 0 20px 0;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: space-around;
+            align-items: center;
+            width: auto;
+        }
+
+
+        .distancielContain{
+            display: flex;
+            width: 100%;
+            margin-top: 25px;
+
+            .distancielContainItem{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+
+             .list-content{
+                display: flex;
+                align-items: start;
+                margin-top: 15px;
+                
+                img{
+                    margin-right: 5px;
+                    margin-top: 3px;
+                }
+
+                .text{
+                    color: #4F4F4F;
+
+                    span{
+                        color: blakc;
+                        font-family: "poppins-semiBold";
+                    }
+                }
+             }
+            }
+
+            
+        }
+
+        .wix{
+            display: flex;
+            margin-top: 40px;
+            width: 100%;
+
+            .wix-lienD{
+                display: flex;
+                width: 100%;
+                
+                justify-content: space-around;
+                .wix-inner{
+                    display: flex;
+            justify-content: space-around;
+            width: auto;
+            height: 100%;
+            margin-left: 10px;
+            
+            .items {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 159px;
+                height: 247px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 21px;
+                margin: 5px;
+                padding: 5px 15px 5px 15px;
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                background-position: center left 40%;
+                background-size: cover;
+                object-fit: cover;
+
+                .topContainer{ 
+                    width: 100%;
+                    
+                    height: 50%;
+
+                    .icon{
+                        h2{
+                            color: $color-text;
+                            font-size: 17px;
+                            font-weight: 600;
+                            margin-top: -10px;
+                            line-height: 26px;
+                            overflow: hidden;
+
+                        }
+
+                        .date{
+                            font-size: 13px;
+                            font-weight: 400;
+                            margin-top: 10px;
+                            color: $color-text;
+                            font-family: 'poppins-light';
+                            overflow: hidden;
+                            width: 100%;
+                        }
+                    }
+            } 
+
+           
+
+            .bottomContainer{ 
+                margin-bottom: -20px;
+
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 0px 16px 0px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+         }
+                }
+            }
+
+            .wix-lienPage{
+                display: flex;
+                width: 50%;
+                justify-content: space-around;
+                .wix-inner{
+                    display: flex;
+                    justify-content: space-around;
+                    width: auto;
+                    height: 100%;
+                    margin-left: 15px;
+                    
+                    .items {
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        flex-direction: column;
+                        width: 159px;
+                        height: 247px;
+                        background-color: rgb(0, 0, 0);
+                        border-radius: 21px;
+                        margin: 5px;
+                        padding: 5px;
+                        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                        background-position: center left 40%;
+                        background-size: cover;
+                        object-fit: cover;
+        
+                        .topContainer{ 
+                            width: 100%;
+                            padding-left: 10px;
+                            height: 20%;
+        
+                        .icon{
+                            width: 29%;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: white;
+                            box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                            border-radius: 10px;
+        
+                            p{
+                                font-size: 35px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+        
+                                img{
+                                    width: 35px;
+                                }
+                            }
+        
+                        }
+                    } 
+        
+                    .midContainer{ 
+                        height: 50%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        margin-top: -10px;
+                        margin-left: -10px;
+        
+                        h2{
+                            color: var(--Gris, #ffffff);
+                            font-weight: 600;
+                            margin-left: 8px;
+                            width: 85%;
+                            font-size: 20px;
+                        }
+                    }
+        
+                    .bottomContainer{ 
+        
+                        .buttons {
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            justify-content: center;
+        
+                            button{
+                                display: inline-flex;
+                                padding: 0px 16px 0px 16px;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                border-radius: 100px;
+                                background: rgb(255, 255, 255);
+                                border: none;
+                                color: white;
+                                font-size: 15px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                 }
+                }
+            }
+        }
+
+
+
+    }
+
+}

@@ -2,12 +2,13 @@ import "./distanciel.scss";
 import coche from "../../../assets/coche.svg";
 import { Link } from 'react-router-dom';
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
+import WixSite from "./WixSite";
 
 const Distanciel = () => {
     return (
         <div className="distanciel">
 
-            <div className="handicapHeader">        
+            <div className="distancielHeader">        
                 <h1>Formation à distance</h1>
                 <h2>Apprendre à votre rythme, où que vous soyez</h2>
             </div>
@@ -24,7 +25,7 @@ const Distanciel = () => {
             <p>Voici les avantages de choisir cette option :</p>
 
             <div className="distancielContain">
-                <div className="distancielContainFirst">
+                <div className="distancielContainItem">
                         <div className="list-content">
                             <img src={coche} alt="rond avec un signe valider" />
                             <div className='text'>
@@ -49,7 +50,7 @@ const Distanciel = () => {
                 </div>
 
 
-                <div className="distancielContainSecond">
+                <div className="distancielContainItem">
                 <div className="list-content">
                             <img src={coche} alt="rond avec un signe valider" />
                             <div className='text'>
@@ -83,8 +84,53 @@ const Distanciel = () => {
                 modernes et pratiques pour atteindre vos objectifs professionnels.</p>
 
 
+            <WixSite />
 
+            <Link to="/toutes-nos-formations"><button>Toutes nos formations</button></Link>
 
+            </div>
+
+            <div className="distancielContainer">
+                <h3>Plateforme de cours et documentation en ligne pour les élèves en présentiel : <span>votre bibliothèque de formation</span></h3>
+
+                <p>Pour nos élèves en présentiel, nous offrons une plateforme dédiée de cours et documentation en ligne totalement gratuite. Voici comment cela vous bénéficie :</p>
+
+            <div className="distancielContain">
+                <div className="distancielContainItem" style={{width: '100%'}}>
+                <div className="list-content">
+                            <img src={coche} alt="rond avec un signe valider" />
+                            <div className='text'>
+                                <span>Accès illimité : </span>
+                                apprenez à votre rythme, quand vous le souhaitez. Notre plateforme est accessible 24 heures sur 24, 7 jours sur 7, vous permettant de planifier vos sessions d'étude selon votre emploi du temps.
+                            </div>
+                        </div>
+                        <div className="list-content">
+                            <img src={coche} alt="rond avec un signe valider" />
+                            <div className='text'>
+                                <span>Renforcement de l'apprentissage :</span>
+                                vous pouvez consulter notre contenu pédagogique à tout moment, ce qui facilite la consolidation de vos connaissances et la préparation à vos évaluations.
+                            </div>
+                        </div>
+                        <div className="list-content">
+                            <img src={coche} alt="rond avec un signe valider" />
+                            <div className='text'>
+                                <span>Mobilité maximale : </span>
+                                vous n'êtes plus limité par l'emplacement physique de notre centre de formation. Vos cours et documents sont à portée de clic, où que vous soyez.
+                            </div>
+                        </div>
+                        <div className="list-content">
+                            <img src={coche} alt="rond avec un signe valider" />
+                            <div className='text'>
+                                <span>Soutien continu :  </span>
+                                notre plateforme est conçue pour soutenir votre expérience d'apprentissage en présentiel. Vous pouvez accéder à des informations claires et pertinentes pour enrichir vos cours.
+                            </div>
+                        </div>
+                </div>
+                </div>
+
+                <Link to="https://mdsformations.wixsite.com/mdsformationmassage"><button>Découvrir la plateforme</button></Link>
+
+                <p>Choisissez l'option qui correspond le mieux à vos besoins, que vous souhaitiez une formation 100% en ligne ou un accès flexible à des ressources en présentiel. Chez MDS Formations, nous nous engageons à vous offrir des solutions d'apprentissage modernes et pratiques pour atteindre vos objectifs professionnels dans le bien-être et l'esthétique.</p>
             </div>
             <HomeCadreTestformation />
         </div>
