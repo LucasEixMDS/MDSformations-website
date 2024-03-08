@@ -22,8 +22,11 @@ import PaiementMensualites from "page/Orientation/PaiementMensualites/PaiementMe
 import UtiliserCPF from "page/Orientation/UtiliserCPF/UtiliserCPF";
 
 
+
+
 const App = () => {
   return (
+
     <BrowserRouter>
        <ScrollToTop />
       <Routes>
@@ -50,6 +53,7 @@ const App = () => {
           </Route>
       </Routes>
     </BrowserRouter>
+
   );
 };
 
