@@ -1,6 +1,6 @@
 export const data = {
   "Nos formations": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question_square.png",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
     items: [
       {
         label: "Ongles",
@@ -17,7 +17,7 @@ export const data = {
     ],
   },
   "Orientation": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question_square.png",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
     items: [
       {
         label: "Inscription & Devis",
@@ -30,7 +30,7 @@ export const data = {
     ],
   },
   "Accompagnement": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question_square.png",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
     items: [
       {
         label: "Suivis & accompagnement",
@@ -43,7 +43,7 @@ export const data = {
     ],
   },
   "Chez MDS": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question_square.png",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
     items: [
       {
         label: "MDS FORMATIONS",
