@@ -45,7 +45,7 @@ const Handicap = () => {
             <div className="handicapImage1" style={{backgroundImage: 'url("https://mdsformations-website-u5520.vm.elestio.app/melodie.webp")'}}>
                 <h4>Mélodie <br/>BALOCHE</h4>
             </div>
-            <div className="handicapImage1">
+            <div className="handicapImage1"style={{backgroundImage: 'url("https://mdsformations-website-u5520.vm.elestio.app/lucaseixarch.webp")'}}>
                 <h4>Lucas <br/>EIXARCH</h4>
             </div>
 
