@@ -112,7 +112,7 @@ const CommentSinscrire = () => {
                     <p>Si vous choisissez le financement personnel, vous avez également la possibilité de le diviser en plusieurs mensualités sans frais supplémentaires.</p>
                     <Link to="/different-financement"><button>En savoir +</button></Link>
                     <p>Pour en savoir plus sur l'utilisation de votre CPF, consultez notre page dédiée sur "Comment Utiliser son CPF."</p>
-                    <Link to="/comment-utiliser-cpf"><button>En savoir +</button></Link>
+                    <Link to="/utiliser-son-cpf"><button>En savoir +</button></Link>
                 </div>
                 <div className="commentContainer">
                     <h3><span>Étape 5 :</span> finalisation de l’inscription</h3>    

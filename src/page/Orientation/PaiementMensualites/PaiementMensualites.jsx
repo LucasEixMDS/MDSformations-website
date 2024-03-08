@@ -33,7 +33,7 @@ const PaiementMensualites = () => {
                     <ol><strong>3. Formations de plus de 1000 € :</strong> pour les formations dont le coût dépasse 1000 €, nous offrons la flexibilité de choisir le nombre de mensualités en fonction de la durée totale de la formation -2 mois. Par exemple, si votre formation dure 12 mois, vous pouvez étaler le paiement sur 10 mensualités maximums, sans frais supplémentaires.</ol>
                 </ul>
 
-                <Link to="/comment-s'inscrire-en-formation"></Link><button>Comment s'inscrire en formation ?</button>
+                <Link to="/comment-s'inscrire-en-formation"><button>Comment s'inscrire en formation ?</button></Link>
 
             
 

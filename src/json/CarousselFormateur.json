@@ -2,7 +2,7 @@
     {
         "id" : "001",
         "idElement" : ["reflexologie" ],
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/melodie.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/melodie.webp",
         "text" : "Formatrice en réflexologie, massage et SST",
         "title" : "MELODIE BALOCHE",
         "buttonColor" : "#64B768"
@@ -10,7 +10,7 @@
     {
         "id" : "002",
         "idElement" :  ["reflexologie"],
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/aurelien.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/aurelien.webp",
         "text" : "Formateur en réflexologie",
         "title" : "AURELIEN COSSON",
         "buttonColor" : "#CF836C"
@@ -18,7 +18,7 @@
     {
         "id" : "003",
         "idElement" : ["reflexologie"],
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/carole.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/carole.webp",
         "text" : "Formateur en réflexologie",
         "title" : "CAROLE TESSIER",
         "buttonColor" : "#E9464F"
@@ -26,7 +26,7 @@
     {
         "id" : "004",
         "idElement" :["reflexologie"],
-        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/laure.png",
+        "photo" : "https://mdsformations-website-u5520.vm.elestio.app/laure.webp",
         "text" : "Formateur en réflexologie",
         "title" : "LAURE GUEILHERS",
         "buttonColor" : "#8A88C1"
