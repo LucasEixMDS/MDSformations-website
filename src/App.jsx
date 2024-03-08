@@ -20,50 +20,14 @@ import NotreEquipe from "page/ChezMDS/NotreEquipe/NotreEquipe.jsx";
 import CommentSinscrire from "page/Orientation/CommentSinscrire/CommentSinscrire";
 import PaiementMensualites from "page/Orientation/PaiementMensualites/PaiementMensualites";
 import UtiliserCPF from "page/Orientation/UtiliserCPF/UtiliserCPF";
-import Loader from './utils/Loader'; // Importez votre Loader ici
-import { useLoading } from './utils/LoadingContext'; // Importez votre hook personnalisé
-import { LoadingProvider } from './utils/LoadingContext';
-import { useEffect } from 'react';
-
-
-
+import Handicap from "page/ChezMDS/Handicap/Handicap";
 
 
 const App = () => {
   return (
-    <LoadingProvider>
-      <AppContent />
-    </LoadingProvider>
-  );
-};
 
-const AppContent = () => {
-  const { isLoading, setLoading } = useLoading();
-
-  useEffect(() => {
-    const handleStartLoading = () => {
-      setLoading(true);
-    };
-
-    const handleFinishLoading = () => {
-      setLoading(false);
-    };
-
-    window.addEventListener('load', handleFinishLoading);
-    window.addEventListener('beforeunload', handleStartLoading);
-
-    return () => {
-      window.removeEventListener('load', handleFinishLoading);
-      window.removeEventListener('beforeunload', handleStartLoading);
-    };
-  }, [setLoading]);
-
-  return (
-
-    <LoadingProvider>
     <BrowserRouter>
-       <ScrollToTop />
-             
+       <ScrollToTop />     
       <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/articles/:articleLink" element={<ArticlePage />} />
@@ -84,13 +48,12 @@ const AppContent = () => {
           <Route path="/comment-s'inscrire-en-formation" element={<CommentSinscrire />} />
           <Route path="/paiement-mensualites" element={<PaiementMensualites />} />
           <Route path="/utiliser-son-cpf" element={<UtiliserCPF />} />
+          <Route path="/handicap" element={<Handicap />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>
-      {isLoading && <Loader />}
-      
     </BrowserRouter>
-    </LoadingProvider>
+
  
   );
 };
