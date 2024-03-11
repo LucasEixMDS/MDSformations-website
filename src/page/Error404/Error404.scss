@@ -3,4 +3,42 @@
 .ERROR{
     display: flex;
     padding:150px 20% 20px 20%;
+    height: auto;
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/2error404.webp");
+    background-size:cover;
+    object-fit: cover;
+
+
+    .errorContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        height: 1000px;
+        color: #ffffff;
+
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 100px;
+            margin-bottom: -30px;
+        }
+
+        button{
+            border: none;
+            border-radius: 100px;
+            background: white ;
+            color: rgb(0, 0, 0) ;
+            border: 1px solid black ;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            font-family: "poppins-bold";
+            margin-top: 20px;
+        }
+    }
 }

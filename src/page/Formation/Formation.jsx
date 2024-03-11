@@ -1,5 +1,6 @@
 import formationData from "../../json/formation.json";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./formation.scss";
 import "../Error404/Error404.scss";
 import FormationHeader from './formation_components/formation_header/formation_header';
@@ -40,7 +41,7 @@ function FormationPage() {
             <h2>404</h2>
             <h1>Oups ! Page non trouvée</h1>
             <p>La page que vous tentez d'afficher n'existe pas ou une autre erreur s'est produite, vous pouvez revenir à la page d'accueil.</p>
-            <button>Page d'accueil</button>
+            <Link to="/"><button>Page d'accueil</button></Link>
           </div>
         </div>;
   }
