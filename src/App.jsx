@@ -25,6 +25,7 @@ import Distanciel from "./page/ChezMDS/Distanciel/Distanciel"
 import Global from "page/Accompagnement/Global/Global";
 import Post from "page/Accompagnement/Post/Post";
 import Valeurs from "page/Accompagnement/Valeurs/Valeurs";
+import Direction from "page/Accompagnement/Direction/Direction";
 
 
 const App = () => {
@@ -58,6 +59,7 @@ const App = () => {
           <Route path="/accompagnement-global" element={<Global />} />
           <Route path="/suivis-post-formation" element={<Post />} />
           <Route path="/valeurs-de-mdsformations" element={<Valeurs />} />
+          <Route path="/la-direction-pedagogique" element={<Direction />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

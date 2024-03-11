@@ -38,7 +38,7 @@ export const data = {
       },
       {
         label: "Information sur l'école",
-        details: ["Charte qualité",  "La direction pédagogique", "Les valeurs MDS"],
+        details: ["La direction pédagogique", "Les valeurs MDS"],
       },
     ],
   },
@@ -47,7 +47,7 @@ export const data = {
     items: [
       {
         label: "MDS FORMATIONS",
-        details: ["Accessibilités & handicap", "Rejoindre MDS","Notre équipe pédagogique"],
+        details: ["Accessibilités & handicap", "Rejoindre MDS", "Notre équipe pédagogique"],
       },
       {
         label: "Info Pratique",
