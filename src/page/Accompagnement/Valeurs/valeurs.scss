@@ -1,0 +1,79 @@
+@import '../../../style/settings.scss';
+
+.valeurs{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .headerValeurs{
+        height:400px;
+        width: 100%;
+        background-image: url("https://mdsformations-website-u5520.vm.elestio.app/femmebleu.webp");
+        background-size:cover;
+        object-fit: cover;
+        background-position: 50% 60%;
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        flex-direction: column;
+        padding: 0 10% 60px 10%;
+        color: white;
+
+        h1{
+            font-size: 36px;
+            font-family: "poppins-semiBold";
+            color: #ffffff;
+            margin-bottom: -10px;
+        }
+        h2{
+            font-size: 24px;
+            font-family: "poppins-light";
+            color: #ffffff;
+        }
+
+        
+    }
+
+    .valeursContainer{
+        padding: 40px 10% 40px 10%;
+        background: #f2f2f2;
+
+        button{
+            border: none;
+            border-radius: 100px;
+            background: $color-1 ;
+            color: white ;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .postList{
+            margin: 20px;
+
+           
+            .item{
+                display: flex;
+                
+                svg{
+                    margin-top: 15px;
+                }
+                p{
+                    margin-left: 10px;
+                    margin-bottom: 2px;
+                    width: 90%;
+                }
+            }
+        }
+
+        p{
+            color: var(--Gris, #4F4F4F);
+            font-family: "Poppins-light";
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    }
+}

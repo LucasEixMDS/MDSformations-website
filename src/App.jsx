@@ -24,6 +24,7 @@ import Handicap from "page/ChezMDS/Handicap/Handicap";
 import Distanciel from "./page/ChezMDS/Distanciel/Distanciel"
 import Global from "page/Accompagnement/Global/Global";
 import Post from "page/Accompagnement/Post/Post";
+import Valeurs from "page/Accompagnement/Valeurs/Valeurs";
 
 
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/distanciel" element={<Distanciel />} />
           <Route path="/accompagnement-global" element={<Global />} />
           <Route path="/suivis-post-formation" element={<Post />} />
+          <Route path="/valeurs-de-mdsformations" element={<Valeurs />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

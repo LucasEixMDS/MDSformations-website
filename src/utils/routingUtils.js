@@ -53,7 +53,8 @@ export const menus = {
     "Accessibilités & handicap": "/handicap",
     "Formation à distance": "/distanciel",
     "Accompagnement Global": "/accompagnement-global",
-    "Suivi post-formation": "/suivis-post-formation"
+    "Suivi post-formation": "/suivis-post-formation",
+    "Les valeurs MDS": "/valeurs-de-mdsformations"
   };
   
   export const sanitize = (str) => {
