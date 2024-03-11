@@ -25,7 +25,7 @@ const Valeurs = () => {
             <div className="valeursContainer">
                 <p>Chez MDS Formations, nos valeurs sont le socle de tout ce que nous faisons. Elles reflètent notre engagement profond envers l'excellence, la bienveillance, l'épanouissement, la convivialité familiale et l'humanité. </p>
                 
-                <Link to="/accompagenment-global" ><button>Comprendre notre accompagnement</button></Link>
+                <Link to="/accompagnement-global" ><button>Comprendre notre accompagnement</button></Link>
                 <p className="text">Nous vous proposons un accompagnement personnalisé, de l'orientation à l'insertion professionnelle, pour vous aider à réaliser votre projet.</p>
 
                 <div className="postList">

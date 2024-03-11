@@ -15,7 +15,7 @@ const Global = () => {
 
             <div className="globalContainer">
                 <p>Chez MDS Formations, notre engagement envers votre réussite est inébranlable. Nous comprenons que la formation professionnelle dans le bien-être et l'esthétique ne se limite pas à la transmission de connaissances, mais à l'accompagnement global de nos étudiants à chaque étape de leur parcours. </p>
-                <Link to="/" ><button>Découvrir notre pédagogie</button></Link>
+                <Link to="/notre-equipe-pedagogique" ><button>Découvrir notre pédagogie</button></Link>
                 <p>Voici comment nous vous soutenons pour atteindre vos objectifs :</p>
 
                 <h3>Une équipe pédagogique <span>expertisée et accessible</span></h3>
