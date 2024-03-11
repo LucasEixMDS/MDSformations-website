@@ -2,11 +2,12 @@
 
 .ERROR{
     display: flex;
-    padding:150px 20% 20px 20%;
+    padding:50px 20% 20px 20%;
     height: auto;
-    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/2error404.webp");
+    background-image: url("https://mdsformations-website-u5520.vm.elestio.app/1error404.webp");
     background-size:cover;
     object-fit: cover;
+    background-position: center;
 
 
     .errorContainer{
@@ -15,15 +16,19 @@
         justify-content: start;
         align-items: center;
         text-align: center;
-        height: 1000px;
+        height: 1500px;
         color: #ffffff;
+        padding-top: 200px;
 
         h1{
-            font-size: 50px;
+            font-size: 70px;
         }
         h2{
-            font-size: 100px;
+            font-size: 120px;
             margin-bottom: -30px;
+        }
+        p{
+            font-size: 20px;
         }
 
         button{
