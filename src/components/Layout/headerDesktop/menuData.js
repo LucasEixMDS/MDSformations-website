@@ -34,7 +34,7 @@ export const data = {
     items: [
       {
         label: "Suivis & accompagnement",
-        details: ["Accompagnement global", "Suivi post-formation"],
+        details: ["Accompagnement Global", "Suivi post-formation"],
       },
       {
         label: "Information sur l'école",

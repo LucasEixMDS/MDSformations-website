@@ -22,6 +22,8 @@ import PaiementMensualites from "page/Orientation/PaiementMensualites/PaiementMe
 import UtiliserCPF from "page/Orientation/UtiliserCPF/UtiliserCPF";
 import Handicap from "page/ChezMDS/Handicap/Handicap";
 import Distanciel from "./page/ChezMDS/Distanciel/Distanciel"
+import Global from "page/Accompagnement/Global/Global";
+import Post from "page/Accompagnement/Post/Post";
 
 
 const App = () => {
@@ -52,6 +54,8 @@ const App = () => {
           <Route path="/utiliser-son-cpf" element={<UtiliserCPF />} />
           <Route path="/handicap" element={<Handicap />} />
           <Route path="/distanciel" element={<Distanciel />} />
+          <Route path="/accompagnement-global" element={<Global />} />
+          <Route path="/suivis-post-formation" element={<Post />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

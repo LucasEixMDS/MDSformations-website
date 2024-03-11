@@ -2,7 +2,7 @@ export const menus = {
     "Nos formations ": ["ongles", /*"visages"*/ "corps", /*"tertiaire"*/"Toutes les formations"/* "Trouvez votre formations idéal !"*/],
     "Orientation ": [ /*"Quelle formation est faite pour vous ?"*/ /*"besoin d'être accompagné ?"*/ "Inscription & Devis", "Comment s'inscrire en formation ?", "Paiement en plusieurs mensualités", "Les différents financements","Comment utiliser votre CPF ?", /*"réorientation professionnelle"*/ "La VAE et la VAP"],
     /*"Articles ": ["interviews", "bien-être", "beauté", "esthétique", "Carrière", "Formation professionnel", "<strong>Tous nos articles</strong>" ], */
-    "Accompagnement" : [ "Nos formation certifiantes", "Accompagnement global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  ,
+    "Accompagnement" : [ "Nos formation certifiantes", "Accompagnement Global", "Charte qualité", "Suivi post-formation", "La direction pédagogique", "Les valeurs MDS" ]  ,
     "Chez MDS ": [ "Notre équipe pédagogique", "Hébergement", "Formation à distance", "Accessibilités & handicap", "Devenir modèle", "Rejoindre MDS"]
   };
   
@@ -51,7 +51,9 @@ export const menus = {
     "Paiement en plusieurs mensualités": "/paiement-mensualites",
     "Comment utiliser votre CPF ?": "/utiliser-son-cpf",
     "Accessibilités & handicap": "/handicap",
-    "Formation à distance": "/distanciel"
+    "Formation à distance": "/distanciel",
+    "Accompagnement Global": "/accompagnement-global",
+    "Suivi post-formation": "/suivis-post-formation"
   };
   
   export const sanitize = (str) => {
