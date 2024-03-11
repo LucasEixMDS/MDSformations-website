@@ -70,7 +70,7 @@ const Fichette = ({ formation }) => {
                     </div>
             </div>
         <div className="buttonDoc">
-        <Link to="/Inscription"><button style={colorBack}>Demander la documentation <img src="../../../../public/flecheFichette.svg" alt="fleche vers le haut" /></button></Link>
+        <Link to="/Inscription"><button style={colorBack}>Demander la documentation <img src="https://mdsformations-website-u5520.vm.elestio.app/flecheFichette.svg" alt="fleche vers le haut" /></button></Link>
         </div>
         </div>
     </div>
