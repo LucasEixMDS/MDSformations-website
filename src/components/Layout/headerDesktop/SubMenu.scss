@@ -73,3 +73,9 @@
   flex-wrap: wrap;
   padding: 45px 0 10px;
 }
+@media (min-width: 1024px) and (max-width: 1310px) {
+  .sub-menu{
+    left: 200px !important;
+  }
+
+}
