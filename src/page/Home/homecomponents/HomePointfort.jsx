@@ -1,5 +1,7 @@
 import './homePointfort.scss'
 import coche from '../../../assets/coche.svg';
+import { Link } from 'react-router-dom';
+
 
 const HomePointfort = () => {
     return (
@@ -102,7 +104,7 @@ const HomePointfort = () => {
 
             </div>
                     <div className="homepointfort_button">
-                        <button>En savoir +</button>
+                        <Link to="/Inscription"><button>En savoir +</button></Link>
                     </div>
         </div>
     );

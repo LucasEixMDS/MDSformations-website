@@ -11,7 +11,8 @@ function MonFormulaire() {
         telephone: '',
         formation: '',
         accepterInformations: false,
-        vae: false
+        vae: false,
+        commentaire: '' // Ajoutez cette nouvelle propriété pour le commentaire
     });
 
     const [message, setMessage] = useState(''); // État pour le message après soumission
@@ -90,9 +91,14 @@ function MonFormulaire() {
                 <span>En cochant cette case, j’accepte que mes données personnelles soient utilisées et stockées par MDS Formations à des fins de marketing direct.*</span>
             </label>
 
-            
+            <textarea 
+                    name="commentaire" 
+                    placeholder="Ajoutez une explication de votre demande ici !" 
+                    value={formData.commentaire} 
+                    onChange={handleChange}
+                ></textarea>
         <div >
-                <button type="submit">Je m'inscrit <img src={envoyer} alt="logo envoyer" /> </button>
+                <button type="submit">J'envoie ma demande<img src={envoyer} alt="logo envoyer" /> </button>
                 </div>
             </form>
             <p>{message}</p>

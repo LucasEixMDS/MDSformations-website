@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 import "./formationPlateforme.scss"
+import { Link } from "react-router-dom";
+
 
 const formationPlateforme = ({formation}) => {
 
@@ -33,7 +35,7 @@ const formationPlateforme = ({formation}) => {
         </ul>
         </div>
         <div className="plateformeButton">
-            <button style={backgroundStyle}>En savoir +</button>
+            <Link to="/distanciel"><button style={backgroundStyle}>En savoir +</button></Link>
         </div>
     </div>
     );

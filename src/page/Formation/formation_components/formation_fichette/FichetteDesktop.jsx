@@ -45,7 +45,7 @@ const Fichette = ({ formation }) => {
                 <p style={colorStyle}>Accessibilité</p>
                     <div className="textFichette">
                         <p>Accessible aux personnes en situations de handicap</p>
-                        <Link to="handicap"><button>En savoir+</button></Link>
+                        <Link to="/handicap"><button>En savoir+</button></Link>
                     </div>
             </div>
             <div className="containTextFichette">
@@ -70,7 +70,7 @@ const Fichette = ({ formation }) => {
                     </div>
             </div>
         <div className="buttonDoc">
-        <button style={colorBack}>Demander la documentation</button>
+        <Link to="/Inscription"><button style={colorBack}>Demander la documentation <img src="../../../../public/flecheFichette.svg" alt="fleche vers le haut" /></button></Link>
         </div>
         </div>
     </div>

@@ -16,7 +16,7 @@ const NotreEquipe = () => {
 
             <div className="equipeContent">
                 <p>Chez MDS Formations, nous croyons que la qualité de l'enseignement est la clé de la réussite de nos étudiants. C'est pourquoi notre équipe pédagogique est composée d'experts chevronnés dans les domaines du bien-être et de l'esthétique. Chacun d'entre eux apporte un ensemble unique de compétences et d'expériences pour offrir une formation de haute qualité.</p>
-                <Link to="/Insccription"><button>Nous contacter</button></Link>
+                <Link to="/Inscription"><button>Nous contacter</button></Link>
             </div>
 
 
@@ -51,7 +51,7 @@ const NotreEquipe = () => {
                 </div>
             </div>
 
-            <button>Découvrir notre pédagogie</button>
+            <Link to="/accompagnement-global"><button>Découvrir notre accompagnement</button></Link>
 
             </div>
 
@@ -168,7 +168,7 @@ const NotreEquipe = () => {
                 </div>
                 </div>
             </div>
-            <button>Découvrir nos valeurs</button>
+            <Link to="/valeurs-de-mdsformations"><button>Découvrir nos valeurs</button></Link>
 
             </div>
 

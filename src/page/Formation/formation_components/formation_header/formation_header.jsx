@@ -38,7 +38,7 @@ function FormationHeader() {
                                 <h2>{formation.header.imageAltText}</h2>
                             </div>
                         <div className="button">
-                            <Link to="/documentation">
+                            <Link to="/Inscription">
                             <button style={colorStyle}>Inscrivez-vous</button>
                             </Link>
                         </div>

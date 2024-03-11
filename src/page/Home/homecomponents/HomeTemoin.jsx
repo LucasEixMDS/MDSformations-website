@@ -70,11 +70,11 @@ const HomeTemoin = () => {
                            
                             
                         </div>
-                        <button>Lire l'article</button>
+                        <Link to="/"><button>Lire l'article</button></Link>
                     
                 </div>
                 <div className="home_temoin_right_button">
-                    <button>En savoir +</button>
+
                 </div>
             </div>
            

@@ -28,7 +28,7 @@ const Handicap = () => {
 
         <p>Nous comprenons que chaque individu est unique, et nous travaillons activement à nous assurer que toutes nos formations sont adaptées pour répondre aux besoins spécifiques de nos élèves en situation de handicap. Notre équipe est dédiée à l'adaptation des cours et du matériel pédagogique, garantissant une expérience d'apprentissage fluide et gratifiante pour chacun.</p>
         
-        <Link to="valeurs-mds"><button>Comprendre nos valeurs</button></Link>
+        <Link to="/valeurs-de-mdsformations"><button>Comprendre nos valeurs</button></Link>
 
         <h3>Accompagnement personnalisé</h3>
 

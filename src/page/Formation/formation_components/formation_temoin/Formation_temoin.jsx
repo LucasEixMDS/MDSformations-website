@@ -5,7 +5,7 @@ import lolita from '../../../../assets/lolita.png';
 import avis1 from '../../../../../public/googleAvis1.svg';
 import avis2 from '../../../../../public/googleAvis2.svg';
 import PropTypes from 'prop-types';
-
+import { Link } from 'react-router-dom';
 
 const Formation_temoin = ({formation}) => {
 
@@ -63,7 +63,7 @@ const Formation_temoin = ({formation}) => {
                    <p className='google_text'>sur 192 avis google</p>
                </div>
                <div className="formation_temoin_modal_button">
-                   <button>Voir tous les avis</button>
+               <Link to="https://g.page/r/CTsMowlEAEWLEAI/review"><button>Voir tous les avis</button></Link>
                </div>
            </div>
            <div className="formation_temoin_right">
@@ -75,11 +75,11 @@ const Formation_temoin = ({formation}) => {
                           
                            
                        </div>
-                       <button>Lire l'article</button>
+                       <Link to="/"><button>Lire l'article</button></Link>
                    
                </div>
                <div className="formation_temoin_right_button">
-                   <button>En savoir +</button>
+           
                </div>
            </div>
           

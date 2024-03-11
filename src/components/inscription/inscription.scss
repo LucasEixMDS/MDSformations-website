@@ -61,6 +61,14 @@
                 transform: translateY(-50%); /* Centrez la flèche verticalement */
                 pointer-events: none; /* Assurez-vous qu'elle ne bloque pas le clic sur le select */
              }
+
+             textarea{
+                border-radius: 10px;
+                padding: 5px;
+                height: 150px;
+                border: 2px solid var(--Violet, #7874C7);;
+
+             }
              
              select {
                 width: 100%;

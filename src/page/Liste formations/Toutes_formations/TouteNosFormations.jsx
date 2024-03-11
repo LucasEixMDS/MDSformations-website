@@ -25,7 +25,7 @@ const TouteNosFormations = () => {
                     <FormationLong filterCriteria="distanciel" />
                     <div className="formationLigneText">
                         <p>Nos formations sont conçues pour être flexibles et adaptées à votre emploi du temps. Que vous préfériez des cours en présentiel, en ligne, ou les deux, nous avons des options pour vous. Nous nous engageons à vous offrir un environnement d'apprentissage positif, dynamique et inclusif, où vous pouvez acquérir les compétences dont vous avez besoin pour exceller dans l'industrie du bien-être et de l'esthétique.</p>
-                        <button>Comprendre nos valeurs</button>
+                        <Link to="/valeurs-de-mdsformations"><button>Comprendre nos valeurs</button></Link>
                     </div>
                     </div>
                     <h3>Formations en VAE et VAP</h3>

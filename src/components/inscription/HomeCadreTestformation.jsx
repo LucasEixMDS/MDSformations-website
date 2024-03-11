@@ -13,8 +13,8 @@ const HomeCadreTestformation = () => {
             <h3>Quelle formation est faites pour moi ?</h3>
             </div>
             <div className="homecadre_button">
-            <button className='button-homecadreMobile'>Participer aux webinaires</button>
-            <Link to="https://forms.gle/9cC2eGyxh8XY51Sw5" ><button className='button-homecadreDesktop'>Participer aux webinaires</button></Link>
+            <Link to="/Inscription" ><button className='button-homecadreMobile'>On peut vous conseiller !</button></Link>
+            <Link to="/Inscription" ><button className='button-homecadreDesktop'>On peut vous conseiller !</button></Link>
             <p>c'est < br /> gratuit</p>
             </div>
         </div>

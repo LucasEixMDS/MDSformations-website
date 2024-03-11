@@ -25,16 +25,16 @@ const Footer = () => {
                     <a href=""><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
                     
                 </div>
-                 <Link to="/Inscription" ><button><img src={mobile} alt="" />Contactez-nous</button></Link>       
+                 <Link to="/Inscription" ><button><img src={mobile} alt="boutton contactez-nous" />Contactez-nous</button></Link>       
                 </div>
                 <div className="footer_desktop">
             <div className="footer_lien">
-                <p><strong>Ressources</strong></p>
+                <p><strong>Informations</strong></p>
                 <Link to="/devenir-modele" >Devenir Modèle</Link>
                 <Link to="https://forms.gle/9cC2eGyxh8XY51Sw5" >Inscription Webinaire</Link>
                 <Link to="/documentation" >Demande de documentation</Link>
                 <Link to="/" >Nos articles</Link>
-                <Link to="/" >Accessibilité et handicap</Link>
+                <Link to="/handicap" >Accessibilité et handicap</Link>
             </div>
             
             <div className="footer_bar"></div>
@@ -55,8 +55,8 @@ const Footer = () => {
                 <Link to="/" >camille.melodiedessens@gmail.com</Link>
                 <Link to="/" >33 blanche lande, 44521 Oudon</Link>
             <p><strong>Plateforme</strong></p>
-                <Link to="/" >Plateforme Elearning prothésie</Link>
-                <Link to="/" >Plateforme de cours en ligne</Link>
+                <Link to="/distanciel" >Plateforme Elearning prothésie</Link>
+                <Link to="/distanciel" >Plateforme de cours en ligne</Link>
             </div>
             <div className="footer_entreprise">
                 <img src={qualiopi} alt="" />
