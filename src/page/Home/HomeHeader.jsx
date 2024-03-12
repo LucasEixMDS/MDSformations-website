@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const HomeHeader = () => {
     return (
         <div >
-            <div className="container">
-                <div className="container_titre">
+            <div className="container" decoding="async">
+                <div className="container_titre" >
                     <h1>Formez-vous</h1> 
                     <h1 className="titre-home-desktop"><span>Une école à taille </span>humaine avec des valeurs <span>humaine</span></h1>
                     <h2>au métier du bien-être et de la beauté</h2>
