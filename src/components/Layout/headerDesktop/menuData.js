@@ -1,6 +1,6 @@
 export const data = {
   "Nos formations": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/header1.webp",
     items: [
       {
         label: "Ongles",
