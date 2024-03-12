@@ -17,7 +17,7 @@ export const data = {
     ],
   },
   "Orientation": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/header2.webp",
     items: [
       {
         label: "Inscription & Devis",
@@ -30,7 +30,7 @@ export const data = {
     ],
   },
   "Accompagnement": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/header3.webp",
     items: [
       {
         label: "Suivis & accompagnement",
@@ -43,7 +43,7 @@ export const data = {
     ],
   },
   "Chez MDS": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/question-square.webp",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/header4.webp",
     items: [
       {
         label: "MDS FORMATIONS",
