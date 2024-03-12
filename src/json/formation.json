@@ -824,6 +824,203 @@
             "rncp": "RNCP 35422",
             "level": "Niveau 5"
         }
+    }, {
+        "id": "0007",
+        "formationLink" : "/reflexologue-a-distance",
+        "colorFormation" : "#64B768",
+        "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/pied.svg",
+        "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeReflexologue.pdf",
+        "hasPlannings": true,
+        "certifiant": "Certifiant",
+        "fichette":{
+            "time1": "355 heures 30 jour de distanciel",
+            "time2": "12 mois 55 jour de présenciel",
+            "lieu": "33 Blanche Lande 44521 Oudon",
+            "tarifs": "à partir de 3100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation éligible à la validation des acquis de l'expérience"
+        },
+        "header": {
+            "title": "Réflexologue à distance",
+            "subtitle": "Découvrez le chemin vers l'épanouissement : devenez réflexologue",
+            "imagePath": "https://mdsformations-website-u5520.vm.elestio.app/reflexologue.webp",
+            "imageAltText": "Révélez votre potentiel en réflexologie",
+            "description": "Êtes-vous passionné par le bien-être et l'équilibre de l'esprit et du corps ? ",
+            "description2" : "Souhaitez-vous aider les autres à se sentir mieux dans leur peau et à atteindre un état de détente profonde ?",
+            "description3" : "Alors, ne cherchez plus !",
+            "description4" : "Notre formation au métier de réflexologue est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être.",
+            "description5" : ""
+        },
+        "objectives": {
+            "title": "Après notre formation au ::color:: métier de réflexologue, ::color:: vous serez capable de :",
+            "list": [
+                {
+                    "main": "Maîtriser les bases de la réflexologie",
+                    "subList": [
+                        "Apprenez l'anatomie et la physiologie du corps humain",
+                        "Découvrez les zones réflexes et leur correspondance avec les organes ou les systèmes du corps",
+                        "Apprenez les différentes techniques de stimulation des zones réflexes",
+                        "Soyez conscient des contre-indications à la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Pratiquer des séances professionnelles de réflexologie",
+                    "subList":[
+                        "Soyez formé par des professionnels expérimentés",
+                        "Apprenez à adapter vos traitements aux besoins individuels de vos clients",
+                        "Respectez les normes d'hygiène et de sécurité"
+                    ]
+                },
+                {
+                    "main": "Adapter vos traitements aux besoins individuels",
+                    "subList":[
+                        "Prenez en compte l'âge, l'état de santé et les objectifs de votre client",
+                        "Utilisez une approche holistique pour favoriser le bien-être global de votre client"
+                    ]
+                },
+                {
+                    "main":"Utiliser les zones réflexes pour favoriser le bien-être",
+                    "subList":[
+                        "Soulagez les tensions physiques et émotionnelles",
+                        "Améliorez la circulation sanguine et lymphatique",
+                        "Renforcez le système immunitaire",
+                        "Renforcez la relaxation et le sommeil"
+                    ]
+                },
+                {
+                    "main": "Contribuer au mieux-être global de vos clients",
+                    "subList":[
+                        "Offrez une expérience de bien-être complète et personnalisée",
+                        "Aidez vos clients à atteindre leurs objectifs de santé et de bien-être"
+                    ]
+                } 
+            ]
+        },
+        "pricing": {
+            "completForm" : "7 000 €",
+            "registrationFee": "80 €",
+            "examFee": "120 €",
+            "paymentOption": "sans frais supplémentaires",
+            "financementPerso" : "5400 €",
+            "block1": "3 100 €",
+            "block2": "2 700 €",
+            "block3": "850 €",
+            "personalBlock1": "2 700 €",
+            "personalBlock2": "2 800 €",
+            "personalBlock3": "650 €"
+        },
+        "program": {
+            "title": "Programme et planning de formation",
+            "blocks": [
+                {
+                    "title": "Théorie (Bloc 1 ) à distance : anatomie, zones réflexes, bilan énergétique et diététique",
+                    "hours": "160 heures →",
+                    "modalities": "126 h autonomie et 34 h de visio",
+                    "content": [
+                        "Accueillir le client dans son espace de travail pour qu’il se sente pris en charge et mis en confiance.",
+                        "Questionner la personne pour identifier la raison de la séance en prenant en compte le motif des troubles qui se manifestent sous formes émotionnelles et physiques afin de réaliser le bilan réflexologique.",
+                        "Mettre en place une charte pour identifier avant la séance si la personne à d’éventuelles contre-indications empêchant une ou plusieurs approches de réflexologie (palmaire, plantaire, faciale et auriculaire).",
+                        "Élaborer un protocole de réflexologie pour traiter les zones douloureuses en présentant au client le déroulement de la séance."
+                    ]
+                },
+                {
+                    "title": "Pratique (Bloc 2 ) en présentiel : réflexologie plantaire, palmaire, faciale et auriculaire",
+                    "hours": "154 heures ",
+                    "modalities": "de pratique",
+                    "content": [
+                        "Installer le client pour recevoir la séance en respectant les règles d’hygiène et déontologique du métier.",
+                        "Dérouler le protocole de réflexologie afin de répondre au bilan réflexologique, en identifiant les zones sensibles pour répondre à la demande du client.",
+                        "Stimuler les zones réflexes qui sont en correspondance avec les parties du corps afin de soulager les tensions par la mise en œuvre de techniques spécifiques de digito-pressions de la réflexologie.",
+                        "Adapter les techniques de réflexologie spécifiques pour stimuler les parties sensibles du corps en ajustant la pression, le rythme et la durée du geste.",
+                        "Sélectionner et appliquer des produits complémentaires pour renforcer les techniques de digito-pression en apportant un confort et en soulageant les douleurs liées à la manipulation.",
+                        "Contrôler la pression de son geste tout au long de la séance pour le maintien du bien-être de la personne en l’observant et en la questionnant régulièrement."
+                    ]
+                },
+                {
+                    "title": "Théorie (Bloc 3 ) à distance : création gestion d’entreprise et communication visuelle",
+                    "hours": "41 heures →",
+                    "modalities": "28 h autonomie et 13 h de visio",
+                    "content": [
+                        "Aménager son lieu de travail pour exercer son activité de réflexologue, en développant son approche commerciale et en utilisant des outils de communication adaptés et en veillant à l’évolution de son activité.",
+                        "Orchestrer la partie administrative, financière et légale pour gérer et vérifier le bon déroulement de son activité en veillant au respect des règles de gestion en vigueur et en se faisant accompagner sur les expertises obligatoires.",
+                        "Développer et travailler avec un réseau de professionnels de réflexologie en vue de fidéliser une clientèle en faisant la promotion de son activité."
+                    ]
+                }
+            ]
+        },
+        "articleTitle": "réflexologue",
+
+        "plannings": {
+            "dateFirst": "03 avril 2023 au 22 avril 2024",
+            "dateSecond": "14 sept. 2023 au 22 nov. 2024",
+            "list1": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonavril.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintesavril.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/toursavril.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennesavril.pdf"
+                }
+            ],
+            "list2": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/oudonsept.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/saintessept.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/tourssept.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "https://mdsformations-website-u5520.vm.elestio.app/rennessept.pdf"
+                }
+            ]
+        },
+        "jobsAfterTraining": {
+            "title": "Métier visés après la formation",
+            "list": [
+                "Réflexologue indépendant",
+                "Réflexologue en centre pluridisciplinaire"
+            ]
+        },
+        "plateformeDesktop": [
+            "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+            "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+            "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+            "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+        ],
+        "potentialStructures": {
+            "title": "Structures envisageables",
+            "list": [
+                "Salons de massage",
+                "Centres de vacances",
+                "Hôtels",
+                "Bateaux de croisière",
+                "Maisons de retraite",
+                "Réflexologie à domicile"
+            ]
+        },
+        
+        "certification": {
+            "title": "Réflexologue",
+            "rncp": "RNCP 35140",
+            "level": "Niveau 5"
+        }
     }
     
     

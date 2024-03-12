@@ -30,7 +30,7 @@ export const menus = {
     "Maquillage permanent" : "/maquillage-permanent",
     "Extension de cils" : "/extension-de-cils",
     "Réflexologie" : "/reflexologue",
-    "Réflexologie à distance": "/reflexologue",
+    "Réflexologie à distance": "/reflexologue-a-distance",
     "Masseur professionnel" : "/masseur-professionnel",
     "Massage du monde" : "/massage-du-monde",
     "SST": "/sst",

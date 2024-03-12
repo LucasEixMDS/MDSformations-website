@@ -287,9 +287,7 @@ const Direction = () => {
             <div className="directionContainer">
                 <div className="photoContain">
                     <div className="text">
-                        <p><Guill1 />          Depuis mes débuts en tant que professionnelle du massage il y a 20 ans, ma passion pour le bien-être et l'esthétique n'a jamais cessé de grandir. Il y a 10 ans, j'ai fondé MDS Formations, qui portait alors le nom de Mélodie des Sens. Mon objectif était clair : créer un centre de formation à mon image, un endroit où les valeurs familiales et humaines sont au cœur de tout ce que nous faisons.
-                        En tant que diplômée du FPA (Formateurs Professionnels d'Adultes), je m'efforce de transmettre mon expertise avec dévouement et excellence.
-                        Chaque jour, je suis inspirée par nos étudiants et par la possibilité de les guider dans leur propre voyage vers le bien-être. Voir nos diplômés réussir dans leurs carrières et apporter du bonheur à d'autres personnes grâce à leurs compétences est ma plus grande récompense.   <Guill /></p>
+                        <p><Guill1 />           Directrice adjointe,  cela fait maintenant 10 ans que je collabore aux côtés de Christiana EIXARCH, fondatrice de notre centre de formation. Professionnelle du massage et formatrice depuis 10 ans, j'ai eu le privilège de partager son engagement envers les valeurs humaines fortes qui définissent notre centre. Travailler chez MDS Formations est bien plus qu'un simple emploi, c'est une mission. Aux côtés de Christiana, nous formons une équipe dévouée, unie par notre passion pour le bien-être et l'esthétique. Nous mettons tout en œuvre pour garantir la qualité de nos programmes et le succès de nos étudiants. En tant que directrice adjointe, je suis fière de contribuer à cette vision au quotidien. Avec Christiana et toute l'équipe de MDS Formations, je suis convaincue que nous façonnons un avenir meilleur, un massage à la fois. <Guill /></p>
                     </div>
                     <div className="image2"  style={{backgroundImage: 'url("https://mdsformations-website-u5520.vm.elestio.app/cam.webp")'}}>
 
