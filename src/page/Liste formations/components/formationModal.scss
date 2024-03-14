@@ -1,3 +1,5 @@
+@import '../../../style/settings.scss';
+
 .formationLong{
     display: flex;
     align-items: center;
@@ -36,7 +38,7 @@
             width: 80px;
             color: var(--Blanc, #ffffff);
             font-size: 12px;
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: $color-1;
             font-family: "poppins-light";
             border: none;
             border-radius: 20px;
