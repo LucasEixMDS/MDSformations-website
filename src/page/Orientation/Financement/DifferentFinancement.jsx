@@ -1,4 +1,5 @@
 import "./differentFinancement.scss";
+import { Link } from 'react-router-dom';
 
 
 const ValideIcon = () => (
@@ -30,7 +31,7 @@ const DifferentFinancement = () => {
                     <div className="text">
                         <h3>Financement personnel :</h3>
                         <p>Le financement personnel est une option courante pour ceux qui souhaitent investir dans leur propre avenir professionnel. Vous avez la flexibilité de choisir le moment qui vous convient le mieux pour payer les frais de formation.</p>
-                        <button>Notre aide au financement personnel</button>
+                        <Link to="/paiement-mensualites"><button>Notre aide au financement personnel</button></Link>
                     </div>
                 </div>
 
@@ -41,7 +42,7 @@ const DifferentFinancement = () => {
                     <div className="text">
                         <h3>Compte personnel de formation (CPF) :</h3>
                         <p>Le CPF est un dispositif de financement accessible à tous les actifs. Vous pouvez utiliser vos heures CPF pour couvrir les coûts de formation. Cette option est idéale si vous avez accumulé des heures CPF non utilisées.</p>
-                        <button>Comment utiliser son CPF ?</button>
+                        <Link to="/utiliser-son-cpf"><button>Comment utiliser son CPF ?</button></Link>
                     </div>
                 </div>
 
@@ -92,7 +93,7 @@ const DifferentFinancement = () => {
                     <div className="text">
                         <h3>Aides et financements pour les personnes en situation de handicap :</h3>
                         <p>Nous sommes déterminés à rendre nos formations accessibles à tous, y compris aux personnes en situation de handicap. C'est pourquoi nous vous encourageons à explorer les aides et financements spécifiques disponibles pour vous soutenir dans votre parcours de formation.</p>
-                        <button>Notre engagement pour l’inclusivité</button>
+                        <Link to="/handicap"><button>Notre engagement pour l’inclusivité</button></Link>
                     </div>
                 </div>
 
