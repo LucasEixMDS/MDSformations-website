@@ -2,28 +2,45 @@ import formationsData from '../../../json/CarrouselForm.json';
 import "./formationModal.scss";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import  { useState, useEffect } from 'react';
+
 
 // Fonction pour mélanger les formations
-const shuffleFormations = (formations) => {
-  const shuffled = [...formations];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
-
 const FormationLong = ({ filterCriteria }) => {
-    let filteredFormations = formationsData.filter(formation => formation.idElement.includes(filterCriteria));
+    const [hoveredItemId, setHoveredItemId] = useState(null);
+    const [filteredFormations, setFilteredFormations] = useState([]);
 
-    // Mélanger les formations pour un ordre aléatoire
-    filteredFormations = shuffleFormations(filteredFormations);
+    useEffect(() => {
+        const shuffleFormations = (formations) => {
+            const shuffled = [...formations];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        };
+
+        let formations = formationsData.filter(formation => 
+            formation.idElement.includes(filterCriteria)
+        );
+
+        // Mélanger les formations pour un ordre aléatoire et les enregistrer dans l'état
+        setFilteredFormations(shuffleFormations(formations));
+    }, [filterCriteria]); // Ce useEffect s'exécute uniquement lorsque filterCriteria change
 
     return (
         <div className='formationLong'>
             {filteredFormations.map(formation => (
-               <Link to={formation.formationURL}   key={formation.id}>
-                    <div className="nosFormationsModal" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${formation.photo})` }}>
+               <Link to={formation.formationURL} key={formation.id}
+               onMouseEnter={() => setHoveredItemId(formation.id)}
+               onMouseLeave={() => setHoveredItemId(null)}
+               >
+                    <div className="nosFormationsModal" 
+                    style={{ 
+                        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${formation.photo})`,
+                        boxShadow: hoveredItemId === formation.id ? `0px 0px 10px 5px ${formation.buttonColor}` : "0px 8px 18px 0px rgba(90, 176, 222, 0.25)",
+                        border: hoveredItemId === formation.id ? `1px solid white` : "none"
+                    }}>
                         <div className="formationTextBottom">
                             <h3>{formation.name}</h3>
                             {formation.idElement.includes('certification') && (
