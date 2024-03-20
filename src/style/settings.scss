@@ -111,3 +111,24 @@ $color-text : $color-12;
         margin-top: 0;
     }
 } 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #7BC8CB;
+  --color-secondary: #5eb2b5;
+  --color-tertiary: #3b8c8f;
+  --color-quaternary: #13777b;
+  --color-quinary: #0b3e40;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}

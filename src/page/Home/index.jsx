@@ -14,7 +14,7 @@ const Home = () => {
         <div className="homePage">
             <HomeHeader />
             <div className="home2">
-            <h3>Nous avons forcément une formation <span>faites pour vous</span></h3>
+            <h3 className="text_shadows">Nous avons forcément une formation <span>faites pour vous !</span></h3>
             <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button >Nos formations</button></Link>
             <Modalite />
