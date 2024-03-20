@@ -63,6 +63,19 @@
             width: auto;
             font-size: 18px;
             height: 38px;
+            transition: transform 0.3s ease-in-out;
+
+                        
+                        &:hover{
+                            opacity: 0.9;
+                            transform: scale(1.1);
+                            background-color: white;
+                            border: 1px solid $color-1;
+                            color: $color-1;
+
+                            
+
+                        }
         }
         
     }

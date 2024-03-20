@@ -1,3 +1,6 @@
+@import '../../style/settings.scss';
+
+
 @font-face {
     font-family: 'homeMade';
     src: url('../../../font/Poppins/Schoolbell-Regular.ttf') format("truetype") ;
@@ -64,6 +67,14 @@
         align-items: center;
         font-size: 17px;
         font-family: "poppins-semiBold";
+        transition: transform 0.3s ease-in-out;
+
+                        
+        &:hover{
+            opacity: 0.9;
+            background-color: #7874C7;
+            color: white;
+        }
     }
 
     p{

@@ -85,7 +85,7 @@ function CarrouselFormation({ filterValues = [] }) {
                         
                         <div className="bottomContainer">
                             <div className="buttons">
-                                <button style={{ color: item.buttonColor }}>Lire l'article</button>
+                                <button>Lire l'article</button>
                             </div>
                         </div>
                     </div>
