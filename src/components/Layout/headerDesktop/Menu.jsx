@@ -2,6 +2,7 @@ import { useState } from 'react';
 import MenuItem from './MenuItem';
 import SubMenu from './SubMenu';
 import PhoneIcon from '../../../assets/mobile.svg'; 
+import mailIcon from '../../../assets/mailIcon.svg'; 
 import './headerDesktop.scss'
 
 const Menu = () => {
@@ -29,8 +30,15 @@ const Menu = () => {
         title="Chez MDS"
         onOpen={createHandleOpen('Chez MDS')}
       />
+      <div className="contact">
       <div className='phone'>
-        <img src={PhoneIcon} alt="Logo du centre de formation" />
+      <a href='tel:+33240963280' target='blank' rel='noreferrer'>
+      <img src={PhoneIcon} alt="Icône téléphone" />
+       </a>
+        </div>
+       <div className='mail'>
+      <a className='mailling' href='mailto:camille.melodiedessens@gmail.com' target='blank' rel='noreferrer' > <img src={mailIcon} alt="Logo du centre de formation" /></a>
+      </div>
       </div>
       {openedSubmenu && <SubMenu anchorRef={ref} title={openedSubmenu} onClose={handleClose} />}
     </nav>

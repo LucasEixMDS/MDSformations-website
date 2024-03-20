@@ -2,18 +2,21 @@
 import "./HomeStyle/homeHeader.scss";
 import { Link } from 'react-router-dom';
 
+
 const HomeHeader = () => {
-    return (
+
+
+    return ( 
         <div >
             <div className="container" decoding="async">
                 <div className="container_titre" >
                     <h1>Formez-vous</h1> 
                     <h1 className="titre-home-desktop"><span>Une école à taille </span>humaine avec des valeurs <span>humaine</span></h1>
-                    <h2>au métier du bien-être et de la beauté</h2>
+                    <h2>Formez-vous au métier du bien-être et de la beauté</h2>
                 </div>
                 <div className="container_modal">
-                    <div className="container_modal_left">
-                        <div className="container_modal_left_top">
+                <div className="container_modal_left">
+                    <div className="container_modal_left_top">
                             <div className="reflect">
                                 <p><img src="https://mdsformations-website-u5520.vm.elestio.app/reflechir.svg" alt="icon apple d'une personne qui reflechis" /></p>
                             </div> 

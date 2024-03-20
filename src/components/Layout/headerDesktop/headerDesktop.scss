@@ -1,3 +1,5 @@
+@import '../../../style/settings.scss';
+
 @media only screen and (max-width: 1024px) {
     /* Toujours cacher le menu principal */
 	.HeaderDesktop{
@@ -26,6 +28,11 @@
 
       display: flex;
       gap: 50px;
+
+      button:hover{
+        color: $color-1;
+        
+      }
       
       .menu-item{
         cursor: pointer;
@@ -37,14 +44,60 @@
         background: none;
         text-rendering:optimizeLegibility;
         color: #4f4f4f;
-      }
 
-      .phone {
-        cursor: pointer;
-        border-radius: 50%;
-        background-color: #F2F2F2;
-        padding: 8px;
+        
+
+        
       }
+      .contact{  
+
+
+        animation-name: shakeX ;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+
+        .phone {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          cursor: pointer;
+          border-radius: 40%;
+          background-color: #F2F2F2;
+          padding: 5px;
+          margin-right: -5px;
+          width: 50px;
+  
+  
+          img{
+            width: 25px;
+            margin-right: 0px;
+            margin-top: 5px;
+          }
+          
+        }
+        .mail{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          cursor: pointer;
+          border-radius: 40%;
+          background-color: #F2F2F2;
+          padding: 5px;
+          margin-right: -5px;
+          width: 50px;
+  
+  
+          img{
+            width: 30px;
+            margin-right: 0px;
+          }
+        }
+      }
+     
     }
   }
 }

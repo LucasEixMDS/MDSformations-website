@@ -26,6 +26,7 @@ import Global from "page/Accompagnement/Global/Global";
 import Post from "page/Accompagnement/Post/Post";
 import Valeurs from "page/Accompagnement/Valeurs/Valeurs";
 import Direction from "page/Accompagnement/Direction/Direction";
+import 'animate.css';
 
 
 const App = () => {

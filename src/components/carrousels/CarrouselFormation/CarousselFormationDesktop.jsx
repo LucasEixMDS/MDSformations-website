@@ -9,6 +9,7 @@ function CarrouselFormation({ filterValues = [] }) {
     const progressBarRef = useRef(null);
     const [sliderGrabbed, setSliderGrabbed] = useState(false);
     const progressBarDesktopRef = useRef(null);
+    const [hoveredItemId, setHoveredItemId] = useState(null);
 
     const itemsToDisplay = filterValues.length > 0 
     ? rawData.filter(item => item.idElement.some(id => filterValues.includes(id)))
@@ -128,8 +129,14 @@ function CarrouselFormation({ filterValues = [] }) {
             <div className="slider-formation-outer">
                 <div className="slider-formation-inner" ref={sliderRef}>
                 {itemsToDisplay.map(item => (
-                    <Link to={`/${item.formationLink}`} key={item.id}>
-                        <div className="items" style={{ backgroundImage: `url(${item.photo})` }}>
+                    <Link to={`/${item.formationLink}`} key={item.id}
+                    onMouseEnter={() => setHoveredItemId(item.id)}
+                    onMouseLeave={() => setHoveredItemId(null)}>
+                        <div className="items" style={{ 
+                            backgroundImage: `url(${item.photo})`,
+                            boxShadow: hoveredItemId === item.id ? `0px 0px 10px 5px ${item.buttonColor}` : "0px 8px 18px 0px rgba(90, 176, 222, 0.25)",
+                            border: hoveredItemId === item.id ? `1px solid white` : "none"
+                            }} >
                             <div className="topContainer">
                                 <div className="icon">
                                     <p><img src={item.icon} alt="" /></p>
