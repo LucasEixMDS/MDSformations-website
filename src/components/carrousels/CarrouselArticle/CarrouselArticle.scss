@@ -18,6 +18,12 @@
             padding: 4px 16px 4px 16px;
             justify-content: center;
             align-items: center;
+            transition: transform 0.2s ease-in-out;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
         }
 
         h3{
@@ -120,6 +126,7 @@
                             color: white;
                             font-size: 15px;
                             font-weight: 600;
+                            
                         }
                     }
                 }

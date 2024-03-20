@@ -59,6 +59,12 @@
                 align-items: center;
                 justify-content: space-around;
                 padding: 5px;
+                transition: transform 0.2s ease-in-out;
+                &:hover{
+                    opacity: 0.9;
+                    transform: scale(1.1);
+                    box-shadow: 0 0 10px 5px rgba(58, 149, 197, 0.25) ;
+                }
 
                 .icon_container{ 
                     width: 100%;
@@ -117,6 +123,11 @@
                         gap: 10px;
                     color: var(--Gris, #4F4F4F);
                     margin-top: 0;
+                    transition: transform 0.2s ease-in-out;
+                    &:hover{
+                        background: #4f4f4f;
+                        color: white;
+                    }
                 }
             }
             
@@ -148,6 +159,12 @@
                 align-items: center;
                 justify-content: space-around;
                 padding: 5px;
+                transition: transform 0.2s ease-in-out;
+                &:hover{
+                    opacity: 0.9;
+                    transform: scale(1.1);
+                    box-shadow: 0 0 10px 5px rgba(58, 149, 197, 0.25) ;
+                }
 
                 .icon_container{ 
                     width: 100%;
@@ -204,6 +221,11 @@
                         gap: 10px;
                         color: var(--Gris, #4F4F4F);
                         margin-top: 0;
+                        transition: transform 0.2s ease-in-out;
+                    &:hover{
+                        background: #4f4f4f;
+                        color: white;
+                    }
                 }
             }
             
