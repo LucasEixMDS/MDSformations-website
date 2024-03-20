@@ -136,6 +136,7 @@ function CarrouselFormation({ filterValues = [] }) {
                             backgroundImage: `url(${item.photo})`,
                             boxShadow: hoveredItemId === item.id ? `0px 0px 10px 5px ${item.buttonColor}` : "0px 8px 18px 0px rgba(90, 176, 222, 0.25)",
                             border: hoveredItemId === item.id ? `1px solid white` : "none"
+                            
                             }} >
                             <div className="topContainer">
                                 <div className="icon">
