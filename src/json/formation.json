@@ -676,7 +676,7 @@
     {
         "id": "0005",
         "formationLink": "massage-du-monde",
-        "colorFormation" : "#F28B23",
+        "colorFormation" : "rgb(219 131 99)",
         "emoji" : "https://mdsformations-website-u5520.vm.elestio.app/massage.svg",
         "programme" : "https://mdsformations-website-u5520.vm.elestio.app/programmeTechSpa.pdf",
         "hasPlannings": false,
