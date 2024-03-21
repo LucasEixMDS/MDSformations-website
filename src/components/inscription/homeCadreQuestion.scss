@@ -64,15 +64,15 @@
             font-size: 18px;
             height: 38px;
             transition: transform 0.3s ease-in-out;
-
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3), 0 5px 2px rgba(0, 0, 0, 0.22);
                         
                         &:hover{
-                            opacity: 0.9;
-                            transform: scale(1.1);
+                            
+                            transform: scale(0.95);
                             background-color: white;
                             border: 1px solid $color-1;
                             color: $color-1;
-
+                            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3), 0 3px 1px rgba(0, 0, 0, 0.22);
                             
 
                         }
