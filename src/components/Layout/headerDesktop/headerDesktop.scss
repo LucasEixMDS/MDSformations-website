@@ -1,5 +1,7 @@
 @import '../../../style/settings.scss';
 
+
+
 @media only screen and (max-width: 1024px) {
     /* Toujours cacher le menu principal */
 	.HeaderDesktop{
@@ -29,7 +31,13 @@
       display: flex;
       gap: 50px;
 
+      button{
+        color: initial; /* Couleur initiale */
+       transition: color 0.3s ease;
+      }
+
       button:hover{
+        
         color: $color-1;
         
       }
