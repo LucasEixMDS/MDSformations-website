@@ -14,6 +14,7 @@
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 15px;
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 
     .metierVise_modal_article{
@@ -32,6 +33,13 @@
         padding: 15px;
         margin-top: 10px;
         margin-right: 15px;
+        transition: .2s ease-in-out;
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+        &:hover{
+          
+            transform: scale(1.1);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+        }
      
 
         .metierVise_modal_mid{
@@ -65,6 +73,13 @@
         padding: 4px 16px 4px 16px;
         justify-content: center;
         align-items: center;
+        transition: .2s ease-in-out;
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.22);
+                        &:hover{
+                          
+                            transform: scale(.92);
+                            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+                        }
 
         img{
             margin-bottom: 1px;

@@ -19,7 +19,7 @@ import Formation_metierVise from "./formation_components/formation_metierVise/fo
 import AccordionWrapper from "./formation_components/formation_accordion/AccordionWrapper";
 import Formation_certification from "./formation_components/formation_certification/Formation_certification"
 import Formation_modalite from "./formation_components/formation_modalite/Formation_modalite";
-import Caroussel_pageFormation from "./formation_components/formation_caroussel/Caroussel_pageFormation";
+import CarousselFormationDesktop from "../../components/carrousels/CarrouselFormation/CarousselFormationDesktop"
 import Caroussel_formateur from "./formation_components/formation_caroussel/Caroussel_formateur";
 import Formation_solutionDistance from "./formation_components/formation_solutionDistance/Formation_solutionDistance";
 import Formation_temoin from "./formation_components/formation_temoin/Formation_temoin";
@@ -49,6 +49,12 @@ function FormationPage() {
   const colorStyle = {
     color: formation.colorFormation, 
 };
+
+const backgroundStyle={
+  background: formation.colorFormation,
+};
+
+
 const showPlannings = formation.hasPlannings;
 
   // Utilisez "formation" pour accéder aux détails de la formation
@@ -85,7 +91,12 @@ const showPlannings = formation.hasPlannings;
       <Formation_metierVise formation={formation} />
       <Formation_modalite formation={formation} /> 
       <Formation_certification formation={formation}/>
-      <Caroussel_pageFormation formation={formation} />
+      
+      <div className="home2">
+            <h3>Obtenez des <span style={colorStyle}>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <CarousselFormationDesktop filterValues={['certification']} />
+            <Link to={"/toutes-nos-formations"}><button className="button_webinaire"style={backgroundStyle} >Toutes nos formations certifiantes</button> </Link> 
+            </div>
       <div className="carousselFormateur">
       <h4>Rencontrez nos <span style={colorStyle}>formateur(ice)s expérimenté(e)s</span> qui vous guideront dans votre apprentissage</h4>
       <Caroussel_formateur formation={formation} filterValues={['reflexologie']}/>

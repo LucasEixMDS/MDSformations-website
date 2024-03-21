@@ -34,6 +34,7 @@ const Formation_financementDesktop = ({formation}) => {
                     </div>
                 </div>
                 <div className="financementModalBottom">
+                <Link to="/Inscription">
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
@@ -41,9 +42,11 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <Link to="/Inscription"><button style={backgroundStyle}>En savoir +</button></Link>
+                                <button style={backgroundStyle}>En savoir +</button>
                             </div>
                     </div>
+                    </Link>
+                    <Link to="/Inscription">
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
@@ -51,9 +54,11 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <Link to="/Inscription"><button style={backgroundStyle}>En savoir +</button></Link>
+                               <button style={backgroundStyle}>En savoir +</button>
                             </div>
                     </div>
+                    </Link>
+                    <Link to="/Inscription">
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
@@ -61,9 +66,10 @@ const Formation_financementDesktop = ({formation}) => {
                                 </div>
                             </div>
                             <div className="financementButton">
-                                <Link to="/Inscription"><button style={backgroundStyle}>S'inscrire</button></Link>
+                               <button style={backgroundStyle}>S'inscrire</button>
                             </div>
                     </div>
+                    </Link>
                 </div>
             </div>
 
