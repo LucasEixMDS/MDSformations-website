@@ -7,6 +7,14 @@
     align-items: center;
     flex-direction: column;
 
+    a{
+
+        &:hover{
+            color: $color-1;
+        }
+    }
+
+
    
 
     .footer_desktop{
@@ -34,22 +42,11 @@
             align-items: center;
             flex-direction: column;
 
+           
             p{
                 display: none;
             }
 
-            button {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: center;
-                height: 25px;
-                width: 85%;
-                border-radius: 21px;
-                border: none;
-                background: $color-principale;
-                color: white;
-                margin-bottom: 10px;}
         }
 
         .footer_website{
@@ -94,6 +91,12 @@
                 background: $color-principale;
                 color: white;
                 margin-bottom: 10px;
+                border: 1px solid transparent;
+
+                &:hover{
+                    background: #4F4F4F;
+                   border: 1px solid $color-1;
+                }
 
                 img{
                     width: 10%;
