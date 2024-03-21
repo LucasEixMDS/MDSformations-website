@@ -63,6 +63,13 @@
             justify-content: space-around;
             align-items: center;
             width: auto;
+            transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
         }
 
 
@@ -134,6 +141,11 @@
                 background-position: center left 40%;
                 background-size: cover;
                 object-fit: cover;
+                transition: transform 0.2s ease-in-out;
+           
+            &:hover{
+                transform: scale(1.05);
+            }
 
                 .topContainer{ 
                     width: 100%;
@@ -186,6 +198,14 @@
                         color: white;
                         font-size: 15px;
                         font-weight: 600;
+                        transition: transform 0.2s ease-in-out;
+                        border: 1px solid transparent;
+                        &:hover{
+                            background: #ffffff;
+                            color: $color-1;
+                            border: 1px solid $color-1;
+            }
+
                     }
                 }
             }

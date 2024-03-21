@@ -55,6 +55,13 @@
                 justify-content: space-around;
                 align-items: center;
                 width: auto;
+                transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
             }
         }
 
@@ -80,6 +87,13 @@
                 justify-content: space-around;
                 align-items: center;
                 width: auto;
+                transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
             }
 
             .equipeContainer{
@@ -96,6 +110,11 @@
                     align-items: center;
                     margin-top: 10px;
                     width: 50%;
+                    transition: transform 0.2s ease-in-out;
+            
+                    &:hover{
+                       transform: scale(1.02);
+                    }
 
                     .equipeImage{
                         display: flex;
@@ -124,6 +143,11 @@
                     align-items: center;
                     margin-top: 10px;
                     width: 50%;
+                    transition: transform 0.2s ease-in-out;
+            
+                    &:hover{
+                       transform: scale(1.02);
+                    }
 
                     .equipeImage{
                         display: flex;
@@ -169,6 +193,13 @@
                 justify-content: space-around;
                 align-items: center;
                 width: auto;
+                transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
             }
 
             .equipeContainer{
@@ -185,6 +216,11 @@
                     align-items: center;
                     margin-top: 10px;
                     width: 50%;
+                    transition: transform 0.2s ease-in-out;
+            
+                    &:hover{
+                       transform: scale(1.02);
+                    }
 
                     .equipeImage{
                         display: flex;
@@ -213,6 +249,11 @@
                     align-items: center;
                     margin-top: 10px;
                     width: 50%;
+                    transition: transform 0.2s ease-in-out;
+            
+            &:hover{
+               transform: scale(1.02);
+            }
 
                     .equipeImage{
                         display: flex;

@@ -95,6 +95,13 @@
             justify-content: space-around;
             align-items: center;
             width: auto;
+            transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
             }
         }
 
@@ -167,6 +174,11 @@
                         margin: 10px 0 10px 0 ;
                         
                     }
+
+                    textarea{
+                        border-radius: 6px;
+                        padding: 10px;
+                    }
         
                     .vae{
                         
@@ -211,6 +223,13 @@
                     justify-content: space-around;
                     align-items: center;
                     width: 40%;
+                    transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: $color-1;
+                border: 1px solid $color-1;
+            }
                     }
                 }
             }

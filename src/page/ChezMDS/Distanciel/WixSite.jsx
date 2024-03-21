@@ -32,7 +32,7 @@ const WixSite = () => {
                             </Link>
                     </div>
                     <div className="wix-inner">
-                            <Link to="/reflexologue">
+                            <Link to="/prothesie-ongulaire-en-ligne">
                             <div className="items" style={{backgroundImage: 'url("https://mdsformations-website-u5520.vm.elestio.app/prothesie.webp")'}}>
                                     <div className="topContainer">
                                         <div className="icon">
@@ -40,7 +40,7 @@ const WixSite = () => {
                                         </div>
                                     </div>
                                     <div className="midContainer">
-                                        <h2>Réflexologie à distance</h2>
+                                        <h2>Prothesie à distance</h2>
                                     </div>
                                     <div className="bottomContainer">
                                         <div className="buttons">
