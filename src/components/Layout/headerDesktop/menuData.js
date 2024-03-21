@@ -17,7 +17,7 @@ export const data = {
     ],
   },
   "Orientation": {
-    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/header2.webp",
+    imageUrl: "https://mdsformations-website-u5520.vm.elestio.app/orientation2.webp",
     items: [
       {
         label: "Inscription & Devis",
