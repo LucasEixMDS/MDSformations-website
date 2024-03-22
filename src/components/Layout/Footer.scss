@@ -137,6 +137,21 @@
             flex-direction: column;
             align-items: center;
 
+            .qualiopi{
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: 12px;
+                padding-bottom: 20px;
+
+
+                ul{
+                    margin-left: 35px;
+                }
+            }
+
             img{
                 margin-bottom: 15px;
 

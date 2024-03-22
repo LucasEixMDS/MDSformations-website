@@ -60,6 +60,17 @@ const Footer = () => {
             </div>
             <div className="footer_entreprise">
                 <img src={qualiopi} alt="" />
+                <div className="qualiopi">
+                <a href="https://mdsformations-website-u5520.vm.elestio.app/qualiopi.pdf" download="certificatQualiopi.pdf">
+                    Télécharger le certificat
+                </a>
+                <p>La certification qualité a été délivrée au titre des catégories suivantes :</p>
+                <ul>
+                    <li>Actions de formation</li>
+                    <li>Actions permettant de valider les acquis de l'expérience</li>
+                    <li>actions de formation par apprentissage</li>
+                </ul>
+                </div>
                 <p className='desktop'>Tous droits réservés © 2023</p>
                 <p>Organisme de formation MDS formations</p>
                 <p>33 Blanche Lande, 44521 Oudon</p>
