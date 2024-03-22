@@ -19,10 +19,10 @@ const Footer = () => {
             <div className="footer_website">
                 <img src={logo} alt="" />
                 <div className="footer_social">
-                    <a href=""><img src={facebook} alt="logo du reseaux social facebook" /></a>
-                    <a href=""><img src={linkedin} alt="logo du reseaux social linkedin" /></a>
-                    <a href=""><img src={instagram} alt="logo du reseaux social instagram" /></a>
-                    <a href=""><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
+                    <a href="https://www.facebook.com/mdsformations"><img src={facebook} alt="logo du reseaux social facebook" /></a>
+                    <a href="https://www.linkedin.com/company/mds-formations-pro/"><img src={linkedin} alt="logo du reseaux social linkedin" /></a>
+                    <a href="https://www.instagram.com/mdsformations/"><img src={instagram} alt="logo du reseaux social instagram" /></a>
+                    <a href="https://www.tiktok.com/@mdsformations"><img src={tiktok} alt="logo du reseaux social tiktok" /></a>
                     
                 </div>
                  <Link to="/Inscription" ><button><img src={mobile} alt="boutton contactez-nous" />Contactez-nous</button></Link>       
