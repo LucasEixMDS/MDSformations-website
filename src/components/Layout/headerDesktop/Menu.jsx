@@ -3,7 +3,8 @@ import MenuItem from './MenuItem';
 import SubMenu from './SubMenu';
 import PhoneIcon from '../../../assets/mobile.svg'; 
 import mailIcon from '../../../assets/mailIcon.svg'; 
-import './headerDesktop.scss'
+import './headerDesktop.scss';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
   const [{openedSubmenu, ref}, setOpenedSubmenu] = useState({});
@@ -30,11 +31,12 @@ const Menu = () => {
         title="Chez MDS"
         onOpen={createHandleOpen('Chez MDS')}
       />
+      
       <div className="contact">
       <div className='phone'>
-      <a href='tel:+33240963280' target='blank' rel='noreferrer'>
+      <Link to="/Inscription">
       <img src={PhoneIcon} alt="Icône téléphone" />
-       </a>
+      </Link>
         </div>
        <div className='mail'>
       <a className='mailling' href='mailto:camille.melodiedessens@gmail.com' target='blank' rel='noreferrer' > <img src={mailIcon} alt="Logo du centre de formation" /></a>
