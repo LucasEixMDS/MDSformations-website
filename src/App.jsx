@@ -27,6 +27,9 @@ import Post from "page/Accompagnement/Post/Post";
 import Valeurs from "page/Accompagnement/Valeurs/Valeurs";
 import Direction from "page/Accompagnement/Direction/Direction";
 import 'animate.css';
+import MentionLegal from "page/Mention/Mention/MentionLegal";
+import CGV from "./page/Mention/CGV/CGV";
+import PPD from "page/Mention/PPD/PPD";
 
 
 const App = () => {
@@ -61,6 +64,9 @@ const App = () => {
           <Route path="/suivis-post-formation" element={<Post />} />
           <Route path="/valeurs-de-mdsformations" element={<Valeurs />} />
           <Route path="/la-direction-pedagogique" element={<Direction />} />
+          <Route path="/mentions-legales" element={<MentionLegal />} />
+          <Route path="/conditions-generales-de-vente" element={<CGV />} />
+          <Route path="/politique-de-protection" element={<PPD />} />
           <Route  element={<Error404 /> } />
           </Route>
       </Routes>

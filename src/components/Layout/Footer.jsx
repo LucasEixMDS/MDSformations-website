@@ -17,7 +17,7 @@ const Footer = () => {
             
 
             <div className="footer_website">
-                <img src={logo} alt="" />
+                <Link to="/"><img src={logo} alt="" /></Link>
                 <div className="footer_social">
                     <a href="https://www.facebook.com/mdsformations"><img src={facebook} alt="logo du reseaux social facebook" /></a>
                     <a href="https://www.linkedin.com/company/mds-formations-pro/"><img src={linkedin} alt="logo du reseaux social linkedin" /></a>
@@ -40,11 +40,11 @@ const Footer = () => {
             <div className="footer_bar"></div>
             <div className="footer_legal">
                 <p><strong>Ressources</strong></p>
-                <Link to="/" >CGV</Link>
-                <Link to="/" >Mentions légales</Link>
-                <Link to="/" >Conditions d inscription</Link>
-                <Link to="/" >Cookies</Link>
-                <Link to="/" >Annulation et remboursement</Link>
+                <Link to="/conditions-generales-de-vente" >CGV</Link>
+                <Link to="/mentions-legales" >Mentions légales</Link>
+                <Link to="/comment-s'inscrire-en-formation" >Conditions d inscription</Link>
+                <Link to="/politique-de-protection" >Politique de protection des données</Link>
+                <Link to="/" >Les différents financements</Link>
                 <Link to="/hebergement" >Hébergement</Link>
             </div>
             </div>
@@ -54,7 +54,7 @@ const Footer = () => {
                 <Link to="/" >02 40 96 32 80</Link>
                 <Link to="/" >camille.melodiedessens@gmail.com</Link>
                 <Link to="/" >33 blanche lande, 44521 Oudon</Link>
-            <p><strong>Plateforme</strong></p>
+                <p><strong>Plateforme</strong></p>
                 <Link to="/distanciel" >Plateforme Elearning prothésie</Link>
                 <Link to="/distanciel" >Plateforme de cours en ligne</Link>
             </div>
