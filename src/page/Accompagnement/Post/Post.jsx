@@ -2,6 +2,7 @@ import Accompa from "components/accompagnement/Accompa";
 import "./post.scss";
 import { Link } from "react-router-dom";
 import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/CarousselFormationDesktop";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -15,6 +16,10 @@ const ValideIcon = () => (
 const Post = () => {
     return (
         <div className="post">
+             <Helmet>
+        <title>Suivis post-formation des stagiaires</title>
+        <meta name="robots" content="noindex" />
+             </Helmet>
             
                 <div className="headerPost">
                     <h1>Suivi post-formation</h1>

@@ -3,6 +3,7 @@ import "./direction.scss";
 import { Link } from "react-router-dom";
 import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import HomeCadreQuestion from "../../../components/inscription/HomeCadreQuestion";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -252,6 +253,11 @@ const Guill1 = () => (
 const Direction = () => {
     return (
         <div className="direction">
+             <Helmet>
+        <title>La direction pédagogique</title>
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/la-direction-pedagogique" />
+            </Helmet>
             
             <div className="headerDirection">
                 <h1>Notre direction pédagogique</h1>

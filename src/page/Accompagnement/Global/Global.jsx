@@ -3,10 +3,15 @@ import "./global.scss";
 import { Link } from "react-router-dom";
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
 import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/CarousselFormationDesktop";
+import { Helmet } from 'react-helmet-async';
 
 const Global = () => {
     return (
         <div className="global">
+
+        <Helmet>
+        <title>Accompagnement global des stagiaires</title>
+        </Helmet>
             
             <div className="headerGlobal">
                 <h1>Accompagnement Global</h1>

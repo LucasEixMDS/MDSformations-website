@@ -10,10 +10,6 @@ function ArticlePage() {
     // Trouvez l'article correspondant
     const article = articlesData.find(a => a.articleLink.endsWith(articleLink));
 
-    if (!article) {
-        return <div>Article non trouvé</div>;
-    }
-
 
     return (
         <div>

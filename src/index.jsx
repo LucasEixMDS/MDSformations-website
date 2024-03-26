@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './style/index.scss';
 import { initializeApp } from "firebase/app";
+import { HelmetProvider } from 'react-helmet-async';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBXAQzp9nfh7TpVr9fiqRFSxQdw8AEyvtE",
@@ -20,7 +21,9 @@ initializeApp(firebaseConfig);
 const root = document.getElementById('root');
 const reactRoot = createRoot(root);
 reactRoot.render(
+  <HelmetProvider>
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  </HelmetProvider>
 );

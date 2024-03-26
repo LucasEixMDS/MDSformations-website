@@ -2,6 +2,7 @@ import "./valeurs.scss";
 import { Link } from "react-router-dom";
 import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import Accompa from "components/accompagnement/Accompa";
+import { Helmet } from 'react-helmet-async';
 
 
 const ValideIcon = () => (
@@ -15,6 +16,11 @@ const ValideIcon = () => (
 const Valeurs = () => {
     return (
         <div className="valeurs">
+
+                <Helmet>
+                    <title>Les valeurs du centre de formation</title>
+                    <meta name="robots" content="noindex" />
+                </Helmet>
 
             
             <div className="headerValeurs">
