@@ -17,19 +17,19 @@ const Formation_financementDesktop = ({formation}) => {
         <div className="financementDesktop">
             <div className="financementDesktopLeft">
                 <div className="financementTitleDesktop">
-                    <h2>Des tarifs <span style={colorStyle}>clairs et transparent</span></h2>
+                    <span className="h2" >Des tarifs <span style={colorStyle}>clairs et transparent</span></span >
                 </div>
                 <div className="financementTarifsDesktop">
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
-                                    <h2>Financement Personnel</h2>
-                                    <h3 className='date'>{formation.pricing.financementPerso}</h3>
+                                    <span className="h2" >Financement Personnel</span >
+                                    <span className='date'>{formation.pricing.financementPerso}</span>
                                 </div>
                             </div>
                     </div>
                     <div className="financementTarifsDesktop2">
-                        <h2 style={colorStyle}>{formation.pricing.completForm}</h2>
+                        <span  style={colorStyle}>{formation.pricing.completForm}</span >
                         <p>Formation complète</p>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ const Formation_financementDesktop = ({formation}) => {
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
-                                    <h2>Financement Pôle emploi à partir de 0 €</h2>
+                                    <span className="h2" >Financement Pôle emploi à partir de 0 €</span >
                                 </div>
                             </div>
                             <div className="financementButton">
@@ -50,7 +50,7 @@ const Formation_financementDesktop = ({formation}) => {
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
-                                    <h2>Alternance prise en charge à <span>100%</span></h2>
+                                    <span className="h2" >Alternance prise en charge à <span>100%</span></span >
                                 </div>
                             </div>
                             <div className="financementButton">
@@ -62,7 +62,7 @@ const Formation_financementDesktop = ({formation}) => {
                     <div className="financementItems">
                             <div className="financementTopContainer">
                                 <div className="financementIcon">
-                                    <h2>Financement CPF jusqu'à <span>100%</span></h2>
+                                    <span className="h2" >Financement CPF jusqu'à <span>100%</span></span >
                                 </div>
                             </div>
                             <div className="financementButton">

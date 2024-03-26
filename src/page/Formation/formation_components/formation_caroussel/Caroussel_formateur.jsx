@@ -62,7 +62,7 @@ function CarrouselFormation({ filterValues = [] }) {
             slider.removeEventListener('mouseup', handleMouseUp, { passive: true });
             slider.removeEventListener('mouseleave', handleMouseLeave, { passive: true });
             slider.removeEventListener('mousemove', handleMouseMove, { passive: true });
-            slider.removeEventListener('wheel', handleWheel, { passive: true });
+            slider.removeEventListener('wheel', handleWheel);
         };
     }, [sliderGrabbed]);
 
@@ -76,8 +76,8 @@ function CarrouselFormation({ filterValues = [] }) {
                         <div className="items">
     
                             <div className="midContainer">
-                                <h2>{item.title}</h2>
-                                <h3>{item.text}</h3>
+                                <span className='h2'><strong>{item.title}</strong></span>
+                                <span className='h3'>{item.text}</span>
                                 
                             </div>
                         </div>

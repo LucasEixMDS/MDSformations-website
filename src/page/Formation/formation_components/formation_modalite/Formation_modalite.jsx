@@ -13,7 +13,7 @@ const Formation_modalite = ({formation}) => {
     };
     return (
         <div className='modalite'>
-            <h3><span style={colorStyle}>Modalités</span> de la formation</h3>
+            <span className='h3'><span style={colorStyle}>Modalités</span> de la formation</span >
 
         <div className="modalite-container">
                 <div className="container-left">
@@ -21,14 +21,14 @@ const Formation_modalite = ({formation}) => {
                         <div className="modal-top-icon">
                             <img src={ecole} alt="icon apple d'une ecole" />
                         </div>
-                        <h4>Pré-requis</h4>
+                        <span className='h4'>Pré-requis</span>
                         <p>Brevet des collèges ou équivalent.</p>
                     </div>
                     <div className="modal-bottom">
                     <div className="modal-bottom-icon">
                             <img src={siege} alt="icon apple d'une personne en siège roulant avec une personne qui roule" />
                         </div>
-                        <h4>Accessibilité</h4>
+                        <span className='h4'>Accessibilité</span>
                         <p>Des formations conçues pour accueillir tous les apprenants, quelles que soient leurs capacités.</p>
                         <Link to="/handicap"><button>En savoir +</button></Link>
                     </div>
@@ -38,7 +38,7 @@ const Formation_modalite = ({formation}) => {
                         <div className="modal-top-icon">
                             <img src={correction} alt="icon apple d'une page et d'un stylo pour une copie écrite" />
                         </div>
-                        <h4>Examens</h4>
+                        <span className='h4'>Examens</span>
                         <ul>
                             <li>Épreuve théorique écrite</li>
                             <li>Mise en pratique</li>
@@ -49,7 +49,7 @@ const Formation_modalite = ({formation}) => {
                     <div className="modal-bottom-icon">
                             <img src={avocate} alt="icon apple d'une femme avocate" />
                         </div>
-                        <h4>VAE & VAP</h4>
+                        <span className='h4'>VAE & VAP</span>
                         <p>Reconnaissance de vos compétences existantes et obtenez la certification que vous méritez.</p>
                         <Link to="/vae-vap"><button>En savoir +</button></Link>
                     </div> 

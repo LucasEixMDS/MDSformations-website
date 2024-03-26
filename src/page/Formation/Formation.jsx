@@ -74,7 +74,7 @@ function FormationPage() {
       <HomeCadreQuestion />
       <div className="formation_container">
         <div className="formation_pointfort">
-        <h3 style={colorStyle}>Nos points forts</h3>
+        <span className="h3" style={colorStyle}>Nos points forts</span>
         <div className="modal_emoji">
         <img src={pouceHaut} alt="emoji d'un pouce vers le haut avec le point fermé" />
         </div>
@@ -99,7 +99,7 @@ function FormationPage() {
             <Link to={"/toutes-nos-formations"}><button className="button_webinaire"style={backgroundStyle} >Toutes nos formations certifiantes</button> </Link> 
             </div>
       <div className="carousselFormateur">
-      <h4>Rencontrez nos <span style={colorStyle}>formateur(ice)s expérimenté(e)s</span> qui vous guideront dans votre apprentissage</h4>
+      <span className="h4">Rencontrez nos <span style={colorStyle}>formateur(ice)s expérimenté(e)s</span> qui vous guideront dans votre apprentissage</span>
       <Caroussel_formateur formation={formation} filterValues={['reflexologie']}/>
       </div>
       <Formation_solutionDistance formation={formation} />

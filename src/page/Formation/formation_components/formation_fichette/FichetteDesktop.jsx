@@ -14,7 +14,7 @@ const Fichette = ({ formation }) => {
   return (
     <div className="modalFichette">
         <div className="fichetteContainer">
-      <h2>Toutes les informations</h2>
+      <span className="h2">Toutes les informations</span>
             <div className="containTextFichette">
                 <p style={colorStyle}>Durée</p>
                 <div className="textFichette">

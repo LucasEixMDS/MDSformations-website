@@ -26,10 +26,10 @@ const Accordion = ({ block, formation }) => {
     <div className='accordion'>
       <button className={`accordion_header ${open ? 'accordion_header_open' : ''}`} onClick={toggleAccordion}>
         <div className="accordion-text">
-          <h6 className='accordion-titre'>{block.title}</h6>
+          <span  className='accordion-titre'>{block.title}</span>
           <div className="details">
-            <h6 style={colorStyle} className='accordion-hours'>{block.hours}</h6>
-            <h6 className='accordion-modalities'>{block.modalities}</h6>
+            <span style={colorStyle} className='accordion-hours'>{block.hours}</span>
+            <span className='accordion-modalities'>{block.modalities}</span>
           </div>
         </div>
         <div className="arrow-container">

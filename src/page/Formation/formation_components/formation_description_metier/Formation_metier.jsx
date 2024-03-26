@@ -11,7 +11,7 @@ function Formation_metier({ formation, svgColor }) { // svgColor est passé en t
 
   return (
     <div className="formation_metier">
-      <h3>
+      <h2>
       {parts.map((part, index) => {
         if (index === 1) {
             return <span key={index} style={{ color: formation.colorFormation }}>{part}</span>;
@@ -19,7 +19,7 @@ function Formation_metier({ formation, svgColor }) { // svgColor est passé en t
             return <span key={index}>{part}</span>;
         }
         })}
-      </h3>
+      </h2>
       
       <ul>
     {objectivesList.map((objective, index) => (

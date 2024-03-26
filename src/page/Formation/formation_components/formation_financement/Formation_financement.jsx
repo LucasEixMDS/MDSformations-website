@@ -12,7 +12,7 @@ const Formation_financement = ({formation}) => {
     return (
         <div className="financement">
                 <div className="financement_tarifs">
-                        <h3>Des tarifs <span className="text-color" style={colorStyle}>clairs et transparents</span></h3>
+                        <span className="h3"><strong>Des tarifs <span className="text-color" style={colorStyle}>clairs et transparents</span></strong></span>
                     <div className="financement_complet">
                         <p className="text-color" style={colorStyle}>{formation.pricing.completForm}</p>
                         <p>formation complète</p>

@@ -15,12 +15,12 @@ const Components_plateforme = ({formation}) => {
     };
     return (
         <div className='plateforme-container'>
-            <h2>Complétez votre expérience de formation avec notre plateforme de cours en ligne gratuite !</h2>
+            <span className='h2'>Complétez votre expérience de formation avec notre plateforme de cours en ligne gratuite !</span>
             <button style={backgroundStyle}>En savoir +</button>
-            <h3 style={colorStyle}>Notre plateforme vous offre :</h3>
+            <span className='h3' style={colorStyle}>Notre plateforme vous offre :</span>
 
             <Carousel_plateforme formation={formation} />
-        </div>
+        </div>  
     );
 };
 

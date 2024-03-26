@@ -10,6 +10,18 @@
         width: 60%;
         padding: 0 0 0 10%;
 
+        .financementTitleDesktop{
+
+            .h2{
+                font-family: "poppins-bold";
+                color: #4F4F4F;
+
+                span{
+                    font-family: "poppins-bold";
+                }
+            }
+        }
+
             .financementTarifsDesktop{
                 display: flex;
                 padding: 20px 0 0 0;
@@ -39,13 +51,13 @@
                             flex-direction: column;
                             justify-content: space-between;
                             height: 120px;
-                            h2{
+                            .h2{
                                 font-size: 17px;
                                 font-family: "poppins-semiBold";
                                 color: var(--Gris, #4F4F4F);
                             }
 
-                            h3{
+                            .date{
                                 font-size: 30px;
                                 text-align: center;
                                 font-family: "poppins-semiBold";
@@ -59,15 +71,16 @@
             .financementTarifsDesktop2{
                 margin-left: 50px;
 
-                h2{
+                span{
                     font-size: 30px;
                     color: var(--Gris, #4F4F4F);
+                    font-family: "poppins-semiBold";
                     
                  
                 }
-                h3{
+                p{
                     font-size: 17px;
-                    font-family: "poppins-semiBold";
+                    font-family: "poppins-bold";
                     color: var(--Gris, #4F4F4F);
                 }
             }
@@ -109,8 +122,8 @@
                             flex-direction: column;
                             justify-content: space-between;
                             height: 120px;
-                            h2{
-                                font-size: 17px;
+                            .h2{
+                                font-size: 16px;
                                 font-family: "poppins-semiBold";
                                 color: var(--Gris, #4F4F4F);
 

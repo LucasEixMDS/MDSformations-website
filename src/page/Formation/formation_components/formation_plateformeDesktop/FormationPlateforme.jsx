@@ -15,8 +15,8 @@ const formationPlateforme = ({formation}) => {
   
     return (
         <div className='formationPlateformeDesktop'>
-            <h3>Complétez votre expérience de formation avec notre <span style={colorStyle}>plateforme de cours en ligne gratuite !</span></h3>
-            <h4 style={colorStyle}>Notre plateforme vous offre :</h4>
+            <span className='h3'><strong>Complétez votre expérience de formation avec notre <span style={colorStyle}>plateforme de cours en ligne gratuite !</span></strong></span>
+            <span className='h4' style={colorStyle}>Notre plateforme vous offre :</span>
             <div className="plateformeList">
         <ul>
             {formation.plateformeDesktop.map((item, index) => (

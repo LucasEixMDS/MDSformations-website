@@ -11,7 +11,7 @@ const AccordionWrapper = ({ formation }) => {
 
   return (
     <div className='programme-container'>
-        <h3><span style={colorStyle}>Programme</span> de formation</h3>
+        <h2 className='h3'><span style={colorStyle}>Programme</span> de formation "{formation.header.title}"</h2>
       {formation.program.blocks.map((block, index) => (
         <Accordion key={index} block={block} formation={formation}/>
       ))}

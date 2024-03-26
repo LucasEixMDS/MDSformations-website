@@ -112,7 +112,7 @@ function Navbar() {
         <header className='headerMobile'>
             
             <Link to="/" >
-                <h3> <img src={logo} alt="" /> </h3>
+                <span> <img src={logo} alt="" /> </span>
             </Link>
             <div className="rightMenu">
                 <img src={mobile} alt="" />

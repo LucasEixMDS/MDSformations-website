@@ -75,8 +75,8 @@ function CarrouselFinancement({ filterValues = [], formation }) {
                     <div className="items" key={index}> 
                         <div className="topContainer">
                             <div className="icon">
-                                <h2>{item.titre}</h2>
-                                <h3 className='date'>{item.text}</h3>
+                                <span className='h2'>{item.titre}</span>
+                                <span className='date'>{item.text}</span>
                             </div>
                         </div>
                     </div>

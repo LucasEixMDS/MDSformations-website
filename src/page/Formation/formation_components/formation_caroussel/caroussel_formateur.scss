@@ -62,11 +62,14 @@
                     
 
            .midContainer{
-            h2{
+            display: flex;
+            flex-direction: column;
+            .h2{
                 color: white;
                 font-size: 18px ;
+                
             }
-            h3{
+            .h3{
                 color: white;
                 font-size: 12px;
                 font-family: "poppins-light";

@@ -24,8 +24,8 @@ function FormationHeader() {
         <div >
             <div className="formation_header" style={backgroundStyle}>
                 <div className="formation_header_titre">
-                    <h1>{formation.header.subtitle}</h1> 
-                    <h2>{formation.header.title}</h2>
+                    <h2>{formation.header.subtitle}</h2> 
+                    <h1>{formation.header.title}</h1>
                 </div>
                 <div className="formation_header_modal">
                     <div className="formation_header_modal_left">
@@ -35,7 +35,7 @@ function FormationHeader() {
                             </div>
                         </div>
                             <div className="formation_header_modal_left_mid">
-                                <h2>{formation.header.imageAltText}</h2>
+                                <span className="h2">{formation.header.imageAltText}</span>
                             </div>
                         <div className="button">
                             <Link to="/Inscription">

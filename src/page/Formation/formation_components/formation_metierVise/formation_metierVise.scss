@@ -3,10 +3,16 @@
     padding: 20px 20px 30px 20px ;
     
 
-    h4{
+    .h4{
         font-family: "poppins-light";
         font-size: 20px;
         width: 90%;
+        display: block;
+        color: #4f4f4f;
+
+        span{
+            font-family: "poppins-semiBold";
+        }
     }
 
     .metierVise-modal{ 
@@ -49,14 +55,15 @@
             align-items: center;
             color: #ffff;
 
-            h3{
+            .h3{
                 color: #FFF;
                 padding: 0;
                 margin-bottom: 0;
                 font-size: 18px;
             }
-            h4{
+            .h4{
                 font-size: 12px;
+                color: white;
 
             }
 
@@ -89,10 +96,12 @@
         }
     }
 
-    h5{
+    .h5{
         margin-top: 15px;
         margin-bottom: 10px;
         font-size: 17px;
+        display: block;
+        font-family: "poppins-bold";
     }
 
     ul{
@@ -116,8 +125,9 @@
     .metierVise-container{
         padding: 50px 0 50px 0;
 
-        h4{
+        .h4{
             padding: 10px 10% 10px 10%;
+            font-family: "poppins-semiBold";
         }
 
         .metierArticleDesktop{

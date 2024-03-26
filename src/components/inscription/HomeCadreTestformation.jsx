@@ -10,7 +10,7 @@ const HomeCadreTestformation = () => {
                     <p><img src="https://mdsformations-website-u5520.vm.elestio.app/reflechir.svg" alt="icon apple d'une personne qui réflechis" /></p>
                 </div>
             </div>
-            <h3>Quelle formation est faites pour moi ?</h3>
+            <span className='h3'>Quelle formation est faites pour moi ?</span>
             </div>
             <div className="homecadre_button">
             <Link to="/Inscription" ><button className='button-homecadreMobile'>On peut vous conseiller !</button></Link>

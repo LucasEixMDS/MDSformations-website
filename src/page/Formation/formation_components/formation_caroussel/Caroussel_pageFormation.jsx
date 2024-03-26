@@ -10,7 +10,7 @@ const Caroussel_PageFormation = ({formation}) => {
     return (
 
         <div className="pageFormation">
-            <h4>Explorez nos <span style={colorStyle}>formations complémentaires</span> pour un apprentissage approfondi !</h4>
+            <span className="h4">Explorez nos <span style={colorStyle}>formations complémentaires</span> pour un apprentissage approfondi !</span>
         <div className="home">
              <Caroussel_formation />
         </div>
