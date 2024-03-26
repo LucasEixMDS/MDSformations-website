@@ -54,9 +54,12 @@ function FormationPage() {
   // Utilisez "formation" pour accéder aux détails de la formation
   return (
     <div className="page_formation">  
-      <SeoBreadcrumb 
+ <SeoBreadcrumb 
   pageType="formation" 
-  pageDetails={{ name: formation.title, formationLink: formation.formationLink }}
+  pageDetails={{
+    name: formation?.title || "Titre Formation", // Utilisez un titre par défaut si nécessaire
+    formationLink: formation?.formationLink || 'default-link', // Utilisez un lien par défaut si nécessaire
+  }}
 />
       <FormationHeader formation={formation} />
       <Fichette formation={formation}/>

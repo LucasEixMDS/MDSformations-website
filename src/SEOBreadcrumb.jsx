@@ -7,7 +7,7 @@ const SeoBreadcrumb = ({ pageType, pageDetails }) => {
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Accueil",
+      "name": "Accueil"|| "Accueil", 
       "item": siteUrl,
     }
   ];
@@ -24,7 +24,7 @@ const SeoBreadcrumb = ({ pageType, pageDetails }) => {
         itemListElement.push({
           "@type": "ListItem",
           "position": 3,
-          "name": pageDetails.name,
+          "name": pageDetails.name|| "Détail Formation", 
           "item": `${siteUrl}/formations/${pageDetails.formationLink}`,
         });
       }
@@ -33,14 +33,14 @@ const SeoBreadcrumb = ({ pageType, pageDetails }) => {
       itemListElement.push({
         "@type": "ListItem",
         "position": 2,
-        "name": "Articles",
+        "name": "Articles"|| "Détail Articles", 
         "item": `${siteUrl}/articles`,
       });
       if (pageDetails) {
         itemListElement.push({
           "@type": "ListItem",
           "position": 3,
-          "name": pageDetails.name,
+          "name": pageDetails.name|| "liste item", 
           "item": `${siteUrl}/articles/${pageDetails.articleLink}`,
         });
       }
