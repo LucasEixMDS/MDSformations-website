@@ -2,11 +2,17 @@ import "./modele.scss";
 import Formulaireinscription from "../../../components/inscription/Formulaireinscription";
 import HomeCadreTestformation from '../../../components/inscription/HomeCadreTestformation';
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
-
+import { Helmet } from 'react-helmet-async';
 
 const Modele = () => {
     return (
         <div className="modele">
+
+                <Helmet>
+                    <title>Devenir modèle en formation</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/devenir-modele" />
+                </Helmet>   
             
             <div className="modeleHeader">
                 <h1>Devenez modèle dans nos formations</h1>

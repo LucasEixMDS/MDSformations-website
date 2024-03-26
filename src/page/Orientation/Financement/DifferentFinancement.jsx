@@ -1,5 +1,6 @@
 import "./differentFinancement.scss";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 
 const ValideIcon = () => (
@@ -15,6 +16,12 @@ const DifferentFinancement = () => {
 
     return (
         <div className="differentFinancement">
+
+                <Helmet>
+                    <title>Comprendre les differents financements</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/different-financement" />
+                </Helmet>
 
             <div className="headerDifferentFinancement">
                 <h1>Comprendre les différents financements</h1>

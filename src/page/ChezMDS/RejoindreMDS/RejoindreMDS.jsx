@@ -1,10 +1,18 @@
 import Accompa from "components/accompagnement/Accompa";
 import "./rejoindreMDS.scss";
 import HomeCadreQuestion from '../../../components/inscription/HomeCadreQuestion';
+import { Helmet } from 'react-helmet-async';
 
 const RejoindreMDS = () => {
     return (
         <div className="rejoindre">
+
+            
+                <Helmet>
+                    <title>Rejoindre le centre de formation MDS</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/rejoindre-MDS" />
+                </Helmet>  
             <div className="rejoindreHeader">
                 <h1>Rejoindre l’équipe <br/>
                     MDS Formations</h1>

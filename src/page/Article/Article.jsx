@@ -2,7 +2,8 @@ import { useParams } from 'react-router-dom';
 import articlesData from '../../json/Article.json';
 import './article.scss'
 import { CarrouselFormation } from 'components';
-import CarrouselArticle from '../../components/carrousels/CarrouselArticle/CarrouselArticle'
+import CarrouselArticle from '../../components/carrousels/CarrouselArticle/CarrouselArticle' ;
+import { Helmet } from 'react-helmet-async';
 
 function ArticlePage() {
     const { articleLink } = useParams();  // Récupère le titre de l'article depuis l'URL
@@ -13,6 +14,12 @@ function ArticlePage() {
 
     return (
         <div>
+
+                <Helmet>
+                    <title>article de blog</title>
+                    <meta name="robots" content="noindex" />
+                </Helmet>
+
             <div className="article">
                 <div className="article_header"
                 style={{ backgroundImage: `url(${article.backgroundImage})` }}>

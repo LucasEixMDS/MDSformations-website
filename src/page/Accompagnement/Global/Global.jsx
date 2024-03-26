@@ -9,9 +9,11 @@ const Global = () => {
     return (
         <div className="global">
 
-        <Helmet>
+            <Helmet>
         <title>Accompagnement global des stagiaires</title>
-        </Helmet>
+        <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/accompagnement-global" />
+            </Helmet>
             
             <div className="headerGlobal">
                 <h1>Accompagnement Global</h1>

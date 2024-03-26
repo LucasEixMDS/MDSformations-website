@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
 import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import YouTubeVideo from "./YoutubeVideo";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -12,6 +13,10 @@ const UtiliserCPF = () => {
     return (
         <div className="utiliser">
 
+                <Helmet>
+                    <title>Comment utiliser son CPF</title>
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/utiliser-son-cpf" />
+                </Helmet>
 
             <div className="headerUtiliser">
                 <h1>Comment utiliser votre CPF <br/>

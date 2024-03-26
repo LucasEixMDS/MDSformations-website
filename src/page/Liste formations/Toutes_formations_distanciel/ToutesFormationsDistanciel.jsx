@@ -2,10 +2,16 @@ import "./toutesFormationsDistanciel.scss";
 import FormationLong from "../components/FormationModal";
 import Accompa from "components/accompagnement/Accompa";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
 const ToutesFormationsDistanciel = () => {
     return (
         <div className="toutesFormationsDistanciel">
+            <Helmet>
+                    <title>Toutes nos formations en distanciel</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/formations-distanciel" />
+                </Helmet>   
             <div className="headerFormationsDistanciel">
                 <h1>Les formations en ligne</h1>
                 <h2>L’excellence professionnelle à tout moment</h2>

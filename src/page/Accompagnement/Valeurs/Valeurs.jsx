@@ -20,6 +20,7 @@ const Valeurs = () => {
                 <Helmet>
                     <title>Les valeurs du centre de formation</title>
                     <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/valeurs-de-mdsformations" />
                 </Helmet>
 
             

@@ -3,11 +3,19 @@ import CarousselFormationDesktop from "components/carrousels/CarrouselFormation/
 import "./paiementMensualites.scss";
 import { Link } from "react-router-dom";
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
+import { Helmet } from 'react-helmet-async';
 
 
 const PaiementMensualites = () => {
     return (
         <div className="mensualites">
+
+
+                <Helmet>
+                    <title>Les differents Paiements en plusieurs mensualités</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/paiement-mensualites" />
+                </Helmet>
             
             <div className="headerMensualites">
                 <h1>Paiement en plusieurs mensualités</h1>

@@ -2,10 +2,17 @@ import HomeCadreTestformation from "components/inscription/HomeCadreTestformatio
 import "./commentSinscrire.scss";
 import { Link } from "react-router-dom";
 import Accompa from "components/accompagnement/Accompa";
+import { Helmet } from 'react-helmet-async';
 
 const CommentSinscrire = () => {
     return (
         <div className="comment">
+
+                <Helmet>
+                    <title>Comment s'inscrire en formation ?</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/comment-s'inscrire-en-formation" />
+                </Helmet>
             
             <div className="headerComment">
                 <h1>Comment s’inscrire en formation ?</h1>

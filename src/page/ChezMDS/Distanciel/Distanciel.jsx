@@ -3,10 +3,17 @@ import coche from "../../../assets/coche.svg";
 import { Link } from 'react-router-dom';
 import HomeCadreTestformation from "components/inscription/HomeCadreTestformation";
 import WixSite from "./WixSite";
+import { Helmet } from 'react-helmet-async';
 
 const Distanciel = () => {
     return (
         <div className="distanciel">
+
+                <Helmet>
+                    <title>La formation à distance</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/distanciel" />
+                </Helmet>
 
             <div className="distancielHeader">        
                 <h1>Formation à distance</h1>

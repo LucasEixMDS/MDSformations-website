@@ -3,11 +3,18 @@ import Accompa from "../../../components/accompagnement/Accompa";
 import HomeCadreQuestion from '../../../components/inscription/HomeCadreQuestion';
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
 
 const Hebergement = () => {
     return (
         <div className="hebergement">
+
+                <Helmet>
+                    <title>Nos herbergement</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/hebergement" />
+                </Helmet>
             
             <div className="headerHebergement">
                 <h1>Hébergement</h1>

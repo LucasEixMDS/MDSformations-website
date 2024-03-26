@@ -2,10 +2,17 @@ import "./notreEquipe.scss";
 import HomeCadreQuestion from "../../../components/inscription/HomeCadreQuestion";
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const NotreEquipe = () => {
     return (
         <div className="NotreEquipe">
+
+                <Helmet>
+                    <title>L'équipe du centre de formation</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/notre-equipe-pedagogique" />
+                </Helmet>   
             
             <div className="equipeHeader">
                 <h1>Notre équipe pédagogique</h1>

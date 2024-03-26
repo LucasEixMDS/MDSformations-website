@@ -2,10 +2,17 @@ import "./touteNosFormations.scss";
 import FormationLong from "../components/FormationModal";
 import Accompa from "components/accompagnement/Accompa";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const TouteNosFormations = () => {
     return (
         <div className="toutesNosFormations">
+
+                <Helmet>
+                    <title>Toutes nos formations</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/toutes-nos-formations" />
+                </Helmet>   
             <div className="headerNosFormations">
                 <h1>Toutes nos formations</h1>
                 <h2>Votre porte d'accès à l'excellence en bien-être et esthétique</h2>

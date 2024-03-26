@@ -19,6 +19,7 @@ const Post = () => {
              <Helmet>
         <title>Suivis post-formation des stagiaires</title>
         <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/suivis-post-formation" />
              </Helmet>
             
                 <div className="headerPost">

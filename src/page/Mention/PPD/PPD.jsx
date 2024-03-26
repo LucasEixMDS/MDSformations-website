@@ -1,8 +1,15 @@
 import "./ppd.scss";
+import { Helmet } from 'react-helmet-async';
 
 const PPD = () => {
     return (
         <div className="ppd">
+
+                <Helmet>
+                    <title>Page pour les politiques de protection des données</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/politique-de-protection" />
+                </Helmet> 
 
             <h1>POLITIQUE DE PROTECTION DES DONNÉES</h1>
 

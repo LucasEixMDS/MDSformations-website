@@ -1,8 +1,15 @@
 import "./mentionlegal.scss";
+import { Helmet } from 'react-helmet-async';
 
 const MentionLegal = () => {
     return (
         <div className="mentionLegal">
+
+                <Helmet>
+                    <title>Page pour les mentions légales</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/mentions-legales" />
+                </Helmet>  
 
             <h1>MENTION LEGALES</h1>
 

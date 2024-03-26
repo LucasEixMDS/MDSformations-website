@@ -1,8 +1,15 @@
 import "./cgv.scss";
+import { Helmet } from 'react-helmet-async';
 
 const CGV = () => {
     return (
         <div className="cgv">
+
+                <Helmet>
+                    <title>Page condition générales de vente</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/conditions-generales-de-vente" />
+                </Helmet>   
 
             <h1>CGV : Conditions générales de vente</h1>
 

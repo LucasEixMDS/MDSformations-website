@@ -7,7 +7,6 @@ import Documentation from "./components/documentation/Documentation"
 import ArticlePage from "./page/Article/Article"
 import FormationPage from "./page/Formation/Formation.jsx";
 import Error404 from "page/Error404/Error404";
-import API from "./page/Orientation/BesoinAPI/Besoin";
 import Hebergement from "./page/ChezMDS/Hebergement/Hebergement";
 import DevenirModele from "page/ChezMDS/Modele/Modele";
 import Vae from "page/Orientation/VAEVAP/Vae";
@@ -45,7 +44,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/Inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
-          <Route path="/api" element={<API/>} />
           <Route path="/hebergement" element={<Hebergement />} />
           <Route path="/devenir-modele" element={<DevenirModele />} />
           <Route path="/vae-vap" element={<Vae />} />

@@ -2,10 +2,17 @@ import Accompa from "components/accompagnement/Accompa";
 import "./handicap.scss";
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Handicap = () => {
     return (
         <div className="handicap">
+
+                <Helmet>
+                    <title>Accompagnement pour les personnes en situation de handicap</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/handicap" />
+                </Helmet>
 
             <div className="handicapHeader">        
                 <h1>Accessibilité et handicap</h1>

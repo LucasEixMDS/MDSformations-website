@@ -9,12 +9,18 @@ import HomeCadreTestformation from "../../components/inscription/HomeCadreTestfo
 import HomePointfort from "./homecomponents/HomePointfort";
 import { Link } from "react-router-dom";
 import SeoBreadcrumb from "SEOBreadcrumb";
+import { Helmet } from 'react-helmet-async';
 
 const Home = () => {
 
 
     return (
         <div className="homePage">
+
+                <Helmet>
+                    <title>Page d'accueil</title>
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/" />
+                </Helmet>
             <SeoBreadcrumb pageType="home" />
             <HomeHeader />
             <div className="home2">

@@ -2,10 +2,18 @@ import Accompa from "components/accompagnement/Accompa";
 import CarousselFormationDesktop from "../../../components/carrousels/CarrouselFormation/CarousselFormationDesktop";
 import "./vae.scss";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Vae = () => {
     return (
         <div className="vae">
+
+                <Helmet>
+                    <title>Explication des VAE et VAP </title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/vae-vap" />
+                </Helmet>
+
             <div className="vaeHeader">
                 <h1>La VAE et la VAP</h1>
                 <h2>Valorisez votre expérience dans le bien-être et l’esthétique</h2>
