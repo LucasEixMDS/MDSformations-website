@@ -1,31 +1,31 @@
 [
     {
         "id" : "001",
-        "articleLink" : "/inscription",
+        "articleLink" : "/Inscription",
         "titre" : "Financement jusqu’à 100%",
         "text" : "Différentes solutions de financement possible..."
     },
     {
         "id" : "002",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Plateforme en ligne gratuite",
         "text" : "Pour compléter vos connaissances à votre rythme"
     },
     {
         "id" : "003",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Dormez sur place",
         "text" : "Une expérience de formation tout-en-un, sans soucis logistiques"
     },
     {
         "id" : "004",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Diplôme d'État Reconnu",
         "text" : "Garantissant la valeur et la crédibilité de votre formation"
     },
     {
         "id" : "005",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Pratique dès le premier jour",
         "text" : "Expérience immersive et enrichissante"
     }

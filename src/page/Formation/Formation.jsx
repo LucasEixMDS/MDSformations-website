@@ -1,5 +1,4 @@
 import formationData from "../../json/formation.json";
-import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./formation.scss";
 import "../Error404/Error404.scss";
@@ -27,39 +26,38 @@ import Fichette from "./formation_components/formation_fichette/BouttonFichetteM
 import Formation_financementDesktop from "./formation_components/formation_financement/Formation_financementDesktop";
 import FichetteDesktop from "./formation_components/formation_fichette/FichetteDesktop";
 import FormationPlateforme from "./formation_components/formation_plateformeDesktop/FormationPlateforme";
-
+import { useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import SeoBreadcrumb from "SEOBreadcrumb";
 
 function FormationPage() {
-  const { formationLink } = useParams();  // Récupère le lien de la formation depuis l'URL
-
-  // Trouvez la formation correspondante
+  const { formationLink } = useParams();
+  const navigate = useNavigate();
   const formation = formationData.find(f => f.formationLink.endsWith(formationLink));
 
+
+
+  useEffect(() => {
+    if (!formation) {
+      navigate('/404'); // Assurez-vous que cette route existe dans votre système de routage
+    }
+  }, [formationLink, navigate, formation]);
+
   if (!formation) {
-      return <div className="ERROR">
-          <div className="errorContainer">
-            <h2>404</h2>
-            <h1>Oups ! Page non trouvée</h1>
-            <p>La page que vous tentez d'afficher n'existe pas ou une autre erreur s'est produite, vous pouvez revenir à la page d'accueil.</p>
-            <Link to="/"><button>Page d'accueil</button></Link>
-          </div>
-        </div>;
+    // Ou retournez null, un spinner, ou tout autre élément en attendant la redirection
+    return null; 
   }
-
-  const colorStyle = {
-    color: formation.colorFormation, 
-};
-
-const backgroundStyle={
-  background: formation.colorFormation,
-};
-
-
-const showPlannings = formation.hasPlannings;
+  const colorStyle = formation ? { color: formation.colorFormation } : {};
+  const backgroundStyle = formation ? { background: formation.colorFormation } : {};
+  const showPlannings = formation ? formation.hasPlannings : false;
 
   // Utilisez "formation" pour accéder aux détails de la formation
   return (
     <div className="page_formation">  
+      <SeoBreadcrumb 
+  pageType="formation" 
+  pageDetails={{ name: formation.title, formationLink: formation.formationLink }}
+/>
       <FormationHeader formation={formation} />
       <Fichette formation={formation}/>
       <FichetteDesktop formation={formation} />

@@ -1,25 +1,25 @@
 [
     {
         "id" : "001",
-        "articleLink" : "/inscription",
+        "articleLink" : "/Inscription",
         "titre" : "S’inscrire en ligne !",
         "text" : "Sélectionnez une sessions disponibles et inscrivez-vous."
     },
     {
         "id" : "002",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Vous souhaitez un devis ?",
         "text" : "Complétez le formulaire et télécharger votre devis."
     },
     {
         "id" : "003",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Tous savoir sur une formation",
         "text" : "Toutes les informations dont vous avez besoin."
     },
     {
         "id" : "004",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Besoin d’être accompagné",
         "text" : "Par téléphone ou visio-conférence nous vous accompagnons."
     }

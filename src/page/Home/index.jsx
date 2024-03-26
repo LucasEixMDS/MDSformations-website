@@ -8,10 +8,14 @@ import HomeTemoin from "./homecomponents/HomeTemoin";
 import HomeCadreTestformation from "../../components/inscription/HomeCadreTestformation";
 import HomePointfort from "./homecomponents/HomePointfort";
 import { Link } from "react-router-dom";
+import SeoBreadcrumb from "SEOBreadcrumb";
 
 const Home = () => {
+
+
     return (
         <div className="homePage">
+            <SeoBreadcrumb pageType="home" />
             <HomeHeader />
             <div className="home2">
             <h3 className="text_shadows">Nous avons forcément une formation <span>faites pour vous !</span></h3>

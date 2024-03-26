@@ -50,20 +50,20 @@ function CarrouselFinancement({ filterValues = [], formation }) {
             return ((slider.parentElement.scrollLeft / (slider.parentElement.scrollWidth - slider.parentElement.clientWidth)) * 100);
         }
 
-        slider.parentElement.addEventListener('scroll', handleScroll);
-        slider.addEventListener('mousedown', handleMouseDown);
-        slider.addEventListener('mouseup', handleMouseUp);
-        slider.addEventListener('mouseleave', handleMouseLeave);
-        slider.addEventListener('mousemove', handleMouseMove);
-        slider.addEventListener('wheel', handleWheel);
+        slider.parentElement.addEventListener('scroll', handleScroll, { passive: true });
+        slider.addEventListener('mousedown', handleMouseDown, { passive: true });
+        slider.addEventListener('mouseup', handleMouseUp, { passive: true });
+        slider.addEventListener('mouseleave', handleMouseLeave, { passive: true });
+        slider.addEventListener('mousemove', handleMouseMove, { passive: true });
+        slider.addEventListener('wheel', handleWheel, { passive: true });
 
         return () => {
-            slider.parentElement.removeEventListener('scroll', handleScroll);
-            slider.removeEventListener('mousedown', handleMouseDown);
-            slider.removeEventListener('mouseup', handleMouseUp);
-            slider.removeEventListener('mouseleave', handleMouseLeave);
-            slider.removeEventListener('mousemove', handleMouseMove);
-            slider.removeEventListener('wheel', handleWheel);
+            slider.parentElement.removeEventListener('scroll', handleScroll, { passive: true });
+            slider.removeEventListener('mousedown', handleMouseDown, { passive: true });
+            slider.removeEventListener('mouseup', handleMouseUp, { passive: true });
+            slider.removeEventListener('mouseleave', handleMouseLeave, { passive: true });
+            slider.removeEventListener('mousemove', handleMouseMove, { passive: true });
+            slider.removeEventListener('wheel', handleWheel, { passive: true });
         };
     }, [sliderGrabbed]);
 

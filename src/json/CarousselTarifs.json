@@ -1,25 +1,25 @@
 [
     {
         "id" : "001",
-        "articleLink" : "/inscription",
+        "articleLink" : "/Inscription",
         "titre" : "Financement CPF jusqu'à",
         "text" : "100%"
     },
     {
         "id" : "002",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Financement personnel",
         "text" : "5 400 €"
     },
     {
         "id" : "003",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Financement pôle emploi à partir de 0€",
         "text" : ""
     },
     {
         "id" : "004",
-        "articleLink": "/inscription",
+        "articleLink": "/Inscription",
         "titre" : "Alternance prise en charge à",
         "text" : "100%"
     }

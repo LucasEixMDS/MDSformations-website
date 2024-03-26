@@ -41,9 +41,8 @@ const App = () => {
       <Route path="/" element={<Layout />}>
         <Route path="/articles/:articleLink" element={<ArticlePage />} />
         <Route path="/:formationLink" element={<FormationPage />} /> 
-        <Route path="*" element={<Error404 />} />
           <Route path="/" element={<Home />} />
-          <Route path="/inscription" element={<Inscription /> } />
+          <Route path="/Inscription" element={<Inscription /> } />
           <Route path="/documentation" element={<Documentation /> } />
           <Route path="/api" element={<API/>} />
           <Route path="/hebergement" element={<Hebergement />} />
@@ -67,7 +66,8 @@ const App = () => {
           <Route path="/mentions-legales" element={<MentionLegal />} />
           <Route path="/conditions-generales-de-vente" element={<CGV />} />
           <Route path="/politique-de-protection" element={<PPD />} />
-          <Route  element={<Error404 /> } />
+          <Route path="/404" element={<Error404 />} />
+          <Route path="/*" element={<Error404 />} />
           </Route>
       </Routes>
     </BrowserRouter>

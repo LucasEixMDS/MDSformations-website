@@ -40,7 +40,7 @@ const HomeHeader = () => {
                             <h2>Je prend mon avenir en mains !</h2>
                         </div>
                         <div className="button">
-                            <Link to="/inscription">
+                            <Link to="/Inscription">
                             <button>S'inscrire</button>
                             </Link>
                         </div>
