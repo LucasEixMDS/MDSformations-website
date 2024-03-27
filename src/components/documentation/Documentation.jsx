@@ -5,12 +5,19 @@ import CarrouselArticle from "../carrousels/CarrouselArticle/CarrouselArticle"
 import Formulairedocumentation from "./Formulairedocumentation"
 import "./documentation.scss"
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
 const Inscription = () => {
     return (
 
         
         <div className="documentation">
+
+                <Helmet>
+                    <title>Demande de documentation</title>
+                    <meta name="robots" content="noindex" />
+                    <link rel="canonical" href="https://mdsformations-website-u5520.vm.elestio.app/documentation" />
+                </Helmet>  
             <div className="documentation_text">
                 <h1>Demande de documentation</h1>
                 <p>Vous souhaitez developper votre carrière professionnelle ?</p>
