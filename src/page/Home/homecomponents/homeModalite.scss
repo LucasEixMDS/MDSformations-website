@@ -20,16 +20,25 @@
     }
 
     .modalite-desktop{
-        padding-bottom: 15px;
+        padding-bottom: 25px;
+        color: var(--Gris, #4F4F4F);
+        font-size: 15px;
+        font-weight: 300;  
+        width: 80%;         
+        font-family: "poppins-light";
     }
 
-            h4{
+            .h4{
+                margin-top: 0;
+                margin-bottom: 0;
+                font-size:14px;
+                font-weight: 600;
                 color: var(--Gris, #4F4F4F);
-                font-size: 15px;
-                font-weight: 300;  
-                width: 80%;         
-                margin-top: 45px;
-                font-family: "poppins-light";
+                padding-top: 20px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "poppins-semibold";
+                display: block;
         }
 
     .container_modalite{
@@ -106,7 +115,7 @@
                 align-items: center;
                 display: flex;
            
-                h3{
+                .h3{
                     margin-top: 0;
                     margin-bottom: 0;
                     font-size:14px;
@@ -114,6 +123,10 @@
                     color: var(--Gris, #4F4F4F);
                     margin-left: 10px;
                     padding-top: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: "poppins-semibold";
+                    display: block;
                 }
             }
 
@@ -213,6 +226,10 @@
                     color: var(--Gris, #4F4F4F);
                     margin-left: 10px;
                     padding-top: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: "poppins-semibold";
+                    display: block;
                 }
             }
                 button{
@@ -264,9 +281,6 @@
     .home{ 
     .modalite_Formation{
 
-    .h4{
-    display: none;
-    }
 
         .modalite-desktop{
             display: flex;
@@ -286,6 +300,7 @@
                 width: 100%;
                 justify-content: flex-end;
                 display: flex;
+                
             }
         }
 
@@ -304,15 +319,18 @@
             p{
                 display: none;
             }
-
+            .container_left_modal{ 
             .h3_container{
                 .h3{
                     width: 80%;
+                    font-size: 16px;
                 }
             }
         }
+        }
 
         .container_modalite_left{
+            
             .modalite-desktop-texte{
                 display: flex;
                 margin-bottom: 25px;
@@ -330,6 +348,7 @@
                     text-align: end;
 
                 }
+               
 
                 .desk{
                display: flex;
@@ -353,6 +372,7 @@
             .h3_container{
                 .h3{
                     width: 80%;
+                    font-size: 16px;
                 }
             }
 

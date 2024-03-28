@@ -29,7 +29,7 @@ const UtiliserCPF = () => {
                 
                  <Link to="/different-financement"><button>Comprendre tous les financements</button></Link>
 
-                <h3><span>Qui</span> peut utiliser le CPF ?</h3>
+                <span className="h3"><span>Qui</span> peut utiliser le CPF ?</span>
 
                 <p>Le CPF est accessible à un large éventail de personnes en activité, y compris :</p>
                 <ul>
@@ -46,7 +46,7 @@ const UtiliserCPF = () => {
             <Accompa />
             
             <div className="utiliserContainer">
-                <h3><span>Comment</span> utiliser votre CPF</h3>
+                <span className="h3"><span>Comment</span> utiliser votre CPF</span>
                 <p>L'utilisation de votre CPF est simple et accessible en ligne. Voici les étapes à suivre :</p>
 
                 <ul>
@@ -81,7 +81,7 @@ const UtiliserCPF = () => {
             </div>
 
             <div className="utiliserContain">
-                <h3><span>Se former</span> chez MDS formations :</h3>
+                <span className="h3"><span>Se former</span> chez MDS formations :</span>
                 <p>Si vous souhaitez vous inscrire à l'une de nos formations en bien-être et esthétique en utilisant votre CPF, nous sommes là pour vous accompagner à chaque étape du processus.</p>
                 <p>Contactez-nous directement par téléphone au <strong>02 40 96 32 80</strong> ou par e-mail à <strong>camille.melodiedessens@gmail.com</strong>. </p>
 
@@ -92,7 +92,7 @@ const UtiliserCPF = () => {
             <HomeCadreTestformation />
 
             <div className="home2">
-            <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <span className="h3">Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</span>
             <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button className="button_webinaire">Toutes nos formations certifiantes</button> </Link> 
             </div>

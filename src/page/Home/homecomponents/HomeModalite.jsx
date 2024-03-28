@@ -15,7 +15,7 @@ const Modalite = () => {
                             </div>
                         </div>
                         <div className="h3_container">
-                            <h3>Nos formations en ligne</h3>
+                            <span className="h3">Nos formations en ligne</span>
                         </div>
                         <div className="modalite_container_button_left">
                         <Link to={"/formations-distanciel"} ><button>Découvrir</button></Link>
@@ -36,14 +36,14 @@ const Modalite = () => {
                             </div>
                         </div>
                         <div className="h3_container">
-                            <h3>Nos formations en présentiel</h3>
+                            <span className="h3">Nos formations en présentiel</span>
                         </div>
                         <div className="modalite_container_button_right">
                         <Link to={"/toutes-nos-formations"} ><button>Découvrir</button></Link>
                         </div>
                     </div>
                     <div className="modalite_desktop_puce">
-                        <h3 className="puce_title"><strong>Notre plateforme de formation en ligne propose :</strong></h3>
+                        <span className="puce_title"><strong>Notre plateforme de formation en ligne propose :</strong></span>
                     <ul>
                         <li>Cours Complets : Accédez à tous nos programmes de cours de manière structurée.</li>
                         <li>Protocoles de Formation : Guides détaillés pour la mise en pratique des techniques apprises.</li>
@@ -55,7 +55,7 @@ const Modalite = () => {
                     <p>Vous habitez loin notre centre ? Vous souhaitez suivre une formation à votre rythme ? Optez pour la formation 100 % en ligne.</p>
                 </div>
                 </div>
-                <h4>Cours, protocoles, vidéos de démonstrations et exercices, réalisés pour vous !</h4>
+                <span className="h4">Cours, protocoles, vidéos de démonstrations et exercices, réalisés pour vous !</span>
         </div>
     );
 };

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollToTop from "./components/ScrollToTop";  // Ajustez le chemin d'accès en conséquence
 import Layout from "./Layout";
 import Home from "./page/Home/index.jsx";

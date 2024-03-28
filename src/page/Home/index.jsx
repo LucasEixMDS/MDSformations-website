@@ -10,6 +10,7 @@ import HomePointfort from "./homecomponents/HomePointfort";
 import { Link } from "react-router-dom";
 import SeoBreadcrumb from "SEOBreadcrumb";
 import { Helmet } from 'react-helmet-async';
+import CarouselImage from "components/carrousels/CarouselImage/CarouselImage";
 
 const Home = () => {
 
@@ -44,6 +45,7 @@ const Home = () => {
             <HomeTemoin />
             <HomeCadreTestformation />
             <HomePointfort />
+            <CarouselImage />
             <div className="googlemapdiv">
                 <span className="h3">Former-vous <span>là où vous le souhaitez !</span></span>
                 <p>Découvrez nos formations disponibles dans plusieurs villes pour répondre à vos besoins.</p>
