@@ -10,9 +10,9 @@ const HomeHeader = () => {
         <div >
             <div className="container" decoding="async">
                 <div className="container_titre" >
-                    <h1>Formez-vous</h1> 
-                    <h1 className="titre-home-desktop"><span>Une école à taille </span>humaine avec des valeurs <span>humaine</span></h1>
-                    <h2>Formez-vous au métier du bien-être et de la beauté</h2>
+                    
+                    <h2 className="titre-home-desktop"><span>Une école à taille </span>humaine avec des valeurs <span>humaine</span></h2>
+                    <h1>Formez-vous au métier du bien-être et de la beauté</h1>
                 </div>
                 <div className="container_modal">
                 <div className="container_modal_left">
@@ -22,7 +22,7 @@ const HomeHeader = () => {
                             </div> 
                         </div>
                             <div className="container_modal_left_mid">
-                                <h2>Comment m'inscrire ? </h2>
+                                <span className="h2">Comment m'inscrire ? </span>
                             </div>
                         <div className="button">
                             <Link to="/comment-s'inscrire-en-formation">
@@ -37,7 +37,7 @@ const HomeHeader = () => {
                             </div>
                         </div>
                         <div className="container_modal_right_mid">
-                            <h2>Je prend mon avenir en mains !</h2>
+                            <span className="h2">Je prend mon avenir en mains !</span>
                         </div>
                         <div className="button">
                             <Link to="/Inscription">

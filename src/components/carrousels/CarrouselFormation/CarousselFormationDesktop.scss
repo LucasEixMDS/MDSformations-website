@@ -2,6 +2,23 @@
 
 .home2{
     padding: 10px 0% 20px 10%;
+
+    .h3{
+        padding-top: 25px;
+        color: var(--Gris-fonc, #4f4f4f);
+        font-size: 23px;
+        font-weight: 400;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: "poppins-semibold";
+        display: block;
+
+        span{
+            color: $color-1;
+            font-family: "poppins-semiBold";
+        }
+    }
+
     h3{
         padding-top: 45px;
         color: var(--Gris-fonc, #333);

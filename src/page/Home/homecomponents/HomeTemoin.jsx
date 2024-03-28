@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const HomeTemoin = () => {
     return (
         <div className='home_temoin_container'>
-         <h3>Nos apprenants <span>témoignent</span> : leurs réussite parle d'elle-même</h3>
+         <span className='h3'>Nos apprenants <span>témoignent</span> : leurs réussite parle d'elle-même</span>
 
                 <div className="home_temoin_desktop">
                     <div className="modal">
@@ -65,8 +65,8 @@ const HomeTemoin = () => {
                 <div className="home_temoin_modal_article" style={{ backgroundImage: `url(${lolita})` }}>
                     
                         <div className="home_temoin_modal_mid">
-                            <h3>Témoignage de lolita, masseuse</h3>
-                            <h4>« J’ai enfin découvert ma voie... »</h4>
+                            <span className='h3'>Témoignage de lolita, masseuse</span>
+                            <span className='h4'>« J’ai enfin découvert ma voie... »</span>
                            
                             
                         </div>

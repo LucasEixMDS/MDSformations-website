@@ -94,7 +94,7 @@ function FormationPage() {
       <Formation_certification formation={formation}/>
       
       <div className="home2">
-            <h3>Obtenez des <span style={colorStyle}>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <span className="h3">Obtenez des <span style={colorStyle}>diplômes reconnus</span> : Des formations de qualités à votre portée !</span>
             <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button className="button_webinaire"style={backgroundStyle} >Toutes nos formations certifiantes</button> </Link> 
             </div>

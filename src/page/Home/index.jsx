@@ -24,19 +24,19 @@ const Home = () => {
             <SeoBreadcrumb pageType="home" />
             <HomeHeader />
             <div className="home2">
-            <h3 className="text_shadows">Nous avons forcément une formation <span>faites pour vous !</span></h3>
+            <span className="h3">Nous avons forcément une formation <span>faites pour vous !</span></span>
             <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button >Nos formations</button></Link>
             <Modalite />
             </div>
             <Question />
             <div className="home2">
-            <h3>Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</h3>
+            <span className="h3">Obtenez des <span>diplômes reconnus</span> : Des formations de qualités à votre portée !</span>
             <CarousselFormationDesktop filterValues={['certification']} />
             <Link to={"/toutes-nos-formations"}><button className="button_webinaire">Toutes nos formations certifiantes</button> </Link> 
             </div>
             <div className="home_white">
-                <h3>Les dernières <span>actualités</span></h3>
+                <span className="h3">Les dernières <span>actualités</span></span>
                 <CarrouselActu />
                 <button className="button_webinaire">Découvrir tous nos articles</button>
             </div>
@@ -45,7 +45,7 @@ const Home = () => {
             <HomeCadreTestformation />
             <HomePointfort />
             <div className="googlemapdiv">
-                <h3>Former-vous <span>là où vous le souhaitez !</span></h3>
+                <span className="h3">Former-vous <span>là où vous le souhaitez !</span></span>
                 <p>Découvrez nos formations disponibles dans plusieurs villes pour répondre à vos besoins.</p>
                 <div className="contactGoogleDesktop">
                     <p><strong>33 Blanche Lande 44521, Oudon</strong></p>

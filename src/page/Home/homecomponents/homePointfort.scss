@@ -31,13 +31,16 @@
 
     .homepointfort_titre{
         display: flex;
-        h3{
-            color: var(--Gris-fonc, #333);
+        .h3{
+            color: var(--Gris-fonc, #4f4f4f);
             font-size: 20px;
             font-weight: 400;
             margin-bottom: 20px;
             padding: 20px 0px 5px 20px;
             width: 80%;
+            font-family: "poppins-semibold";
+            display: block;
+
             span{
                 color: $color-principale;
                 font-weight: 700;
@@ -129,7 +132,7 @@
         flex-direction: row-reverse;
        justify-content: flex-end;
 
-        h3{
+        .h3{
             width: 50%;
         }
 

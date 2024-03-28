@@ -7,7 +7,7 @@ const HomePointfort = () => {
     return (
         <div className='homepointfort'>
                         <div className="homepointfort_titre">
-                            <h3>Découvrez <span>nos points forts</span> et choisissez <span>l'excellence </span>pour votre formation !</h3>
+                            <span className='h3'>Découvrez <span>nos points forts</span> et choisissez <span>l'excellence </span>pour votre formation !</span>
                             <div className="homepointfort_container_modal">
                                 <div className="pointfort_modal">
                                     <p><img src="https://mdsformations-website-u5520.vm.elestio.app/pouce.svg" alt="icon apple d'un pouce en l'air" /></p>
